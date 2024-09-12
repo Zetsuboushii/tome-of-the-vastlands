@@ -1,0 +1,136 @@
+<nav class="site-nav" role="navigation">
+    <div class="nav-wrapper">
+        <ul id="myList">
+            <li>
+                Item 1
+                <ul class="sublist">
+                    <li>Subitem 1.1</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                    <li>Subitem 1.2</li>
+                </ul>
+            </li>
+            <li>
+                Item 2
+                <ul class="sublist">
+                    <li>Subitem 2.1</li>
+                    <li>Subitem 2.2</li>
+                </ul>
+            </li>
+            <li>
+                Item 3
+                <ul class="sublist">
+                    <li>Subitem 3.1</li>
+                    <li>Subitem 3.2</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    const listItems = document.querySelectorAll('#myList > li');
+
+    listItems.forEach(item => {
+        item.addEventListener('click', (event) => {
+            // Toggle the 'active' class on the clicked item
+            item.classList.toggle('active');
+
+            // Handle the sublist expand/collapse
+            const sublist = item.querySelector('.sublist');
+            if (sublist) {
+                if (sublist.style.maxHeight) {
+                    sublist.style.maxHeight = null;
+                } else {
+                    sublist.style.maxHeight = sublist.scrollHeight + "px";
+                }
+            }
+
+            // Prevent click event from bubbling to parent
+            event.stopPropagation();
+        });
+    });
+
+    // Prevent subitems from causing the parent item to collapse when clicked
+    const sublistItems = document.querySelectorAll('.sublist li');
+
+    sublistItems.forEach(subItem => {
+        subItem.addEventListener('click', (event) => {
+            event.stopPropagation(); // Stops the click event from reaching the parent
+        });
+    });
+
+</script>
