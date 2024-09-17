@@ -1,0 +1,169 @@
+---
+layout: default
+---
+
+<div>
+    <div class="character-container">
+        <div class="character-intro">
+            {{ content }}
+        </div>
+
+        <div class="character-box character-data">
+            <h1>{{ page.title }}</h1>
+            {%- if page.character_title -%}
+            <h4>{{ page.character_title }}</h4>
+            {%- endif -%}
+            <hr>
+            <img src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ page.title | downcase }}.png?raw=true" alt="">
+            <hr>
+            <h4><b>Informationen zur Person</b></h4>
+            <table>
+                <tr>
+                    <td><b>Rasse</b></td>
+                    <td><a href="{{ '/races/' | append: page.race | downcase | relative_url }}">{{ page.race }}</a></td>
+                </tr>
+                <tr>
+                    <td><b>Geschlecht</b></td>
+                    <td>
+                        {% if page.sex == "m" %} männlich
+                        {% elsif page.sex == "w" %} weiblich
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Alter</b></td>
+                    <td>
+                        {{ page.age }}
+                        {% if page.age contains "Unbekannt" %}
+                        {% else %} Jahre
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Größe</b></td>
+                    <td>
+                        {{ page.height }}m
+                    </td>
+                </tr>
+                {% if page.alias %}
+                <tr>
+                    <td><b>Aliase</b></td>
+                    <td>
+                        <ul>
+                            {% for a in page.alias %}
+                            <li>{{ a[0] }}<small> ({{ a[1] }})</small></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+            <h4><b>Profession</b></h4>
+            <table>
+                {% if page.class %}
+                <tr>
+                    <td><b>Hauptklasse</b></td>
+                    <td>
+                        <a href="{{ '/classes/' | append: page.class | downcase | relative_url }}">{{ page.class }}</a>
+                    </td>
+                </tr>
+                {% endif %}
+                {% if page.subclasses %}
+                <tr>
+                    <td><b>Subklassen</b></td>
+                    <td>
+                        <ul>
+                            {% for subclass in page.subclasses %}
+                            <li><a href="{{ '/classes/' | append: subclass | downcase | relative_url }}">{{
+                                subclass }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
+                {% if page.masterclass %}
+                <tr>
+                    <td><b>Meisterklasse</b></td>
+                    <td>
+                        <a href="{{ '/classes/' | append: page.masterclass | downcase | relative_url }}">{{
+                            page.masterclass }}</a>
+                    </td>
+                </tr>
+                {% endif %}
+                {% if page.job %}
+                <tr>
+                    <td><b>Beruf</b></td>
+                    <td>
+                        {{ page.job }}
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+            <h4><b>Weitere Informationen</b></h4>
+            <table>
+                <tr>
+                    <td><b>Wohnort</b></td>
+                    <td>
+                        <ul>
+                            {% for home in page.homes %}
+                            <li><a href="{{ '/places/' | append: home | replace: ' ', '_' | downcase | relative_url }}">
+                                {{ home }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Gesinnung</b></td>
+                    <td>{{ page.alignment }}</td>
+                </tr>
+                {% if page.affiliations %}
+                <tr>
+                    <td><b>Zugehörigkeit</b></td>
+                    <td>
+                        <ul>
+                            {% for affiliation in page.affiliations %}
+                            <li>
+                                <a href="{{ '/organisations/' | append: affiliation | replace: ' ', '_' | downcase | relative_url }}">{{
+                                    affiliation }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+            <h4><b>Persönlicher Status</b></h4>
+            <table>
+                <tr>
+                    <td><b>Verbleib</b></td>
+                    <td>
+                        {% if page.alive == true %} am Leben
+                        {% else %} verstorben
+                        {% endif %}
+                    </td>
+                </tr>
+                {% if page.relationships %}
+                <tr>
+                    <td><b>Beziehungen</b></td>
+                    <td>
+                        <ul>
+                            {% for relationship in page.relationships %}
+                            <li><a href="{{ '/characters/' | append: relationship[0] | downcase | relative_url }}">{{
+                                relationship[0] }}</a><small> ({{ relationship[1] }})</small></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
+                {% if page.lover %}
+                <tr>
+                    <td><b>Liebe</b></td>
+                    <td>
+                        <a href="{{ '/characters/' | append: page.lover | downcase | relative_url }}">{{ page.lover
+                            }}</a>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+        </div>
+    </div>
+</div>

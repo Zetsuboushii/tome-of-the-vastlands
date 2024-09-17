@@ -1,110 +1,47 @@
 <nav class="site-nav" role="navigation">
     <div class="nav-wrapper">
         <ul id="myList">
-            <li>
-                Item 1
+            {%- assign default_paths = site.pages | map: "path" -%}
+            {%- assign page_paths = site.header_pages | default: default_paths -%}
+            {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            {%- assign cat = my_page.category -%}
+            <li id="{{ cat }}" data-cat="{{ cat }}">
+                <a class="page-link" href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
+
+                {%- if cat -%}
                 <ul class="sublist">
-                    <li>Subitem 1.1</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
-                    <li>Subitem 1.2</li>
+                    {%- for subpage in site.entries -%}
+                    {%- if subpage.categories contains cat -%}
+                    <li><a class="page-link" href="{{ subpage.url | relative_url }}"> {{ subpage.title | escape }}</a>
+                    </li>
+                    {%- endif -%}
+                    {%- endfor -%}
                 </ul>
+                {%- endif -%}
             </li>
-            <li>
-                Item 2
-                <ul class="sublist">
-                    <li>Subitem 2.1</li>
-                    <li>Subitem 2.2</li>
-                </ul>
-            </li>
-            <li>
-                Item 3
-                <ul class="sublist">
-                    <li>Subitem 3.1</li>
-                    <li>Subitem 3.2</li>
-                </ul>
-            </li>
+            {%- endif -%}
+            {%- endfor -%}
         </ul>
     </div>
 </nav>
 
 <script>
+    // Funktion zum Überprüfen, ob der aktuelle URL-Pfad eine Kategorie enthält
+    function urlContainsCategory(cat) {
+        const currentURL = window.location.href;
+        return currentURL.includes(cat);
+    }
+
+    // Suche nach allen Listenelementen in der Navigation
     const listItems = document.querySelectorAll('#myList > li');
 
     listItems.forEach(item => {
+        // Hole die Kategorie aus dem data-cat-Attribut des Listenelements
+        const cat = item.getAttribute('data-cat');
+
+        // Toggle-Logik für das Klicken auf das Listenelement
         item.addEventListener('click', (event) => {
             // Toggle the 'active' class on the clicked item
             item.classList.toggle('active');
@@ -122,6 +59,16 @@
             // Prevent click event from bubbling to parent
             event.stopPropagation();
         });
+
+        // Automatisches Ausklappen, wenn die Kategorie in der URL enthalten ist
+        if (cat && urlContainsCategory(cat)) {
+            item.classList.add('active');  // Füge die Klasse 'active' hinzu
+
+            const sublist = item.querySelector('.sublist');
+            if (sublist) {
+                sublist.style.maxHeight = sublist.scrollHeight + "px"; // Entfalten
+            }
+        }
     });
 
     // Prevent subitems from causing the parent item to collapse when clicked
@@ -132,5 +79,4 @@
             event.stopPropagation(); // Stops the click event from reaching the parent
         });
     });
-
 </script>

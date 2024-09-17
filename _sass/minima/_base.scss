@@ -218,10 +218,8 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
   width: 100%;
-  text-align: $table-text-align;
-  text-shadow: 2px 2px 0px $text-shadow-color;
+  text-align: center;
   color: $text-color;
   border-collapse: collapse;
   border: 1px solid $grey-color-light;

@@ -28,8 +28,9 @@ instagram_username: zetsuboushii
 spotify_username: fefuqa5sxojouw2paqibdy5wi
 
 collections:
-  posts:
+  entries:
     output: true
+    permalink: /:path/
 
 # Build settings
 theme: minima
