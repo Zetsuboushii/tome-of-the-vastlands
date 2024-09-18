@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    <div class="qwing">
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+        {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        {%- assign cat = my_page.category -%}
+        {%- if cat -%}
+        {%- for subpage in site.entries -%}
+        {%- if subpage.categories contains cat -%}
+        <div class="responsive">
+            <div class="gallery">
+                <a class="page-link" href="{{ subpage.url | relative_url }}"><img
+                        src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ subpage.title | downcase }}.png?raw=true"
+                        alt=""></a>
+                <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
+                <div class="desc"><small>{{ subpage.excerpt }}</small></div>
+            </div>
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor -%}
+    </div>
+</div>

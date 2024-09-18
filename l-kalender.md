@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: calendar
 title: Kalender
 permalink: /calendar/
 ---
 
-gedghseriofo
