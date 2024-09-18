@@ -29,7 +29,7 @@
   position: fixed;
   float: left;
   width: 300px;
-  background: $background-color;
+  background: $backdrop-color;
   height: calc(100vh - 87.75px);
   flex-grow: 1;
   display: flex;
@@ -301,43 +301,7 @@
   }
 }
 
-.character-list-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.character-list {
-  column-count: 5;
-  margin-left: 0;
-  list-style-type: none;
-  padding: 0;
-
-  li {
-    border: 1px solid;
-    background: $backdrop-color;
-    width: 250px;
-    display: inline-block; /* Macht die li-Elemente nebeneinander */
-    vertical-align: top; /* Stellt sicher, dass alle Elemente oben beginnen */
-    text-align: center;
-    margin-bottom: 50px; /* Abstand zwischen den Zeilen */
-
-    img {
-      padding-top: 20px;
-      max-height: 300px;
-      width: 100%;
-      object-fit: contain; /* Bild proportional skalieren */
-    }
-
-    p {
-      padding: 10px;
-      height: 100px;
-      overflow: scroll;
-    }
-  }
-}
-
-.qwing {
+.character-gallery {
   .gallery {
     border: 1px solid;
     margin-bottom: 15px;
@@ -420,5 +384,16 @@
 
   #holiday-info {
     display: none;
+  }
+}
+
+.char-img-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  button {
+    background: transparent;
+    border: none;
   }
 }

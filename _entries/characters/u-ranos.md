@@ -40,6 +40,8 @@ relationships:
   - [ Nayru, Reisegefährtin ]
   - [ Siegmund, Reisegefährte ]
 lover: Eliza
+alt_imgs:
+  - True-Ranos
 ---
 
 U-Ranos ist einer der fünf Recken der Justicia und zudem in seiner Erdengestalt der Ziehsohn von Seloue.
