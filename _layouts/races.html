@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    <div class="race-list">
+        <ul>
+            {% for post in site.entries %}
+            {% if post.category == "race" %}
+            <li>
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <p>{{ post.excerpt }}</p>
+                <hr>
+                {% if post.domain %}
+                Hauptsächlich aufzufinden in: <a href="{{ post.domain | relative_url | downcase }}">{{ post.domain }}</a>
+                <br>
+                {% endif %}
+                {% if post.ageavg %}
+                Durchschnittliche Lebenserwartung: {{ post.ageavg }} Jahre
+                {% endif %}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>

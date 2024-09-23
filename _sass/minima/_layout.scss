@@ -397,3 +397,32 @@
     border: none;
   }
 }
+
+.race-list {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    transition: background-color 0.3s ease;
+  }
+
+  li:hover {
+    background-color: $backdrop-color;
+  }
+}

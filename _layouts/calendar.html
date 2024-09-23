@@ -92,7 +92,6 @@ layout: default
 
         if (holiday) {
             const link = document.createElement('a');
-            // URL mit lowercased Feiertagsnamen generieren
             link.href = `/tome-of-the-vastlands/calendar/${holiday.toLowerCase().replace(/\s/g, '-')}/`;
             link.textContent = holiday;
             holidayInfo.appendChild(link);
