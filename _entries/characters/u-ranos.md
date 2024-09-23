@@ -35,6 +35,7 @@ relationships:
   - [ Il-Vernia, Schwester ]
   - [ O-Gall, Bruder ]
   - [ Fortuna, Tante ]
+  - [ Meilira, Cousine ]
   - [ Unbenannter Gott, Onkel ]
   - [ Seloue, Ziehmutter ]
   - [ Nayru, Reisegefährtin ]
