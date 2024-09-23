@@ -4,6 +4,8 @@ title: Zwerge
 category: race
 ageavg: 350 
 domain: Kluirm
+redirect_from:
+  - /races/zwerg/
 ---
 
 Zwerge sind ein stolzes und robustes Volk, bekannt für ihre unerschütterliche Entschlossenheit und ihre meisterhafte

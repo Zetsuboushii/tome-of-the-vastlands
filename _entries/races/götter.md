@@ -3,6 +3,8 @@ layout: home
 title: Götter
 category: race
 domain: Animus
+redirect_from:
+  - /races/gott/
 ---
 
 Götter spielen eine zentrale und allgegenwärtige Rolle im Leben der Völker und der Welt selbst. Diese mächtigen Wesen,
