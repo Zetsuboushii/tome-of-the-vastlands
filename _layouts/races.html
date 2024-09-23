@@ -16,7 +16,10 @@ layout: default
                 <p>{{ post.excerpt }}</p>
                 <hr>
                 {% if post.domain %}
-                Hauptsächlich aufzufinden in: <a href="{{ post.domain | relative_url | downcase }}">{{ post.domain }}</a>
+                Hauptsächlich aufzufinden in:
+                {% for domain in post.domain %}
+                <a href="{{ site.baseurl }}/places/{{ domain | downcase }}">{{ domain }}</a>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
                 <br>
                 {% endif %}
                 {% if post.ageavg %}
