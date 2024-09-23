@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Erzmagierin der Wollust
-race: Dämon
+race: Dämonen
 sex: w
 age: Unbekannt
 height: "1,85"

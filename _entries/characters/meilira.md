@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Schicksalsklinge der Fortuna
-race: Mensch
+race: Menschen
 sex: w
 age: Unbekannt
 height: "1,82"

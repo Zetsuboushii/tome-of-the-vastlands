@@ -5,7 +5,7 @@ categories:
   - character
   - PC
 character_title: Hüterin von Orrins Erbe
-race: Mensch
+race: Menschen
 sex: w
 age: 22
 height: "1,66"
