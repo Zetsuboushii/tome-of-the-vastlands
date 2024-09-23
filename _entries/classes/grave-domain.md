@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Kleriker des Mudo
+title: Kleriker der Fortuna
 categories:
   - advclass
 ---

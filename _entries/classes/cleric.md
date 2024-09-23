@@ -8,7 +8,7 @@ next_class:
   - Kleriker der Seloue
   - Kleriker des Bellum
   - Kleriker der Justicia
-  - Kleriker des Mudo
+  - Kleriker der Fortuna
   - Kleriker des Niruin
   - Kleriker der Farone
   - Kleriker des Kaze
