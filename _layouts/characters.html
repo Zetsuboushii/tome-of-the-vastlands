@@ -14,14 +14,14 @@ layout: default
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
         {%- assign cat = my_page.category -%}
-        {%- if cat -%}
+        {%- if cat == "character" -%}
         {%- for subpage in site.entries -%}
-        {%- if subpage.categories contains cat -%}
+        {%- if subpage.categories contains "character" -%}
         <div class="responsive">
             <div class="gallery">
-                <a class="page-link" href="{{ subpage.url | relative_url }}"><img
-                        src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ subpage.title | downcase }}.png?raw=true"
-                        alt=""></a>
+                <a class="page-link" href="{{ subpage.url | relative_url }}">
+                    <img src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ subpage.title | downcase }}.png?raw=true" alt="">
+                </a>
                 <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
                 <div class="desc"><small>{{ subpage.excerpt }}</small></div>
             </div>
