@@ -28,25 +28,19 @@
 </nav>
 
 <script>
-    // Funktion zum Überprüfen, ob der aktuelle URL-Pfad eine Kategorie enthält
     function urlContainsCategory(cat) {
         const currentURL = window.location.href;
         return currentURL.includes(cat);
     }
 
-    // Suche nach allen Listenelementen in der Navigation
     const listItems = document.querySelectorAll('#myList > li');
 
     listItems.forEach(item => {
-        // Hole die Kategorie aus dem data-cat-Attribut des Listenelements
         const cat = item.getAttribute('data-cat');
 
-        // Toggle-Logik für das Klicken auf das Listenelement
         item.addEventListener('click', (event) => {
-            // Toggle the 'active' class on the clicked item
             item.classList.toggle('active');
 
-            // Handle the sublist expand/collapse
             const sublist = item.querySelector('.sublist');
             if (sublist) {
                 if (sublist.style.maxHeight) {
@@ -56,27 +50,24 @@
                 }
             }
 
-            // Prevent click event from bubbling to parent
             event.stopPropagation();
         });
 
-        // Automatisches Ausklappen, wenn die Kategorie in der URL enthalten ist
         if (cat && urlContainsCategory(cat)) {
-            item.classList.add('active');  // Füge die Klasse 'active' hinzu
+            item.classList.add('active');
 
             const sublist = item.querySelector('.sublist');
             if (sublist) {
-                sublist.style.maxHeight = sublist.scrollHeight + "px"; // Entfalten
+                sublist.style.maxHeight = sublist.scrollHeight + "px";
             }
         }
     });
 
-    // Prevent subitems from causing the parent item to collapse when clicked
     const sublistItems = document.querySelectorAll('.sublist li');
 
     sublistItems.forEach(subItem => {
         subItem.addEventListener('click', (event) => {
-            event.stopPropagation(); // Stops the click event from reaching the parent
+            event.stopPropagation();
         });
     });
 </script>

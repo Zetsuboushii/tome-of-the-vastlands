@@ -18,6 +18,10 @@ layout: default
     </div>
 
     <div id="holiday-info" style="text-align: center"></div>
+
+    <div class="text-wrap">
+        {{ content }}
+    </div>
 </div>
 
 <script>
@@ -25,44 +29,13 @@ layout: default
         daysOfWeek: ["Lunesdag", "Flamdag", "Quellsdag", "Waldsdag", "Goldag", "Terrasdag", "Sunnesdag"],
         months: ["Eismond", "Frostmond", "Saatmond", "Blütenmond", "Wonnemond", "Heumond", "Sonnenmond", "Erntemond", "Fruchtmond", "Weinmond", "Nebelmond", "Julmond"],
         holidays: {
-            "Eismond-1": "Neujahrsfest",
-            "Eismond-15": "Wintermarkt",
-            "Eismond-16": "Wintermarkt",
-            "Frostmond-14": "Tag der Liebe",
-            "Saatmond-2": "Tag der Erde",
-            "Saatmond-13": "Geburtstag von U-Ranos",
-            "Saatmond-20": "Frühlingsanfang",
-            "Eismond-17": "Wintermarkt",
-            "Eismond-30": "Tag des Eises",
-            "Blütenmond-1": "Tag der Streiche",
-            "Blütenmond-7": "Blumenfest",
-            "Blütenmond-8": "Gartenfestival in Frelia",
-            "Wonnemond-1": "Wonnemondfest",
-            "Wonnemond-15": "Frühlingsmarkt",
-            "Wonnemond-19": "Dünsberger Apfelweinfest",
-            "Heumond-3": "Tag des Donners",
-            "Heumond-16": "Tag der Vereinigung",
-            "Heumond-21": "Sommersonnenwende",
-            "Sonnenmond-1": "Eröffnung des Sommermarkts",
-            "Sonnenmond-4": "Fest der Lichter",
-            "Sonnenmond-10": "Tag des Wassers",
-            "Sonnenmond-14": "Mittsommerfest",
-            "Sonnenmond-31": "Abschlussfeier des Sommermarkts",
-            "Erntemond-15": "Geburtstag des Königs Gralnach",
-            "Nebelmond-15": "Erntefest",
-            "Fruchtmond-19": "Dünsberger Apfelernte",
-            "Fruchtmond-21": "Herbstbeginn",
-            "Fruchtmond-30": "Tag des Friedens",
-            "Weinmond-3": "Rebenerntefest",
-            "Fruchtmond-4": "Tag des Feuers",
-            "Weinmond-31": "Nacht der Toten",
-            "Nebelmond-18": "Tag des Windes",
-            "Nebelmond-25": "Geburtstag von Nayru",
-            "Julmond-21": "Julfest",
-            "Julmond-25": "Winterfest",
-            "Julmond-31": "Neujahrsabend, kencht",
-        },
-        currentMonth: 11,
+    {% for post in site.entries %}
+    {% if post.when %}
+    "{{ post.when }}": "{{ post.title }}"{% unless forloop.last %},{% endunless %}
+    {% endif %}
+    {% endfor %}
+    },
+    currentMonth: 11,
         currentYear: 394
     };
 
@@ -83,14 +56,14 @@ layout: default
     }
 
     function getDaysInMonth(month, year) {
-        return new Date(year, month + 1, 0).getDate(); // Letzter Tag des Monats
+        return new Date(year, month + 1, 0).getDate();
     }
 
     function renderDays() {
         daysDiv.innerHTML = '';
         const daysInMonth = getDaysInMonth(calendar.currentMonth, calendar.currentYear);
-        const firstDayOfMonth = new Date(calendar.currentYear, calendar.currentMonth, 1).getDay(); // Erster Wochentag des Monats
-        const startingBlankDays = firstDayOfMonth; // Leere Felder zu Beginn
+        const firstDayOfMonth = new Date(calendar.currentYear, calendar.currentMonth, 1).getDay();
+        const startingBlankDays = firstDayOfMonth;
 
         for (let i = 0; i < startingBlankDays; i++) {
             const blankDiv = document.createElement("div");
@@ -101,12 +74,12 @@ layout: default
             const dayDiv = document.createElement("div");
             dayDiv.textContent = day;
             const holidayKey = `${calendar.months[calendar.currentMonth]}-${day}`;
+
             if (calendar.holidays[holidayKey]) {
                 dayDiv.classList.add("holiday");
                 dayDiv.title = calendar.holidays[holidayKey];
             }
 
-            // Event-Listener zum Anzeigen von Feiertagen hinzufügen
             dayDiv.addEventListener('click', () => showHoliday(holidayKey));
 
             daysDiv.appendChild(dayDiv);
@@ -115,12 +88,18 @@ layout: default
 
     function showHoliday(holidayKey) {
         const holiday = calendar.holidays[holidayKey];
+        holidayInfo.innerHTML = '';
+
         if (holiday) {
-            holidayInfo.textContent = `Feiertag: ${holiday}`;
-            holidayInfo.style.display = 'block'; // Feiertagsinfo anzeigen
+            const link = document.createElement('a');
+            // URL mit lowercased Feiertagsnamen generieren
+            link.href = `/tome-of-the-vastlands/calendar/${holiday.toLowerCase().replace(/\s/g, '-')}/`;
+            link.textContent = holiday;
+            holidayInfo.appendChild(link);
+            holidayInfo.style.display = 'block';
         } else {
             holidayInfo.textContent = 'Kein Feiertag an diesem Tag.';
-            holidayInfo.style.display = 'block'; // Nachricht anzeigen, wenn kein Feiertag
+            holidayInfo.style.display = 'block';
         }
     }
 
@@ -132,7 +111,7 @@ layout: default
     prevMonthBtn.addEventListener("click", () => {
         calendar.currentMonth--;
         if (calendar.currentMonth < 0) {
-            calendar.currentMonth = 11; // Letzter Monat
+            calendar.currentMonth = 11;
             calendar.currentYear--;
         }
         updateCalendar();
@@ -141,7 +120,7 @@ layout: default
     nextMonthBtn.addEventListener("click", () => {
         calendar.currentMonth++;
         if (calendar.currentMonth > 11) {
-            calendar.currentMonth = 0; // Erster Monat
+            calendar.currentMonth = 0;
             calendar.currentYear++;
         }
         updateCalendar();

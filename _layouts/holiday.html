@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="home">
+    {% assign when_parts = page.when | split: '-' %}
+    {% assign month = when_parts[0] %}
+    {% assign day = when_parts[1] %}
+
+    <h1>{{ page.title }} - <small>{{ day }}. Tag des {{ month }}s</small></h1>
+
+    <div class="text-wrap">
+        {{ content }}
+    </div>
+</div>
