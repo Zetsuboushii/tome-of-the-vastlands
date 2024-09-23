@@ -270,12 +270,12 @@
 }
 
 .character-data {
+  font-size: 20px;
+
   h1, h4 {
     text-align: center;
     margin-bottom: 0;
   }
-
-  font-size: 20px;
 
   img {
     justify-self: center;
@@ -424,5 +424,122 @@
 
   li:hover {
     background-color: $backdrop-color;
+  }
+}
+
+/**
+.classes-list {
+  text-align: center;
+
+  ul {
+    margin-left: 0;
+    list-style-type: none;
+  }
+
+  .classes-list-main {
+    border: 1px solid;
+    background-color: $backdrop-color;
+    margin-bottom: 20px;
+  }
+
+  .classes-list-adv {
+    border: 1px solid;
+    margin: 0 20px 20px 20px;
+    column-count: 5;
+
+    li {
+      border: 1px solid;
+      padding: 5px;
+    }
+  }
+}
+ */
+
+.tree {
+  font-size: 20px;
+
+  ul {
+    position: relative;
+    padding: 1em 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  li {
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 1em .5em 0 .5em;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 50%;
+      border-top: 1px solid;
+      width: 50%;
+      height: 1em;
+    }
+
+    &::after {
+      right: auto;
+      left: 50%;
+      border-left: 1px solid;
+    }
+
+    &:only-child::after,
+    &:only-child::before {
+      display: none;
+    }
+
+    &:only-child {
+      padding-top: 0;
+    }
+
+    &:first-child::before,
+    &:last-child::after {
+      border: 0 none;
+    }
+
+    &:last-child::before {
+      border-right: 1px solid;
+    }
+
+  }
+
+  ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid;
+    width: 0;
+    height: 1em;
+  }
+
+  li a {
+    border: 1px solid;
+    padding: .5em .75em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+  }
+
+  li a:hover,
+  li a:hover + ul li a {
+    background: $backdrop-color;
+    //border: $border-width solid #e9453f;
   }
 }

@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    <div class="tree">
+    {% for mainclass in site.entries %}
+    {% if mainclass.categories contains "mainclass" %}
+        <ul class="">
+            <li>
+                <a href="{{ mainclass.url | relative_url }}">{{ mainclass.title }}</a>
+                {% assign next_advclasses = mainclass.next_class %}
+                {% if next_advclasses %}
+                <ul class="">
+                    {% for advclass in site.entries %}
+                    {% if advclass.categories contains "advclass" and next_advclasses contains advclass.title %}
+                    <li>
+                        <a class="breakable" href="{{ advclass.url | relative_url }}">{{ advclass.title }}</a>
+                        {% assign next_masterclasses = advclass.next_class %}
+                        {% if next_masterclasses %}
+                        <ul>
+                            {% for masterclass in site.entries %}
+                            {% if masterclass.categories contains "masterclass" and next_masterclasses contains
+                            masterclass.title %}
+                            <li>
+                                <a href="{{ masterclass.url | relative_url }}">{{ masterclass.title }}</a>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+        </ul>
+    {% endif %}
+    {% endfor %}
+    </div>
+
+</div>
