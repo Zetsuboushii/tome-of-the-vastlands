@@ -2,7 +2,7 @@
 layout: home
 title: Druide
 categories:
-  - mainclass
+  - classes
 next_class:
   - Mondwandler
   - Urwissenshüter

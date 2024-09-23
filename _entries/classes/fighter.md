@@ -2,7 +2,7 @@
 layout: home
 title: Kämpfer
 categories:
-  - mainclass
+  - classes
 next_class:
   - Champion
   - Kampfmeister

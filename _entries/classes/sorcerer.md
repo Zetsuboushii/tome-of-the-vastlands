@@ -2,7 +2,7 @@
 layout: home
 title: Magier
 categories:
-  - mainclass
+  - classes
 next_class:
   - Drachennmagier
   - Chaosmagier

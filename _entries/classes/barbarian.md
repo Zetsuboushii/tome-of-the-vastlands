@@ -2,7 +2,7 @@
 layout: home
 title: Barbar
 categories:
-  - mainclass
+  - classes
 next_class:
   - Berserker
   - Totemkrieger

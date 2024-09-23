@@ -2,7 +2,7 @@
 layout: home
 title: Hexer
 categories:
-  - mainclass
+  - classes
 next_class:
   - Teufelsbringer
   - Gefäß des Abgrunds

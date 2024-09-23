@@ -2,7 +2,7 @@
 layout: home
 title: Schurke
 categories:
-  - mainclass
+  - classes
 next_class:
   - Dieb
   - Assassine

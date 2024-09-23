@@ -2,7 +2,7 @@
 layout: home
 title: Waldläufer
 categories:
-  - mainclass
+  - classes
 next_class:
   - Jäger
   - Bestienrufer

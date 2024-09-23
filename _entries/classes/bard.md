@@ -2,7 +2,7 @@
 layout: home
 title: Barde
 categories:
-  - mainclass
+  - classes
 next_class:
   - Sänger der Tapferkeit
   - Sänger des Wissens

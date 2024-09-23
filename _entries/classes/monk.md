@@ -2,7 +2,7 @@
 layout: home
 title: Mönch
 categories:
-  - mainclass
+  - classes
 next_class:
   - Faustbändiger
   - Schattenbändiger

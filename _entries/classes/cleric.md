@@ -2,7 +2,7 @@
 layout: home
 title: Kleriker
 categories:
-  - mainclass
+  - classes
 next_class:
   - Kleriker der Hama
   - Kleriker der Seloue

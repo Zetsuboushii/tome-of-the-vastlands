@@ -2,7 +2,7 @@
 layout: home
 title: Zauberer
 categories:
-  - mainclass
+  - classes
 next_class:
   - Schutzzauberer
   - Beschwörer

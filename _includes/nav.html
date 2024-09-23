@@ -12,7 +12,8 @@
 
                 {%- if cat -%}
                 <ul class="sublist">
-                    {%- for subpage in site.entries -%}
+                    {% assign posts = site.entries | sort: 'title' %}
+                    {%- for subpage in posts -%}
                     {%- if subpage.categories contains cat -%}
                     <li><a class="page-link" href="{{ subpage.url | relative_url }}"> {{ subpage.title | escape }}</a>
                     </li>

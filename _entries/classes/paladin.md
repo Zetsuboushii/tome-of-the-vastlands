@@ -2,7 +2,7 @@
 layout: home
 title: Paladin
 categories:
-  - mainclass
+  - classes
 next_class:
   - Reinherz
   - Rachebringer
