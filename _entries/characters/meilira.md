@@ -10,11 +10,10 @@ sex: w
 age: Unbekannt
 height: "1,82"
 affiliations:
-  - Schicksalsjünger Fortunas
+  - Fortunas Recken
 class: Recke
 subclasses:
-  - Schwertkämpfer
-masterclass: Schwertmeister
+  - Reinherz
 homes:
   - Fortunas Reich
 alignment: LN
@@ -24,7 +23,7 @@ relationships:
   - [ Inoro, Cousin ]
   - [ Ar-Merer, Cousin ]
   - [ En-Troad, Cousin ]
-  - [ Il-Vernia, Cousin ]
+  - [ Il-Vernia, Cousine ]
   - [ O-Gall, Cousin ]
   - [ U-Ranos, Cousin ]
   - [ Justicia, Tante ]
