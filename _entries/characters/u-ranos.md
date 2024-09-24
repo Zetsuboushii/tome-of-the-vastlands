@@ -20,6 +20,7 @@ affiliations:
 class: Recke
 subclasses:
   - Kleriker
+  - Kleriker der Hama
   - Fischer
 homes:
   - Justicias Reich
