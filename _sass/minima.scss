@@ -5,15 +5,25 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('fonts/NotoSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 // Define defaults for each variable.
 
-$base-font-family: "Grenze Gotisch" !default;
-$base-font-size: 26px !default;
+$base-font-family: "Noto Serif" !default;
+$base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+
+$heading-font-family: "Grenze Gotisch" !default;
+$heading-font-size: 24px !default;
+$heading-font-weight: 400 !default;
 
 $spacing-unit: 30px !default;
 
