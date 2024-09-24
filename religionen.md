@@ -1,6 +1,7 @@
 ---
 layout: religions
 title: Religionen
+category: religion
 permalink: /religions/
 ---
 
