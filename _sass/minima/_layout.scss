@@ -39,6 +39,11 @@
   border-right: 1px solid $grey-color;
   transition: width 0.3s ease; // Animation bei Breitenänderung
   z-index: 999;
+  scrollbar-width: none;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
   .nav-wrapper {
     flex-grow: 1;
