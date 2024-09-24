@@ -341,6 +341,11 @@
       padding: 10px;
       height: 100px;
       overflow: scroll;
+      scrollbar-width: none;
+    }
+
+    p::-webkit-scrollbar {
+      display: none;
     }
   }
 
