@@ -42,6 +42,7 @@
 
   .nav-wrapper {
     flex-grow: 1;
+
     ul {
       list-style-type: none;
       padding-left: 0; // Kein extra Padding
@@ -55,7 +56,7 @@
     }
 
     li::before {
-      content: '🠶 ';
+      content: '» ';
       display: inline-block;
       transition: transform 0.3s ease;
     }
@@ -408,11 +409,16 @@
   }
 
   .holiday {
-    background-color: #ffeb3b;
+    background-color: $backdrop-color;
   }
 
   #holiday-info {
     display: none;
+  }
+
+  .holiday-info a {
+    font-family: "Grenze Gotisch";
+    font-size: 28px;
   }
 }
 
@@ -422,6 +428,7 @@
   margin-bottom: 10px;
 
   button {
+    font-family: "Grenze Gotisch";
     background: transparent;
     border: none;
   }
