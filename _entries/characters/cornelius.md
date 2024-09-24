@@ -1,6 +1,6 @@
 ---
 layout: character
-title: cornelius
+title: Cornelius
 categories:
   - character
   - NPC
