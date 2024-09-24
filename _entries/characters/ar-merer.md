@@ -16,7 +16,7 @@ class: Recke
 subclasses:
   - Engelsmagier
 homes:
-  - Justicias Reich
+  - Hof der Gerechtigkeit
 alignment: LN
 alive: true
 relationships:

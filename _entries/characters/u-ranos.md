@@ -23,14 +23,14 @@ subclasses:
   - Kleriker der Hama
   - Fischer
 homes:
-  - Justicias Reich
+  - Hof der Gerechtigkeit
   - Frelia
   - Dünsberg
 alignment: NG
 alive: true
 relationships:
   - [ Justicia, Mutter ]
-  - [ Inoro, Vorgänger ]
+  - [ Inoro, Großer Bruder ]
   - [ Ar-Merer, missverst. Bruder ]
   - [ En-Troad, Bruder ]
   - [ Il-Vernia, Schwester ]

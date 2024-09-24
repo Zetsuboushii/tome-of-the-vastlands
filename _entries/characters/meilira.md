@@ -15,7 +15,7 @@ class: Recke
 subclasses:
   - Reinherz
 homes:
-  - Fortunas Reich
+  - See des Schicksals
 alignment: LN
 alive: true
 relationships:
