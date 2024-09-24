@@ -320,6 +320,7 @@
 
 .character-gallery {
   .gallery {
+    font-family: "Grenze Gotisch";
     border: 1px solid;
     margin-bottom: 15px;
     text-align: center;
@@ -330,6 +331,10 @@
       max-height: 300px;
       width: 100%;
       object-fit: contain;
+    }
+
+    a {
+      font-size: 24px;
     }
 
     p {
@@ -475,6 +480,7 @@
 
 .tree {
   font-size: 20px;
+  font-family: "Grenze Gotisch";
 
   ul {
     position: relative;
