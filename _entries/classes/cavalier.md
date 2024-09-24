@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Kavalier
+title: Kavallerist
 categories:
   - advclass
 ---

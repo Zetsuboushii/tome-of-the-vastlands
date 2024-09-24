@@ -7,7 +7,7 @@ next_class:
   - Champion
   - Kampfmeister
   - Magieritter
-  - Kavalier
+  - Kavallerist
   - Magieschütze
   - Samurai
   - Psi-Klinge
