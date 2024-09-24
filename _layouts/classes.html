@@ -28,7 +28,7 @@ layout: default
                             {% if masterclass.categories contains "masterclass" and next_masterclasses contains
                             masterclass.title %}
                             <li>
-                                <a href="{{ masterclass.url | relative_url }}">{{ masterclass.title }}</a>
+                                <a class="breakable" href="{{ masterclass.url | relative_url }}">{{ masterclass.title }}</a>
                             </li>
                             {% endif %}
                             {% endfor %}
