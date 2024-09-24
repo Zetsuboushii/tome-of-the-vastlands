@@ -13,8 +13,8 @@ affiliations:
   - Thanatos' Recken
 class: Recke
 subclasses:
-  - Schurke
   - Dieb
+masterclass: Meisterdieb
 homes:
   - Thanatos' Reich
 alignment: NG

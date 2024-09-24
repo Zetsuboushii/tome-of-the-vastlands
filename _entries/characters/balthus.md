@@ -13,6 +13,7 @@ affiliations:
 class: Kämpfer
 subclasses:
   - Kavallerist
+masterclass: Drachenritter
 homes:
   - Orrin
 alignment: "?"
