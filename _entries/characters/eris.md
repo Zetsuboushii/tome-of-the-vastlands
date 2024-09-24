@@ -22,6 +22,7 @@ relationships:
   - [ Siegmund, Herr ]
   - [ Nayru, Herr ]
   - [ U-Ranos, Herr ]
+  - [ Karl, guter Freund und Kollege ]
 ---
 
 Eris ist eine der Dienstmädchen im Jagdschloss Dünsberg. Ihre Familie hat bereits viele Generationen dem Hause Sturmthal
