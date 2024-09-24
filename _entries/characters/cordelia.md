@@ -21,6 +21,8 @@ relationships:
   - [ Eliza, Cousine ]
   - [ Narcian, Cousin ]
   - [ Marisa, Cousine ]
+  - [ Kristian, Cousin]
+  - [ Kristina, Cousin]
 ---
 
 ?
