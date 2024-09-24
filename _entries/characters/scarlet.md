@@ -15,7 +15,7 @@ class: Recke
 subclasses:
   - Schattenmagier
 homes:
-  - Thanatos' Reich
+  - Gebirge der Sünde 
 alignment: CG
 alive: verschollen
 relationships:

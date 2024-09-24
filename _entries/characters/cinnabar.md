@@ -16,7 +16,7 @@ subclasses:
   - Dieb
 masterclass: Meisterdieb
 homes:
-  - Thanatos' Reich
+  - Gebirge der Sünde
 alignment: NG
 alive: vermisst
 relationships:

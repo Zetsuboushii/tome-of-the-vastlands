@@ -23,7 +23,7 @@ subclasses:
   - Kleriker der Hama
   - Fischer
 homes:
-  - Justicias Reich
+  - Hof der Gerechtigkeit
   - Frelia
   - Dünsberg
 alignment: NG
