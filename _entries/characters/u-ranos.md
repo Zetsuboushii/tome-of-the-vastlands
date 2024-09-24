@@ -17,6 +17,7 @@ alias:
 affiliations:
   - Justicias Recken
   - Kirche der Himmlischen Gerechtigkeit
+  - Mitglied der legendären Rentnerbrigade
 class: Recke
 subclasses:
   - Kleriker
@@ -49,11 +50,11 @@ relationships:
   - [ Rai, Bester Freund ]
   - [ Amlin, Freundin ]
   - [ Iddra, Freundin ]
-  - [ Zora, Gute Freundin ]
-  - [ Ouin, Sehr guter Freund ]
+  - [ Zora, Freundin ]
+  - [ Ouin, guter Freund ]
   - [ Solenne, Freundin ]
   - [ Burdig, Guter Freund ]
-  - [ Igmusur, Guter Freund ]
+  - [ Igmusur, sehr guter Freund ]
   - [ Valerius, Freund ]
   - [ Narcian, Feind ]
   - [ Felix, Schüler in Spe ]

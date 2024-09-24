@@ -1,6 +1,6 @@
 ---
 layout: character
-title: Elkazel
+title: Elkhazel
 categories:
   - character
   - NPC

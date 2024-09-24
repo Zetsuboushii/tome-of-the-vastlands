@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 vendor
 .idea
-/_entries/characters/template.md
+/_entries/characters/_template.md
