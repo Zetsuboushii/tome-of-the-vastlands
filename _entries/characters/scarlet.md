@@ -17,7 +17,7 @@ subclasses:
 homes:
   - Thanatos' Reich
 alignment: CG
-alive: true
+alive: verschollen
 relationships:
   - [ Thanatos, Vater ]
   - [ Cinnabar, Kleine Schwester ]

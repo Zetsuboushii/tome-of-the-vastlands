@@ -160,7 +160,8 @@ layout: default
                     <td><b>Verbleib</b></td>
                     <td>
                         {% if page.alive == true %} am Leben
-                        {% else %} verstorben
+                        {% elsif page.alive == false %} verstorben
+                        {% else %} {{ page.alive }}
                         {% endif %}
                     </td>
                 </tr>
