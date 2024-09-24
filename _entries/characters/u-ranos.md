@@ -40,7 +40,7 @@ relationships:
   - [ Unbenannter Gott, Onkel ]
   - [ Seloue, Ziehmutter ]
   - [ Fubuki, Adoptivtochter ]
-  - [ Nayru, Reisegefährtin ]
+  - [ Nayru, "Reisegefährtin, engste Vertraute" ]
   - [ Siegmund, Reisegefährte ]
   - [ Avila, Freundin ]
   - [ Hama, inoff. gr. Schwester ]
