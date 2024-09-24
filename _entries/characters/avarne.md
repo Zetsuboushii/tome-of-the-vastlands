@@ -4,7 +4,7 @@ title: Avarne
 categories:
   - character
   - NPC
-race: Mensch
+race: Menschen
 sex: m
 age: 19
 height: "1,77"
