@@ -30,7 +30,7 @@ alignment: NG
 alive: true
 relationships:
   - [ Justicia, Mutter ]
-  - [ Inoro, Vorgänger ]
+  - [ Inoro, Großer Bruder ]
   - [ Ar-Merer, missverst. Bruder ]
   - [ En-Troad, Bruder ]
   - [ Il-Vernia, Schwester ]
