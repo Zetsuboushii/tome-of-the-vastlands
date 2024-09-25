@@ -22,6 +22,8 @@ relationships:
   - [ Silvia, gute Freundin ]
   - [ Frille, gute Freundin ]
   - [ Jofina, gute Freundin ]
+  - [ U-Ranos, Freund ]
+  - [ Nayru, Freundin ]
 
 ---
 

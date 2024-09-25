@@ -13,6 +13,8 @@ homes:
   - Schachendorf
 alignment: NG
 alive: true
+relationships:
+  - [ Gretchen, Freundin ]
 lover: Alice
 ---
 
