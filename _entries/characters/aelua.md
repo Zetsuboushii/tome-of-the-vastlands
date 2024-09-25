@@ -4,6 +4,7 @@ title: Aelua
 categories:
   - character
   - NPC
+character_title: Junggebliebene Dorfälteste
 race: Elfen
 sex: w
 age: 814

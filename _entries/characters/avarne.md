@@ -4,6 +4,7 @@ title: Avarne
 categories:
   - character
   - NPC
+character_title: Werdender Abenteurer
 race: Menschen
 sex: m
 age: 19

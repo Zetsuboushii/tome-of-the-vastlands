@@ -4,6 +4,7 @@ title: Alice
 categories:
   - character
   - NPC
+character_title: Verliebte Nekromantin
 race: Halbelfen
 sex: w
 age: 19

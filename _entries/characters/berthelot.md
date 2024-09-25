@@ -4,7 +4,7 @@ title: Berthelot
 categories:
   - character
   - NPC
-character_title:
+character_title: Ruchloser Banditenanführer
 race: Menschen
 sex: m
 age: 44

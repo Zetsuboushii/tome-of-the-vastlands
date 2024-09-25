@@ -4,6 +4,7 @@ title: Hindrik
 categories:
   - character
   - NPC
+character_title: Muskulöser Schreiner
 race: Menschen
 sex: m
 age: 37

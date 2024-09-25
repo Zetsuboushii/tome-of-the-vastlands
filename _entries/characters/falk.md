@@ -4,6 +4,7 @@ title: Falk
 categories:
   - character
   - NPC
+character_title: Gute Seele des Dorfes
 race: Menschen
 sex: m
 age: 18

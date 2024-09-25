@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Francis
+title: Francis von Falkenhayn
 categories:
   - character
   - NPC
-character_title: von Falkenhayn, Vasall des Volo
+character_title: Vasall des Volo
 race: Menschen
 sex: m
 age: 28

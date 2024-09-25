@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Adrian
+title: Adrian von Waldegrav
 categories:
   - character
   - PC/ NPC
-character_title: von Waldegrav
+character_title: Leidenschaftlicher Schätzesammler
 race: Menschen
 sex: m
 age: 29

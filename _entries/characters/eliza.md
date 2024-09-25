@@ -1,6 +1,6 @@
 ---
 layout: character
-title: Eliza
+title: Eliza von Nordholm
 categories:
   - character
   - NPC

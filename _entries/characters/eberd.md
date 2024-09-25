@@ -4,6 +4,7 @@ title: Eberd
 categories:
   - character
   - NPC
+character_title: Ausdrucksschwacher Spelunkenbetreiber
 race: Menschen
 sex: m
 age: 49

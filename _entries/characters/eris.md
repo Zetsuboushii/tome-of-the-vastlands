@@ -4,6 +4,7 @@ title: Eris
 categories:
   - character
   - NPC
+character_title: Temperamentvolles Hausmädchen
 race: Menschen
 sex: w
 age: 20

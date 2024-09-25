@@ -4,6 +4,7 @@ title: Hosgrid
 categories:
   - character
   - NPC
+character_title: Dünsbergs Ewiger Bürgermeister A.D.
 race: Menschen
 sex: m
 age: 63

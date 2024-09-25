@@ -4,6 +4,7 @@ title: Cornelius
 categories:
   - character
   - NPC
+character_title: Service-orientierter Kundukteur
 race: Menschen
 sex: m
 age: 37

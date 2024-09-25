@@ -4,6 +4,7 @@ title: Balthus
 categories:
   - character
   - NPC
+character_title: Großmeister der Drachenritter
 race: Menschen
 sex: m
 age: 72

@@ -4,6 +4,7 @@ title: Joist
 categories:
   - character
   - NPC
+character_title: Beherzter Seemann
 race: Menschen
 sex: m
 age: 43

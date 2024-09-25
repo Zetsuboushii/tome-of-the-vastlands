@@ -4,6 +4,7 @@ title: Caeda
 categories:
   - character
   - NPC
+character_title: Sympathische Nachwuchshändlerin
 race: Elfen
 sex: w
 age: 251

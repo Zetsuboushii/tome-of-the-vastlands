@@ -4,7 +4,7 @@ title: Felldir
 categories:
   - character
   - NPC
-character_title: Kommandant der Stadtwache Grenbrock
+character_title: Kommandant der Stadtwache Grenbrock A.D.
 race: Menschen
 sex: m
 age: 59

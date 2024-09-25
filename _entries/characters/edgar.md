@@ -4,6 +4,7 @@ title: Edgar
 categories:
   - character
   - NPC
+character_title: Hasenfüßiger Koch
 race: Menschen
 sex: m
 age: 27

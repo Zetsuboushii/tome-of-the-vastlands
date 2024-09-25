@@ -4,6 +4,7 @@ title: Erika
 categories:
   - character
   - NPC
+character_title: Leibgarde seit Kindertagen
 race: Menschen
 sex: w
 age: 24

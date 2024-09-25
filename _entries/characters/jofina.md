@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Jofina
+title: Jofina von Salten
 categories:
   - character
   - NPC
-character_title: von Salten
+character_title: Frischer Wind von Dünsberg
 race: Halbelfen
 sex: w
 age: 22

@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Ezekiel
+title: Ezekiel von Bendel
 categories:
   - character
   - NPC
-character_title: von Bendel
+character_title: Anti-sozialer Ex-Kultist widerwillen
 race: Menschen
 sex: m
 age: 17

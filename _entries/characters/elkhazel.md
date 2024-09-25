@@ -4,6 +4,7 @@ title: Elkhazel
 categories:
   - character
   - NPC
+character_title: Jäger des Dorfes
 race: Elfen
 sex: m
 age: 270

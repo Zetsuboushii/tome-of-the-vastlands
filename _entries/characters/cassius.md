@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Cassius
+title: Cassius von Schattenberg
 categories:
   - character
   - NPC
-character_title: von Schattenberg
+character_title: Dubioser Minister
 race: Halbelfen
 sex: m
 age: 35

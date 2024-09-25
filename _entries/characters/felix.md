@@ -4,6 +4,7 @@ title: Felix
 categories:
   - character
   - NPC
+character_title: Bischof in Spe
 race: Menschen
 sex: m
 age: 23

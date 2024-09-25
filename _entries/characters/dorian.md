@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Dorian
+title: Dorian von Windthal
 categories:
   - character
   - NPC
-character_title: von Windthal
+character_title: Gütiger Schlossher A.D.
 race: Menschen
 sex: m
 age: 74

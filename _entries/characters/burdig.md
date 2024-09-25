@@ -4,7 +4,7 @@ title: Burdig
 categories:
   - character
   - NPC
-character_title:
+character_title: Liebenswerter Tavernenbesitzer
 race: Menschen
 sex: m
 age: 46

@@ -4,6 +4,7 @@ title: Deh
 categories:
   - character
   - NPC
+character_title: Naive Heilerin
 race: Drakonier
 sex: w
 age: 12

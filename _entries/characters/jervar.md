@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Jervar
+title: Jervar von Grenbrock
 categories:
   - character
   - NPC
-character_title: von Grenbrock, Kurfürst von Thaugrien
+character_title: Kurfürst von Thaugrien
 race: Menschen
 sex: m
 age: 23

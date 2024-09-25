@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Isabella
+title: Isabella von Natrow
 categories:
   - character
   - NPC
-character_title: von Natrow
+character_title: Pittoreskes Multitalent der Künste
 race: Menschen
 sex: w
 age: 18

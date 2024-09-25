@@ -4,6 +4,7 @@ title: Hartwin
 categories:
   - character
   - NPC
+character_title: Pflichtbewusster Leibwächter
 race: Menschen
 sex: m
 age: 25

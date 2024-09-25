@@ -4,7 +4,7 @@ title: Cedrik
 categories:
   - character
   - NPC
-character_title:
+character_title: Trickreicher Betrüger
 race: Menschen
 sex: m
 age: 27

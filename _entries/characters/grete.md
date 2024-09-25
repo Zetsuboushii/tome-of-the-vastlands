@@ -4,6 +4,7 @@ title: Grete
 categories:
   - character
   - NPC
+character_title: Gelangweiltes Hausmädchen
 race: Menschen
 sex: w
 age: 19

@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Cordelia
+title: Cordelia von Grenbrock
 categories:
   - character
   - NPC
-character_title: von Grenbrock, Prinzessin von Thaugrien
+character_title: Prinzessin von Thaugrien
 race: Menschen
 sex: w
 age: 27

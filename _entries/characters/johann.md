@@ -4,6 +4,7 @@ title: Johann
 categories:
   - character
   - NPC
+character_title: Ritterlicher Unglücksmagnet
 race: Menschen
 sex: m
 age: 29

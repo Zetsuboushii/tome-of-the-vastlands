@@ -4,6 +4,7 @@ title: Gretchen
 categories:
   - character
   - NPC
+character_title: Apothekerin des Waldes
 race: Menschen
 sex: w
 age: 28

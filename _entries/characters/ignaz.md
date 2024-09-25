@@ -4,6 +4,7 @@ title: Ignaz
 categories:
   - character
   - NPC
+character_title: Experimentierfreudiger Neo-Alchemist
 race: Menschen
 sex: m
 age: 22

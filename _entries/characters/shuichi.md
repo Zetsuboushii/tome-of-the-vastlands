@@ -4,6 +4,7 @@ title: Shuichi
 categories:
   - character
   - NPC
+character_title: Hauptcharakter aus einer anderen Welt
 race: Menschen
 sex: m
 age: 19

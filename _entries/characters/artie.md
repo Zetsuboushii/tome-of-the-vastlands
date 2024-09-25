@@ -4,6 +4,7 @@ title: Artie
 categories:
   - character
   - NPC
+character_title: Bestechlicher Ortsvorsteher
 race: Menschen
 sex: m
 age: 35

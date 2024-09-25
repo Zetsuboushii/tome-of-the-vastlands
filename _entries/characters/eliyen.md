@@ -4,6 +4,7 @@ title: Eliyen
 categories:
   - character
   - NPC
+character_title: Gutmütige Grenzpostlerin
 race: Elfen
 sex: w
 age: 237

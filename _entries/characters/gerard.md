@@ -4,6 +4,7 @@ title: Gerard
 categories:
   - character
   - NPC
+character_title: Stählernes Kraftpaket der Wildnis 
 race: Menschen
 sex: m
 age: 31

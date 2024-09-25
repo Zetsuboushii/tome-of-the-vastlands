@@ -4,6 +4,7 @@ title: Carmesine
 categories:
   - character
   - NPC
+character_title: Gebrochene Nonne mit großem Herz
 race: Menschen
 sex: w
 age: 23

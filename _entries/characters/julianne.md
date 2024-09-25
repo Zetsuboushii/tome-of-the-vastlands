@@ -4,6 +4,7 @@ title: Julianne
 categories:
   - character
   - NPC
+character_title: Begeisterte Barfrau mit Alkoholproblem
 race: Menschen
 sex: w
 age: 27
