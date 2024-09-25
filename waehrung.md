@@ -4,4 +4,3 @@ title: Währung
 permalink: /currency/
 ---
 
-gedghseriofo

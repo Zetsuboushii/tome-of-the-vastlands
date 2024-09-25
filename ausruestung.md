@@ -4,4 +4,3 @@ title: Ausrüstung
 permalink: /equipment/
 ---
 
-gedghseriofo
