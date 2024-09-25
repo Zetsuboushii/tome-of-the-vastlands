@@ -23,19 +23,19 @@ layout: default
             </div>
 
             <div id="{{ page.title | downcase }}" class="char-img">
-                <img src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ page.title | downcase }}.png?raw=true"
+                <img src="{{ site.charimgurl }}{{ page.path | split: '/' | last | split: '.' | first }}.png"
                      alt="">
             </div>
 
             {% for img in page.alt_imgs %}
             <div id="{{ img | downcase }}" class="char-img" style="display:none">
-                <img src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ img | downcase }}.png?raw=true"
+                <img src="{{ site.charimgurl }}{{ img | downcase }}.png"
                      alt="">
             </div>
             {% endfor %}
 
             {% else %}
-            <img src="https://github.com/Zetsuboushii/FaergriaWiki/blob/main/Writerside/images/characters/{{ page.title | downcase }}.png?raw=true"
+            <img src="{{ site.charimgurl }}{{ page.path | split: '/' | last | split: '.' | first }}.png"
                  alt="">
             {% endif %}
             <hr>
