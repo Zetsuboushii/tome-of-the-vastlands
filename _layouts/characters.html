@@ -23,6 +23,8 @@ layout: default
                     <img src="{{ site.charimgurl }}{{ subpage.path | split: '/' | last | split: '.' | first }}.png" alt="">
                 </a>
                 <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
+                <h4>{{ subpage.character_title }}</h4>
+                <hr>
                 <div class="desc"><small>{{ subpage.excerpt }}</small></div>
             </div>
         </div>
