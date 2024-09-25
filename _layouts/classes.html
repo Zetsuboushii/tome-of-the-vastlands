@@ -11,11 +11,12 @@ layout: default
         {% assign posts = site.entries | sort: 'title' %}
         {% for mainclass in posts %}
         {% if mainclass.categories contains "classes" %}
+        {% assign next_advclasses = mainclass.next_class %}
+        {% if next_advclasses %}
         <ul class="">
             <li>
                 <a href="{{ mainclass.url | relative_url }}">{{ mainclass.title }}</a>
-                {% assign next_advclasses = mainclass.next_class %}
-                {% if next_advclasses %}
+
                 <ul class="">
                     {% for advclass in posts %}
                     {% if advclass.categories contains "advclass" and next_advclasses contains advclass.title %}
@@ -38,9 +39,10 @@ layout: default
                     {% endif %}
                     {% endfor %}
                 </ul>
-                {% endif %}
+
             </li>
         </ul>
+        {% endif %}
         {% endif %}
         {% endfor %}
     </div>

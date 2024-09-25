@@ -5,4 +5,5 @@ categories:
   - advclass
 next_class:
   - Drachenritter
+  - Falkenritter
 ---
