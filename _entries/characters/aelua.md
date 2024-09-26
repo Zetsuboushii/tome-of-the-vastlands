@@ -16,6 +16,9 @@ homes:
   - Teryvnat
 alignment: NG
 alive: true
+relationships:
+  - [ Tannivh, Enkel ]
+
 ---
 
 Dorfälteste von Teryvnat und Besitzerin der örtlichen Taverne.
