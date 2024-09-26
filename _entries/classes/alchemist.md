@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Gott
+title: Alchemist
 categories:
   - classes
-  - uniqueclass
+  - jobclass
 ---

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Gott
+title: Schreiner
 categories:
   - classes
-  - uniqueclass
+  - jobclass
 ---

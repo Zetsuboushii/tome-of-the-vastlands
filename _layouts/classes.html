@@ -10,11 +10,11 @@ layout: default
     <div class="tree" style="display: flex; justify-content: center">
         <ul>
             <li>
-                <a href="">Nicht-kämpfende Klassen</a>
+                <a href="">Job-Klassen</a>
                 {% assign posts = site.entries | sort: 'title' %}
                 <ul>
                     {% for nonfightclass in posts %}
-                    {% if nonfightclass.categories contains "non-fight" %}
+                    {% if nonfightclass.categories contains "jobclass" %}
                     <li>
                         <a href="{{ nonfightclass.url | relative_url }}">{{ nonfightclass.title }}</a>
                     </li>
@@ -32,7 +32,7 @@ layout: default
                 {% assign posts = site.entries | sort: 'title' %}
                 <ul>
                     {% for uniqueclass in posts %}
-                    {% if uniqueclass.categories contains "unique" %}
+                    {% if uniqueclass.categories contains "uniqueclass" %}
                     <li>
                         <a href="{{ uniqueclass.url | relative_url }}">{{ uniqueclass.title }}</a>
                     </li>

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Gott
+title: Fischer
 categories:
   - classes
-  - uniqueclass
+  - jobclass
 ---

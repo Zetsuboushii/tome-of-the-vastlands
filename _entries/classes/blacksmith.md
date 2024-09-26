@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Gott
+title: Schmied
 categories:
   - classes
-  - uniqueclass
+  - jobclass
 ---
