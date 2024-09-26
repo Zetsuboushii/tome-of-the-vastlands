@@ -29,10 +29,11 @@ relationships:
   - [ Eliza, Große Schwester ]
   - [ Nayru, Freundin ]
   - [ Jervar, Cousin ]
-  - [ Cordelia, große Schwester]
+  - [ Cordelia, große Schwester ]
   - [ Narcian, Cousin ]
-  - [ Kristian, Cousin]
-  - [ Kristina, Cousin]
+  - [ Kristian, Cousin ]
+  - [ Kristina, Cousin ]
+  - [ Marisa, "Cousine, Freundin" ]
 lover: U-Ranos
 ---
 

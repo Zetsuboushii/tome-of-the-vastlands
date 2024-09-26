@@ -21,6 +21,10 @@ relationships:
   - [ Farone, Gute Freundin ]
   - [ Fortuna, Gute Freundin ]
   - [ U-Ranos, Freund ]
+  - [ Mudo, Freund]
+  - [ Scarlet, gute Freundin]
+  - [ Il-Vernia, gute Freundin]
+  - [ Thanatos, guter Freund]
 ---
 
 Diese liebreizende Hohefürstin nimmt ihre Aufgabe als Verkupplerin etwas zu ernst. Eigentlich sollte sie auf Anliegen

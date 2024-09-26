@@ -23,6 +23,13 @@ relationships:
   - [ Konrad, ehem. Untergebener ]
   - [ Kristina, Schwester ]
   - [ Terralion, Herr ]
+  - [ Jervar, Cousin ]
+  - [ Cordelia, Cousine ]
+  - [ Stephan, Cousin ]
+  - [ Tristan, Cousin ]
+  - [ Eliza, Cousine ]
+  - [ Marisa, Cousine ]
+  - [ Narcian, Cousin ]
 ---
 
 ...

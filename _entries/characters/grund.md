@@ -16,6 +16,7 @@ subclasses:
   - Mondwandler
 homes:
   - Llurthargothr
+  - Undraridor
 alignment: NG
 alive: true
 relationships:
