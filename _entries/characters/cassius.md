@@ -17,6 +17,8 @@ alive: true
 relationships:
   - [ Gralnach, König ]
   - [ Cathlen, Königin ]
+  - [ Marisa, Prinzessin ]
+  - [ Narcian, Prinz ]
 ---
 
 Berater des Königs 
