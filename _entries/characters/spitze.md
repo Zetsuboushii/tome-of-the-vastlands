@@ -15,7 +15,7 @@ class: Barbar
 subclasses:
   - Berserker
 homes:
-  - Llurthargothra
+  - Llurthargothr
 alignment: NG
 alive: true
 relationships:

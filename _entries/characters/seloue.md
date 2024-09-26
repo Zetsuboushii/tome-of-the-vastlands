@@ -25,6 +25,7 @@ relationships:
   - [ Hama, '"beste" Freundin' ]
   - [ Fortuna, Freundin ]
   - [ Thanatos, Freundin ]
+  - [ Theodoric, Freund ]
 
 ---
 
