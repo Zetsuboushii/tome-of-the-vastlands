@@ -7,13 +7,51 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
+    <div class="tree" style="display: flex; justify-content: center">
+        <ul>
+            <li>
+                <a href="">Nicht-kämpfende Klassen</a>
+                {% assign posts = site.entries | sort: 'title' %}
+                <ul>
+                    {% for nonfightclass in posts %}
+                    {% if nonfightclass.categories contains "non-fight" %}
+                    <li>
+                        <a href="{{ nonfightclass.url | relative_url }}">{{ nonfightclass.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tree" style="display: flex; justify-content: center">
+        <ul>
+            <li>
+                <a href="">Einzigartige Klassen</a>
+                {% assign posts = site.entries | sort: 'title' %}
+                <ul>
+                    {% for uniqueclass in posts %}
+                    {% if uniqueclass.categories contains "unique" %}
+                    <li>
+                        <a href="{{ uniqueclass.url | relative_url }}">{{ uniqueclass.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
     <div class="tree">
         {% assign posts = site.entries | sort: 'title' %}
         {% for mainclass in posts %}
         {% if mainclass.categories contains "classes" %}
         {% assign next_advclasses = mainclass.next_class %}
         {% if next_advclasses %}
-        <ul class="">
+        <ul>
             <li>
                 <a href="{{ mainclass.url | relative_url }}">{{ mainclass.title }}</a>
 
@@ -29,7 +67,8 @@ layout: default
                             {% if masterclass.categories contains "masterclass" and next_masterclasses contains
                             masterclass.title %}
                             <li>
-                                <a class="breakable" href="{{ masterclass.url | relative_url }}">{{ masterclass.title }}</a>
+                                <a class="breakable" href="{{ masterclass.url | relative_url }}">{{ masterclass.title
+                                    }}</a>
                             </li>
                             {% endif %}
                             {% endfor %}
