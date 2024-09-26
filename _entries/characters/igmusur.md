@@ -14,7 +14,7 @@ affiliations:
   - Mitglied der legendären Rentnerbrigade
 class: Kleriker
 subclasses:
-  - Kleriker der Justicia
+  - Erzbischof der Gerechtigkeit
 homes:
   - Dünsberg
   - Aegir

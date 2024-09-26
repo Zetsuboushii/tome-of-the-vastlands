@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 37
 height: "1,81"
-class: TODO
+affiliations:
+  - Adrestianischen Eisenbahn
+class: Bürger
 homes:
   - Aegir
 alignment: TN
