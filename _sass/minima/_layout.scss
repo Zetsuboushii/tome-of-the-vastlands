@@ -596,3 +596,15 @@
     //border: $border-width solid #e9453f;
   }
 }
+
+.procedure {
+  width: 900px;
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  table {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
