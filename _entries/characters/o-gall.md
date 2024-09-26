@@ -1,23 +1,23 @@
 ---
 layout: character
-title: En-Troad
+title: O-Gall
 categories:
   - character
   - NPC
-character_title: Heiliger Krieger
+character_title: Himmlische Bestrafung
 race: Engel
 sex: m
 age: unbekannt
-height: "1,87"
+height: "1,89"
 alias:
-  - [ Toadi, U-Ranos]
+  - [ Galli, "U-Ranos" ]
 affiliations:
   - Justicias Recken
   - Kirche der Himmlischen Gerechtigkeit
 class: Recke
 subclasses:
   - Paladin
-  - Schildträger
+  - Heroe
 homes:
   - Hof der Gerechtigkeit
 alignment: LG
@@ -25,10 +25,10 @@ alive: false
 relationships:
   - [ Justicia, Mutter ]
   - [ Inoro, Vorgänger ]
-  - [ Ar-Merer, Bruder]
+  - [ Ar-Merer, Bruder ]
   - [ Il-Vernia, Schwester ]
   - [ O-Gall, Bruder ]
-  - [ U-Ranos, Bruder]
+  - [ U-Ranos, Bruder ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
   - [ Unbenannter Gott, Onkel ]

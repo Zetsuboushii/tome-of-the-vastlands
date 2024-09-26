@@ -22,6 +22,7 @@ relationships:
   - [ Gralnach, Vater ]
   - [ Cathlen, Mutter ]
   - [ Narcian, liebevoller Bruder ]
+  - [ Cassius, Berater ]
   - [ Igmusur, ehem. Lehrmeister ]
   - [ Erika, beste Freundin ]
   - [ Lilia, Freundin ]
