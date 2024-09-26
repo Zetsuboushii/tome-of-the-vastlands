@@ -20,6 +20,7 @@ alignment: NG
 alive: "?"
 relationships:
   - [ Malon, Freund und Kollege ]
+  - [ Nayru, Freundin]
 ---
 
 Eliyen ist derzeit stationiert am Inidal-Grenzposten, wo sie zusammen mit Malon die Wälder von Fürstentum Farodris vor
