@@ -22,17 +22,17 @@ alignment: TN
 alive: true
 relationships:
   - [ Thanatos, Ziehvater ]
-  - [ Scarlet, Größte Schwester ]
-  - [ Cinnabar, Große Schwester ]
-  - [ Stephan, Eigentlicher großer Bruder ]
-  - [ Tristan, Eigentlicher kleiner Bruder ]
-  - [ Eliza, Große Schwester ]
+  - [ Scarlet, größte Schwester ]
+  - [ Cinnabar, große Schwester ]
+  - [ Stephan, eigentlicher großer Bruder ]
+  - [ Tristan, eigentlicher kleiner Bruder ]
   - [ Nayru, Freundin ]
   - [ Jervar, Cousin ]
-  - [ Cordelia, große Schwester]
+  - [ Cordelia, Cousine ]
   - [ Narcian, Cousin ]
-  - [ Kristian, Cousin]
-  - [ Kristina, Cousin]
+  - [ Kristian, Cousin ]
+  - [ Kristina, Cousin ]
+  - [ Marisa, "Cousine, Freundin" ]
 lover: U-Ranos
 ---
 

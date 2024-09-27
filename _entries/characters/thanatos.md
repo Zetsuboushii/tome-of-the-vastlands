@@ -13,7 +13,7 @@ affiliations:
   - Götter des Animus
 class: Gott
 homes:
-  - Thanatos' Reich
+  - Gebirge der Sünde
 alignment: CG
 alive: false
 relationships:
@@ -29,6 +29,7 @@ relationships:
   - [ Avila, Gute Freundin ]
   - [ Mudo, Guter Freund ]
   - [ Amlin, Gute Freundin ]
+  - [ Ar-Merer, Feind]
 lover: Nayru
 ---
 

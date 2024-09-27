@@ -19,6 +19,7 @@ alive: true
 relationships:
   - [ U-Ranos, Adoptivvater ]
   - [ Nayru, Pflegemutter ]
+  - [ Kaen, Freundin]
 ---
 
 Fubuki ist ein kleiner Schutzgeist der Kronen-Schneeberge in Gestalt eines Schneefuchses.

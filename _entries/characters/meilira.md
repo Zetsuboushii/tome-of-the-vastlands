@@ -28,6 +28,8 @@ relationships:
   - [ U-Ranos, Cousin ]
   - [ Justicia, Tante ]
   - [ Unbenannter Gott, Onkel ]
+  - [ Eliza, Freundin ]
+  - [ Nayru, Freundin ]
 ---
 
 Meilira ist die einzige Tochter und Reckin der Göttin Fortuna.

@@ -21,7 +21,7 @@ relationships:
   - [ Dorian, Ehem. Herr ]
   - [ Grete, Freundin und Kollegin ]
   - [ Siegmund, Herr ]
-  - [ Nayru, Herr ]
+  - [ Nayru, Herrin ]
   - [ U-Ranos, Herr ]
   - [ Karl, guter Freund und Kollege ]
 ---

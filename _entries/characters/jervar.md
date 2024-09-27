@@ -30,7 +30,8 @@ relationships:
   - [ Marisa, Cousine ]
   - [ Felldir, enger Vertrauter ]
   - [ Kristian, Cousin ]
-  - [ Kristina, Cousin ]
+  - [ Kristina, Cousine ]
+  - [ Narcian, Cousin]
 ---
 
 Clown der den Flammen in Narcians Augen folgt. (U-Ranos persönliche Meinung)
