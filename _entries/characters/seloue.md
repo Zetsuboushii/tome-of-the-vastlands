@@ -4,7 +4,7 @@ title: Seloue
 categories:
   - character
   - NPC
-character_title: Hohefürstin der Weisheit
+character_title: Wandelndes Lexikon
 race: Halbelfen
 sex: w
 age: unbekannt

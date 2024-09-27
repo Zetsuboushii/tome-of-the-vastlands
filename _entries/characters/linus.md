@@ -4,6 +4,7 @@ title: Linus
 categories:
   - character
   - NPC
+character_title: Authentischer Macher
 race: Menschen
 sex: m
 age: 32

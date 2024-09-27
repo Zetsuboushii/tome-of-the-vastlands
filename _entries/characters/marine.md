@@ -4,6 +4,7 @@ title: Marine
 categories:
   - character
   - NPC
+character_title: Raue Vertraute
 race: Halbelfen
 sex: w
 age: 26

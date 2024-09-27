@@ -4,6 +4,7 @@ title: Sivert
 categories:
   - character
   - NPC
+character_title: Ruchloser Intrigant
 race: Menschen
 sex: m
 age: 39

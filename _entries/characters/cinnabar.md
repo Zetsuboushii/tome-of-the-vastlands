@@ -4,7 +4,7 @@ title: Cinnabar
 categories:
   - character
   - NPC
-character_title: Meisterdiebin der Habgier
+character_title: Sündenstehlende Meisterdiebin
 race: Dämonen
 sex: w
 age: Unbekannt

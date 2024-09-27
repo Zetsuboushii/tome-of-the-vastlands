@@ -4,7 +4,7 @@ title: Justicia
 categories:
   - character
   - NPC
-character_title: Göttin der Gerechtigkeit und des Lichts
+character_title: Gerechte Mutter
 race: Götter
 sex: w
 age: unbekannt

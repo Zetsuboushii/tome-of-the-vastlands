@@ -4,7 +4,7 @@ title: Sonya von Frelia
 categories:
   - character
   - NPC
-character_title: Prinzessin von Hal
+character_title: Präzise Mörder-Prinzessin
 race: Menschen
 sex: w
 age: 24

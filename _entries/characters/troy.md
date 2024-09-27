@@ -4,6 +4,7 @@ title: Troy von Eichenhain
 categories:
   - character
   - NPC
+character_title: Großkotziger Erbe
 race: Menschen
 sex: m
 age: 19

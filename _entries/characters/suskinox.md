@@ -4,7 +4,7 @@ title: Suskinox
 categories:
   - character
   - PC
-character_title: Professor für Transmutationsmagie
+character_title: Amnestischer Professor
 race: Drakonier
 sex: m
 age: "?"

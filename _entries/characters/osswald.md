@@ -4,6 +4,7 @@ title: Osswald
 categories:
   - character
   - NPC
+character_title: Charismatischer Weinkconnoisseur
 race: Menschen
 sex: m
 age: 40

@@ -4,6 +4,7 @@ title: Theodoric
 categories:
   - character
   - NPC
+character_title: Verpeilter Inspektor
 race: Menschen
 sex: m
 age: 27

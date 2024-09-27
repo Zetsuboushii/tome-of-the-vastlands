@@ -4,7 +4,7 @@ title: Fortuna
 categories:
   - character
   - NPC
-character_title: Göttin des Schicksals
+character_title: Stichelndes Schicksal
 race: Götter
 sex: w
 age: Geheim

@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Konrad
+title: Konrad von Silberbach
 categories:
   - character
   - NPC
-character_title: von Silberbach, Stellvertretender Großherzog von Tinorland
+character_title: Kühne Stellvertretung
 race: Menschen
 sex: m
 age: 25

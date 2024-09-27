@@ -4,7 +4,7 @@ title: Grund
 categories:
   - character
   - NPC
-character_title: Dritter Richter des Herzogs
+character_title: Tiefstes aller Wasser
 race: Tieflinge
 sex: m
 age: 128

@@ -4,7 +4,7 @@ title: Ouin
 categories:
   - character
   - NPC
-character_title: Hohefürst der Jugend
+character_title: Ewige Jugend
 race: Pikori
 sex: m
 age: unbekannt

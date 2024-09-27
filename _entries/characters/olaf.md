@@ -4,6 +4,7 @@ title: Olaf
 categories:
   - character
   - NPC
+character_title: Tatkräftiger Schmied
 race: Zwerge
 sex: m
 age: 189

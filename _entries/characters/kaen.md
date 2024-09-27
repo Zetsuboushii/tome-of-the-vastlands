@@ -4,7 +4,7 @@ title: Kaen
 categories:
   - character
   - NPC
-character_title: Hohefürstin des Feuers
+character_title: Hitzköpfige Zeitgenossin
 race: Menschen
 sex: w
 age: unbekannt

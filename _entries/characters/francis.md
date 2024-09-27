@@ -4,7 +4,7 @@ title: Francis von Falkenhayn
 categories:
   - character
   - NPC
-character_title: Vasall des Volo
+character_title: Verträumter "Zauberer"
 race: Menschen
 sex: m
 age: 28

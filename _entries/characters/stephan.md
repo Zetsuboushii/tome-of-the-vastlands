@@ -4,7 +4,7 @@ title: Stephan von Nordholm
 categories:
   - character
   - NPC
-character_title: Prinz von Escrigria
+character_title: Totgeglaubter Liebling des Volkes
 race: Menschen
 sex: m
 age: 27

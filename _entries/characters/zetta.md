@@ -4,6 +4,7 @@ title: Zetta
 categories:
   - character
   - NPC
+character_title: Verletzliches Pflänzchen
 race: Halbelfen
 sex: w
 age: 18

@@ -4,7 +4,7 @@ title: Invidianoir
 categories:
   - character
   - NPC
-character_title: Hohefürstin der Eifersucht
+character_title: Gefährliche Liebschaft
 race: Menschen
 sex: w
 age: ubekannt

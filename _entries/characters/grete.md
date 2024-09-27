@@ -9,7 +9,7 @@ race: Menschen
 sex: w
 age: 19
 height: "1,76"
-class: TODO
+class: Maid
 homes:
   - Dünsberg
 alignment: NG

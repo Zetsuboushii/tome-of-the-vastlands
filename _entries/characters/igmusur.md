@@ -4,7 +4,7 @@ title: Igmusur
 categories:
   - character
   - NPC
-character_title: Hofkleriker A.D. und Gesicht der Renterbrigade
+character_title: Gesicht der Renterbrigade
 race: Menschen
 sex: m
 age: 73

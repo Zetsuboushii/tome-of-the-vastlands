@@ -11,7 +11,7 @@ age: 20
 height: "1,63"
 affiliations:
   - Schicksalsjünger Fortunas
-class: TODO
+class: Maid
 homes:
   - Dünsberg
 alignment: TN

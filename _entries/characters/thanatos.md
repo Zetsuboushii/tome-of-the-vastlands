@@ -4,7 +4,7 @@ title: Thanatos
 categories:
   - character
   - NPC
-character_title: Gott der Sünde und der Finsternis
+character_title: Ungenierter Bluthund
 race: Götter
 sex: m
 age: Unbekannt

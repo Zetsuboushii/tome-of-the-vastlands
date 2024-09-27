@@ -4,7 +4,7 @@ title: Siegmund "Der Rabe"
 categories:
   - character
   - PC
-character_title: Vasall der Iddra
+character_title: Schläfrigster Krieger der Götter
 race: Menschen
 sex: m
 age: 43

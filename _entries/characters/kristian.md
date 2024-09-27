@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Kristian von Tinorke, Großherzog von Tinorland A.D.
+title: Kristian von Tinorke
 categories:
   - character
   - NPC
-character_title: Vasall des Terralion
+character_title: Sympathischer Herrscher
 race: Menschen
 sex: m
 age: 22

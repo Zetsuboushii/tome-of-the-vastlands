@@ -4,6 +4,7 @@ title: Marjorie
 categories:
   - character
   - NPC
+character_title: Rachsüchtige Reporterin
 race: Halbelfen
 sex: w
 age: 23

@@ -1,10 +1,10 @@
 ---
 layout: character
-title: Kristina von Tinorke, Großherzogin von Tinorland A.D.
+title: Kristina von Tinorke
 categories:
   - character
   - NPC
-character_title: Vasall der Invidianoir
+character_title: Dorniges Veilchen
 race: Menschen
 sex: w
 age: 22

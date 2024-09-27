@@ -4,6 +4,7 @@ title: Lilia
 categories:
   - character
   - NPC
+character_title: Besorgte kleine Schwester 
 race: Menschen
 sex: w
 age: 23

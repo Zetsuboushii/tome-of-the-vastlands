@@ -4,7 +4,7 @@ title: Morgen
 categories:
   - character
   - NPC
-character_title: Herzogin von Markath
+character_title: Aufgehende Sonne der Unterwelt
 race: Tieflinge
 sex: w
 age: 164

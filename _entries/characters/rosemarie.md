@@ -4,6 +4,7 @@ title: Rosemarie
 categories:
   - character
   - NPC
+character_title: Lächelnder Beistand
 race: Menschen
 sex: w
 age: 20

@@ -4,6 +4,7 @@ title: Karl
 categories:
   - character
   - NPC
+character_title: Eifriger Haushälter
 race: Menschen
 sex: m
 age: 22

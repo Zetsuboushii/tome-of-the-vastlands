@@ -4,7 +4,7 @@ title: Fubuki
 categories:
   - character
   - NPC
-character_title: Hohefürstin des Eises
+character_title: Knuffiges Eis des Nordens
 race: Schutzgeist
 sex: w
 age: unbekannt (sehr junge Gestalt)

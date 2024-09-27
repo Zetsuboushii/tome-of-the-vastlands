@@ -4,7 +4,7 @@ title: Jervar von Grenbrock
 categories:
   - character
   - NPC
-character_title: Kurfürst von Thaugrien
+character_title: Verblendeter Kriegsherr
 race: Menschen
 sex: m
 age: 23

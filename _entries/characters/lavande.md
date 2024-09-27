@@ -4,6 +4,7 @@ title: Lavande
 categories:
   - character
   - NPC
+character_title: Schüchterne Bibliothekarin
 race: Menschen
 sex: w
 age: 22

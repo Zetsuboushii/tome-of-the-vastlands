@@ -4,6 +4,7 @@ title: Thithrazk
 categories:
   - character
   - NPC
+character_title: Vorzeigelehrmeister
 race: Drakonier
 sex: m
 age: 63

@@ -4,7 +4,7 @@ title: Cordelia von Grenbrock
 categories:
   - character
   - NPC
-character_title: Prinzessin von Thaugrien
+character_title: Prinzessin mit Schussbefehl
 race: Menschen
 sex: w
 age: 27

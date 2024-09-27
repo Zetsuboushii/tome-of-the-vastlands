@@ -4,6 +4,7 @@ title: Perrotus
 categories:
   - character
   - NPC
+character_title: Selbstloser Klostervater
 race: Menschen
 sex: m
 age: 73

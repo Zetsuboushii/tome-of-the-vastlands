@@ -4,7 +4,7 @@ title: Scarlet
 categories:
   - character
   - NPC
-character_title: Erzmagierin der Wollust
+character_title: Sündhaft obszöne Erzmagierin
 race: Dämonen
 sex: w
 age: Unbekannt

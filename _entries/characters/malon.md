@@ -4,6 +4,7 @@ title: Malon
 categories:
   - character
   - NPC
+character_title: Vornehmer Held
 race: Elfen
 sex: m
 age: 279

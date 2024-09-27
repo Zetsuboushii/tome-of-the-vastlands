@@ -4,7 +4,7 @@ title: Avila
 categories:
   - character
   - NPC
-character_title: Hohefürstin der Liebe
+character_title: Immerfrohe Verkupplerin
 race: Halbelfen
 sex: m
 age: Unbekannt

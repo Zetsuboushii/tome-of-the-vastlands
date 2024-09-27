@@ -4,6 +4,7 @@ title: Vernia
 categories:
   - character
   - NPC
+character_title: Durchsetzungsfähige Schankwirtin
 race: Menschen
 sex: m
 age: 29

@@ -4,7 +4,7 @@ title: Cicero
 categories:
   - character
   - NPC
-character_title: Vasall des Serff
+character_title: Mörderischer Gaukler
 race: Elfen
 sex: m
 age: 323

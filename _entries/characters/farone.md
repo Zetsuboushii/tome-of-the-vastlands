@@ -4,7 +4,7 @@ title: Farone
 categories:
   - character
   - NPC
-character_title: Göttin der Natur und der Magie
+character_title: Leicht-Reizbares Nachtschattengewächs
 race: Götter
 sex: w
 age: Alt genug

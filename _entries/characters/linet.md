@@ -4,6 +4,7 @@ title: Linet
 categories:
   - character
   - NPC
+character_title: Fahrendes Raubopfer
 race: Menschen
 sex: w
 age: 27

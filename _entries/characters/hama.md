@@ -4,7 +4,7 @@ title: Hama
 categories:
   - character
   - NPC
-character_title: Hohefürstin der Gesundheit
+character_title: Forsches Heilungswunder
 race: Pikori
 sex: w
 age: unbekannt

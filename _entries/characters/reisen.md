@@ -4,6 +4,7 @@ title: Reisen
 categories:
   - character
   - NPC
+character_title: Tragisches Opferlamm
 race: Tiefling
 sex: w
 age: 97

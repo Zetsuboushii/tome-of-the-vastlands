@@ -4,7 +4,7 @@ title: Wirkung
 categories:
   - character
   - NPC
-character_title: Vasalle der Craindre
+character_title: Verführerischer Abgrund 
 race: Tiefling
 sex: w
 age: 126

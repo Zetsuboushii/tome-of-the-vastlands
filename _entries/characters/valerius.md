@@ -4,7 +4,7 @@ title: Valerius
 categories:
   - character
   - NPC
-character_title: Silberner Pfeil, Vasall des Mudo
+character_title: Silberner Pfeil
 race: Menschen
 sex: m
 age: 24

@@ -4,7 +4,7 @@ title: Solenne von Frelia
 categories:
   - character
   - NPC
-character_title: Kurfürstin von Hal
+character_title: Garten der Schönheit
 race: Menschen
 sex: w
 age: 43

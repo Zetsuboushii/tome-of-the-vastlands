@@ -4,7 +4,7 @@ title: Mudo
 categories:
   - character
   - NPC
-character_title: Hohefürst der Sterblichkeit
+character_title: Klinge des Todes
 race: Dämonen
 sex: m
 age: unbekannt

@@ -4,6 +4,7 @@ title: Thorismund
 categories:
   - character
   - NPC
+character_title: Schmieriger Kultist
 race: Menschen
 sex: m
 age: 31

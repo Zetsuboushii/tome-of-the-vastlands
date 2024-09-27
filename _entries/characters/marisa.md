@@ -4,7 +4,7 @@ title: Marisa von Aegir
 categories:
   - character
   - NPC
-character_title: Prinzessin von Faergria
+character_title: Unschuldige Blume
 race: Halbelfen
 sex: w
 age: 19

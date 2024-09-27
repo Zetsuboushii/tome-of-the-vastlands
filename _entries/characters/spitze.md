@@ -4,7 +4,7 @@ title: Spitze
 categories:
   - character
   - NPC
-character_title: Zweite Richterin des Herzogs
+character_title: Schlemmende Richterin des Herzogs
 race: Tiefling
 sex: w
 age: 116

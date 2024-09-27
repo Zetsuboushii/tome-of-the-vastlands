@@ -4,6 +4,7 @@ title: Viktor
 categories:
   - character
   - NPC
+character_title: Vernarrter Klampfenheini
 race: Menschen
 sex: m
 age: 22

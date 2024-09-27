@@ -4,7 +4,7 @@ title: Horizont
 categories:
   - character
   - NPC
-character_title: Herzog von Markath
+character_title: Brückenbauender Herzog
 race: Tiefling
 sex: m
 age: 243

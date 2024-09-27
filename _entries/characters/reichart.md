@@ -4,6 +4,7 @@ title: Reichart
 categories:
   - character
   - NPC
+character_title: Bahner mit Leidenschaft
 race: Menschen
 sex: m
 age: 47

@@ -4,7 +4,7 @@ title: Amlin
 categories:
   - character
   - NPC
-character_title: Hohefürstin der Zeit
+character_title: Schnippisches Zeitorakel
 race: Menschen
 sex: w
 age: Spielt keine Rolle

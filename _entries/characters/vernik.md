@@ -4,6 +4,7 @@ title: Vernik
 categories:
   - character
   - NPC
+character_title: Gönnender "Badeopa"
 race: Menschen
 sex: m
 age: 71

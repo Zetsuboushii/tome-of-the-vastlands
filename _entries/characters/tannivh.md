@@ -4,6 +4,7 @@ title: Tannivh
 categories:
   - character
   - NPC
+character_title: Gutherziger Wächter
 race: Elfen
 sex: m
 age: 247
@@ -16,7 +17,7 @@ subclasses:
   - Nachtstreicher
 homes:
   - Teryvnat
-alignment: NG
+alignment: LG
 alive: true
 relationships:
   - [ Selphie, 'Adoptivtochter, "kleine Schwester"' ]

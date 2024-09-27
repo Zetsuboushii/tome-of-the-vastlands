@@ -4,6 +4,7 @@ title: Selphie
 categories:
   - character
   - NPC
+character_title: Glücklichste Waise
 race: Elfen
 sex: w
 age: 112

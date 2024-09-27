@@ -4,6 +4,7 @@ title: Philip
 categories:
   - character
   - NPC
+character_title: Verhätschelter Exzentriker
 race: Menschen
 sex: m
 age: 23

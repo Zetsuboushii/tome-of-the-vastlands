@@ -4,6 +4,7 @@ title: Trost
 categories:
   - character
   - NPC
+character_title: Nimmerbrechender Rebell
 race: Tiefling
 sex: m
 age: 115

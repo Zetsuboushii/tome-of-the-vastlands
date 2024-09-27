@@ -4,7 +4,7 @@ title: Tristan von Nordholm
 categories:
   - character
   - NPC
-character_title: Prinz von Escrigria
+character_title: Kindsköpfiger Frühherrscher
 race: Menschen
 sex: m
 age: 20
