@@ -12,6 +12,8 @@ height: "1,82"
 alias:
   - [ Narancha, "U-Ranos" ]
   - [ Narancia, "DM" ]
+  - [ Naranscha, "Siegmund" ]
+  - [ Narzissmus, "Nayru" ]
 affiliations:
   - Klauen des Hasses
 functions:
