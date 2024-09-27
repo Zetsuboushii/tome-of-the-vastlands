@@ -4,7 +4,7 @@ title: Iddra
 categories:
   - character
   - NPC
-character_title: Hohefürstin der Gier
+character_title: Rätselhafte Verbündete
 race: Dämonen
 sex: w
 age: unbekannt
