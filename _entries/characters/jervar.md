@@ -7,10 +7,11 @@ categories:
 character_title: Verblendeter Kriegsherr
 race: Menschen
 sex: m
-age: 23
+age: 22
 height: "1,84"
 alias:
   - [ Clown, "U-Ranos" ]
+  - [ Bruderherz, "Cordelia" ]
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 class: Paladin

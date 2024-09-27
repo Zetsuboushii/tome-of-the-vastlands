@@ -18,4 +18,5 @@ alignment: NG
 alive: true
 ---
 
--
+Halbzwerg aus Grenbrock. Alden fährt beruflich tagtäglich allerlei Personen in seiner Kutscher durch halb Faergria.
+Leider kann er oftmals nicht am Wochenende nach Hause, wenn er längere Routen fahren muss. 
