@@ -11,6 +11,8 @@ age: 43
 height: "1,85"
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Kurfürstin von Hal
 class: Adliger
 homes:
   - Frelia

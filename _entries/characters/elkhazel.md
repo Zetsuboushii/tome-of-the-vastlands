@@ -10,7 +10,10 @@ sex: m
 age: 270
 height: "1,78"
 affiliations:
-  - Kinder des Waldes 
+  - Kinder des Waldes
+functions:
+  - Beschützer von Teryvnat
+  - Jäger
 class: Waldläufer
 subclasses:
   - Jäger

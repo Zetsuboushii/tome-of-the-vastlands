@@ -11,7 +11,9 @@ age: 29
 height: "1,68"
 affiliations:
   - Schicksalsjünger Fortunas
-class: Tavernenbesitzer
+functions:
+  - Besitzerin der Taverne "Blaues Vöglein"
+class: Bürger
 homes:
   - Schachendorf
 alignment: NG

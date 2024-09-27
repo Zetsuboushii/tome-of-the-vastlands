@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 22
 height: "1,71"
-class: Alchimist
+functions:
+  - Alchemist
+class: Bürger
 homes:
   - Frelia
 alignment: CN

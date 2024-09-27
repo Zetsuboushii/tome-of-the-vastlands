@@ -11,6 +11,8 @@ age: 71
 height: "1,74"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Besitzer des Badehauses Nifl
 class: Bürger
 homes:
   - Nifl

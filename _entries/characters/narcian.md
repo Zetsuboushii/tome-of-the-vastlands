@@ -14,7 +14,8 @@ alias:
   - [ Narancia, "DM" ]
 affiliations:
   - Klauen des Hasses
-  - Vasallen der Rebellion
+functions:
+  - König von Faergria
 class: Paladin
 subclasses:
   - Gefallener

@@ -11,6 +11,8 @@ age: 25
 height: "1,92"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Leibgarde des Kurfürsten von Thaugrien
 class: Paladin
 subclasses:
   - Tronwächter

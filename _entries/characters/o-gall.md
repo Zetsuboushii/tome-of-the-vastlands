@@ -11,9 +11,8 @@ age: unbekannt
 height: "1,89"
 alias:
   - [ Galli, "U-Ranos" ]
-affiliations:
-  - Justicias Recken
-  - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Recke der Justicia
 class: Recke
 subclasses:
   - Paladin

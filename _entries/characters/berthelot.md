@@ -12,6 +12,8 @@ height: "1,83"
 alias:
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Anführer der Elpis-Banditenbande
 class: Barbar
 subclasses:
   - Berserker

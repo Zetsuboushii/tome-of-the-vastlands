@@ -11,6 +11,8 @@ age: "?"
 height: "?"
 alias:
   - [ Professor, "U-Ranos, Nayru, Siegmund" ]
+functions:
+  - Professor an der Magieakademie Darnax
 class: Zauberer
 subclasses:
   - Wandelzauberer

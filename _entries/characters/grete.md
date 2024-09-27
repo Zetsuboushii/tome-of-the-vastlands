@@ -9,6 +9,8 @@ race: Menschen
 sex: w
 age: 19
 height: "1,76"
+functions:
+  - Hausmädchen im Jadgschloss Dünsberg
 class: Maid
 homes:
   - Dünsberg

@@ -9,8 +9,8 @@ race: Götter
 sex: w
 age: Alt genug
 height: "1,44"
-affiliations:
-  - Gott des Animus
+functions:
+  - Göttin der Magie und der Natur
 class: Gott
 homes:
   - Garten der Magie

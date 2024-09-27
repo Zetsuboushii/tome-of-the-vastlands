@@ -11,6 +11,8 @@ age: 23
 height: "1,73"
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Nonne
 class: Kleriker
 subclasses:
   - Kleriker der Fortuna

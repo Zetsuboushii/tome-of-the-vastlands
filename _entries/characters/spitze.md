@@ -11,6 +11,8 @@ age: 116
 height: "1,69"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Dritte Richterin des Herzogs von Markath
 class: Barbar
 subclasses:
   - Berserker

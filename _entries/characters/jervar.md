@@ -14,6 +14,8 @@ alias:
   - [ Bruderherz, "Cordelia" ]
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Kurfürst von Thaugrien
 class: Paladin
 subclasses:
   - Eroberer

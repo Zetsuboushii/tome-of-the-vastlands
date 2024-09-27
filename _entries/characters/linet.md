@@ -11,7 +11,9 @@ age: 27
 height: "1,72"
 affiliations:
   - Schicksalsjünger Fortunas
-class: Händler
+functions:
+  - Fahrende Händlerin
+class: Bürger
 homes:
   - Elpis
 alignment: LG

@@ -9,9 +9,9 @@ race: Menschen
 sex: m
 age: 43
 height: "1,65"
-affiliations:
-  - Vasall der Rebellion
-  - Diebesgilde Grenbrock
+functions:
+  - Vasall der Iddra
+  - Ehem. Mitglied der Diebesgilde
 class: Schurke
 subclasses:
   - Dieb

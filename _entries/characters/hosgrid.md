@@ -11,7 +11,9 @@ age: 63
 height: "1,78"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
-class: TODO
+functions:
+  - Ehem. Bürgermeister von Dünsberg
+class: Bürger
 homes:
   - Dünsberg
 alignment: NG

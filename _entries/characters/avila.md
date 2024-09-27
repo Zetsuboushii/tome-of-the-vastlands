@@ -11,6 +11,8 @@ age: Unbekannt
 height: "1,68"
 affiliations:
   - 3. Generation der Hohefürsten
+functions:
+  - Hohefürstin der Liebe
 class: Hohefürst
 homes:
   - Schrein der Harmonie

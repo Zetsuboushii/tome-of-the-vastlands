@@ -11,7 +11,8 @@ age: 247
 height: "1,93"
 affiliations:
   - Kinder des Waldes
-  - Elfische Garde
+functions:
+  - Ehem. Wache im Tempel der Manaflamme
 class: Waldläufer
 subclasses:
   - Nachtstreicher

@@ -13,6 +13,8 @@ alias:
   - [ Mutter, "U-Ranos" ]
 affiliations:
   - 2. Generation der Hohefürsten
+functions:
+  - Hohefürstin des Wissens
 class: Hohefürst
 homes:
   - Frelia

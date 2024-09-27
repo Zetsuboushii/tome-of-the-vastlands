@@ -9,8 +9,8 @@ race: Menschen
 sex: w
 age: Unbekannt
 height: "1,82"
-affiliations:
-  - Fortunas Recken
+functions:
+  - Reckin der Fortuna
 class: Recke
 subclasses:
   - Reinherz

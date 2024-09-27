@@ -11,9 +11,9 @@ age: ubekannt
 height: "1,78"
 affiliations:
   - 4. Generation der Hohefürsten
+functions:
+  - Hohefürstin der Eifersucht
 class: Hohefürst
-homes:
-  - ?
 alignment: CE
 alive: true
 relationships:

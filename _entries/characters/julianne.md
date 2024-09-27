@@ -11,6 +11,8 @@ age: 27
 height: "1,66"
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Besitzerin der Bar "Fólkvangr"
 class: TODO
 homes:
   - Frelia

@@ -9,8 +9,8 @@ race: Götter
 sex: m
 age: Unbekannt
 height: "1,87"
-affiliations:
-  - Götter des Animus
+functions:
+  - Gott der Sünde und der Finsternis
 class: Gott
 homes:
   - Gebirge der Sünde

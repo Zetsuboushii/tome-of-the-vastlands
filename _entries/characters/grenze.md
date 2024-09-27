@@ -11,6 +11,8 @@ age: 141
 height: "1,78"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Leibgarde des Herzogs von Markath
 class: Kämpfer
 subclasses:
   - Magieritter

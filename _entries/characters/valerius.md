@@ -10,8 +10,10 @@ sex: m
 age: 24
 height: "1,86"
 affiliations:
-  - Diebesgilde Grenbrock
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Ehem. Mitglied der Diebesgilde
+  - Vasall des Mudo
 class: Schurke
 subclasses:
   - Assassine

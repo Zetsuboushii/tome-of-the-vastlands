@@ -11,8 +11,8 @@ age: Geheim
 height: "1,89"
 alias:
   - [ Tantchen, "U-Ranos" ]
-affiliations:
-  - Gott des Animus
+functions:
+  - Göttin des Schicksals
 class: Gott
 homes:
   - See des Schicksals

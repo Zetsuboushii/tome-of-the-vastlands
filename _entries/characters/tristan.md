@@ -11,6 +11,8 @@ age: 20
 height: "1,77"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Prinz von Escrigria
 class: Zauberer
 subclasses:
   - Phantasmant

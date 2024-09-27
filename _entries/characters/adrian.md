@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 29
 height: "1,79"
-class: TODO
+functions:
+  - Besitzer der Taverne "Adrians Schatzkiste"
+class: Abenteurer
 homes:
   - Nordholm
 alignment: NG

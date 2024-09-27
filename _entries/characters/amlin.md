@@ -13,6 +13,8 @@ alias:
   - [ Amilein, "U-Ranos" ]
 affiliations:
   - 2.Generation der Hohefürsten
+functions:
+  - Hohefürstin der Zeit
 class: Hohefürst
 homes:
   - Tempel der Zeit

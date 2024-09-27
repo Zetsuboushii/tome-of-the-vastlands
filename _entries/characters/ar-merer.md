@@ -9,9 +9,8 @@ race: Engel
 sex: m
 age: Unbekannt
 height: "2,01"
-affiliations:
-  - Justicias Recken
-  - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Recke der Justicia
 class: Recke
 subclasses:
   - Engelsmagier

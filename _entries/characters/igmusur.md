@@ -11,7 +11,9 @@ age: 73
 height: "1,76"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
-  - Mitglied der legendären Rentnerbrigade
+  - Rentnerbrigade
+functions:
+  - Ehem. Hofkleriker des Königs
 class: Kleriker
 subclasses:
   - Erzbischof der Gerechtigkeit

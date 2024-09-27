@@ -9,8 +9,8 @@ race: Dämonen
 sex: w
 age: 25
 height: "1,78"
-affiliations:
-  - Thanatos' Recken
+functions:
+  - Reckin des Thanatos
 class: Recke
 subclasses:
   - Paladin

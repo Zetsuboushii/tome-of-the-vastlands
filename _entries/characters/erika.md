@@ -11,6 +11,8 @@ age: 24
 height: "1,71"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Leibgarde am königlichen Hof
 class: Kämpfer
 subclasses:
   - Champion

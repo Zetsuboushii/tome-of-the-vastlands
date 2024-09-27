@@ -11,6 +11,8 @@ age: 22
 height: "1,82"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Umherreisender Barde
 class: Barde
 subclasses:
   - Sänger der Tapferkeit

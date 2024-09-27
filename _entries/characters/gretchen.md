@@ -9,7 +9,9 @@ race: Menschen
 sex: w
 age: 28
 height: "1,63"
-class: Apothekerin
+functions:
+  - Apothekerin
+class: Bürger
 homes:
   - Schachendorf
 alignment: LG

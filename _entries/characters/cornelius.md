@@ -9,8 +9,8 @@ race: Menschen
 sex: m
 age: 37
 height: "1,81"
-affiliations:
-  - Adrestianischen Eisenbahn
+functions:
+  - Lokführer
 class: Bürger
 homes:
   - Aegir

@@ -11,7 +11,8 @@ age: 115
 height: "1,81"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
-  - Widerstand "Freies Markarth"
+functions:
+  - Widerstandskämpfer
 class: Waldläufer
 subclasses:
   - Schwarmlenker

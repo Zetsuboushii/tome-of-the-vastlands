@@ -9,6 +9,8 @@ race: Drakonier
 sex: w
 age: 12
 height: "1,62"
+functions:
+  - Studentin
 class: Kleriker
 subclasses:
   - Kleriker der Hama

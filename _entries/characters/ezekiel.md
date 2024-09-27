@@ -9,6 +9,8 @@ race: Menschen
 sex: m
 age: 17
 height: "1,72"
+functions:
+  - Ehem. gezwungener Kultist
 class: Hexer
 homes:
   - Aegir

@@ -10,13 +10,14 @@ sex: m
 age: 39
 height: "1,91"
 affiliations:
-  - Diebesgilde Grenbrock
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Anführer des ehem. Diebeslagers bei Schachendorf
 class: Schurke
 subclasses:
   - Inquisitiv
 homes:
-  - Schachendorf
+  - Grenbrock
 alignment: NE
 alive: false
 relationships:

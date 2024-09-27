@@ -10,8 +10,9 @@ sex: w
 age: 126
 height: "1,70"
 affiliations:
-  - Vasallen der Rebellion
   - Klauen des Hasses
+functions:
+  - Vasallin der Craindre
 class: Hexer
 subclasses:
   - Fluchklinge

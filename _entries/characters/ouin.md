@@ -11,6 +11,8 @@ age: unbekannt
 height: "1,63"
 affiliations:
   - 3. Generation der Hohefürsten
+functions:
+  - Hohefürst der Jugend
 class: Hohefürst
 homes:
   - See der Jugend

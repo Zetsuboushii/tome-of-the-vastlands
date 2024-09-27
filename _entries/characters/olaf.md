@@ -11,7 +11,9 @@ age: 189
 height: "1,25"
 affiliations:
   - Glückauf der Aurenya
-class: Schmied
+functions:
+  - Schmied
+class: Bürger
 homes:
   - Garadzar
 alignment: CN

@@ -9,6 +9,8 @@ race: Drakonier
 sex: m
 age: 63
 height: "2,09"
+functions:
+  - Professor an der Magieakademie Darnax
 class: Zauberer
 subclasses:
   - Wandelzauberer

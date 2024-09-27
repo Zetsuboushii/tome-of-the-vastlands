@@ -9,6 +9,8 @@ race: Menschen
 sex: m
 age: 44
 height: "1,76"
+functions:
+  - Kutschfahrer
 class: Bürger
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

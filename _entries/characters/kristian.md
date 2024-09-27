@@ -11,7 +11,9 @@ age: 22
 height: "1,81"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
-  - Vasallen der Rebellion
+functions:
+  - Vasall des Terralion
+  - Ehem. Großherzog von Tinorland
 class: Kämpfer
 subclasses:
   - Kavallerist

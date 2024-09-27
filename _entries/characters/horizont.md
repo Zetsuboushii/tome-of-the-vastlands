@@ -11,6 +11,8 @@ age: 243
 height: "1,93"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Herzog von Markath
 class: Hexer
 subclasses:
   - Fluchklinge

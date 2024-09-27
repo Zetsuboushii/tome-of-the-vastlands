@@ -11,6 +11,8 @@ age: 23
 height: "1,84"
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Erfinder im Jagdschloss Dünsberg
 class: Tüftler
 homes:
   - Nifl

@@ -11,9 +11,8 @@ age: unbekannt
 height: "1,87"
 alias:
   - [ Toadi, U-Ranos]
-affiliations:
-  - Justicias Recken
-  - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Recke der Justicia
 class: Recke
 subclasses:
   - Paladin

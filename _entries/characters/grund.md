@@ -11,6 +11,8 @@ age: 128
 height: "1,76"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Zweiter Richter des Herzogs von Markath
 class: Druide
 subclasses:
   - Mondwandler

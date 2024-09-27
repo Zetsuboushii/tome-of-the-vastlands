@@ -11,7 +11,8 @@ age: 18
 height: "1,65"
 affiliations:
   - Schicksalsjünger Fortunas
-  - Diebesgilde Grenbrock
+functions:
+  - Ehem. Mitglied der Diebesgilde
 class: Schurke
 subclasses:
   - Joker

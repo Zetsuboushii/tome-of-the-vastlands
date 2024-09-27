@@ -11,7 +11,9 @@ age: 43
 height: "1,70"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
-class: TODO
+functions:
+  - Fischer
+class: 
 homes:
   - Lycia
 alignment: TN

@@ -12,6 +12,8 @@ height: "1,76"
 affiliations:
   - Schicksalsjünger Fortunas
   - Mitglied der legendären Rentnerbrigade
+functions:
+  - Klostervater
 class: Kleriker
 subclasses:
   - Schicksalsbischof

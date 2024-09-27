@@ -11,6 +11,8 @@ age: unbekannt
 height: "1,58"
 affiliations:
   - 1. Generation der Hohefürsten
+functions:
+  - Hohefürstin des Feuers
 class: Hohefürst
 homes:
   - Feuersanktuarium

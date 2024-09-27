@@ -11,6 +11,8 @@ age: 72
 height: "?"
 affiliations:
   - Drachenritter von Orrin
+functions:
+  - Meister der damal. Drachenritter von Orrin
 class: Kämpfer
 subclasses:
   - Kavallerist

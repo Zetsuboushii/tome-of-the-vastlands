@@ -11,7 +11,9 @@ age: 251
 height: "1,62"
 affiliations:
   - Kinder des Waldes
-class: TODO
+functions:
+  - Betreiberin eines kleinen Marktstands
+class: Bürger
 homes:
   - Teryvnat
 alignment: NG

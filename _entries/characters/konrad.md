@@ -11,6 +11,8 @@ age: 25
 height: "1,78"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Stellv. Großherzog v. Tinorland
 class: Adliger
 homes:
   - Tinorke

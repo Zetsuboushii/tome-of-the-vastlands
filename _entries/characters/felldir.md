@@ -11,6 +11,8 @@ age: 59
 height: "1,86"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Kommandant der Stadtwache Grenbrock
 class: Paladin
 subclasses:
   - Thronwächter

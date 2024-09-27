@@ -11,7 +11,8 @@ age: 323
 height: "1,85"
 affiliations:
   - Klauen des Hasses
-  - Vasallen der Rebellion
+functions:
+  - Vasall des Serff
 class: Barde
 subclasses:
   - Sänger der Stimmen

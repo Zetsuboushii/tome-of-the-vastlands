@@ -9,7 +9,9 @@ race: Halbelfen
 sex: m
 age: 35
 height: "1,89"
-class: TODO
+functions:
+  - Minister des Königs
+class: Adliger
 homes:
   - Aegir
 alignment: NE

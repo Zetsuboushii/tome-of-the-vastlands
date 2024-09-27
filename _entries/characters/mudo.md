@@ -13,6 +13,8 @@ alias:
   - [ Dodo, "Hama" ]
 affiliations:
   - 2. Generation der Hohefürsten
+functions:
+  - Hohefürst der Sterblichkeit
 class: Hohefürst
 homes:
   - ?

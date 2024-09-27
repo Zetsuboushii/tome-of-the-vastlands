@@ -9,9 +9,9 @@ race: Menschen
 sex: m
 age: 40
 height: "1,87"
-affiliations:
-  - Verbannte Niddarvellirs
-class: Tavernenbesitzer
+functions:
+  - Besitzer der Taverne "Rattenloch"
+class: Bürger
 homes:
   - Niddarvellir
 alignment: NE

@@ -13,6 +13,8 @@ alias:
   - [ Linus Tavernen Tips, "U-Ranos, DM" ]
 affiliations:
   - Kinder des Waldes
+functions:
+  - Besitzer der Taverne "Stilles Bächlein"
 class: Tavernenbesitzer
 homes:
   - Brodia

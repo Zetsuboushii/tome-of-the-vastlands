@@ -11,7 +11,9 @@ age: 22
 height: "1,79"
 affiliations:
   - Schicksalsjünger Fortunas
-class: Butler
+functions:
+  - Haushälter im Jagdschloss Dünsberg
+class: Bürger
 homes:
   - Dünsberg
 alignment: LN

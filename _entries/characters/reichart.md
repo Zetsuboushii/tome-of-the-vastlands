@@ -10,8 +10,9 @@ sex: m
 age: 47
 height: "1,79"
 affiliations:
-  - Adrestianischen Eisenbahn
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Kondukteur bei der Adrestianischen Eisenbahn
 class: Bürger
 homes:
   - Aegir

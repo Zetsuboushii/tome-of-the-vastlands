@@ -11,7 +11,8 @@ age: 28
 height: "1,72"
 affiliations:
   - Klauen des Hasses
-  - Vasall der Rebellion
+functions:
+  - Vasall des Serff
 class: Zauberer
 subclasses:
   - Phantasmant

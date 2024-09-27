@@ -11,6 +11,8 @@ age: unbekannt
 height: "1,70"
 affiliations:
   - 4. Generation der Hohefürsten
+functions:
+  - Hohefürstin der Gier
 class: Hohefürst
 homes:
   - Niddarvellir

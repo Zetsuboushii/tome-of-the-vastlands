@@ -11,6 +11,8 @@ age: 19
 height: "1,64"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Prinzessin von Faergria
 class: Kleriker
 subclasses:
   - Kleriker der Justicia

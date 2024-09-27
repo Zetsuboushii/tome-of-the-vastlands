@@ -11,9 +11,8 @@ age: unbekannt
 height: "1,70"
 alias:
   - [ Ili, "U-Ranos" ]
-affiliations:
-  - Justicias Recken
-  - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Reckin der Justicia
 class: Recke
 subclasses:
   - Sänger des Wissens

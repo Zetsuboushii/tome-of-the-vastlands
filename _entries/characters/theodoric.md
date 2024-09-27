@@ -9,8 +9,8 @@ race: Menschen
 sex: m
 age: 27
 height: "1,78"
-affiliations:
-  - Magiepolizei Frelia
+functions:
+  - Inspektor der Magiepolizei Frelia
 class: Zauberer
 subclasses:
   - Bannzauberer

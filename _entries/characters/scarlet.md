@@ -9,8 +9,8 @@ race: Dämonen
 sex: w
 age: Unbekannt
 height: "1,85"
-affiliations:
-  - Thanatos' Recken
+functions:
+  - Reckin des Thanatos
 class: Recke
 subclasses:
   - Schattenmagier

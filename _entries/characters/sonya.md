@@ -10,8 +10,9 @@ sex: w
 age: 24
 height: "1,71"
 affiliations:
-  - Diebesgilde Grenbrock
   - Schicksalsjünger Fortunas
+functions:
+  - Ehem. Mitglied der Diebesgilde
 class: Schurke
 subclasses:
   - Assassine

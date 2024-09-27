@@ -9,8 +9,8 @@ race: Menschen
 sex: w
 age: 22
 height: "1,55"
-affiliations:
-  - Bibliothek von Frelia
+functions:
+  - Biblothekarin
 class: Zauberer
 subclasses:
   - Schriftgelehrter

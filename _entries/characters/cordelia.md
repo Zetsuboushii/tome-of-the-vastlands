@@ -9,6 +9,9 @@ race: Menschen
 sex: w
 age: 29
 height: "1,83"
+functions:
+  - Prinzessin von Thaugrien
+  - Generalin d. thaugriner Armee
 class: TODO
 homes:
   - Grenbrock

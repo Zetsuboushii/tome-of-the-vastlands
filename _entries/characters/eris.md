@@ -11,7 +11,9 @@ age: 20
 height: "1,63"
 affiliations:
   - Schicksalsjünger Fortunas
-class: Maid
+functions:
+  - Hausmädchen im Jagdschloss Dünsberg
+class: Bürger
 homes:
   - Dünsberg
 alignment: TN

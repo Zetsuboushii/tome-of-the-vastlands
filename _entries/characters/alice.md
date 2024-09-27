@@ -11,6 +11,8 @@ age: 19
 height: "1,68"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Besitzerin eines Tränkeladens
 class: Zauberer
 subclasses:
   - Nekromant

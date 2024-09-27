@@ -15,9 +15,10 @@ alias:
   - [ U-Ranossi, "Nayru, Eliza, Iddra, Seloue, Fubuki" ]
   - [ Knecht, "Ar-Merer, Narcian" ]
 affiliations:
-  - Justicias Recken
   - Kirche der Himmlischen Gerechtigkeit
-  - Mitglied der legendären Rentnerbrigade
+  - Rentnerbrigade
+functions:
+  - Recke der Justicia
 class: Recke
 subclasses:
   - Kleriker

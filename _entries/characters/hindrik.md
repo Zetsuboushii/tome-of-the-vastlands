@@ -9,6 +9,9 @@ race: Menschen
 sex: m
 age: 37
 height: "1,98"
+functions:
+  - Besitzer der Sägemühle bei Brodia
+  - Schreiner
 class: Waldläufer
 subclasses:
   - Jäger

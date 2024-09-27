@@ -11,6 +11,8 @@ age: 237
 height: "1,57"
 affiliations:
   - Kinder des Waldes
+functions:
+  - Wache am Grenzposten nach Inidal
 class: Waldläufer
 subclasses:
   - Jäger

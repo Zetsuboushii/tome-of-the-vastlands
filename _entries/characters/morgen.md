@@ -11,6 +11,8 @@ age: 164
 height: "1,82"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Herzogin von Markath
 class: Hexer
 subclasses:
   - Sternengeißel

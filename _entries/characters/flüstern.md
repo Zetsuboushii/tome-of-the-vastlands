@@ -11,6 +11,8 @@ age: 136
 height: "1,85"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
+functions:
+  - Erster Richter des Herzogs von Markath
 class: Hexer
 subclasses:
   - Teufelsbringer

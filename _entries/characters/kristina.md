@@ -10,8 +10,10 @@ sex: w
 age: 22
 height: "1,65"
 affiliations:
-  - Vasallen der Rebellion
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Vasallin der Invidianoir 
+  - Ehem. Großherzogin von Tinorland
 class: Hexer
 subclasses:
   - Gefäß des Abgrunds

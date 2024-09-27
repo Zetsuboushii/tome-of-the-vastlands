@@ -11,6 +11,8 @@ age: 23
 height: "1,69"
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Reporterin
 class: Büger
 homes:
   - Elpis

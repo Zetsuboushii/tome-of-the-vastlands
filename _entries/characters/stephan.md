@@ -11,6 +11,8 @@ age: 27
 height: "1,86"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Großherzog von Escrigria
 class: Adliger
 homes:
   - Nordholm

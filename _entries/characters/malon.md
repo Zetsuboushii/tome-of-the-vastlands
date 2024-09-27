@@ -11,7 +11,8 @@ age: 279
 height: "1,94"
 affiliations:
   - Kinder des Waldes
-  - Elfische Garde
+functions:
+  - Wache am Grenzposten zu Inidal
 class: Waldläufer
 subclasses:
   - Grenzstreifer

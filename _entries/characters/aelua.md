@@ -9,7 +9,9 @@ race: Elfen
 sex: w
 age: 814
 height: "1,65"
-class: TODO
+functions:
+  - Dorfälteste von Teryvnat
+class: Bürger
 affiliations:
   - Kinder des Waldes
 homes:

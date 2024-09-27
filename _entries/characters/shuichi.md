@@ -9,7 +9,7 @@ race: Menschen
 sex: m
 age: 19
 height: "1,69"
-class: Bürger
+class: Abenteurer
 alignment: CG
 alive: true
 ---

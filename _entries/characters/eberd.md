@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 49
 height: "1,73"
-class: TODO
+functions:
+  - Besitzer der Hafenspelunke "Kleines Fässchen"
+class: Bürger
 homes:
   - Aegir
 alignment: NG

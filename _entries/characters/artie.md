@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 35
 height: "1,72"
-class: TODO
+functions:
+  - Ehem. Ortsvorsteher von Schachendorf
+class: Bürger
 homes:
   - Schachendorf
 alignment: NE

@@ -11,6 +11,8 @@ age: unbekannt (sehr junge Gestalt)
 height: "1,44"
 affiliations:
   - 1. Generation der Hohefürsten
+functions:
+  - Hohefürstin des Eises
 class: Hohefürst
 homes:
   - Kronen-Schneeberge
@@ -19,7 +21,7 @@ alive: true
 relationships:
   - [ U-Ranos, Adoptivvater ]
   - [ Nayru, Pflegemutter ]
-  - [ Kaen, Freundin]
+  - [ Kaen, Freundin ]
 ---
 
 Fubuki ist ein kleiner Schutzgeist der Kronen-Schneeberge in Gestalt eines Schneefuchses.

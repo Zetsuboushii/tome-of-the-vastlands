@@ -11,6 +11,8 @@ age: 26
 height: "1,78"
 affiliations:
   - Schicksalsjünger Fortunas
+functions:
+  - Leibgarde der Kurfürstin von Hal
 class: Paladin
 subclasses:
   - Thronwächter

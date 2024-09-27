@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 27
 height: "1,89"
-class: TODO
+functions:
+  - Koch im Jagdschloss Dünsberg
+class: Bürger
 homes:
   - Dünsberg
 alignment: NG

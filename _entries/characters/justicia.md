@@ -9,8 +9,8 @@ race: Götter
 sex: w
 age: unbekannt
 height: "1,96"
-affiliations:
-  - Götter des Animus
+functions:
+  - Göttin der Gerechtigkeit und des Lichts
 class: Gott
 homes:
   - Hof der Gerechtigkeit

@@ -11,7 +11,9 @@ age: 46
 height: "1,80"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
-class: TODO
+functions:
+  - Besitzer der Taverne "Mosthaus"
+class: Bürger
 homes:
   - Dünsberg
 alignment: LG

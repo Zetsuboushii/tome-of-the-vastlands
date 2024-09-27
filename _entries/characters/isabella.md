@@ -11,7 +11,10 @@ age: 18
 height: "1,57"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
-class: TODO
+functions:
+  - Schriftstellerin
+  - Schauspielerin
+class: Adliger
 homes:
   - Aegir
 alignment: LG

@@ -9,7 +9,9 @@ race: Menschen
 sex: m
 age: 18
 height: "1,79"
-class: TODO
+functions:
+  - Buchhändler 
+class: Bürger
 homes:
   - Schachendorf
 alignment: NG

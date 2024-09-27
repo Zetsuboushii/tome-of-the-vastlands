@@ -11,7 +11,9 @@ age: 22
 height: "1,72"
 affiliations:
   - Schicksalsjünger Fortunas
-class: TODO
+functions:
+  - Bürgermeisterin von Dünsberg
+class: Adliger
 homes:
   - Dünsberg
   - Aegir

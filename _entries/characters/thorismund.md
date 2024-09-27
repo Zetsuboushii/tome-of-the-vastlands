@@ -11,6 +11,8 @@ age: 31
 height: "1,80"
 affiliations:
   - Klauen des Hasses
+functions:
+  - Kultist
 class: Hexer
 subclasses:
   - Totenwächter

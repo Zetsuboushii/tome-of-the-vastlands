@@ -11,6 +11,9 @@ age: 29
 height: "1,85"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Ehem. Soldat der Stadtwache Grenbrock
+  - Wache im Jagdschloss Dünsberg
 class: Kämpfer
 subclasses:
   - Samurai

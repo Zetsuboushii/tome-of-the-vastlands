@@ -11,6 +11,8 @@ age: 20
 height: "1,68"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
+functions:
+  - Angestellte im Badehaus Nifl
 class: Bürger
 homes:
   - Nifl

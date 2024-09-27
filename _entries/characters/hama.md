@@ -11,6 +11,8 @@ age: unbekannt
 height: "1,78"
 affiliations:
   - 3. Generation der Hohefürsten
+functions:
+  - Hohefürstin der Gesundheit
 class: Hohefürst
 homes:
   - ?
