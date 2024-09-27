@@ -83,6 +83,20 @@ layout: default
             </table>
             <h4><b>Profession</b></h4>
             <table>
+                {% if page.functions %}
+                <tr>
+                    <td><b>Funktion</b></td>
+                    <td>
+                        <ul>
+                            {% for function in page.functions %}
+                            <li>
+                                {{ function }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
                 {% if page.class %}
                 <tr>
                     <td><b>Basisklasse</b></td>
