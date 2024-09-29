@@ -9,7 +9,7 @@ layout: default
 
     {{ content }}
 
-    <div class="race-list">
+    <div class="item-list">
         <ul>
             {% for post in site.entries | sort: 'title' %}
             {% if post.category == "artisanal" %}

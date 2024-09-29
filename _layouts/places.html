@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+    {% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {% endif %}
+
+    {{ content }}
+
+    <div class="item-list">
+        <ul>
+            {% assign filtered_entries = site.entries | sort: 'title' %}
+
+            {% for post in filtered_entries %}
+            {% if post.category == "places" %}
+            <li>
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <hr>
+                <p>{{ post.excerpt }}</p>
+
+                {% if post.hasinit %}
+                <div class="item-list">
+                    <ul>
+                        {% for item in filtered_entries %}
+                        {% if post.hasinit contains item.title %}
+                        <li>
+                            <h2><a href="{{ item.url | relative_url }}">{{ item.subtitle }} {{ item.title }}</a></h2>
+                            <hr>
+                            {{ item.excerpt }}
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
