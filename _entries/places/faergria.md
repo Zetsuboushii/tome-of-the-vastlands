@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: place
 title: Faergria
+category: places
 subtitle: Vereinigtes Königreich
 hasinit:
   - Thaugrien
@@ -8,4 +9,3 @@ hasinit:
 placetype: land
 ---
 
-gege

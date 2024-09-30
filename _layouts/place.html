@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div>
+    <div class="character-container">
+        <div class="character-intro">
+            {{ content }}
+        </div>
+
+        <div class="character-box character-data">
+            {% assign filtered_entries = site.entries | sort: 'title' %}
+            <h1>{{ page.subtitle }} {{ page.title }}</h1>
+            {%- if page.supplement -%}
+            <h4>{{ page.subtitle }}</h4>
+            {%- endif -%}
+            <hr>
+            {% if page.placein %}
+            <h3>{{ page.placein}}</h3>
+            {% endif %}
+            <h4><b>Allgemeine Informationen</b></h4>
+            <table>
+                <tr>
+                    <td><b>Art des Ortes</b></td>
+                    <td>{{ page.placetype }}</td>
+                </tr>
+                {% if page.demography %}
+                <tr>
+                    <td><b>Demografie</b></td>
+                    <td>{{ page.demography }}</td>
+                </tr>
+                {% endif %}
+                {% if page.hasinit%}
+                <tr>
+                    <td><b>Enthält</b></td>
+                    <td>
+                        <ul>
+                            {% assign filtered_entries = site.entries | sort: 'title' %}
+                            {% for item in filtered_entries %}
+                            {% if page.hasinit contains item.title %}
+                            <li>
+                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+            {% if ["Hauptstadt", "Stadt", "Dorf"] contains page.placetype %}
+            <h4><b>Ortsspezifische Daten</b></h4>
+            <table>
+                <tr>
+                    <td><b>Charaktere an diesem Ort</b></td>
+                    <td>
+                        <ul>
+                            {% for character in filtered_items | where: "character.homes contains page.title" %}
+                            <li>{{ character.title }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            {% endif %}
+        </div>
+    </div>
+</div>

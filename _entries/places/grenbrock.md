@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: place
 title: Grenbrock
+category: places
 hasinit:
   - Gerichtshaus des Himmels
-placetype: city
+placetype: Hauptstadt
+demography: 23000
 ---
