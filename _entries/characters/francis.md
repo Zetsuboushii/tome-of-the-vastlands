@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Francis von Falkenhayn
+title: Francis
+surname: von Falkenhayn
 categories:
   - character
   - NPC
@@ -22,6 +23,8 @@ alignment: CG
 alive: false
 relationships:
   - [ Volo , Herr ]
+redirect_from:
+  - /characters/francis-von-falkenhayn/
 ---
 
 Dieser trickreiche Trickzauberer begeistert leidenschaftlich große Zuschauerschaften. Francis' Motto ist es, "Wünsche

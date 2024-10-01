@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Konrad von Silberbach
+title: Konrad
+surname: von Silberbach
 categories:
   - character
   - NPC
@@ -23,6 +24,8 @@ relationships:
   - [ Kristina, ehem. Herrin]
   - [ Cornelius, guter Freund]
   - [ Rosemarie, gute Freundin]
+redirect_from:
+  - /characters/konrad-von-silberbach/
 ---
 
 ...

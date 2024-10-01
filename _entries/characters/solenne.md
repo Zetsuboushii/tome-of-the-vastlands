@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Solenne von Frelia
+title: Solenne
+surname: von Frelia
 categories:
   - character
   - NPC

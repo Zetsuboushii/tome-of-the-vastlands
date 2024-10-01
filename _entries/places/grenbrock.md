@@ -6,6 +6,7 @@ category: places
 placetype: Hauptstadt
 demography: 23000
 supplement: Stadt des Rechts
+leader: [ Hadubrand, Diakon ]
 ---
 
 Die "Hauptstadt der Gerechtigkeit". Die Kirche hat hier einen hohen politischen Einfluss und vollstreckt die Lehren

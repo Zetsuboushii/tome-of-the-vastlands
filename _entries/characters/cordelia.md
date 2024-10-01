@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Cordelia von Grenbrock
+title: Cordelia
+surname: von Grenbrock
 categories:
   - character
   - NPC
@@ -26,6 +27,8 @@ relationships:
   - [ Marisa, Cousine ]
   - [ Kristian, Cousin ]
   - [ Kristina, Cousin ]
+redirect_from:
+  - /characters/cordelia-von-grenbrock/
 ---
 
 Cordelia ist die große Schwester von Kurfürst Jervar von Grenbrock, und somit nach alter Tradition die Prinzessin von

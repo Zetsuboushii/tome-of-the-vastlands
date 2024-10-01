@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Isabella von Natrow
+title: Isabella
+surname: von Natrow
 categories:
   - character
   - NPC
@@ -27,7 +28,8 @@ relationships:
   - [ Jofina, gute Freundin ]
   - [ U-Ranos, Freund ]
   - [ Nayru, Freundin ]
-
+redirect_from:
+  - /characters/isabella-von-natrow/
 ---
 
 Bekannte Schriftstellerin und Schauspielerin, welche Bücher veröffentlicht.

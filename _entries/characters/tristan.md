@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Tristan von Nordholm
+title: Tristan
+surname: von Nordholm
 categories:
   - character
   - NPC

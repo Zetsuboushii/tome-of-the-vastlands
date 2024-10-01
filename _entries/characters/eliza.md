@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Eliza von Nordholm
+title: Eliza
+surname: von Nordholm
 categories:
   - character
   - NPC
@@ -34,6 +35,8 @@ relationships:
   - [ Kristina, Cousin ]
   - [ Marisa, "Cousine, Freundin" ]
 lover: U-Ranos
+redirect_from:
+  - /characters/eliza-von-nordholm/
 ---
 
 Über Elizas Vergangenheit ist nicht viel bekannt. Als sie sich mit 17 Jahren an einem Tiefpunkt ihres Lebens befand, bot

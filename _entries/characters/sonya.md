@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Sonya von Frelia
+title: Sonya
+surname: von Frelia
 categories:
   - character
   - NPC

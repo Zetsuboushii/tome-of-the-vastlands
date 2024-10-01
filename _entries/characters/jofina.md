@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Jofina von Salten
+title: Jofina
+surname: von Salten
 categories:
   - character
   - NPC
@@ -24,6 +25,8 @@ relationships:
   - [ Isabella, Freundin ]
   - [ Ezekiel, Freund ]
 lover: Avarne
+redirect_from:
+  - /characters/jofina-von-salten/
 ---
 
 Die amtierende Bürgermeisterin von Dünsberg.

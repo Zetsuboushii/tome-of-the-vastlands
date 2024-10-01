@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Narcian von Aegir
+title: Narcian 
+surname: von Aegir
 categories:
   - character
   - NPC
@@ -35,6 +36,8 @@ relationships:
   - [ Eliza, Cousine ]
   - [ Malusdur, Herr ]
   - [ Cassius, Berater ]
+redirect_from:
+  - /characters/narcian-von-aegir/
 ---
 
 ...

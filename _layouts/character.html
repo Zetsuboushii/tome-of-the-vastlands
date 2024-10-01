@@ -9,11 +9,12 @@ layout: default
         </div>
 
         <div class="character-box character-data">
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.title }} {{ page.surname }}</h1>
             {%- if page.character_title -%}
             <h4>{{ page.character_title }}</h4>
             {%- endif -%}
             <hr>
+
             {% if page.alt_imgs %}
             <div class="char-img-buttons">
                 <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
@@ -21,23 +22,22 @@ layout: default
                 <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
                 {% endfor %}
             </div>
-
             <div id="{{ page.title | downcase }}" class="char-img">
-                <img src="{{ site.charimgurl }}{{ page.path | split: '/' | last | split: '.' | first }}.png"
+                <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
                      alt="">
             </div>
-
             {% for img in page.alt_imgs %}
             <div id="{{ img | downcase }}" class="char-img" style="display:none">
-                <img src="{{ site.charimgurl }}{{ img | downcase }}.png"
+                <img src="{{ site.imgurl }}/characters/{{ img | downcase }}.png"
                      alt="">
             </div>
             {% endfor %}
 
             {% else %}
-            <img src="{{ site.charimgurl }}{{ page.path | split: '/' | last | split: '.' | first }}.png"
+            <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
                  alt="">
             {% endif %}
+
             <hr>
             <h4><b>Informationen zur Person</b></h4>
             <table>
@@ -143,7 +143,7 @@ layout: default
                     <td>
                         <ul>
                             {% for home in page.homes %}
-                            <li><a href="{{ '/places/' | append: home | replace: ' ', '_' | downcase | relative_url }}">
+                            <li><a href="{{ '/places/' | append: home | replace: ' ', '-' | downcase | relative_url }}">
                                 {{ home }}</a></li>
                             {% endfor %}
                         </ul>
@@ -160,7 +160,7 @@ layout: default
                         <ul>
                             {% for affiliation in page.affiliations %}
                             <li>
-                                <a href="{{ '/organisations/' | append: affiliation | replace: ' ', '_' | downcase | relative_url }}">{{
+                                <a href="{{ '/organisations/' | append: affiliation | replace: ' ', '-' | downcase | relative_url }}">{{
                                     affiliation }}</a></li>
                             {% endfor %}
                         </ul>

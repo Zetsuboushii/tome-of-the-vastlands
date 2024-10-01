@@ -7,6 +7,9 @@ hasinit:
   - Thaugrien
   - Hal
 placetype: Königreich
+system: Konstitutionelle Monarchie
+leader: [ Narcian, Prinz ]
+capital: Aegir
 ---
 
 Im Jahr 394 nach der Vereinigung unter König Gunthard dem Gütigen erstrahlte das Vereinigte Königreich Faergria in einer

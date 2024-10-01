@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Kristina von Tinorke
+title: Kristina
+surname: von Tinorke
 categories:
   - character
   - NPC
@@ -32,7 +33,8 @@ relationships:
   - [ Eliza, Cousine ]
   - [ Marisa, Cousine ]
   - [ Narcian, Cousin ]
-
+redirect_from:
+  - /characters/kristina-von-silberbach/
 ---
 
 ...

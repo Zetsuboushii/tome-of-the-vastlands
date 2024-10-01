@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Dorian von Windthal
+title: Dorian
+surname: von Windthal
 categories:
   - character
   - NPC
@@ -21,6 +22,8 @@ relationships:
   - [ Edgar, Ehemaliger Koch ]
   - [ Eris, Ehemalige Maid ]
   - [ Grete, Ehemalige Maid ]
+redirect_from:
+  - /characters/dorian-von-windthal/
 ---
 
 Dorian ist der verstorbene und ehemalige Schlossherr des Jagdschloss Dünsberg.

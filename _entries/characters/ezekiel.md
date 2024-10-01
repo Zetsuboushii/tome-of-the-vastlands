@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Ezekiel von Bendel
+title: Ezekiel
+surname: von Bendel
 categories:
   - character
   - NPC
@@ -16,6 +17,8 @@ homes:
   - Aegir
 alignment: NG
 alive: true
+redirect_from:
+  - /characters/ezekiel-von-bendel/
 ---
 
 Ezekiel wurde in eine Adligenfamilie geboren, die tief in dem Kult "Klauen des Hasses" verwoben ist. Seit seiner Geburt

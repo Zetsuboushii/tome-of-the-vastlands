@@ -1,13 +1,16 @@
 ---
 layout: place
 title: Thaugrien
-natlang: [Thaugrein, feuchter Zweig]
+natlang: [ Thaugrein, feuchter Zweig ]
 category: places
 subtitle: Kurfürstentum
+supplement: Land der Traditionen
 hasinit:
   - Nord-Grenbrock
+  - Dünsberg-Plateau
 placetype: Territorialstaat
 capital: Grenbrock
+leader: [ Jervar, Kurfürst ]
 ---
 
 Ein sehr auf seine Traditionen und den Glauben an die Göttin Justicia bedachtes Land. Burgen, Schlösser und Kirchen sind

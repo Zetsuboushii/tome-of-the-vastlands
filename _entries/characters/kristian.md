@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Kristian von Tinorke
+title: Kristian
+surname: von Tinorke
 categories:
   - character
   - NPC
@@ -32,6 +33,8 @@ relationships:
   - [ Eliza, Cousine ]
   - [ Marisa, Cousine ]
   - [ Narcian, Cousin ]
+redirect_from:
+  - /characters/kristian-von-tinorke/
 ---
 
 ...

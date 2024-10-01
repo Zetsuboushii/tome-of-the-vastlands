@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Stephan von Nordholm
+title: Stephan
+surname: von Nordholm
 categories:
   - character
   - NPC

@@ -23,7 +23,7 @@ email: zetsuboushii@gmail.com
 description: >-
 baseurl: "/tome-of-the-vastlands"
 url: "https://zetsuboushii.github.io"
-charimgurl: "https://zetsuboushii.github.io/image-host/dnd/characters/"
+imgurl: "https://zetsuboushii.github.io/image-host/dnd/"
 
 collections:
   entries:

@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Adrian von Waldegrav
+title: Adrian
+surname: von Waldegrav
 categories:
   - character
   - PC/ NPC
@@ -16,6 +17,8 @@ homes:
   - Nordholm
 alignment: NG
 alive: true
+redirect_from:
+  - /characters/adrian-von-waldegrav/
 ---
 
 Der freundliche und eifrige adlige Tavernenbesitzer von Adrians Schatzkiste und leidenschaftlicher Schätzesammler.

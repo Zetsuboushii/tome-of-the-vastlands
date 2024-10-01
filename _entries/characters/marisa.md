@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Marisa von Aegir
+title: Marisa 
+surname: von Aegir
 categories:
   - character
   - NPC
@@ -36,6 +37,8 @@ relationships:
   - [ Tristan, Cousin ]
   - [ Eliza, Cousine ]
   - [ Siegmund, heimliche Liebe ]
+redirect_from:
+  - /characters/marisa-von-aegir/
 ---
 
 Marisa ist die Prinzessin des Vereinten Königreichs Faergria. Lange Jahre war sie Schülerin von Igmusur, der sie als

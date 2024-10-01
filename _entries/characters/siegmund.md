@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Siegmund "Der Rabe"
+title: Siegmund
+surname: "Der Rabe"
 categories:
   - character
   - PC

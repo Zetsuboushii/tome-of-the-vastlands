@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Jervar von Grenbrock
+title: Jervar
+surname: von Grenbrock
 categories:
   - character
   - NPC
@@ -35,6 +36,8 @@ relationships:
   - [ Kristian, Cousin ]
   - [ Kristina, Cousine ]
   - [ Narcian, Cousin]
+redirect_from:
+  - /characters/jervar-von-grenbrock/
 ---
 
 Clown der den Flammen in Narcians Augen folgt. (U-Ranos persönliche Meinung)

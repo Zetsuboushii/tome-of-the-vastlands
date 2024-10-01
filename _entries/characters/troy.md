@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Troy von Eichenhain
+title: Troy
+surname: von Eichenhain
 categories:
   - character
   - NPC

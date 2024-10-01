@@ -1,6 +1,7 @@
 ---
 layout: character
-title: Cassius von Schattenberg
+title: Cassius
+surname: von Schattenberg
 categories:
   - character
   - NPC
@@ -21,6 +22,8 @@ relationships:
   - [ Cathlen, Königin ]
   - [ Marisa, Prinzessin ]
   - [ Narcian, Prinz ]
+redirect_from:
+  - /characters/cassius-von-schattenberg/
 ---
 
 Vor einiger Zeit kam dieser vertrauenserweckende junge Mann an den königlichen Hofe in Aegir, um dort seine Dienste als

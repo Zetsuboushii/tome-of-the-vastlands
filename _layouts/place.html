@@ -3,16 +3,19 @@ layout: default
 ---
 
 <div>
+    {% assign page_parts = page.content | split: '<!--more-->' %}
     <div class="character-container">
         <div class="character-intro">
             {{ page.excerpt }}
 
+            {% if page_parts[1] %}
             <div id="toc" class="table-of-contents">
                 <button id="toc-toggle">
                     Inhaltsverzeichnis
                 </button>
                 <nav id="toc-content"></nav>
             </div>
+            {% endif %}
         </div>
 
         <div class="character-box character-data">
@@ -21,8 +24,12 @@ layout: default
             <h4>{{ page.supplement }}</h4>
             {%- endif -%}
             <hr>
-            {% if page.placein %}
-            <h3>{{ page.placein}}</h3>
+
+            {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
+            {% if placetypes contains page.placetype %}
+            <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
+                 alt="">
+            <hr>
             {% endif %}
 
             <h4><b>Allgemeine Informationen</b></h4>
@@ -37,10 +44,16 @@ layout: default
                     <td><b>Art des Ortes</b></td>
                     <td>{{ page.placetype }}</td>
                 </tr>
+                {% if page.capital %}
+                <tr>
+                    <td><b>Hauptstadt</b></td>
+                    <td><a href="{{ site.baseurl }}/places/{{ page.capital | downcase }}">{{ page.capital }}</a></td>
+                </tr>
+                {% endif %}
                 {% if page.demography %}
                 <tr>
                     <td><b>Demografie</b></td>
-                    <td>{{ page.demography }}</td>
+                    <td>{{ page.demography }} Einwohner</td>
                 </tr>
                 {% endif %}
             </table>
@@ -56,7 +69,7 @@ layout: default
                             {% for item in filtered_entries %}
                             {% if item.hasinit contains page.title %}
                             <li>
-                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                             </li>
                             {% endif %}
                             {% endfor %}
@@ -83,7 +96,36 @@ layout: default
                 {% endif %}
             </table>
 
-            {% if page.placetype == "Hauptstadt" or page.placetype == "Stadt" or page.placetype == "Dorf" %}
+            {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
+            {% if placetypes contains page.placetype %}
+            <h4><b>Politik</b></h4>
+            <table>
+                {% if page.system %}
+                <tr>
+                    <td><b>Staatsform</b></td>
+                    <td>{{ page.system }}</td>
+                </tr>
+                {% endif %}
+                {% if page.leader %}
+                <tr>
+                    <td><b>
+                        {% if page.placetype != "Königreich" %}
+                        Lokalverwaltung
+                        {% else %}
+                        Staatsoberhaupt
+                        {% endif %}
+                    </b></td>
+                    <td>
+                        <li><a href="{{ '/characters/' | append: page.leader[0] | downcase | relative_url }}">{{
+                            page.leader[0] }}</a><small> ({{ page.leader[1] }})</small></li>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+            {% endif %}
+
+            {% assign placetypes = "Hauptstadt,Stadt,Dorf" %}
+            {% if placetypes contains page.placetype %}
             <h4><b>Ortsspezifische Daten</b></h4>
             <table>
                 <tr>
@@ -93,7 +135,8 @@ layout: default
                             {% assign filtered_entries = site.entries | sort: 'title' %}
                             {% for character in filtered_entries %}
                             {% if character.homes contains page.title %}
-                            <li>{{ character.title }}</li>
+                            <li><a href="{{ '/characters/' | append: character.title | downcase | replace: ' ', '-' | relative_url }}">
+                                {{ character.title }}</a></li>
                             {% endif %}
                             {% endfor %}
                         </ul>
@@ -105,12 +148,13 @@ layout: default
         </div>
     </div>
 
+    {% if page_parts[1] %}
     <div class="character-container">
         <div class="character-intro long-text">
-            {% assign page_parts = page.content | split: '<!--more--> ' %}
             {{ page_parts[1] }}
         </div>
     </div>
+    {% endif %}
 </div>
 
 <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
