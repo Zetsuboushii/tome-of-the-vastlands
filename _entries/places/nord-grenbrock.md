@@ -1,6 +1,7 @@
 ---
 layout: place
 title: Nord-Grenbrock
+natlang: [ Nurths-Grenbrok, nördliches grünes Moor ]
 category: places
 hasinit:
   - Grenbrock

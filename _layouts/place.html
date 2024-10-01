@@ -5,7 +5,14 @@ layout: default
 <div>
     <div class="character-container">
         <div class="character-intro">
-            {{ content }}
+            {{ page.excerpt }}
+
+            <div id="toc" class="table-of-contents">
+                <button id="toc-toggle">
+                    Inhaltsverzeichnis
+                </button>
+                <nav id="toc-content"></nav>
+            </div>
         </div>
 
         <div class="character-box character-data">
@@ -17,8 +24,15 @@ layout: default
             {% if page.placein %}
             <h3>{{ page.placein}}</h3>
             {% endif %}
+
             <h4><b>Allgemeine Informationen</b></h4>
             <table>
+                {% if page.natlang %}
+                <tr>
+                    <td><b>In Landessprache</b></td>
+                    <td>{{ page.natlang[0] }}, <i>{{ page.natlang[1] }}</i></td>
+                </tr>
+                {% endif %}
                 <tr>
                     <td><b>Art des Ortes</b></td>
                     <td>{{ page.placetype }}</td>
@@ -29,6 +43,10 @@ layout: default
                     <td>{{ page.demography }}</td>
                 </tr>
                 {% endif %}
+            </table>
+
+            <h4><b>Standort</b></h4>
+            <table>
                 {% if page.placetype != "Elementarebene" %}
                 <tr>
                     <td><b>Liegt in</b></td>
@@ -64,6 +82,7 @@ layout: default
                 </tr>
                 {% endif %}
             </table>
+
             {% if page.placetype == "Hauptstadt" or page.placetype == "Stadt" or page.placetype == "Dorf" %}
             <h4><b>Ortsspezifische Daten</b></h4>
             <table>
@@ -82,6 +101,17 @@ layout: default
                 </tr>
             </table>
             {% endif %}
+
+        </div>
+    </div>
+
+    <div class="character-container">
+        <div class="character-intro long-text">
+            {% assign page_parts = page.content | split: '<!--more--> ' %}
+            {{ page_parts[1] }}
         </div>
     </div>
 </div>
+
+<script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/textAdditions.js' | relative_url }}"></script>

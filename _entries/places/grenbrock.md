@@ -1,6 +1,7 @@
 ---
 layout: place
 title: Grenbrock
+natlang: [ Grenbrok, grünes Moor ]
 category: places
 placetype: Hauptstadt
 demography: 23000
@@ -10,6 +11,8 @@ supplement: Stadt des Rechts
 Die "Hauptstadt der Gerechtigkeit". Die Kirche hat hier einen hohen politischen Einfluss und vollstreckt die Lehren
 Justicias. Paradoxerweise hat sich hier ebenfalls die berüchtigte Diebesgilde eingenistet, wodurch es oft zu Reiberreien
 zwischen der Stadtwache und der Gilde kommt.
+
+<!--more-->
 
 ## Schloss Grenbrock
 
