@@ -1,8 +1,8 @@
 ---
-layout: home
+layout: place
 title: Terralithia
 category: places
 hasinit:
   - Faergria
-placetype: plane
+placetype: Elementarebene
 ---

@@ -5,6 +5,6 @@ category: places
 subtitle: Kurfürstentum
 hasinit:
   - Nord-Grenbrock
-placetype: state
+placetype: Territorialstaat
 capital: Grenbrock
 ---

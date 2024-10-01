@@ -14,7 +14,7 @@ layout: default
             {% assign filtered_entries = site.entries | sort: 'title' %}
 
             {% for post in filtered_entries %}
-            {% if post.category == "places" and post.placetype == "land" %}
+            {% if post.category == "places" and post.placetype == "Territorialstaat" %}
             <li>
                 <h2><a href="{{ post.url | relative_url }}">{{ post.subtitle }} {{ post.title }}</a></h2>
                 <hr>

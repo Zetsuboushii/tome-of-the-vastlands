@@ -9,10 +9,9 @@ layout: default
         </div>
 
         <div class="character-box character-data">
-            {% assign filtered_entries = site.entries | sort: 'title' %}
             <h1>{{ page.subtitle }} {{ page.title }}</h1>
             {%- if page.supplement -%}
-            <h4>{{ page.subtitle }}</h4>
+            <h4>{{ page.supplement }}</h4>
             {%- endif -%}
             <hr>
             {% if page.placein %}
@@ -28,6 +27,23 @@ layout: default
                 <tr>
                     <td><b>Demografie</b></td>
                     <td>{{ page.demography }}</td>
+                </tr>
+                {% endif %}
+                {% if page.placetype != "Elementarebene" %}
+                <tr>
+                    <td><b>Liegt in</b></td>
+                    <td>
+                        <ul>
+                            {% assign filtered_entries = site.entries | sort: 'title' %}
+                            {% for item in filtered_entries %}
+                            {% if item.hasinit contains page.title %}
+                            <li>
+                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </td>
                 </tr>
                 {% endif %}
                 {% if page.hasinit%}
@@ -48,15 +64,18 @@ layout: default
                 </tr>
                 {% endif %}
             </table>
-            {% if ["Hauptstadt", "Stadt", "Dorf"] contains page.placetype %}
+            {% if page.placetype == "Hauptstadt" or page.placetype == "Stadt" or page.placetype == "Dorf" %}
             <h4><b>Ortsspezifische Daten</b></h4>
             <table>
                 <tr>
                     <td><b>Charaktere an diesem Ort</b></td>
                     <td>
                         <ul>
-                            {% for character in filtered_items | where: "character.homes contains page.title" %}
+                            {% assign filtered_entries = site.entries | sort: 'title' %}
+                            {% for character in filtered_entries %}
+                            {% if character.homes contains page.title %}
                             <li>{{ character.title }}</li>
+                            {% endif %}
                             {% endfor %}
                         </ul>
                     </td>

@@ -6,6 +6,6 @@ subtitle: Vereinigtes Königreich
 hasinit:
   - Thaugrien
   - Hal
-placetype: land
+placetype: Königreich
 ---
 

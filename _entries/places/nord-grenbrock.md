@@ -4,5 +4,5 @@ title: Nord-Grenbrock
 category: places
 hasinit:
   - Grenbrock
-placetype: region
+placetype: Region
 ---

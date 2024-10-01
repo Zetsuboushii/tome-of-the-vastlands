@@ -5,6 +5,6 @@ category: places
 subtitle: Kurfürstentum
 hasinit:
   - Blühender Fjord
-placetype: state
+placetype: Territorialstaat
 capital: Frelia
 ---
