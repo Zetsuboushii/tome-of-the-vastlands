@@ -272,20 +272,20 @@
   margin-top: 30px;
 }
 
-.character-box {
-  border: 1px solid;
-  padding: 10px;
-  background: $backdrop-color;
-  margin-bottom: 20px;
-  min-width: 400px;
-}
-
 .character-intro {
   img {
     float: right;
     margin-left: 20px;
     max-width: 400px;
   }
+}
+
+.character-box {
+  border: 1px solid;
+  padding: 10px;
+  background: $backdrop-color;
+  margin-bottom: 20px;
+  min-width: 600px;
 }
 
 .character-data {
