@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    <div class="character-gallery">
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+        {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        {%- assign cat = my_page.category -%}
+        {%- if cat == "character" -%}
+        {%- for subpage in site.entries -%}
+        {%- if subpage.categories contains "character" -%}
+        <div class="responsive">
+            <div class="gallery">
+                <a class="page-link" href="{{ subpage.url | relative_url }}">
+                    <img src="{{ site.imgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png" alt="">
+                </a>
+                <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }} {{ subpage.surname }}</a>
+                <h4>{{ subpage.character_title }}</h4>
+                <hr>
+                <div class="desc"><small>{{ subpage.excerpt }}</small></div>
+            </div>
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor -%}
+    </div>
+</div>
