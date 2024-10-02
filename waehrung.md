@@ -26,7 +26,7 @@ Faergria. Überall universell zum Handeln verwendbar erweist sich Florin als sta
 | Ausgiebig   | 750S                     |
 | Reich       | 4.000S                   |
 
-Durchschnittsgehalt: 2250 Silberflorin
+Durchschnittsgehalt p.M.: 2250 Silberflorin
 
 ## Beispielhafte Preise für alltägliche Güter in Faergria
 
