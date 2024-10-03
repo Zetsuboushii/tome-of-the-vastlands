@@ -6,4 +6,3 @@ category: compendia
 compendium: herbary
 ---
 
-gejgos

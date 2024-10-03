@@ -1,5 +1,8 @@
 ---
 layout: home
-title: Faergria-Gras
+title: Faergriagras
 category: herbary
+type: Kraut
+found:
+  - Offene Ebenen
 ---
