@@ -1,4 +1,4 @@
-<nav class="site-nav" role="navigation">
+<nav class="site-nav" role="navigation" id="siteNav">
     <div class="nav-wrapper">
         <ul id="myList">
             {%- assign default_paths = site.pages | map: "path" -%}
@@ -29,46 +29,56 @@
 </nav>
 
 <script>
-    function urlContainsCategory(cat) {
-        const currentURL = window.location.href;
-        return currentURL.includes(cat);
-    }
+    document.addEventListener("DOMContentLoaded", function() {
+        const burgerMenu = document.getElementById("burgerMenu");
+        const siteNav = document.getElementById("siteNav");
 
-    const listItems = document.querySelectorAll('#myList > li');
+        // Burger Menu Click Event
+        burgerMenu.addEventListener("click", function() {
+            siteNav.classList.toggle("open"); // Toggle 'open' class on navigation
+        });
 
-    listItems.forEach(item => {
-        const cat = item.getAttribute('data-cat');
+        function urlContainsCategory(cat) {
+            const currentURL = window.location.href;
+            return currentURL.includes(cat);
+        }
 
-        item.addEventListener('click', (event) => {
-            item.classList.toggle('active');
+        const listItems = document.querySelectorAll('#myList > li');
 
-            const sublist = item.querySelector('.sublist');
-            if (sublist) {
-                if (sublist.style.maxHeight) {
-                    sublist.style.maxHeight = null;
-                } else {
+        listItems.forEach(item => {
+            const cat = item.getAttribute('data-cat');
+
+            item.addEventListener('click', (event) => {
+                item.classList.toggle('active');
+
+                const sublist = item.querySelector('.sublist');
+                if (sublist) {
+                    if (sublist.style.maxHeight) {
+                        sublist.style.maxHeight = null;
+                    } else {
+                        sublist.style.maxHeight = sublist.scrollHeight + "px";
+                    }
+                }
+
+                event.stopPropagation();
+            });
+
+            if (cat && urlContainsCategory(cat)) {
+                item.classList.add('active');
+
+                const sublist = item.querySelector('.sublist');
+                if (sublist) {
                     sublist.style.maxHeight = sublist.scrollHeight + "px";
                 }
             }
-
-            event.stopPropagation();
         });
 
-        if (cat && urlContainsCategory(cat)) {
-            item.classList.add('active');
+        const sublistItems = document.querySelectorAll('.sublist li');
 
-            const sublist = item.querySelector('.sublist');
-            if (sublist) {
-                sublist.style.maxHeight = sublist.scrollHeight + "px";
-            }
-        }
-    });
-
-    const sublistItems = document.querySelectorAll('.sublist li');
-
-    sublistItems.forEach(subItem => {
-        subItem.addEventListener('click', (event) => {
-            event.stopPropagation();
+        sublistItems.forEach(subItem => {
+            subItem.addEventListener('click', (event) => {
+                event.stopPropagation();
+            });
         });
     });
 </script>
