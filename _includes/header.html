@@ -1,11 +1,13 @@
 <header class="site-header" role="banner">
-        <div class="burger-menu" id="burgerMenu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-        </div>
+    <div class="burger-menu" id="burgerMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
 
-        {%- assign default_paths = site.pages | map: "path" -%}
-        {%- assign page_paths = site.header_pages | default: default_paths -%}
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <img src="{{ site.imgurl }}/logo.png" style="height: 30px; margin-right: 20px; filter: brightness(0) saturate(100%) invert(20%) sepia(40%) saturate(400%) hue-rotate(-15deg);">
+
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 </header>
