@@ -4,8 +4,8 @@ layout: default
 
 <div>
     {% assign page_parts = page.content | split: '<!--more-->' %}
-    <div class="character-container">
-        <div class="character-intro">
+    <div class="use-container">
+        <div class="use-content">
             {{ page.excerpt }}
 
             {% if page_parts[1] %}
@@ -18,7 +18,7 @@ layout: default
             {% endif %}
         </div>
 
-        <div class="character-box character-data">
+        <div class="use-box use-data">
             <h1>{{ page.subtitle }} {{ page.title }}</h1>
             {%- if page.supplement -%}
             <h4>{{ page.supplement }}</h4>
@@ -149,8 +149,8 @@ layout: default
     </div>
 
     {% if page_parts[1] %}
-    <div class="character-container">
-        <div class="character-intro long-text">
+    <div class="use-container">
+        <div class="use-content long-text">
             {{ page_parts[1] }}
         </div>
     </div>

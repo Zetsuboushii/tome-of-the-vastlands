@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div>
-    <div class="character-container">
-        <div class="character-intro">
+    <div class="use-container">
+        <div class="use-content">
             {{ content }}
         </div>
 
-        <div class="character-box character-data">
+        <div class="use-box use-data">
             <h1>{{ page.title }} {{ page.surname }}</h1>
             {%- if page.character_title -%}
             <h4>{{ page.character_title }}</h4>
@@ -16,7 +16,7 @@ layout: default
             <hr>
 
             {% if page.alt_imgs %}
-            <div class="char-img-buttons">
+            <div class="multiple-img-buttons">
                 <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
                 {% for img in page.alt_imgs %}
                 <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
