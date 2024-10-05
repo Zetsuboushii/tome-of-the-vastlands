@@ -6,7 +6,7 @@ categories:
   - NPC
 character_title: Immerfrohe Verkupplerin
 race: Halbelfen
-sex: m
+sex: w
 height: "1,68"
 affiliations:
   - 3. Generation der Hohefürsten
