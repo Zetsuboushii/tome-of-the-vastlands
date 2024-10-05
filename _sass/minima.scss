@@ -13,10 +13,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('fonts/InterVariable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 // Define defaults for each variable.
 
-$base-font-family: "Noto Serif" !default;
+$base-font-family: "Inter Variable" !default;
 $base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
