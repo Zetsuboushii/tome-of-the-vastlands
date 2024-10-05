@@ -1,5 +1,5 @@
 ---
-layout: character
+layout: usepage
 title: U-Ranos
 categories:
   - character
@@ -8,6 +8,7 @@ character_title: Unbeugsame Gerechtigkeit
 race: Engel
 sex: m
 age: 349
+birthday: 13. Saatmond
 height: "1,82"
 alias:
   - [ Opa, Häufig in Rüstungsgestalt ]

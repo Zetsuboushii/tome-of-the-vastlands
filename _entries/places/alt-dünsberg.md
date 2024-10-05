@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Alt-Dünsberg
 natlang: [ Dunsbairgs, Hügelberg ]
 category: places

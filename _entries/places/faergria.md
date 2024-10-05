@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Faergria
 category: places
 subtitle: Vereinigtes Königreich

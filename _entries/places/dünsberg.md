@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Dünsberg
 natlang: [ Niujis-Dunsbairgs, Neuer Hügelberg ]
 category: places

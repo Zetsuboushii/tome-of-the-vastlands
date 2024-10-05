@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Nord-Grenbrock
 natlang: [ Nurths-Grenbrok, nördliches grünes Moor ]
 category: places

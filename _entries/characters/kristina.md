@@ -1,5 +1,5 @@
 ---
-layout: character
+layout: usepage
 title: Kristina
 surname: von Tinorke
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Terralithia
 category: places
 hasinit:

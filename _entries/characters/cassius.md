@@ -1,5 +1,5 @@
 ---
-layout: character
+layout: usepage
 title: Cassius
 surname: von Schattenberg
 categories:

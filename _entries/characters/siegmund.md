@@ -1,5 +1,5 @@
 ---
-layout: character
+layout: usepage
 title: Siegmund
 surname: "Der Rabe"
 categories:

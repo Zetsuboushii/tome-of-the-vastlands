@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Thaugrien
 natlang: [ Thaugrein, feuchter Zweig ]
 category: places

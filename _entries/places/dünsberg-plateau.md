@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Dünsberg-Plateau
 natlang: [ Dunsbairgsauhs, Hügelberg-Anhöhe ]
 category: places

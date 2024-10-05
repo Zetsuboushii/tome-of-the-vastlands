@@ -1,5 +1,5 @@
 ---
-layout: place
+layout: usepage
 title: Grenbrock
 natlang: [ Grenbrok, grünes Moor ]
 category: places
