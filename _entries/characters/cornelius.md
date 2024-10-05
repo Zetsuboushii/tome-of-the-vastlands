@@ -7,7 +7,7 @@ categories:
 character_title: Service-orientierter Kundukteur
 race: Menschen
 sex: m
-age: 37
+birthday: 9.4.357
 height: "1,81"
 functions:
   - Lokführer

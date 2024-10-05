@@ -7,7 +7,7 @@ categories:
 character_title: Ausdrucksschwacher Spelunkenbetreiber
 race: Menschen
 sex: m
-age: 49
+birthday: 24.7.344
 height: "1,73"
 functions:
   - Besitzer der Hafenspelunke "Kleines Fässchen"

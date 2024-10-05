@@ -7,7 +7,7 @@ categories:
 character_title: Leibgarde seit Kindertagen
 race: Menschen
 sex: w
-age: 24
+birthday: 25.7.370
 height: "1,71"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

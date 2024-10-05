@@ -7,7 +7,7 @@ categories:
 character_title: Tragisches Opferlamm
 race: Tiefling
 sex: w
-age: 97
+birthday: 97
 height: "1,62"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

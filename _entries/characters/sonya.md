@@ -8,7 +8,7 @@ categories:
 character_title: Präzise Mörder-Prinzessin
 race: Menschen
 sex: w
-age: 24
+birthday: 24
 height: "1,71"
 affiliations:
   - Schicksalsjünger Fortunas

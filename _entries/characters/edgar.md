@@ -7,7 +7,7 @@ categories:
 character_title: Hasenfüßiger Koch
 race: Menschen
 sex: m
-age: 27
+birthday: 6.10.366
 height: "1,89"
 functions:
   - Koch im Jagdschloss Dünsberg

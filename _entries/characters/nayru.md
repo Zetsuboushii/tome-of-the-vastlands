@@ -7,8 +7,7 @@ categories:
 character_title: Hüterin von Orrins Erbe
 race: Menschen
 sex: w
-age: 22
-birthday: Nebelmond-25
+birthday: 25.11.372
 height: "1,66"
 alias:
   - [ Junges Fräulein, Häufig unter Adligen ]

@@ -7,7 +7,7 @@ categories:
 character_title: Himmlische Bestrafung
 race: Engel
 sex: m
-age: unbekannt
+birthday: unbekannt
 height: "1,89"
 alias:
   - [ Galli, "U-Ranos" ]

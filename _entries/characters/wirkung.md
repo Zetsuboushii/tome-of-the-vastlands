@@ -7,7 +7,7 @@ categories:
 character_title: Verführerischer Abgrund 
 race: Tiefling
 sex: w
-age: 126
+birthday: 126
 height: "1,70"
 affiliations:
   - Klauen des Hasses

@@ -7,7 +7,7 @@ categories:
 character_title: Unbesiegter Kommandant
 race: Menschen
 sex: m
-age: 59
+birthday: 59
 height: "1,86"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

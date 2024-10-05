@@ -7,7 +7,7 @@ categories:
 character_title: Schüchterne Bibliothekarin
 race: Menschen
 sex: w
-age: 22
+birthday: 22
 height: "1,55"
 functions:
   - Biblothekarin

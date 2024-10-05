@@ -7,7 +7,7 @@ categories:
 character_title: Schicksalsklinge der Fortuna
 race: Menschen
 sex: w
-age: Unbekannt
+birthday: Unbekannt
 height: "1,82"
 functions:
   - Reckin der Fortuna

@@ -7,7 +7,7 @@ categories:
 character_title: Vernarrter Klampfenheini
 race: Menschen
 sex: m
-age: 22
+birthday: 22
 height: "1,82"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

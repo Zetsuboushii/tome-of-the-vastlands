@@ -82,20 +82,44 @@ layout: default
                     </td>
                 </tr>
 
+                {% if page.birthday %}
+                {% assign months = "Eismond,Frostmond,Saatmond,Blütenmond,Wonnemond,Heumond,Sonnenmond,Erntemond,Fruchtmond,Weinmond,Nebelmond,Julmond" | split: "," %}
+                {% assign birthday = page.birthday | split: '.' %}
+                {% assign currentDate = site.currentDate | split: '-' %}
+
+                {% assign birthDay = birthday[0] | plus: 0 %}
+                {% assign birthMonth = birthday[1] | plus: 0 %}
+                {% assign birthYear = birthday[2] | plus: 0 %}
+
+                {% assign currentMonth = currentDate[0] | plus: 0 %}
+                {% assign currentYear = currentDate[1] | plus: 0 %}
+
+                {% assign age = currentYear | minus: birthYear %}
+
+                {% if currentMonth < birthMonth or (currentMonth == birthMonth and birthDay > 1) %}
+                {% assign age = age | minus: 1 %}
+                {% endif %}
+
+                {% capture birthYearStr %}
+                {{ birthYear }}
+                {% endcapture %}
+                {% if birthYearStr contains "-" %}
+                {% assign birthYearDisplay = birthYearStr | append: " v.V." | replace: '-', '' %}
+                {% else %}
+                {% assign birthYearDisplay = birthYearStr | append: " n.V." %}
+                {% endif %}
                 <tr>
                     <td><b>Alter</b></td>
                     <td>
-                        {{ page.age }}
-                        {% if page.age contains "Unbekannt" %}
+                        {{ age }}
+                        {% if page.birthday contains "Unbekannt" %}
                         {% else %} Jahre
                         {% endif %}
                     </td>
                 </tr>
-
-                {% if page.birthday %}
                 <tr>
                     <td><b>Geburtstag</b></td>
-                    <td>{{ page.birthday }}</td>
+                    <td>{{ birthDay }}.{{ birthMonth }}, {{ birthYearDisplay }}</td>
                 </tr>
                 {% endif %}
 
@@ -345,15 +369,15 @@ layout: default
                 {% if page.leader %}
                 <tr>
                     <td><b>
-                        {% if page.placetype != "Königreich" %}
+                        {% if page.placetype != "Königreich" and page.placetype != "Territorialstaat" %}
                         Lokalverwaltung
                         {% else %}
                         Staatsoberhaupt
                         {% endif %}
                     </b></td>
                     <td>
-                        <li><a href="{{ '/characters/' | append: page.leader[0] | downcase | relative_url }}">{{
-                            page.leader[0] }}</a><small> ({{ page.leader[1] }})</small></li>
+                        <a href="{{ '/characters/' | append: page.leader[0] | downcase | relative_url }}">{{
+                            page.leader[0] }}</a><small> ({{ page.leader[1] }})</small>
                     </td>
                 </tr>
                 {% endif %}
@@ -388,10 +412,10 @@ layout: default
 </div>
 
 <script>
-    function openImg(cityName) {
-        const cities = document.querySelectorAll(".char-img");
-        cities.forEach(city => city.style.display = "none");
-        document.getElementById(cityName).style.display = "block";
+    function openImg(imgName) {
+        const imgs = document.querySelectorAll(".char-img");
+        imgs.forEach(img => img.style.display = "none");
+        document.getElementById(imgName).style.display = "block";
     }
 </script>
 <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>

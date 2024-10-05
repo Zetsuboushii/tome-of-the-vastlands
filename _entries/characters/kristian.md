@@ -8,7 +8,7 @@ categories:
 character_title: Sympathischer Herrscher
 race: Menschen
 sex: m
-age: 22
+birthday: 22
 height: "1,81"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

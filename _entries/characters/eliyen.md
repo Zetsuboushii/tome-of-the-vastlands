@@ -7,7 +7,7 @@ categories:
 character_title: Gutmütige Grenzpostlerin
 race: Elfen
 sex: w
-age: 237
+birthday: 29.5.157
 height: "1,57"
 affiliations:
   - Kinder des Waldes

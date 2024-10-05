@@ -7,7 +7,7 @@ categories:
 character_title: Schmieriger Kultist
 race: Menschen
 sex: m
-age: 31
+birthday: 31
 height: "1,80"
 affiliations:
   - Klauen des Hasses

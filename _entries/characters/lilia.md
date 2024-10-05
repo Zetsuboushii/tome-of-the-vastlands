@@ -7,7 +7,7 @@ categories:
 character_title: Besorgte kleine Schwester 
 race: Menschen
 sex: w
-age: 23
+birthday: 23
 height: "1,68"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

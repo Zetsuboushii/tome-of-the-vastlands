@@ -7,7 +7,6 @@ categories:
 character_title: Sündenstehlende Meisterdiebin
 race: Dämonen
 sex: w
-age: Unbekannt
 height: "1,67"
 functions:
   - Reckin des Thanatos

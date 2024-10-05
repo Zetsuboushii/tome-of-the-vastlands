@@ -7,7 +7,7 @@ categories:
 character_title: Tiefstes aller Wasser
 race: Tieflinge
 sex: m
-age: 128
+birthday: 128
 height: "1,76"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

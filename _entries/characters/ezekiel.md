@@ -8,7 +8,7 @@ categories:
 character_title: Anti-sozialer Ex-Kultist widerwillen
 race: Menschen
 sex: m
-age: 17
+birthday: 30.6.377
 height: "1,72"
 functions:
   - Ehem. gezwungener Kultist

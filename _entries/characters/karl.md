@@ -7,7 +7,7 @@ categories:
 character_title: Eifriger Haushälter
 race: Menschen
 sex: m
-age: 22
+birthday: 22
 height: "1,79"
 affiliations:
   - Schicksalsjünger Fortunas

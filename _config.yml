@@ -25,6 +25,7 @@ baseurl: "/tome-of-the-vastlands"
 url: "https://zetsuboushii.github.io"
 imgurl: "https://zetsuboushii.github.io/image-host/dnd/"
 buildno: v2.ϼ
+currentDate: 11-394
 
 collections:
   entries:

@@ -7,7 +7,7 @@ categories:
 character_title: Muskulöser Schreiner
 race: Menschen
 sex: m
-age: 37
+birthday: 37
 height: "1,98"
 functions:
   - Besitzer der Sägemühle bei Brodia

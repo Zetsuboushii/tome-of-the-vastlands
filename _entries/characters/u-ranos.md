@@ -7,8 +7,7 @@ categories:
 character_title: Unbeugsame Gerechtigkeit
 race: Engel
 sex: m
-age: 349
-birthday: 13. Saatmond
+birthday: 13.3.45
 height: "1,82"
 alias:
   - [ Opa, Häufig in Rüstungsgestalt ]

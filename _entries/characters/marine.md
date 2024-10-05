@@ -7,7 +7,7 @@ categories:
 character_title: Raue Vertraute
 race: Halbelfen
 sex: w
-age: 26
+birthday: 26
 height: "1,78"
 affiliations:
   - Schicksalsjünger Fortunas

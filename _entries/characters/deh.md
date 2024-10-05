@@ -7,7 +7,7 @@ categories:
 character_title: Naive Heilerin
 race: Drakonier
 sex: w
-age: 12
+birthday: 7.12.382
 height: "1,62"
 functions:
   - Studentin

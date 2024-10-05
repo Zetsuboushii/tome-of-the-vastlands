@@ -7,7 +7,7 @@ categories:
 character_title: Gerechte Mutter
 race: Götter
 sex: w
-age: unbekannt
+birthday: unbekannt
 height: "1,96"
 functions:
   - Göttin der Gerechtigkeit und des Lichts

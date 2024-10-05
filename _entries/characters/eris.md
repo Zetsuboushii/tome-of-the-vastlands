@@ -7,7 +7,7 @@ categories:
 character_title: Temperamentvolles Hausmädchen
 race: Menschen
 sex: w
-age: 20
+birthday: 1.2.374
 height: "1,63"
 affiliations:
   - Schicksalsjünger Fortunas

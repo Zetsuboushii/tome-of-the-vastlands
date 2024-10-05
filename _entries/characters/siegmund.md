@@ -8,7 +8,7 @@ categories:
 character_title: Schläfrigster Krieger der Götter
 race: Menschen
 sex: m
-age: 43
+birthday: 43
 height: "1,65"
 functions:
   - Vasall der Iddra

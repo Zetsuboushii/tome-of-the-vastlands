@@ -7,7 +7,7 @@ categories:
 character_title: Glücklichste Waise
 race: Elfen
 sex: w
-age: 112
+birthday: 112
 height: "1,45"
 affiliations:
   - Kinder des Waldes

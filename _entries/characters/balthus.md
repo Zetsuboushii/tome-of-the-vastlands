@@ -7,7 +7,7 @@ categories:
 character_title: Großmeister der Drachenritter
 race: Menschen
 sex: m
-age: 72
+birthday: 6.6.322
 height: "?"
 affiliations:
   - Drachenritter von Orrin

@@ -7,7 +7,7 @@ categories:
 character_title: Bahner mit Leidenschaft
 race: Menschen
 sex: m
-age: 47
+birthday: 47
 height: "1,79"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

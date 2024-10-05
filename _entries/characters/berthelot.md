@@ -7,7 +7,7 @@ categories:
 character_title: Ruchloser Banditenanführer
 race: Menschen
 sex: m
-age: 44
+birthday: 15.7.350
 height: "1,83"
 alias:
 affiliations:

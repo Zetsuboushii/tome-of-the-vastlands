@@ -7,7 +7,7 @@ categories:
 character_title: Gelangweiltes Hausmädchen
 race: Menschen
 sex: w
-age: 19
+birthday: 19
 height: "1,76"
 functions:
   - Hausmädchen im Jadgschloss Dünsberg

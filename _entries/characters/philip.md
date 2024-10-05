@@ -7,7 +7,7 @@ categories:
 character_title: Verhätschelter Exzentriker
 race: Menschen
 sex: m
-age: 23
+birthday: 23
 height: "1,84"
 affiliations:
   - Schicksalsjünger Fortunas

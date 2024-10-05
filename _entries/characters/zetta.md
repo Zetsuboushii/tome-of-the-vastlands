@@ -7,7 +7,7 @@ categories:
 character_title: Verletzliches Pflänzchen
 race: Halbelfen
 sex: w
-age: 18
+birthday: 18
 height: "1,65"
 affiliations:
   - Schicksalsjünger Fortunas

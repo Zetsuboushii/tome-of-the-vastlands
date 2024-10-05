@@ -8,7 +8,7 @@ categories:
 character_title: Unbeugsame Sünde
 race: Dämonen
 sex: w
-age: 25
+birthday: 3.8.369
 height: "1,78"
 functions:
   - Reckin des Thanatos

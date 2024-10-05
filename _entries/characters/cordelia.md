@@ -8,7 +8,7 @@ categories:
 character_title: Prinzessin mit Schussbefehl
 race: Menschen
 sex: w
-age: 29
+birthday: 21.9.365
 height: "1,83"
 functions:
   - Prinzessin von Thaugrien

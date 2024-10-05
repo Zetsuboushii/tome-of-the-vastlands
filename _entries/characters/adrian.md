@@ -8,7 +8,7 @@ categories:
 character_title: Leidenschaftlicher Schätzesammler
 race: Menschen
 sex: m
-age: 29
+birthday: 4.5.365
 height: "1,79"
 functions:
   - Besitzer der Taverne "Adrians Schatzkiste"
@@ -23,6 +23,5 @@ redirect_from:
 
 Der freundliche und eifrige adlige Tavernenbesitzer von Adrians Schatzkiste und leidenschaftlicher Schätzesammler.
 Adrian kehrt oft erfolgreich von Schatzjagden zurück, wobei er seine Beute zum Großteil in den Ausbau seiner Taverne
-steckt.
-Diese bedeutet ihm alles. Die vielen Zimmer der Taverne sind oft ausgebucht, hauptsächlich wegen dem netten Ambiente,
-für das Adrian gerne sorgt.
+steckt. Diese bedeutet ihm alles. Die vielen Zimmer der Taverne sind oft ausgebucht, hauptsächlich wegen dem netten
+Ambiente, für das Adrian gerne sorgt.

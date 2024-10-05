@@ -7,7 +7,7 @@ categories:
 character_title: Silberner Pfeil
 race: Menschen
 sex: m
-age: 24
+birthday: 24
 height: "1,86"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

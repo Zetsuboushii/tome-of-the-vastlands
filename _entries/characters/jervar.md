@@ -8,7 +8,7 @@ categories:
 character_title: Verblendeter Kriegsherr
 race: Menschen
 sex: m
-age: 22
+birthday: 22
 height: "1,84"
 alias:
   - [ Clown, "U-Ranos" ]

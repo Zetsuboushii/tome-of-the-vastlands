@@ -7,7 +7,7 @@ categories:
 character_title: Wandelndes Lexikon
 race: Halbelfen
 sex: w
-age: unbekannt
+birthday: unbekannt
 height: "1,67"
 alias:
   - [ Mutter, "U-Ranos" ]

@@ -7,7 +7,7 @@ categories:
 character_title: Sündhaft obszöne Erzmagierin
 race: Dämonen
 sex: w
-age: Unbekannt
+birthday: Unbekannt
 height: "1,85"
 functions:
   - Reckin des Thanatos

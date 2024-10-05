@@ -7,7 +7,7 @@ categories:
 character_title: Stichelndes Schicksal
 race: Götter
 sex: w
-age: Geheim
+birthday: Geheim
 height: "1,89"
 alias:
   - [ Tantchen, "U-Ranos" ]

@@ -8,7 +8,7 @@ categories:
 character_title: Kindsköpfiger Frühherrscher
 race: Menschen
 sex: m
-age: 20
+birthday: 20
 height: "1,77"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

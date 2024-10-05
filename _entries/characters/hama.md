@@ -7,7 +7,7 @@ categories:
 character_title: Forsches Heilungswunder
 race: Pikori
 sex: w
-age: unbekannt
+birthday: unbekannt
 height: "1,78"
 affiliations:
   - 3. Generation der Hohefürsten

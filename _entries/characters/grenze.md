@@ -7,7 +7,7 @@ categories:
 character_title: Schnitter der Verlorenen
 race: Dämonen
 sex: w
-age: 141
+birthday: 141
 height: "1,78"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

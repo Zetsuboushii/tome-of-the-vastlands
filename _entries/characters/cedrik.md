@@ -7,7 +7,7 @@ categories:
 character_title: Trickreicher Betrüger
 race: Menschen
 sex: m
-age: 27
+birthday: 5.8.367
 height: "1,79"
 class: Schurke
 subclasses:

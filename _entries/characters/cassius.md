@@ -8,7 +8,7 @@ categories:
 character_title: Dubioser Minister
 race: Halbelfen
 sex: m
-age: 35
+birthday: 28.10.359
 height: "1,89"
 functions:
   - Minister des Königs

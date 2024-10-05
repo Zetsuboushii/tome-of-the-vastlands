@@ -8,7 +8,7 @@ categories:
 character_title: Verträumter "Zauberer"
 race: Menschen
 sex: m
-age: 28
+birthday: 28
 height: "1,72"
 affiliations:
   - Klauen des Hasses

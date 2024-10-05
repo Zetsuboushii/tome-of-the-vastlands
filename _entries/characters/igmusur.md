@@ -7,7 +7,7 @@ categories:
 character_title: Gesicht der Renterbrigade
 race: Menschen
 sex: m
-age: 73
+birthday: 73
 height: "1,76"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

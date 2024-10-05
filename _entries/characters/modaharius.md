@@ -7,7 +7,7 @@ categories:
 character_title: Knochiger Zauberer in besten Jahren
 race: Menschen
 sex: m
-age: 193
+birthday: 193
 height: "1,82"
 alias:
   - [ Dieter, "Siegmund" ]

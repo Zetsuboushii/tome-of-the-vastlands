@@ -7,7 +7,7 @@ categories:
 character_title: Fahrendes Raubopfer
 race: Menschen
 sex: w
-age: 27
+birthday: 27
 height: "1,72"
 affiliations:
   - Schicksalsjünger Fortunas

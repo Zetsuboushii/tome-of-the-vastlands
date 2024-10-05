@@ -7,7 +7,7 @@ categories:
 character_title: Liebenswerter Tavernenbesitzer
 race: Menschen
 sex: m
-age: 46
+birthday: 14.10.348
 height: "1,80"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

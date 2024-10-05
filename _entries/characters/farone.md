@@ -7,7 +7,6 @@ categories:
 character_title: Leicht-Reizbares Nachtschattengewächs
 race: Götter
 sex: w
-age: Alt genug
 height: "1,44"
 functions:
   - Göttin der Magie und der Natur

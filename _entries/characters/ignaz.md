@@ -7,7 +7,7 @@ categories:
 character_title: Experimentierfreudiger Neo-Alchemist
 race: Menschen
 sex: m
-age: 22
+birthday: 22
 height: "1,71"
 functions:
   - Alchemist

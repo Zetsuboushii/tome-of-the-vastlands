@@ -7,7 +7,7 @@ categories:
 character_title: Gute Seele des Dorfes
 race: Menschen
 sex: m
-age: 18
+birthday: 30.6.376
 height: "1,79"
 functions:
   - Buchhändler 

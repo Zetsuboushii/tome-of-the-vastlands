@@ -7,7 +7,7 @@ categories:
 character_title: Pflichtbewusster Leibwächter
 race: Menschen
 sex: m
-age: 25
+birthday: 25
 height: "1,92"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

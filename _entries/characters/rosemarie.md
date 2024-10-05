@@ -7,7 +7,7 @@ categories:
 character_title: Lächelnder Beistand
 race: Menschen
 sex: w
-age: 20
+birthday: 20
 height: "1,68"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

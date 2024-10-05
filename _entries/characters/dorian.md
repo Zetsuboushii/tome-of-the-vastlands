@@ -8,7 +8,7 @@ categories:
 character_title: Gütiger Schlossher
 race: Menschen
 sex: m
-age: 74
+birthday: 16.3.320
 height: "1,77"
 functions:
   - Ehem. Herr des Jadgschlosses Dünsberg

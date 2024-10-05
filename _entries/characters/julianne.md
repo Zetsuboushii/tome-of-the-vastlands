@@ -7,7 +7,7 @@ categories:
 character_title: Begeisterte Barfrau mit Alkoholproblem
 race: Menschen
 sex: w
-age: 27
+birthday: 27
 height: "1,66"
 affiliations:
   - Schicksalsjünger Fortunas

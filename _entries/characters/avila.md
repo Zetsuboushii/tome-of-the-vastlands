@@ -7,7 +7,6 @@ categories:
 character_title: Immerfrohe Verkupplerin
 race: Halbelfen
 sex: m
-age: Unbekannt
 height: "1,68"
 affiliations:
   - 3. Generation der Hohefürsten

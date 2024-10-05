@@ -7,7 +7,7 @@ categories:
 character_title: Bestechlicher Ortsvorsteher
 race: Menschen
 sex: m
-age: 35
+birthday: 6.12.359
 height: "1,72"
 functions:
   - Ehem. Ortsvorsteher von Schachendorf
@@ -24,5 +24,9 @@ Ehemaliger Ortsvorsteher von Schachendorf. Artie war ein ängstlicher Versager, 
 Diebesgilde. Durch seine schmierigen Mittel hat er den vorherigen Ortsvorsteher, den Onkel von Marjorie in enorme
 Bredouillen gebracht, weshalb dieser sich später selbst umgebracht hat.
 
+<!--more-->
+
+## Exilierung
+
 In einem Kampf zwischen Nayru, U-Ranos und Sivert ist Artie geflüchtet, hat Nayru angegriffen und wurde kurz darauf von
-Marjorie beinnahe umgebracht.
+Marjorie beinnahe umgebracht. Einige Tage darauf beichtete Artie alles und wurde schließlich aus Schachendorf verbannt.

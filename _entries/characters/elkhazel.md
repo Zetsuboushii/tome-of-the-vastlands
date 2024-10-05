@@ -7,7 +7,7 @@ categories:
 character_title: Jäger des Dorfes
 race: Elfen
 sex: m
-age: 270
+birthday: 18.4.124
 height: "1,78"
 affiliations:
   - Kinder des Waldes

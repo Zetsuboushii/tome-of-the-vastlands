@@ -35,8 +35,8 @@ layout: default
     {% endif %}
     {% endfor %}
     },
-    currentMonth: 11,
-        currentYear: 394
+    currentMonth: {{ site.currentDate | split: '-' | first }},
+        currentYear: {{ site.currentDate | split: '-' | last }}
     };
 
     const prevMonthBtn = document.getElementById("prev-month");

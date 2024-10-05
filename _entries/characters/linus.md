@@ -7,7 +7,7 @@ categories:
 character_title: Authentischer Macher
 race: Menschen
 sex: m
-age: 32
+birthday: 32
 height: "1,86"
 alias:
   - [ Linus Tavernen Tips, "U-Ranos, DM" ]

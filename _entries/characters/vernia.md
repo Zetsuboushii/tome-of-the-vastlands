@@ -7,7 +7,7 @@ categories:
 character_title: Durchsetzungsfähige Schankwirtin
 race: Menschen
 sex: m
-age: 29
+birthday: 29
 height: "1,68"
 affiliations:
   - Schicksalsjünger Fortunas

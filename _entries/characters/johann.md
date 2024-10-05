@@ -7,7 +7,7 @@ categories:
 character_title: Ritterlicher Unglücksmagnet
 race: Menschen
 sex: m
-age: 29
+birthday: 29
 height: "1,85"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

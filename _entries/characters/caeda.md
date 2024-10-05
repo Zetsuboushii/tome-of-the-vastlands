@@ -7,7 +7,7 @@ categories:
 character_title: Sympathische Nachwuchshändlerin
 race: Elfen
 sex: w
-age: 251
+birthday: 9.1.143
 height: "1,62"
 affiliations:
   - Kinder des Waldes

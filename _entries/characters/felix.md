@@ -7,7 +7,7 @@ categories:
 character_title: Bischof in Spe
 race: Menschen
 sex: m
-age: 23
+birthday: 18.10.371
 height: "1,75"
 affiliations:
   - Schicksalsjünger Fortunas

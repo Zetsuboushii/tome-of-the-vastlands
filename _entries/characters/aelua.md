@@ -7,7 +7,7 @@ categories:
 character_title: Junggebliebene Dorfälteste
 race: Elfen
 sex: w
-age: 814
+birthday: 18.3.-420
 height: "1,65"
 functions:
   - Dorfälteste von Teryvnat

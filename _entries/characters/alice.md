@@ -7,7 +7,7 @@ categories:
 character_title: Verliebte Nekromantin
 race: Halbelfen
 sex: w
-age: 19
+birthday: 19.11.375
 height: "1,68"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
@@ -25,6 +25,10 @@ lover: Falk
 
 Nekromantin aus Schachendorf. Betreibt einen kleinen Laden, in dem sie dubiose Tränke verkauft, und aus dem oft
 stechende Gestänke hervorkriechen.
+
+<!--more-->
+
+## Beziehung zu Falk
 
 Eine Zeit lang war Alice Stammkundin in der Buchhandlung von Falk. Allerdings war sie dort eher an Falk interessiert,
 als an den Büchern. Eines Tages wurde Alice von Falk angesprochen, was sie so erschreckte, dass sie ihn mit einem

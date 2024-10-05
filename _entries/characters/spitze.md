@@ -7,7 +7,7 @@ categories:
 character_title: Schlemmende Richterin des Herzogs
 race: Tiefling
 sex: w
-age: 116
+birthday: 116
 height: "1,69"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

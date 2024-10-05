@@ -7,7 +7,7 @@ categories:
 character_title: Weltoffener Kutschfahrer
 race: Menschen
 sex: m
-age: 44
+birthday: 28.2.350
 height: "1,76"
 functions:
   - Kutschfahrer

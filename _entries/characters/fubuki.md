@@ -7,7 +7,7 @@ categories:
 character_title: Knuffiges Eis des Nordens
 race: Schutzgeist
 sex: w
-age: unbekannt (sehr junge Gestalt)
+birthday: unbekannt (sehr junge Gestalt)
 height: "1,44"
 affiliations:
   - 1. Generation der Hohefürsten

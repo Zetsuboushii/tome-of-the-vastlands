@@ -8,7 +8,7 @@ categories:
 character_title: Totgeglaubter Liebling des Volkes
 race: Menschen
 sex: m
-age: 27
+birthday: 27
 height: "1,86"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

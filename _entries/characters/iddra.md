@@ -7,7 +7,7 @@ categories:
 character_title: Rätselhafte Verbündete
 race: Dämonen
 sex: w
-age: unbekannt
+birthday: unbekannt
 height: "1,70"
 affiliations:
   - 4. Generation der Hohefürsten

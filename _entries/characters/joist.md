@@ -7,7 +7,7 @@ categories:
 character_title: Beherzter Seemann
 race: Menschen
 sex: m
-age: 43
+birthday: 43
 height: "1,70"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

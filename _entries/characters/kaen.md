@@ -7,7 +7,7 @@ categories:
 character_title: Hitzköpfige Zeitgenossin
 race: Menschen
 sex: w
-age: unbekannt
+birthday: unbekannt
 height: "1,58"
 affiliations:
   - 1. Generation der Hohefürsten

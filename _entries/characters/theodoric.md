@@ -7,7 +7,7 @@ categories:
 character_title: Verpeilter Inspektor
 race: Menschen
 sex: m
-age: 27
+birthday: 27
 height: "1,78"
 functions:
   - Inspektor der Magiepolizei Frelia

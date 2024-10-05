@@ -7,7 +7,6 @@ categories:
 character_title: Ungenierter Bluthund
 race: Götter
 sex: m
-age: Unbekannt
 height: "1,87"
 functions:
   - Gott der Sünde und der Finsternis

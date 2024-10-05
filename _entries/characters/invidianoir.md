@@ -7,7 +7,7 @@ categories:
 character_title: Gefährliche Liebschaft
 race: Menschen
 sex: w
-age: ubekannt
+birthday: ubekannt
 height: "1,78"
 affiliations:
   - 4. Generation der Hohefürsten

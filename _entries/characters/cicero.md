@@ -7,7 +7,7 @@ categories:
 character_title: Mörderischer Gaukler
 race: Elfen
 sex: m
-age: 323
+birthday: 8.12.71
 height: "1,85"
 affiliations:
   - Klauen des Hasses

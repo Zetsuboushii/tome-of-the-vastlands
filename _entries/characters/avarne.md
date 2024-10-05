@@ -7,7 +7,7 @@ categories:
 character_title: Werdender Abenteurer
 race: Menschen
 sex: m
-age: 19
+birthday: 27.5.375
 height: "1,77"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
@@ -25,6 +25,10 @@ lover: Jofina
 
 Avarne ist ein junger Abenteurer, der seit dem Einverständnis seines Vaters Hosgrid durch Faergria streift und auf
 seinen Reisen Erfahrungen und allerlei Kuriositäten sammelt.
+
+<!--more-->
+
+## 
 
 Bevor Avarne als Abenteurer aufbrechen konnte, erwartete sein Vater von ihm, dass Avarne eines Tages nach dem Rücktritt
 seines Vaters seinen Posten als Bürgermeister von Dünsberg innehält. Als kleiner Junge, noch nicht viele Ziele vor sich
