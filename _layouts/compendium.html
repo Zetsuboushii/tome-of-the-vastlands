@@ -17,10 +17,24 @@ layout: default
                 <h4>{{ subpage.type }}</h4>
                 <hr>
                 <div class="desc">
-                    <b>Fundorte:</b>
-                    {% for f in subpage.found %}
-                    {{ f }}{% unless forloop.last %}, {% endunless %}
-                    {% endfor %}
+                    <table>
+                        <tr>
+                            <td><b>Fundorte:</b></td>
+                            <td>
+                            {% for f in subpage.found %}
+                            {{ f }}{% unless forloop.last %}, {% endunless %}
+                            {% endfor %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Seltenheit:</b></td>
+                            <td>{{ subpage.rarity }}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Kaufpreis:</b></td>
+                            <td>{{ subpage.price }}S</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
