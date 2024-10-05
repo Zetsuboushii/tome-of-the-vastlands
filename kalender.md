@@ -8,6 +8,8 @@ category: calendar
 Die faergrianische Zeitrechnung beginnt ab der Vereinigung des Königreiches im Jahre 0 nach Vereinigung (n.V.). Ein Tag
 hat 24 Stunden, eine Woche sieben Tage, ein Mond hat vier Wochen, ein Jahr hat zwölf Monde.
 
+---
+
 ### Die Tage der Woche in Faergria
 
 In Faergria ist jede Woche in sieben Tage unterteilt, die mit den Kräften der Natur und den Elementen verbunden sind.
@@ -27,6 +29,8 @@ Jeder Tag hat seine eigene Bedeutung und Energie, die das tägliche Leben der Me
   kümmern. Ein Tag der Stabilität und des Wachstums.
 - **Sunnesdag (Sun):** Der Tag der Sonne, an dem Licht und Wärme geehrt werden. Er steht für Freude, Hoffnung und den
   Neubeginn, ideal für Gemeinschaftsfeiern.
+
+---
 
 ### Die Jahresmonde in Faergria
 
