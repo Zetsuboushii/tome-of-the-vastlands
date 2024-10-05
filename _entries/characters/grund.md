@@ -7,7 +7,7 @@ categories:
 character_title: Tiefstes aller Wasser
 race: Tieflinge
 sex: m
-birthday: 128
+birthday: 10.3.266
 height: "1,76"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
@@ -30,9 +30,15 @@ relationships:
 
 Grund ist der letzte der drei Richter des Herzogs. Er kümmert sich um organisatorische Angelegenheiten seines Teams.
 
+<!--more-->
+
+## Persönlichkeit
+
 Grund ist der ordentlichste aus dem Dreiergespann zwischen ihm, Spitze und Flüstern. Einher geht, dass er meist sehr
 zurückhaltend und förmlich auftritt. Spitze versucht öfters Grund in Verlegenheit zu bringen, in dem sie ihn aus seiner
 Komfortzone holt, doch enden diese Aktionen meist darin, dass Spitze einen auf den Deckel bekommt.
+
+## Familie
 
 Grund ist der einzige Sohn eines Gutsherren in Llurthargothr und wurde früh nach Herzogtum Markath geschickt, um die
 politische Bindung zur Hauptstadt zu festigen. Von seiner Familie hat er lange nichts mehr gehört, obwohl Grund sich

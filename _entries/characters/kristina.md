@@ -8,7 +8,7 @@ categories:
 character_title: Dorniges Veilchen
 race: Menschen
 sex: w
-birthday: 22
+birthday: 11.5.372
 height: "1,65"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

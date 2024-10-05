@@ -8,7 +8,7 @@ categories:
 character_title: Kindsköpfiger Frühherrscher
 race: Menschen
 sex: m
-birthday: 20
+birthday: 24.10.374
 height: "1,77"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
@@ -34,6 +34,10 @@ relationships:
 ---
 
 Tristan ist der jüngste Sohn aus dem Adelshause Nordholm und amtierender Großherzog von Escrigria.
+
+<!--more-->
+
+## Persönlichkeit
 
 Tristan wirkt in jeder Situation recht gefasst und ruhig, was meist jedoch nur eine Fassade ist, um seine wahren Gefühle
 zu verstecken.

@@ -8,7 +8,7 @@ categories:
 character_title: Großkotziger Erbe
 race: Menschen
 sex: m
-birthday: 19
+birthday: 28.11.375
 height: "1,79"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

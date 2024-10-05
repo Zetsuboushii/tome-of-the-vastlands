@@ -7,7 +7,6 @@ categories:
 character_title: Forsches Heilungswunder
 race: Pikori
 sex: w
-birthday: unbekannt
 height: "1,78"
 affiliations:
   - 3. Generation der Hohefürsten
@@ -29,6 +28,10 @@ relationships:
 ---
 
 Hama ist die Hohefürstin der Gesundheit und Glaubenszentrum des Ordens der Heilenden Hand.
+
+<!--more-->
+
+## Persönlichkeit
 
 Diese lebensfrohe Hohefürstin sorgt sich gerne um andere, wobei sie dabei auch etwas zu überfürsorglich sein kann.
 Gerade mit ihren Freunden kann sie stundenlang plaudern, was vielen mit der Zeit auf die Nerven geht. Wenn es mal nicht

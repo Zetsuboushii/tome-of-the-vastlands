@@ -8,7 +8,7 @@ categories:
 character_title: Pittoreskes Multitalent der Künste
 race: Menschen
 sex: w
-birthday: 18
+birthday: 16.9.373
 height: "1,57"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

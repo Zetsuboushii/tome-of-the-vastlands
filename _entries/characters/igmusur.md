@@ -7,7 +7,7 @@ categories:
 character_title: Gesicht der Renterbrigade
 race: Menschen
 sex: m
-birthday: 73
+birthday: 30.3.321
 height: "1,76"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
@@ -29,6 +29,10 @@ relationships:
 
 Der alte Igmusur war einst Hofkleriker am Schloss Aegir im Dienste des Königs. Prinzessin Marisa war während dieser Zeit
 seine Schülerin. Aus unbekannten Gründen wurde er vom Hof verbannt und lebt seitdem wieder in seiner Heimat Dünsberg.
+
+<!--more-->
+
+## Freundschaft mit U-Ranos
 
 Vor vielen vielen Jahren lernte Igmusur U-Ranos kennen. Seitdem pilgern die beiden Kumpanen gelegentlich durch Faergria.
 Ihre Pilgerreisen hat Igmusur säuberlichst dokumentiert und liest gerne ihren alten Abenteuer. In schweren Zeiten, in

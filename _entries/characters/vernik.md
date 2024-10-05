@@ -7,7 +7,7 @@ categories:
 character_title: Gönnender "Badeopa"
 race: Menschen
 sex: m
-birthday: 71
+birthday: 10.4.323
 height: "1,74"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

@@ -7,7 +7,7 @@ categories:
 character_title: Verletzliches Pflänzchen
 race: Halbelfen
 sex: w
-birthday: 18
+birthday: 11.11.376
 height: "1,65"
 affiliations:
   - Schicksalsjünger Fortunas
@@ -35,6 +35,10 @@ relationships:
 Zetta ist eine ehemalige Diebin der Diebesgilde in Grenbrock, derzeitig aber im Kloster Schicksalsweg als Unterstützung
 für Perrotus.
 
+<!--more-->
+
+## Hintergrund
+
 Zetta wurde in ihrer Kindheit und Jugend in der Schule in Grenbrock, Hauptstadt der Gerechtigkeit täglich Opfer harschem
 verbalen und physischen Missbrauchs; einzig wegen ihrer Herkunft. Als Halbelfin mit einem elfischen Vater aus Teryvnat
 und einer menschlichen Mutter aus Grenbrock geboren, übernahm sie die spitzen Ohren ihres Vaters. Lange Zeit ließ Zetta
@@ -49,6 +53,8 @@ erinnert, die Zetta erleiden musste. Die Verantwortlichen Mitschüler wurden von
 gezogen. Zetta erschien auf ihren Unfall folgend eine Zeit lang nicht mehr zum Unterricht und wurde seit diesem Tag auch
 von niemandem mehr gesehen. Aufgrund ihrer Erfahrungen hat Zetta einen unnatürlich starken Hass auf ihr Aussehen und
 ihre Abstammung, sowie ihre Eltern entwickelt.
+
+## Beziehung zur Diebesgilde
 
 Eines Nachts fand Arvel, der Dieb, das verwahrloste Mädchen, das von zuhause entlaufen war, in einer dreckigen
 Seitengasse auf. Arvel, der gerade auf einem Raubzug war, nahm Zetta aus Barmherzigkeit mit sich mit und sorgte sich

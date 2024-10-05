@@ -8,7 +8,7 @@ categories:
 character_title: Totgeglaubter Liebling des Volkes
 race: Menschen
 sex: m
-birthday: 27
+birthday: 9.9.367
 height: "1,86"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
@@ -31,6 +31,10 @@ relationships:
 ---
 
 Stephan ist der lange Zeit totgeglaubte rechtmäßige Thronfolger des Hauses Nordholm.
+
+<!--more-->
+
+## Hintergrund
 
 Für acht Jahre lebte Stephan seit dem missglückten Anschlag, der von seinem Vater und seiner Stiefmutter beauftragten
 Assassinen, in einer einsamen Hütte in einem Waldstück in den eisigen Hinterlanden Escrigrias.

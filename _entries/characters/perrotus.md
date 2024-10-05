@@ -7,7 +7,7 @@ categories:
 character_title: Selbstloser Klostervater
 race: Menschen
 sex: m
-birthday: 73
+birthday: 7.1.321
 height: "1,76"
 affiliations:
   - Schicksalsjünger Fortunas

@@ -8,7 +8,7 @@ categories:
 character_title: Prinz der Dunkelheit
 race: Menschen
 sex: m
-birthday: 19
+birthday: 17.11.375
 height: "1,82"
 alias:
   - [ Narancha, "U-Ranos" ]

@@ -7,7 +7,7 @@ categories:
 character_title: Tatkräftiger Schmied
 race: Zwerge
 sex: m
-birthday: 189
+birthday: 7.6.205
 height: "1,25"
 affiliations:
   - Glückauf der Aurenya

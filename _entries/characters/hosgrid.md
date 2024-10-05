@@ -7,7 +7,7 @@ categories:
 character_title: Dünsbergs Ewiger Bürgermeister A.D.
 race: Menschen
 sex: m
-birthday: 63
+birthday: 17.8.331
 height: "1,78"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

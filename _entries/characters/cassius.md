@@ -29,6 +29,10 @@ redirect_from:
 Vor einiger Zeit kam dieser vertrauenserweckende junge Mann an den königlichen Hofe in Aegir, um dort seine Dienste als
 Minister des Königs anzubieten.
 
+<!--more-->
+
+## Hintergrund
+
 Seitdem Cassius am Hof unter der Königsfamilie lebt, hat sich in Aegir, aber auch in Faergria einiges verändert.
 Zufällig haben sich seit seinem Auftauchen die Sichtungen von Monstern immer mehr gehäuft und auch König Gralnach ist
 öfters an merkwürdigen Krankheiten außer Gefecht gesetzt worden. Jedoch bemerkten weder Königin Cathlen noch ihr Gemahl,

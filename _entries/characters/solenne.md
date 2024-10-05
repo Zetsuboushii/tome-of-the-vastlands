@@ -8,7 +8,7 @@ categories:
 character_title: Garten der Schönheit
 race: Menschen
 sex: w
-birthday: 43
+birthday: 15.10.351
 height: "1,85"
 affiliations:
   - Schicksalsjünger Fortunas

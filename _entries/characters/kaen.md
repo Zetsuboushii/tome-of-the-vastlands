@@ -7,7 +7,6 @@ categories:
 character_title: Hitzköpfige Zeitgenossin
 race: Menschen
 sex: w
-birthday: unbekannt
 height: "1,58"
 affiliations:
   - 1. Generation der Hohefürsten
@@ -26,5 +25,9 @@ relationships:
 ---
 
 Im Vulkan am Glutberg verkörpert Kaen das Element des Feuers.
+
+<!--more-->
+
+## Persönlichkeit
 
 Ihre zynische und abweisende Art schreckt viele ab, doch so bekommen die meisten ihre zarte Seite nicht zu gesicht.

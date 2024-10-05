@@ -7,7 +7,6 @@ categories:
 character_title: Stichelndes Schicksal
 race: Götter
 sex: w
-birthday: Geheim
 height: "1,89"
 alias:
   - [ Tantchen, "U-Ranos" ]
@@ -34,6 +33,10 @@ relationships:
 
 Die hart arbeitende Göttin des Schicksals. Fortuna schuf einst die Menschen, die Faergria bevölkern sollten, und
 schenkte ihnen die Gabe der Weisheit.
+
+<!--more-->
+
+## Persönlichkeit
 
 Fortuna sitzt die meiste Zeit über alleine an ihrem Schreibtisch, protokolliert Ereignisse in der Welt und hilft hier
 und da nach. Sie ist eine sehr spaßige Person, die es liebt Scherze auf Kosten anderer zu machen, wenn auch nur

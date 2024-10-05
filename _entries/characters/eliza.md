@@ -44,6 +44,10 @@ Thanatos ihr an, eine seiner Reckinnen zu werden. In tiefer Verzweiflung nahm El
 jemals bereut hätte. Über die nächsten Jahre wuchs ihre Bindung zu Scarlet und Cinnabar, die sie wie ihre leibliche
 Schwester aufnahmen und behandelten, und lernte mit ihren neuen Kräften von Thanatos umzugehen.
 
+<!--more-->
+
+## Persönlichkeit
+
 Auch wenn Eliza immer wieder angab, dass sie ihr neues Leben in vollen Zügen genießen würde, mussten ihre neuen
 Schwestern und auch Thanatos oft mit ansehen, dass sie nachts alleine im Garten von Thanatos' Anwesen saß oder in dessen
 Bergen umherwanderte, und bitterlich weinte. Einmal las Scarlet im Vorbeigehen das aufgeschlagene Tagebuch von Eliza,

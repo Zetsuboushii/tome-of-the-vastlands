@@ -34,11 +34,17 @@ redirect_from:
 Cordelia ist die große Schwester von Kurfürst Jervar von Grenbrock, und somit nach alter Tradition die Prinzessin von
 Thaugrien. Unter ihr steht das gesamte Heer der Thaugriner Ritter und Soldaten.
 
+<!--more-->
+
+## Hintergrund
+
 Als Erstgeborene der vorherigen Kurfürsten oblag Cordelia schon von klein auf eine Menge an Pflichten, denen sie als
 spätere Thronfolgerin im Schloss Grenbrock nachzugehen hatte. Ihr Schicksal jedoch änderte sich, als sie mit sieben
 Jahren einen kleinen Bruder bekam. Mit sofortiger Wirkung wurden alle Erziehungsmaßnahmen, denen Cordelia bislang
 unterlag, mit der Geburt von Jervar niedergelegt. Damit erlangte Cordelia wieder ein Stück ihrer so ersehnten Freiheit
 wieder.
+
+## Militärkarriere
 
 Einige Jahre später entschloss sich Cordelia die Führung des Militärs von Thaugrien zu übernehmen. Für diese Rolle war
 sie wie gemacht. Cordelia unterlief allerlei Ausbildungen und sammelte auch durch praktische Trainings genügend

@@ -7,7 +7,7 @@ categories:
 character_title: Aufgehende Sonne der Unterwelt
 race: Tieflinge
 sex: w
-birthday: 164
+birthday: 12.12.230
 height: "1,82"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

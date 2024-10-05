@@ -7,7 +7,7 @@ categories:
 character_title: Charismatischer Weinkconnoisseur
 race: Menschen
 sex: m
-birthday: 40
+birthday: 18.4.354
 height: "1,87"
 functions:
   - Besitzer der Taverne "Rattenloch"

@@ -8,7 +8,7 @@ categories:
 character_title: Schläfrigster Krieger der Götter
 race: Menschen
 sex: m
-birthday: 43
+birthday: 30.08.351
 height: "1,65"
 functions:
   - Vasall der Iddra
@@ -41,6 +41,10 @@ relationships:
 
 Siegmund ist ein selbsternannter "gütiger" Dieb, der lange Jahre in der Diebesgilde in Grenbrock aktiv und
 Vorzeigemitglied war.
+
+<!--more-->
+
+## Persönlichkeit
 
 Siegmunds Charakter ist mysteriös und komplex. Er ist schwer einzuschätzen und macht meist nur das, was ihm selbst einen
 Vorteil verschafft. Seine Sturheit kommt im Umgang mit seiner eigentlichen Herrin zum Vorschein, die er meist mit

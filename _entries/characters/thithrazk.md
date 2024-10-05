@@ -7,7 +7,7 @@ categories:
 character_title: Vorzeigelehrmeister
 race: Drakonier
 sex: m
-birthday: 63
+birthday: 8.1.331
 height: "2,09"
 functions:
   - Professor an der Magieakademie Darnax

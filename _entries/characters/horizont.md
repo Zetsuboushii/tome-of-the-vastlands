@@ -7,7 +7,7 @@ categories:
 character_title: Brückenbauender Herzog
 race: Tiefling
 sex: m
-birthday: 243
+birthday: 28.5.151
 height: "1,93"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

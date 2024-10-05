@@ -7,7 +7,6 @@ categories:
 character_title: Ewige Jugend
 race: Pikori
 sex: m
-birthday: unbekannt
 height: "1,63"
 affiliations:
   - 3. Generation der Hohefürsten

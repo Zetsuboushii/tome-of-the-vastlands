@@ -4,10 +4,10 @@ title: Karl
 categories:
   - character
   - NPC
-character_title: Eifriger Haushälter
+character_title: Gottgleicher Haushälter
 race: Menschen
 sex: m
-birthday: 22
+birthday: 16.10.372
 height: "1,79"
 affiliations:
   - Schicksalsjünger Fortunas

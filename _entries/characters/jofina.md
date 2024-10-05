@@ -8,7 +8,7 @@ categories:
 character_title: Frischer Wind von Dünsberg
 race: Halbelfen
 sex: w
-birthday: 22
+birthday: 11.11.371
 height: "1,72"
 affiliations:
   - Schicksalsjünger Fortunas

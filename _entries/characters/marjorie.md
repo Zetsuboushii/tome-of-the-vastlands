@@ -7,7 +7,7 @@ categories:
 character_title: Rachsüchtige Reporterin
 race: Halbelfen
 sex: w
-birthday: 23
+birthday: 30.10.371
 height: "1,69"
 affiliations:
   - Schicksalsjünger Fortunas

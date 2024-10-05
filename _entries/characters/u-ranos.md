@@ -67,6 +67,10 @@ alt_imgs:
 
 U-Ranos ist einer der fünf Recken der Justicia und zudem in seiner Erdengestalt der Ziehsohn von Seloue.
 
+<!--more-->
+
+## Persönlichkeit
+
 U-Ranos ist ein stets fröhlicher Himmelsbewohner, der immer für Späße zu haben ist – selbst dann, wenn diese auf seine
 eigenen Kosten gehen. Für ihn sind seine Freunde wie eine Familie, die er über alles schätzt. Ränge und Macht bedeuten
 ihm nichts; er sieht sie lediglich als Werkzeuge, um diejenigen zu schützen, die ihm am Herzen liegen. In seiner
@@ -75,11 +79,15 @@ es nach U-Ranos ginge, wären alle Barrieren, die durch Rangunterschiede entsteh
 harmonisches Miteinander. Ob Gott, Recke oder einfacher Soldat – der Respekt, den er anderen entgegenbringt, basiert
 einzig und allein auf ihren Handlungen.
 
+## Werte
+
 Trotz seiner oft sorglosen und humorvollen Art hält U-Ranos fest an der Hoffnung auf eine gerechte Welt. Er ist
 zielstrebig und stets zugänglich, es sei denn, er wird Zeuge von Ungerechtigkeit. In jedem Leben sieht er das Potenzial,
 das Richtige zu tun, und wünscht sich eine Welt, in der alle Wesen sich frei entwickeln und ihr volles Potenzial
 entfalten können. U-Ranos versucht stets, an das Gute in jedem zu appellieren, auch wenn seine Idealvorstellungen von
 manchen als naiv und dickköpfig abgetan werden.
+
+## Reckenschaft und Aufgabe
 
 Als einer der fünf momentanen Recken Justicias vertritt U-Ranos die unbeugsame Gerechtigkeit. Er wuchs in den
 himmlischen Gefilden auf und verbrachte dort einen Großteil seiner Zeit. Seine Tage füllte er damit, anderen

@@ -7,7 +7,7 @@ categories:
 character_title: Ruchloser Intrigant
 race: Menschen
 sex: m
-birthday: 39
+birthday: 8.11.355
 height: "1,91"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

@@ -7,7 +7,6 @@ categories:
 character_title: Lichtbringende Botin
 race: Engel
 sex: m
-birthday: unbekannt
 height: "1,70"
 alias:
   - [ Ili, "U-Ranos" ]

@@ -7,7 +7,7 @@ categories:
 character_title: Apothekerin des Waldes
 race: Menschen
 sex: w
-birthday: 28
+birthday: 29.7.366
 height: "1,63"
 functions:
   - Apothekerin

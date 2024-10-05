@@ -7,7 +7,7 @@ categories:
 character_title: Gutherziger Wächter
 race: Elfen
 sex: m
-birthday: 247
+birthday: 19.5.147
 height: "1,93"
 affiliations:
   - Kinder des Waldes

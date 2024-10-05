@@ -7,7 +7,7 @@ categories:
 character_title: Nimmerbrechender Rebell
 race: Tiefling
 sex: m
-birthday: 115
+birthday: 26.4.279
 height: "1,81"
 affiliations:
   - Abgrundkirche der Glimmenden Sünde

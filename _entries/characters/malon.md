@@ -7,7 +7,7 @@ categories:
 character_title: Vornehmer Held
 race: Elfen
 sex: m
-birthday: 279
+birthday: 9.2.115
 height: "1,94"
 affiliations:
   - Kinder des Waldes

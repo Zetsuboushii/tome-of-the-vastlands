@@ -7,7 +7,6 @@ categories:
 character_title: Rätselhafte Verbündete
 race: Dämonen
 sex: w
-birthday: unbekannt
 height: "1,70"
 affiliations:
   - 4. Generation der Hohefürsten
@@ -32,10 +31,16 @@ Als Hohefürstin der Gier hat Iddra in Niddarvellir, Stadt der Verbannten ihren 
 Windeseile als Gouvernante einen Namen gemacht. Die Einwohner Niddarvellirs, mögen sie auch noch so skrupellos sein,
 respektieren Iddra zu tiefst.
 
+<!--more-->
+
+## Siegmund
+
 Im Rahmen der Pläne Malusdurs, suchte sich Iddra einen geeigneten Vasallen: Siegmund. Als entfernte Stimme in seinem
 Kopf, sprach Iddra eine Zeit lang auf ihn ein. Schnell merkte sie allerdings, dass Siegmund ein angestrengender
 Zeitgenosse sein kann. Mit U-Ranos hat sie einen Leidensgenossen gefunden und ist durch Siegmunds gestiegene mentale
 Kraft mittlerweile in der Lage sich physisch außerhalb Niddarvellirs in der Nähe von Siegmund zu manifestieren.
+
+## Persönlichkeit
 
 Iddra hat eine unstillbare Vorliebe für Orangen. Damit ist es recht leicht ihre Gunst zu gewinnen. Obwohl Iddra stets
 nicht so wirkt, verfügt sie über enorme magische Kräfte, die sie in gewissen Situationen auch zu schätzen weiß. Ihre

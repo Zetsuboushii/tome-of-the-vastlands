@@ -7,7 +7,7 @@ categories:
 character_title: Authentischer Macher
 race: Menschen
 sex: m
-birthday: 32
+birthday: 23.7.362
 height: "1,86"
 alias:
   - [ Linus Tavernen Tips, "U-Ranos, DM" ]
@@ -31,7 +31,11 @@ relationships:
 Linus hat vor einigen Jahren ein altes Hofgut außerhalb von Brodia erworben und wieder auf Vordermann gebracht. Sein
 gesamtes Herzblut steckt in der Taverne, die er heute dort betreibt.
 
-Wo Linus eigentlich nach Aegir gehen sollte und dort Wirtschaft studieren sollte, entschied er sich in seiner Heimat zu
+<!--more-->
+
+## Hintergrund
+
+Obwohl Linus eigentlich nach Aegir gehen und dort Wirtschaft studieren sollte, entschied er sich in seiner Heimat zu
 bleiben und seinen Traum als Tavernenbesitzer verfolgen. Linus liebt das Interagieren mit seinen Gästen und neue
 Personen kennenzulernen. Über die Jahre hat er sich eine treue Stammkundschaft aufgebaut, die teils sogar aus Nifl und
 Daein kommen. Viele Gäste lieben Linus' aufgeschlossene Art und die gemütliche Atmosphäre der Taverne. Dieser gute Ruf

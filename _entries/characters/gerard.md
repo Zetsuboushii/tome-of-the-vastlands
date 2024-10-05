@@ -7,7 +7,7 @@ categories:
 character_title: Stählernes Kraftpaket der Wildnis 
 race: Menschen
 sex: m
-birthday: 31
+birthday: 8.2.363
 height: "1,96"
 class: Kämpfer
 homes:

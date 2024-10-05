@@ -31,6 +31,10 @@ diesen Jungen dort ausgesetzt hatten, nahm Perrotus den kleinen Felix im Kloster
 Perrotus, der ihn wie seinen eigenen Sohn großzog. Schon in jungen Jahren zeigte Felix Talent in Anrufungen, sodass
 Felix' Ausbildung schnell voranschritt. Mittlerweile ist es ihm möglich wirksame Anrufungen durch Fortuna zu beschwören.
 
+<!--more-->
+
+## Persönlichkeit
+
 Außerhalb seines Glaubens ist Felix ziemlich ungeschickt. Als Carmesine ihn einmal bat, ein paar Schindeln am Dach des
 Küchenhauses des Klosters wieder zu befestigen, rutschte Felix aus, fiel einige Meter zu Boden und brach sich seine
 rechte Schulter. Carmesine musste sich zwar im ersten Moment ihr Lachen verkneifen, doch schnell bemerkte sie den Ernst

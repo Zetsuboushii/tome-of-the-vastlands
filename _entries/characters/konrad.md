@@ -8,7 +8,7 @@ categories:
 character_title: Kühne Stellvertretung
 race: Menschen
 sex: m
-birthday: 25
+birthday: 20.11.369
 height: "1,78"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

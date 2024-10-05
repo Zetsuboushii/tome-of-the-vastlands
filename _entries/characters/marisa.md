@@ -8,7 +8,7 @@ categories:
 character_title: Unschuldige Blume
 race: Halbelfen
 sex: w
-birthday: 19
+birthday: 17.3.375
 height: "1,64"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit

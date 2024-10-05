@@ -7,7 +7,6 @@ categories:
 character_title: Gefährliche Liebschaft
 race: Menschen
 sex: w
-birthday: ubekannt
 height: "1,78"
 affiliations:
   - 4. Generation der Hohefürsten
@@ -28,6 +27,10 @@ relationships:
 ---
 
 Als Hohefürstin der Eifersucht sät Invidianoir jene dunkle Emotion in die Herzen der Bewohner Faergrias.
+
+<!--more-->
+
+## Persönlichkeit
 
 Niemand kennt so ganz die Hintergründe von Invidianoir, noch was ihre genauen Absichten sind. Dennoch weiß jeder unter
 den Hohefürsten, dass Invidianoir gefürchtet für ihre nachtragende, giftige Persönlichkeit, als auch ihre enorme Stärke
