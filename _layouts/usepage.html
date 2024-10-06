@@ -9,7 +9,7 @@ layout: default
             <h1>{{ page.title }}</h1>
             <hr>
 
-            {{ page.excerpt }}
+            {{ page_parts[0] }}
 
             {% if page_parts[1] %}
             <div id="toc" class="table-of-contents">
@@ -83,7 +83,9 @@ layout: default
                 </tr>
 
                 {% if page.birthday %}
-                {% assign months = "Eismond,Frostmond,Saatmond,Blütenmond,Wonnemond,Heumond,Sonnenmond,Erntemond,Fruchtmond,Weinmond,Nebelmond,Julmond" | split: "," %}
+                {% assign months =
+                "Eismond,Frostmond,Saatmond,Blütenmond,Wonnemond,Heumond,Sonnenmond,Erntemond,Fruchtmond,Weinmond,Nebelmond,Julmond"
+                | split: "," %}
                 {% assign birthday = page.birthday | split: '.' %}
                 {% assign currentDate = site.currentDate | split: '-' %}
 
@@ -395,8 +397,9 @@ layout: default
                             {% assign filtered_entries = site.entries | sort: 'title' %}
                             {% for character in filtered_entries %}
                             {% if character.homes contains page.title %}
-                            <li><a href="{{ '/characters/' | append: character.title | downcase | replace: ' ', '-' | relative_url }}">
-                                {{ character.title }}</a></li>
+                            <li>
+                                <a href="{{ '/characters/' | append: character.title | downcase | replace: ' ', '-' | relative_url }}">
+                                    {{ character.title }}</a></li>
                             {% endif %}
                             {% endfor %}
                         </ul>
@@ -404,6 +407,124 @@ layout: default
                 </tr>
             </table>
             {% endif %}
+            {% endif %}
+
+            {% if page.category == "bestiary" %}
+
+            <h1>{{ page.title }}</h1>
+            <hr>
+
+            <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
+                 alt="">
+            <hr>
+
+            <h4><b>Allgemeine Informationen</b></h4>
+            <table>
+                {% if page.type %}
+                <tr>
+                    <td><b>Typ</b></td>
+                    <td>{{ page.type }}</td>
+                </tr>
+                {% endif %}
+                {% if page.hp %}
+                <tr>
+                    <td><b>HP</b></td>
+                    <td>{{ page.hp }}</td>
+                </tr>
+                {% endif %}
+                {% if page.ac %}
+                <tr>
+                    <td><b>AC</b></td>
+                    <td>{{ page.ac }}</td>
+                </tr>
+                {% endif %}
+                {% if page.move %}
+                <tr>
+                    <td><b>Bewegungsreichw.</b></td>
+                    <td>
+                        <ul>
+                            {% for m in page.move %}
+                            <li>{{ m }} ft.</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+
+            <h4><b>Ability Modifier</b></h4>
+            <table>
+                {% if page.str %}
+                <tr>
+                    <td><b>Stärke</b></td>
+                    <td>{{ page.str }}</td>
+                </tr>
+                {% endif %}
+                {% if page.dex %}
+                <tr>
+                    <td><b>Geschicklichkeit</b></td>
+                    <td>{{ page.dex }}</td>
+                </tr>
+                {% endif %}
+                {% if page.con %}
+                <tr>
+                    <td><b>Konstitution</b></td>
+                    <td>{{ page.con }}</td>
+                </tr>
+                {% endif %}
+                {% if page.int %}
+                <tr>
+                    <td><b>Intelligenz</b></td>
+                    <td>{{ page.int }}</td>
+                </tr>
+                {% endif %}
+                {% if page.wis %}
+                <tr>
+                    <td><b>Weisheit</b></td>
+                    <td>{{ page.wis }}</td>
+                </tr>
+                {% endif %}
+                {% if page.cha %}
+                <tr>
+                    <td><b>Charisma</b></td>
+                    <td>{{ page.cha }}</td>
+                </tr>
+                {% endif %}
+            </table>
+
+            <h4><b>Status</b></h4>
+            <table>
+                <tr>
+                    <td><b>Schwächen</b></td>
+                    <td>
+                        <ul>
+                            {% for w in page.weak %}
+                            <li>{{ w }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Resistenzen</b></td>
+                    <td>
+                        <ul>
+                            {% for r in page.res %}
+                            <li>{{ r }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Immunitäten</b></td>
+                    <td>
+                        <ul>
+                            {% for i in page.imm %}
+                            <li>{{ i }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+            </table>
             {% endif %}
         </div>
     </div>
