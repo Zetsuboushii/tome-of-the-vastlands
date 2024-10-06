@@ -411,11 +411,17 @@ layout: default
 
             {% if page.category == "bestiary" %}
 
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.supplement }} {{ page.title }}</h1>
+            <h4>{{ page.bosstitle }}</h4>
             <hr>
 
+            {% if page.character == true %}
+            <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
+                 alt="">
+            {% else %}
             <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
                  alt="">
+            {% endif %}
             <hr>
 
             <h4><b>Allgemeine Informationen</b></h4>

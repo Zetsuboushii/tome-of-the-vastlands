@@ -5,7 +5,7 @@ category: bestiary
 type: Untot
 hp: 5
 ac: 10
-move: im Wasser 40
+move: schwimmend 40
 str: -4
 dex: 3
 con: 0
