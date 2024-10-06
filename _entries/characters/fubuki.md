@@ -21,6 +21,8 @@ relationships:
   - [ U-Ranos, Adoptivvater ]
   - [ Nayru, Pflegemutter ]
   - [ Kaen, Freundin ]
+alt_imgs:
+  - Fubuki Emmi Ver
 ---
 
 Fubuki ist ein kleiner Schutzgeist der Kronen-Schneeberge in Gestalt eines Schneefuchses.
