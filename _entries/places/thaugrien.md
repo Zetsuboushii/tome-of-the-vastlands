@@ -8,6 +8,11 @@ supplement: Land der Traditionen
 hasinit:
   - Nord-Grenbrock
   - Dünsberg-Plateau
+  - Klamm des Tellius
+  - Süd-Grenbrock
+  - Tarporsee
+  - Thaugrien-Hochebene
+  - Thaugrines Küstenland
 placetype: Territorialstaat
 capital: Grenbrock
 leader: [ Jervar, Kurfürst ]
