@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Brückenbauender Herzog
-race: Tiefling
+race: Tieflinge
 sex: m
 birthday: 28.5.151
 height: "1,93"
