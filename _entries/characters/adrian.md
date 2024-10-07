@@ -11,7 +11,7 @@ sex: m
 birthday: 4.5.365
 height: "1,79"
 functions:
-  - Besitzer der Taverne "Adrians Schatzkiste"
+  - Besitzer der Taverne 'Adrians Schatzkiste'
 class: Abenteurer
 homes:
   - Nordholm

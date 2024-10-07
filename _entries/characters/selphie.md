@@ -17,7 +17,7 @@ homes:
 alignment: LG
 alive: true
 relationships:
-  - [ Tannivh, 'Ziehvater, "großer Bruder"' ]
+  - [ Tannivh, "Ziehvater, 'großer Bruder'" ]
 ---
 
 Waise in Obhut von Tannivh

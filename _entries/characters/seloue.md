@@ -23,7 +23,7 @@ relationships:
   - [ Lavande, Lehrling ]
   - [ U-Ranos, Ziehsohn ]
   - [ Justicia, beste Freundin ]
-  - [ Hama, '"beste" Freundin' ]
+  - [ Hama, "'beste' Freundin" ]
   - [ Fortuna, Freundin ]
   - [ Thanatos, Freundin ]
   - [ Theodoric, Freund ]

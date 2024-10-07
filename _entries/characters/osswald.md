@@ -10,7 +10,7 @@ sex: m
 birthday: 18.4.354
 height: "1,87"
 functions:
-  - Besitzer der Taverne "Rattenloch"
+  - Besitzer der Taverne 'Rattenloch'
 class: Bürger
 homes:
   - Niddarvellir

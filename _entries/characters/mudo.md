@@ -20,7 +20,7 @@ homes:
 alignment: LN
 alive: true
 relationships:
-  - [ Hama, '"beste" Freundin' ]
+  - [ Hama, "'beste' Freundin" ]
   - [ Iddra, Freunde ]
   - [ Valerius, Vasall ]
   - [ Thanatos, Freund ]

@@ -7,7 +7,7 @@ categories:
 character_title: Blasser Theatraliker
 race: Vampire
 sex: m
-birthday: 18.3.116
+birthday: 18.3.-116
 height: "1,87"
 alias:
   - [ Blutsaugendes Monster, Einwohner von Tellius ]

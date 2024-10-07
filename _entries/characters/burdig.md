@@ -12,7 +12,7 @@ height: "1,80"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:
-  - Besitzer der Taverne "Mosthaus"
+  - Besitzer der Taverne 'Mosthaus'
 class: Bürger
 homes:
   - Dünsberg

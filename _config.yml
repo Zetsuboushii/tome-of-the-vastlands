@@ -31,6 +31,8 @@ collections:
   entries:
     output: true
     permalink: /:path/
+  api:
+    output: true
 
 # Build settings
 theme: minima

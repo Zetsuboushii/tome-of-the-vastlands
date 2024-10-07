@@ -13,7 +13,7 @@ height: "1,79"
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:
-  - Erbe des Ziegeleiunternehmens "Eichenhain Ziegel"
+  - Erbe des Ziegeleiunternehmens 'Eichenhain Ziegel'
 class: Adliger
 homes:
   - Aegir

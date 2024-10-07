@@ -1,0 +1,41 @@
+---
+layout: none
+---
+[
+{% for character in site.entries | where: "categories[0]", "character" %}
+  {
+    "name": "{{ character.title }}",
+    "surname": "{{ character.surname }}",
+    "title": "{{ character.character_title }}",
+    "race": "{{ character.race }}",
+    "sex": "{{ character.sex }}",
+    "birthday": "{{ character.birthday }}",
+    "height": "{{ character.height }}",
+    "functions": [
+      {% for function in character.functions %}
+      "{{ function }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "class": "{{ character.class }}",
+    "subclasses": [
+      {% for subclass in character.subclasses %}
+      "{{ subclass }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "masterclass": "{{ character.masterclass }}",
+    "homes": [
+      {% for home in character.homes %}
+      "{{ home }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "alignment": "{{ character.alignment }}",
+    "status": "{{ character.alive }}",
+    "relationships": [
+      {% for relation in character.relationships | split: ',' %}
+      "{{ relation[0] }} | {{ relation[1] }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "lover": "{{ character.lover }}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

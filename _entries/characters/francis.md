@@ -5,7 +5,7 @@ surname: von Falkenhayn
 categories:
   - character
   - NPC
-character_title: Verträumter "Zauberer"
+character_title: Verträumter 'Zauberer'
 race: Menschen
 sex: m
 birthday: 24.11.366

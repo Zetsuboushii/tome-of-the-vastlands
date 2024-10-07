@@ -21,7 +21,7 @@ homes:
 alignment: LG
 alive: true
 relationships:
-  - [ Selphie, 'Adoptivtochter, "kleine Schwester"' ]
+  - [ Selphie, "Adoptivtochter, 'kleine Schwester'" ]
   - [ Aelua, Großmutter ]
   - [ Finnea, ehem. Herrin ]
 ---

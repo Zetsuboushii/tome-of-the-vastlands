@@ -4,7 +4,7 @@ title: Vernik
 categories:
   - character
   - NPC
-character_title: Gönnender "Badeopa"
+character_title: Gönnender 'Badeopa'
 race: Menschen
 sex: m
 birthday: 10.4.323

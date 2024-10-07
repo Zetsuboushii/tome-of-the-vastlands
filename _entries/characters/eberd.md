@@ -10,7 +10,7 @@ sex: m
 birthday: 24.7.344
 height: "1,73"
 functions:
-  - Besitzer der Hafenspelunke "Kleines Fässchen"
+  - Besitzer der Hafenspelunke 'Kleines Fässchen'
 class: Bürger
 homes:
   - Aegir

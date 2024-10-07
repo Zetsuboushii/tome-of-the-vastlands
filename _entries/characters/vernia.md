@@ -12,7 +12,7 @@ height: "1,68"
 affiliations:
   - Schicksalsjünger Fortunas
 functions:
-  - Besitzerin der Taverne "Blaues Vöglein"
+  - Besitzerin der Taverne 'Blaues Vöglein'
 class: Bürger
 homes:
   - Schachendorf

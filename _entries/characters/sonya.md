@@ -24,7 +24,7 @@ alignment: TN
 alive: true
 relationships:
   - [ Solenne, Mutter ]
-  - [ U-Ranos, '"Ziehvater", Vertrauter ' ]
+  - [ U-Ranos, "'Ziehvater', Vertrauter" ]
   - [ Marine, "Wache, Freundin" ]
 lover: Valerius
 ---
