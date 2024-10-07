@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Tragisches Opferlamm
-race: Tiefling
+race: Tieflinge
 sex: w
 birthday: 29.9.297
 height: "1,62"

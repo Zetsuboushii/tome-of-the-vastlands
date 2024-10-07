@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Nimmerbrechender Rebell
-race: Tiefling
+race: Tieflinge
 sex: m
 birthday: 26.4.279
 height: "1,81"

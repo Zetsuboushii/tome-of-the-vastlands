@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Verführerischer Abgrund 
-race: Tiefling
+race: Tieflinge
 sex: w
 birthday: 19.12.268
 height: "1,70"

@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Schlemmende Richterin des Herzogs
-race: Tiefling
+race: Tieflinge
 sex: w
 birthday: 23.7.278
 height: "1,69"
