@@ -93,8 +93,8 @@ layout: default
                 {% assign birthMonth = birthday[1] | plus: 0 %}
                 {% assign birthYear = birthday[2] | plus: 0 %}
 
-                {% assign currentMonth = currentDate[0] | plus: 0 %}
-                {% assign currentYear = currentDate[1] | plus: 0 %}
+                {% assign currentMonth = currentDate[1] | plus: 0 %}
+                {% assign currentYear = currentDate[2] | plus: 0 %}
 
                 {% assign age = currentYear | minus: birthYear %}
 
