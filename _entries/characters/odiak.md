@@ -6,7 +6,7 @@ categories:
   - NPC
 character_title: Letzter Drache des Landes
 race: Drachen
-sex: m/w
+sex: m
 height: "5"
 affiliations:
   - Drachen Faergrias
