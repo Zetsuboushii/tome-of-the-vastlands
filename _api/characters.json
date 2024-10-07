@@ -2,8 +2,10 @@
 layout: none
 ---
 [
-{% for character in site.entries | where: "categories[0]", "character" %}
-  {
+{% for character in site.entries %}
+{% if character.categories contains "character" %}
+{% if counter > 0 %},{% endif %}
+{
     "name": "{{ character.title }}",
     "surname": "{{ character.surname }}",
     "title": "{{ character.character_title }}",
@@ -32,10 +34,11 @@ layout: none
     "status": "{{ character.alive }}",
     "relationships": [
       {% for relation in character.relationships | split: ',' %}
-      "{{ relation[0] }} | {{ relation[1] }}"{% unless forloop.last %},{% endunless %}
+      ["{{ relation[0] }}", "{{ relation[1] }}"]{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ],
     "lover": "{{ character.lover }}"
-}{% unless forloop.last %},{% endunless %}
+}{% assign counter = counter | plus: 1 %}
+{% endif %}
 {% endfor %}
 ]
