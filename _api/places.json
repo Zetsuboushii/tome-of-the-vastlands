@@ -1,0 +1,26 @@
+---
+layout: none
+---
+[
+{% for place in site.entries %}
+{% if place.category == "places" %}
+{% if counter > 0 %},{% endif %}
+{
+    "name": "{{ place.title }}",
+    "subtitle": "{{ place.subtitle }}",
+    "supplement": "{{ place.supplement }}",
+    "natlang": ["{{ place.natlang[0] }}", "{{ place.natlang[1] }}"],
+    "demography": "{{ place.demography }}",
+    "hasInit": [
+      {% for has in place.hasinit %}
+      "{{ has }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "placetype": "{{ place.placetype }}",
+    "system": "{{ place.system }}",
+    "leader": ["{{ place.leader[0] }}", "{{ place.leader[1] }}"],
+    "capital": "{{ place.capital }}"
+}{% assign counter = counter | plus: 1 %}
+{% endif %}
+{% endfor %}
+]
