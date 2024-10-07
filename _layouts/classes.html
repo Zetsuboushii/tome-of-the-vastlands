@@ -7,59 +7,57 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
-    <div class="tree" style="display: flex; justify-content: center">
+    <div class="item-list" style="font-family: 'Grenze Gotisch'">
         <ul>
             <li>
-                <a href="">Job-Klassen</a>
+                <h2>Job-Klassen</h2>
+                <hr>
                 {% assign posts = site.entries | sort: 'title' %}
                 <ul>
-                    {% for nonfightclass in posts %}
-                    {% if nonfightclass.categories contains "jobclass" %}
+                    {% for class in posts %}
+                    {% if class.categories contains "jobclass" %}
                     <li>
-                        <a href="{{ nonfightclass.url | relative_url }}">{{ nonfightclass.title }}</a>
+                        <h3><a href="{{ class.url | relative_url }}">{{ class.title }}</a></h3>
+                        <hr>
+                        <p>{{ class.excerpt }}</p>
                     </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
             </li>
-        </ul>
-    </div>
-
-    <div class="tree" style="display: flex; justify-content: center">
-        <ul>
             <li>
-                <a href="">Einzigartige Klassen</a>
+                <h2>Einzigartige Klassen</h2>
+                <hr>
                 {% assign posts = site.entries | sort: 'title' %}
                 <ul>
-                    {% for uniqueclass in posts %}
-                    {% if uniqueclass.categories contains "uniqueclass" %}
+                    {% for class in posts %}
+                    {% if class.categories contains "uniqueclass" %}
                     <li>
-                        <a href="{{ uniqueclass.url | relative_url }}">{{ uniqueclass.title }}</a>
+                        <h3><a href="{{ class.url | relative_url }}">{{ class.title }}</a></h3>
+                        <hr>
+                        <p>{{ class.excerpt }}</p>
                     </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
             </li>
-        </ul>
-    </div>
-
-    <hr>
-
-    <div class="tree">
-        {% assign posts = site.entries | sort: 'title' %}
-        {% for mainclass in posts %}
-        {% if mainclass.categories contains "classes" %}
-        {% assign next_advclasses = mainclass.next_class %}
-        {% if next_advclasses %}
-        <ul>
+            {% assign posts = site.entries | sort: 'title' %}
+            {% for mainclass in posts %}
+            {% if mainclass.categories contains "classes" %}
+            {% assign next_advclasses = mainclass.next_class %}
+            {% if next_advclasses %}
             <li>
-                <a href="{{ mainclass.url | relative_url }}">{{ mainclass.title }}</a>
-
-                <ul class="">
+                <h2><a href="{{ mainclass.url | relative_url }}">{{ mainclass.title }}</a></h2>
+                <hr>
+                <p>{{ mainclass.excerpt }}</p>
+                {% assign posts = site.entries | sort: 'title' %}
+                <ul>
                     {% for advclass in posts %}
                     {% if advclass.categories contains "advclass" and next_advclasses contains advclass.title %}
                     <li>
-                        <a class="breakable" href="{{ advclass.url | relative_url }}">{{ advclass.title }}</a>
+                        <h3><a href="{{ advclass.url | relative_url }}">{{ advclass.title }}</a></h3>
+                        <hr>
+                        <p>{{ advclass.excerpt }}</p>
                         {% assign next_masterclasses = advclass.next_class %}
                         {% if next_masterclasses %}
                         <ul>
@@ -67,8 +65,10 @@ layout: default
                             {% if masterclass.categories contains "masterclass" and next_masterclasses contains
                             masterclass.title %}
                             <li>
-                                <a class="breakable" href="{{ masterclass.url | relative_url }}">{{ masterclass.title
-                                    }}</a>
+                                <h3><a href="{{ masterclass.url | relative_url }}">{{ masterclass.title
+                                    }}</a></h3>
+                                <hr>
+                                <p>{{ masterclass.excerpt }}</p>
                             </li>
                             {% endif %}
                             {% endfor %}
@@ -78,12 +78,10 @@ layout: default
                     {% endif %}
                     {% endfor %}
                 </ul>
-
             </li>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
         </ul>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
     </div>
-
 </div>

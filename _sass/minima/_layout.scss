@@ -545,92 +545,57 @@
  */
 
 .tree {
-  font-size: 20px;
-  font-family: "Grenze Gotisch";
-
   ul {
-    position: relative;
-    padding: 1em 0;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    list-style: none; // Entfernt Standard-Aufzählungszeichen
+    padding-left: 20px; // Einrückung für Unterlisten
+    margin: 0;
 
-    &::after {
-      content: '';
-      display: table;
-      clear: both;
+    li {
+      margin: 5px 0; // Abstand zwischen den Listenelementen
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: -10px; // Positionierung des Verbindungsstrichs
+        top: 12px;
+        width: 10px;
+        height: 1px;
+        background: #666; // Verbindungsstrich
+      }
+
+      &:first-of-type:before {
+        top: 14px;
+      }
+
+      & > ul {
+        padding-left: 20px;
+        border-left: 1px solid #666; // Verbindungslinie für Unterlisten
+        margin-left: 10px;
+
+        li {
+          &:last-of-type:before {
+            height: 14px; // Längere Verbindung für das letzte Element
+          }
+        }
+      }
+
+      & > a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        display: inline-block;
+        padding: 5px 10px;
+        background: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        transition: background 0.3s;
+
+        &:hover {
+          background: #ddd; // Hover-Effekt
+        }
+      }
     }
-  }
-
-  li {
-    display: block;
-    vertical-align: top;
-    text-align: center;
-    list-style-type: none;
-    position: relative;
-    padding: 1em .5em 0 .5em;
-
-    &::before,
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 50%;
-      border-top: 1px solid;
-      width: 50%;
-      height: 1em;
-    }
-
-    &::after {
-      right: auto;
-      left: 50%;
-      border-left: 1px solid;
-    }
-
-    &:only-child::after,
-    &:only-child::before {
-      display: none;
-    }
-
-    &:only-child {
-      padding-top: 0;
-    }
-
-    &:first-child::before,
-    &:last-child::after {
-      border: 0 none;
-    }
-
-    &:last-child::before {
-      border-right: 1px solid;
-    }
-
-  }
-
-  ul ul::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    border-left: 1px solid;
-    width: 0;
-    height: 1em;
-  }
-
-  li a {
-    border: 1px solid;
-    padding: .5em .75em;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    top: 1px;
-  }
-
-  li a:hover,
-  li a:hover + ul li a {
-    background: $backdrop-color;
-    //border: $border-width solid #e9453f;
   }
 }
 
