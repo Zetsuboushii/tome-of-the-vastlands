@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Tome of the Vastlands
-
 Willkommen im Wiki rund um alle Themen der Kampagnen in der Welt der Vastlands.
 
 ## Tauche ein in die verwobene Lore
