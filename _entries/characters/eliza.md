@@ -6,7 +6,7 @@ categories:
   - character
   - NPC
 character_title: Unbeugsame Sünde
-race: Dämonen
+race: Menschen
 sex: w
 birthday: 3.8.369
 height: "1,78"
