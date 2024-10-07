@@ -23,9 +23,6 @@ alive: true
 relationships:
   - [ Solenne, Herrin ]
   - [ Sonya, "Herrin, Freundin" ]
-lover: name
-alt_imgs:
-  - 
 ---
 
 ...
