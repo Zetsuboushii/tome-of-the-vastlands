@@ -1,0 +1,19 @@
+---
+layout: none
+---
+[
+{% for race in site.entries %}
+{% if race.categories contains "race" %}
+{% if counter > 0 %},{% endif %}
+{
+    "name": "{{ race.title }}",
+    "ageavg": "{{ race.ageavg }}",
+    "domains": [
+      {% for domain in race.domain %}
+      "{{ domain }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+}{% assign counter = counter | plus: 1 %}
+{% endif %}
+{% endfor %}
+]
