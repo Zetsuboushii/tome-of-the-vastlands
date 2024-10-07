@@ -14,6 +14,7 @@ next_class:
   - Kleriker des Kaze
   - Kleriker der Avila
   - Kleriker des Thanatos
+  - Kleriker der Zora
 ---
 
 Der Kleriker ist ein frommer Magier und heiliger Krieger, dessen Magie von einem göttlichen Wesen oder Prinzip
