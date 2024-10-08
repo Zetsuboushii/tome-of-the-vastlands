@@ -22,6 +22,8 @@ res:
 imm:
   - Feuer
   - Erschöpft
+actions:
+  - Feuerberührung
 
 ---
 
@@ -33,9 +35,3 @@ imm:
 |----------------|---------------------------------------------------------------------------------|
 | Irrlichterflug | Bonus action to move 10 ft. without provoking opportunity attacks               |
 | Feuerkörper    | Pass through creatures and objects, dealing 1d4 fire damage to anything touched |
-
-## Aktionen
-
-| Action         | Description        | Attack    | Damage   |
-|----------------|--------------------|-----------|----------|
-| Feuerberührung | Melee, Reach 5 ft. | +3 to hit | 1d6 fire |

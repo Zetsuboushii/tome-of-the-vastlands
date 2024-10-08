@@ -19,6 +19,8 @@ imm:
   - Gift
   - Erschöpfung
   - Betäubt
+actions:
+  - Biss
 
 ---
 
@@ -30,9 +32,3 @@ imm:
 |------------------------|----------------------------------------------------------------------------|
 | Unterwasserlauerer     | Der Skelettfisch kann sich nahezu unbemerkt in trüben Gewässern aufhalten. |
 | Zerbrechliches Gerippe | Schnell beschädigt, aber in großen Gruppen eine Bedrohung.                 |
-
-## Aktionen
-
-| Action      | Description                  | Attack    | Damage         |
-|-------------|------------------------------|-----------|----------------|
-| Beißangriff | Melee, Reach 5 ft., ein Ziel | +5 to hit | 1d6-2 piercing |

@@ -21,6 +21,10 @@ imm:
   - Betäubt
   - Nekrotik
   - Erschöpfung
+actions:
+  - Verfluchter Griff
+  - Schriller Schrei
+  - Feuerempfindlichkeit
 
 ---
 
@@ -33,11 +37,3 @@ imm:
 | Schriller Schrei     | Kann mit ihrem Schrei Gegner in einem Radius von 20 Fuß betäuben.   |
 | Blindes Gespür       | Nutzt außergewöhnliche Sinne, um ihre Umgebung wahrzunehmen.        |
 | Bandagenregeneration | Regeneriert langsam Bandagen, um Bewegungseinschränkung zu mindern. |
-
-## Aktionen
-
-| Action               | Description                                                                                          | Attack    | Damage         |
-|----------------------|------------------------------------------------------------------------------------------------------|-----------|----------------|
-| Verfluchter Griff    | Melee, Reach 5 ft., ein Ziel                                                                         | +6 to hit | 1d8+4 necrotic |
-| Schriller Schrei     | 20 ft. radius, jeder innerhalb muss einen Constitution Saving Throw machen oder wird betäubt (DC 15) | -         | -              |
-| Feuerempfindlichkeit | Verliert Bandagen und erhält erhöhte Beweglichkeit bei Feuerschaden.                                 | -         | -              |
