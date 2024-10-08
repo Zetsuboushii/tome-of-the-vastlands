@@ -1,0 +1,33 @@
+---
+layout: none
+---
+[
+{% for action in site.entries %}
+{% if action.categories contains "action" %}
+{% if counter > 0 %},{% endif %}
+{
+    "name": "{{ action.title }}",
+    "legendary": {% if action.legendary %}true{% else %}false{% endif %},
+    "cooldown": [{% if action.cooldown %}{{ action.cooldown[0] }}, "{{ action.cooldown[1] }}"{% endif %}],
+    "range": {{ action.range }},
+    "aoe": "{{ action.aoe }}",
+    "hitbonus": {% if action.hitbonus %}{{ action.hitbonus }}{% else %}0{% endif %},
+    "savereq": [{% if action.savereq %}"{{ action.savereq[0] }}", {{ action.savereq[1] }}{% endif %}],
+    "damage": [
+      {% if action.damage %}
+      {% for d in action.damage %}
+      ["{{ d[0] }}", "{{ d[1] }}"]{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      {% endif %}
+    ],
+    "effects": [
+      {% if action.effects %}
+      {% for e in action.effects %}
+      ["{{ e[0] }}", "{{ e[1] }}"]{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      {% endif %}
+    ]
+}{% assign counter = counter | plus: 1 %}
+{% endif %}
+{% endfor %}
+]

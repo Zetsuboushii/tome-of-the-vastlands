@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Panzerstoß
+category: action
 range: 15
 aoe: line
 hitbonus: 9

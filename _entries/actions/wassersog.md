@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Wassersog
+category: action
 legendary: true
 cooldown:
 range: 40

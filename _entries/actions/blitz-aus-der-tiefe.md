@@ -1,7 +1,8 @@
 ---
 layout: home
 title: Blitz aus der Tiefe
-cooldown: 1d
+category: action
+cooldown: [ 1, d ]
 range: 40
 aoe: radius
 hitbonus:

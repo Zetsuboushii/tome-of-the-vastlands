@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Reißzahnbiss
+category: action
 range: 10
 aoe: single
 hitbonus: 11

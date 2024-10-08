@@ -553,7 +553,7 @@ layout: default
             {% if page.actions contains action.title %}
             <tr>
                 <td>{{ action.title }}</td>
-                <td>{{ action.cooldown }}</td>
+                <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
                 <td>{{ action.range }}ft</td>
                 <td>{{ action.aoe }}</td>
                 <td>

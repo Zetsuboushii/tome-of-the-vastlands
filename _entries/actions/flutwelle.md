@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Flutwelle
+category: action
 cooldown:
 range: 30
 aoe: cone

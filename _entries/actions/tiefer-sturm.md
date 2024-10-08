@@ -1,7 +1,8 @@
 ---
 layout: home
 title: Tiefer Sturm
-cooldown: 1d
+category: action
+cooldown: [ 1, d ]
 range: 600
 aoe: radius
 hitbonus:
