@@ -9,7 +9,7 @@ layout: none
     "name": "{{ action.title }}",
     "legendary": {% if action.legendary %}true{% else %}false{% endif %},
     "cooldown": [{% if action.cooldown %}{{ action.cooldown[0] }}, "{{ action.cooldown[1] }}"{% endif %}],
-    "range": {{ action.range }},
+    "range": "{{ action.range }}",
     "aoe": "{{ action.aoe }}",
     "hitbonus": {% if action.hitbonus %}{{ action.hitbonus }}{% else %}0{% endif %},
     "savereq": [{% if action.savereq %}"{{ action.savereq[0] }}", {{ action.savereq[1] }}{% endif %}],
