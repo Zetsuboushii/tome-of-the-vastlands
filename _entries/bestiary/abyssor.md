@@ -2,6 +2,7 @@
 layout: usepage
 title: Abyssor
 supplement: Grausamer Meeresleviathan
+boss: true
 bosstitle: Peiniger des Meerestempels
 category: bestiary
 type: Monstrosität
