@@ -10,7 +10,7 @@ layout: none
     "subtitle": "{{ place.subtitle }}",
     "supplement": "{{ place.supplement }}",
     "natlang": ["{{ place.natlang[0] }}", "{{ place.natlang[1] }}"],
-    "demography": "{{ place.demography }}",
+    "demography": {{ place.demography }},
     "hasInit": [
       {% for has in place.hasinit %}
       "{{ has }}"{% unless forloop.last %},{% endunless %}
