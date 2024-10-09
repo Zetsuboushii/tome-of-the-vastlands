@@ -109,8 +109,8 @@ Alle JSON-Files können unter dem Base-Path https://zetsuboushii.github.io/tome-
 
 ### races.json
 
-| Feld    | Typ    | Erklärung                                   |
-|---------|--------|---------------------------------------------|
-| name    | string | Name der Rasse                              |
-| ageavg  | number | Durchschnittliche Lebenserwartung in Jahren |
-| domains | array  | [ string ]; Hauptdomänen der Rasse          |
+| Feld    | Typ    | Erklärung                                                   |
+|---------|--------|-------------------------------------------------------------|
+| name    | string | Name der Rasse                                              |
+| ageavg  | number | Durchschnittliche Lebenserwartung in Jahren; -1 = unendlich |
+| domains | array  | [ string ]; Hauptdomänen der Rasse                          |
