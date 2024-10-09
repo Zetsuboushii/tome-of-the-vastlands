@@ -96,7 +96,7 @@ layout: default
     {% if page.category == "compendia" %}
         <div class="item-list">
             <ul>
-                {% for post in site.entries | sort: 'title' %}
+                {% for post in site.entries %}
                     {% if post.category == "compendia" %}
 
                         <li>
@@ -193,7 +193,7 @@ layout: default
     {% if page.category == "artisanal" %}
         <div class="item-list">
             <ul>
-                {% for post in site.entries | sort: 'title' %}
+                {% for post in site.entries %}
                     {% if post.category == "artisanal" %}
 
                         <li>
@@ -206,4 +206,5 @@ layout: default
             </ul>
         </div>
     {% endif %}
+
 </div>
