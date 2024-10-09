@@ -1,5 +1,5 @@
 ---
-layout: classes
+layout: list
 title: Klassen
 permalink: /classes/
 category: classes

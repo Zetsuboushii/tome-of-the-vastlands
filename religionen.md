@@ -1,5 +1,5 @@
 ---
-layout: religions
+layout: list
 title: Religionen
 category: religion
 permalink: /religions/

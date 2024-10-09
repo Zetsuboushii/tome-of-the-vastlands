@@ -1,0 +1,209 @@
+---
+layout: default
+---
+
+<div class="home">
+    {% if page.title %}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.category == "places" %}
+        <div class="item-list">
+            <ul>
+                {% assign filtered_entries = site.entries | sort: 'title' %}
+
+                {% for post in filtered_entries %}
+                    {% if post.category == "places" and post.placetype == "Elementarebene" %}
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.subtitle }} {{ post.title }}</a></h2>
+                            <hr>
+                            <p>{{ post.excerpt }}</p>
+
+                            {% if post.hasinit %}
+                                <div class="item-list">
+                                    <ul>
+                                        {% for item in filtered_entries %}
+                                            {% if post.hasinit contains item.title %}
+                                                <li>
+                                                    <h2>
+                                                        <a href="{{ item.url | relative_url }}">{{ item.subtitle }} {{ item.title }}</a>
+                                                    </h2>
+                                                    <hr>
+                                                    {{ item.excerpt }}
+                                                </li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    {% if page.category == "religion" %}
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries %}
+                    {% if post.category == "religion" %}
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <p>{{ post.excerpt }}</p>
+                            <hr>
+                            {% if post.central_figure %}
+                                Glaubenszentrum:
+                                <a href="{{ site.baseurl }}/characters/{{ post.central_figure | downcase }}">{{ post.central_figure }}</a>
+                                <br>
+                            {% endif %}
+                            {% if post.type %}
+                                Art des Glaubens: {{ post.type }}
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    {% if page.category == "race" %}
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries %}
+                    {% if post.category == "race" %}
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <p>{{ post.excerpt }}</p>
+                            <hr>
+                            {% if post.domain %}
+                                Hauptsächlich aufzufinden in:
+                                {% for domain in post.domain %}
+                                    <a
+                                    href="{{ site.baseurl }}/places/{{ domain | downcase }}">{{ domain }}</a>{% unless forloop.last %}, {% endunless %}
+                                {% endfor %}
+                                <br>
+                            {% endif %}
+                            {% if post.ageavg %}
+                                Durchschnittliche Lebenserwartung: {{ post.ageavg }} Jahre
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    {% if page.category == "compendia" %}
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries | sort: 'title' %}
+                    {% if post.category == "compendia" %}
+
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <hr>
+                            <p>{{ post.excerpt }}</p>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    {% if page.category == "classes" %}
+        <div class="item-list" style="font-family: 'Grenze Gotisch'">
+            <ul>
+                <li>
+                    <h2>Job-Klassen</h2>
+                    <hr>
+                    {% assign posts = site.entries | sort: 'title' %}
+                    <ul>
+                        {% for class in posts %}
+                            {% if class.categories contains "jobclass" %}
+                                <li>
+                                    <h3><a href="{{ class.url | relative_url }}">{{ class.title }}</a></h3>
+                                    <hr>
+                                    <p>{{ class.excerpt }}</p>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li>
+                    <h2>Einzigartige Klassen</h2>
+                    <hr>
+                    {% assign posts = site.entries | sort: 'title' %}
+                    <ul>
+                        {% for class in posts %}
+                            {% if class.categories contains "uniqueclass" %}
+                                <li>
+                                    <h3><a href="{{ class.url | relative_url }}">{{ class.title }}</a></h3>
+                                    <hr>
+                                    <p>{{ class.excerpt }}</p>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% assign posts = site.entries | sort: 'title' %}
+                {% for mainclass in posts %}
+                    {% if mainclass.categories contains "classes" %}
+                        {% assign next_advclasses = mainclass.next_class %}
+                        {% if next_advclasses %}
+                            <li>
+                                <h2><a href="{{ mainclass.url | relative_url }}">{{ mainclass.title }}</a></h2>
+                                <hr>
+                                <p>{{ mainclass.excerpt }}</p>
+                                {% assign posts = site.entries | sort: 'title' %}
+                                <ul>
+                                    {% for advclass in posts %}
+                                        {% if advclass.categories contains "advclass" and next_advclasses contains advclass.title %}
+                                            <li>
+                                                <h3><a href="{{ advclass.url | relative_url }}">{{ advclass.title }}</a>
+                                                </h3>
+                                                <hr>
+                                                <p>{{ advclass.excerpt }}</p>
+                                                {% assign next_masterclasses = advclass.next_class %}
+                                                {% if next_masterclasses %}
+                                                    <ul>
+                                                        {% for masterclass in posts %}
+                                                            {% if masterclass.categories contains "masterclass" and next_masterclasses contains
+                                                            masterclass.title %}
+                                                                <li>
+                                                                    <h3>
+                                                                        <a href="{{ masterclass.url | relative_url }}">{{ masterclass.title
+                                                                            }}</a></h3>
+                                                                    <hr>
+                                                                    <p>{{ masterclass.excerpt }}</p>
+                                                                </li>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    </ul>
+                                                {% endif %}
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    {% if page.category == "artisanal" %}
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries | sort: 'title' %}
+                    {% if post.category == "artisanal" %}
+
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <hr>
+                            <p>{{ post.excerpt }}</p>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+</div>
