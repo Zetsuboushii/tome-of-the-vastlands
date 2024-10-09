@@ -42,7 +42,7 @@ layout: none
       {% for action in enemy.actions %}
       "{{ action }}"{% unless forloop.last %},{% endunless %}
       {% endfor %}
-    ],
+    ]
 }{% assign counter = counter | plus: 1 %}
 {% endif %}
 {% endfor %}
