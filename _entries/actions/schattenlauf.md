@@ -9,5 +9,5 @@ savereq:
 damage: 
 effects:
   - [ teleport, 30ft ]
-  - [ avoid_opportunity_attacks, 3r ]
+  - [ avoid opportunity attacks, 3r ]
 ---
