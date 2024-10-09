@@ -7,7 +7,7 @@ layout: none
 {% if counter > 0 %},{% endif %}
 {
     "name": "{{ race.title }}",
-    "ageavg": {{ race.ageavg }},
+    "ageavg": {% if race.ageavg %}{{ race.ageavg }}{% else %}-1{% endif %},
     "domains": [
       {% for domain in race.domain %}
       "{{ domain }}"{% unless forloop.last %},{% endunless %}
