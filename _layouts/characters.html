@@ -7,7 +7,7 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
-    <div class="character-gallery">
+    <div class="character-gallery" id="characterGallery">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         {%- for path in page_paths -%}
@@ -17,7 +17,7 @@ layout: default
         {%- if cat == "character" -%}
         {%- for subpage in site.entries -%}
         {%- if subpage.categories contains "character" -%}
-        <div class="responsive">
+        <div class="responsive character-item">
             <div class="gallery">
                 <a class="page-link" href="{{ subpage.url | relative_url }}">
                     <img src="{{ site.imgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png" alt="">
@@ -34,4 +34,8 @@ layout: default
         {%- endif -%}
         {%- endfor -%}
     </div>
+
+    <div id="pagination" class="pagination-buttons" style="text-align: center; margin-top: 20px;"></div>
 </div>
+
+<script src="{{ '/assets/js/pagination.js' | relative_url }}"></script>

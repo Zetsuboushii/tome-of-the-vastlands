@@ -471,6 +471,27 @@
   }
 }
 
+.character-item {
+  display: none;
+}
+
+.pagination-buttons {
+  button {
+    padding: 10px;
+    margin: 5px auto 5px auto;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Grenze Gotisch";
+  }
+
+  button.active {
+    background-color: #ccc;
+    font-weight: bold;
+  }
+}
+
 /**
  * Calendar
  */
