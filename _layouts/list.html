@@ -206,5 +206,19 @@ layout: default
             </ul>
         </div>
     {% endif %}
-
+    {% if page.category == "equipment" %}
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries %}
+                    {% if post.category == "equipment" %}
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <hr>
+                            <p>{{ post.excerpt }}</p>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
 </div>

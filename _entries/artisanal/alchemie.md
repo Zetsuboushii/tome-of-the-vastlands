@@ -1,5 +1,5 @@
 ---
-layout: artisanal
+layout: procedure
 title: Alchemie
 category: artisanal
 ---

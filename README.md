@@ -114,3 +114,15 @@ Alle JSON-Files können unter dem Base-Path https://zetsuboushii.github.io/tome-
 | name    | string | Name der Rasse                                              |
 | ageavg  | number | Durchschnittliche Lebenserwartung in Jahren; -1 = unendlich |
 | domains | array  | [ string ]; Hauptdomänen der Rasse                          |
+
+### weapons.json
+
+| Feld          | Typ    | Erklärung                                     |
+|---------------|--------|-----------------------------------------------|
+| name          | string | Name der Waffe                                |
+| type          | string | Waffentyp                                     |
+| prerequisites | array  | [ string, string ]; Voraussetzungen für Waffe |
+| range         | number | Reichweite in Fuß                             |
+| range_far     | number | Wurf-/Lange Reichweite in Fuß                 |
+| damage        | array  | [ string, string ]; Schadenswürfe für Waffe   |
+| abilities     | array  | [ string ]; Namen der Fähigkeiten der Waffe   |
