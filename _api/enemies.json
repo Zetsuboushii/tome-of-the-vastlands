@@ -43,26 +43,6 @@ layout: none
       "{{ action }}"{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ],
-    "class": "{{ enemy.class }}",
-    "subclasses": [
-      {% for subclass in enemy.subclasses %}
-      "{{ subclass }}"{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
-    "masterclass": "{{ enemy.masterclass }}",
-    "homes": [
-      {% for home in enemy.homes %}
-      "{{ home }}"{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
-    "alignment": "{{ enemy.alignment }}",
-    "status": "{{ enemy.alive }}",
-    "relationships": [
-      {% for relation in enemy.relationships | split: ',' %}
-      ["{{ relation[0] }}", "{{ relation[1] }}"]{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
-    "lover": "{{ enemy.lover }}"
 }{% assign counter = counter | plus: 1 %}
 {% endif %}
 {% endfor %}
