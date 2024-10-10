@@ -9,6 +9,18 @@
 </p>
 
 <h2>Table of Contents</h3>
+<!-- TOC -->
+  * [1. Einleitung](#1-einleitung)
+  * [2. Mitwirkende](#2-mitwirkende)
+  * [3. API-Referenz](#3-api-referenz)
+    * [actions.json](#actionsjson)
+    * [characters.json](#charactersjson)
+    * [data.json](#datajson)
+    * [enemies.json](#enemiesjson)
+    * [places.json](#placesjson)
+    * [races.json](#racesjson)
+    * [weapons.json](#weaponsjson)
+<!-- TOC -->
 
 ## 1. Einleitung
 
