@@ -5,14 +5,14 @@ categories:
   - character
   - NPC
 character_title: 
-race: "?"
+race: "Schleime"
 sex: w
-height: "1,68"
+height: "1,67"
 class: Schleim
 homes:
   - Tellius
 alignment: CG
 alive: true
-published: false
+
 ---
 

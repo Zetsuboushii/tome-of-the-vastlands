@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Ritterhellebarde des Feueraspektes
-equipment_subtype: Hellebarde
+equipment_subtype: Hellebarden
 prerequisites:
   - [ 11, Str ]
   - [ 14, Dex ]

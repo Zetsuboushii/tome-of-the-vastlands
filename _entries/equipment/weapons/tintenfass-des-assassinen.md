@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Simpler Langbogen
+title: Tintenfass des Assassinen
 equipment_subtype: Langbögen
 prerequisites:
   - [ 12, Str ]

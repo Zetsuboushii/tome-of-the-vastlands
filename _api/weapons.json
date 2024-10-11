@@ -16,7 +16,7 @@ layout: none
       {% endif %}
     ],
     "range": {{ weapon.range }},
-    "range_far": {{ weapon.range_far }},
+    "range_far": {% if weapon.range_far %}{{ weapon.range_far }}{% else %}0{% endif %},
     "damage": [
       {% if weapon.damage %}
       {% for d in weapon.damage %}

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Hammer des Aufsehers
+title: Großkriegshammer
 equipment_subtype: Großhämmer
 prerequisites:
   - [ 14, Str ]

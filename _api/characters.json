@@ -33,8 +33,7 @@ layout: none
         "alignment": "{{ character.alignment }}",
         "status": "{{ character.alive }}",
         "relationships": [
-        {% assign relations = character.relationships | split: ',' %}
-        {% for relation in relations %}
+        {% for relation in character.relationships %}
             ["{{ relation[0] }}", "{{ relation[1] }}"]{% unless forloop.last %},{% endunless %}
         {% endfor %}
         ],
