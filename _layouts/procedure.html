@@ -4,78 +4,81 @@ layout: default
 
 <div class="home">
     {%- if page.title -%}
-        <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
     <div class="procedures text-wrap">
         {{ content }}
 
         {% if page.category == "equipment" %}
-            {% for type in page.equipment_subtypes %}
+        {% for type in page.equipment_subtypes %}
 
-                <h3>{{ type }}</h3>
+        <h3>{{ type }}</h3>
 
-                <table class="equipment-table">
-                    <tr>
-                        <th>Name</th>
-                        <th>Vorauss.</th>
-                        {% if page.title == "Waffen" %}
-                            <th>Reichweite</th>
-                        {% endif %}
-                        <th>
-                            {% if page.title == "Waffen" %}
-                            Schaden
-                            {% elsif page.title == "Verteidigung" %}
-                            Schutz
-                            {% endif %}
-                        </th>
-                        <th>Fähigkeiten</th>
-                    </tr>
-                    {% for e in site.entries %}
-                        {% if e.equipment_subtype == type %}
-                            <tr>
-                                <td>{{ e.title }}</td>
-                                <td>
-                                    {% if e.prerequisites %}
-                                        <ul>
-                                            {% for p in e.prerequisites %}
-                                                <li>{{ p[0] }} {{ p[1] }}</li>
-                                            {% endfor %}
-                                        </ul>
-                                    {% endif %}
-                                </td>
-                                {% if page.title == "Waffen" %}
-                                    <td>
-                                        {{ e.range }}{% if e.range_far %} /{{ e.range_far }}{% endif %}ft
-                                    </td>
-                                {% endif %}
-                                <td>
-                                    {% if page.title == "Waffen" %}
-                                        {% if e.damage %}
-                                            <ul>
-                                                {% for d in e.damage %}
-                                                    <li>{{ d[0] }} {{ d[1] }}</li>
-                                                {% endfor %}
-                                            </ul>
-                                        {% endif %}
-                                    {% elsif page.title == "Verteidigung" %}
-                                        +{{ e.armor }} AC
-                                    {% endif %}
-                                </td>
-                                <td>
-                                    {% if e.abilities %}
-                                        <ul>
-                                            {% for a in e.abilities %}
-                                                <li>{{ a }}</li>
-                                            {% endfor %}
-                                        </ul>
-                                    {% endif %}
-                                </td>
-                            </tr>
+        <table class="equipment-table">
+            <tr>
+                <th>Name</th>
+                <th>Vorauss.</th>
+                {% if page.title == "Waffen" %}
+                <th>Reichweite</th>
+                {% endif %}
+                <th>
+                    {% if page.title == "Waffen" %}
+                    Schaden
+                    {% elsif page.title == "Verteidigung" %}
+                    Schutz
                     {% endif %}
-                    {% endfor %}
-                </table>
+                </th>
+                <th>Fähigkeiten</th>
+            </tr>
+            {% for e in site.entries %}
+            {% if e.equipment_subtype == type %}
+            <tr>
+                <td>{{ e.title }}</td>
+                <td>
+                    {% if e.prerequisites %}
+                    <ul>
+                        {% for p in e.prerequisites %}
+                        <li>{{ p[0] }} {{ p[1] }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </td>
+                {% if page.title == "Waffen" %}
+                <td>
+                    {{ e.range }}{% if e.range_far %} /{{ e.range_far }}{% endif %}ft
+                </td>
+                {% endif %}
+                <td>
+                    {% if page.title == "Waffen" %}
+                    {% if e.damage %}
+                    <ul>
+                        {% for d in e.damage %}
+                        <li>{{ d[0] }} {{ d[1] }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% elsif page.title == "Verteidigung" %}
+                    +{{ e.armor }} AC
+                    {% endif %}
+                </td>
+                <td>
+                    {% if e.abilities %}
+                    <ul>
+                        {% for a in e.abilities %}
+                        <li>
+                            <a href="{{ site.baseurl }}/abilities/{{ a | downcase | replace: ' ', '-' }}">{{
+                                a }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endif %}
             {% endfor %}
+        </table>
+        {% endfor %}
         {% endif %}
     </div>
 </div>
