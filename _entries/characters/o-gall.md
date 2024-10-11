@@ -25,7 +25,7 @@ relationships:
   - [ Inoro, Vorgänger ]
   - [ Ar-Merer, Bruder ]
   - [ Il-Vernia, Schwester ]
-  - [ O-Gall, Bruder ]
+  - [ En-Troad, Bruder ]
   - [ U-Ranos, Bruder ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
