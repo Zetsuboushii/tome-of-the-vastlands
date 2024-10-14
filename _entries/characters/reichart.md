@@ -19,7 +19,7 @@ homes:
 alignment: NG
 alive: true
 relationships:
-  - [ Cornellius, Kollege ]
+  - [ Cornelius, Kollege ]
 ---
 
 Lokführer bei der "Adrestianischen Eisenbahn"
