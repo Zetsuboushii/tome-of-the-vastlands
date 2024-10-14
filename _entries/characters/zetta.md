@@ -28,7 +28,7 @@ relationships:
   - [ Felix, Freund ]
   - [ Perrotus, Klostervater ]
   - [ Siegmund, ehem. Feind ]
-  - [ Naryu, "Freund, Retterin" ]
+  - [ Nayru, "Freund, Retterin" ]
   - [ U-Ranos, "Freund, Retter" ]
 ---
 
