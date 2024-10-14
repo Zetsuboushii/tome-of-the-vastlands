@@ -26,7 +26,7 @@ relationships:
   - [ Siegmund, Herr ]
   - [ Nayru, Herrin ]
   - [ U-Ranos, Herr ]
-  - [ Phillip, Angestellter ]
+  - [ Philip, Angestellter ]
   - [ Johann, Angestellter ]
   - [ Burdig, Bruder ]
 ---
