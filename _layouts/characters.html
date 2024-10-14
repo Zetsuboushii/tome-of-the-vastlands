@@ -7,6 +7,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
+    <div id="pagination" class="pagination-buttons" style="text-align: center; margin-top: 20px;"></div>
+
     <div class="character-gallery" id="characterGallery">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -34,8 +36,6 @@ layout: default
         {%- endif -%}
         {%- endfor -%}
     </div>
-
-    <div id="pagination" class="pagination-buttons" style="text-align: center; margin-top: 20px;"></div>
 </div>
 
 <script src="{{ '/assets/js/pagination.js' | relative_url }}"></script>
