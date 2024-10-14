@@ -28,6 +28,9 @@ relationships:
   - [ Grund, Untergebener ]
   - [ U-Ranos, Anerkannter Rivale ]
   - [ Nayru, Anerkannte Rivalin ]
+alt_imgs:
+  - Grenze Original
+
 ---
 
 Die hoch angesehene Leibgarde des Herzogs von Markath. Im Kampf macht sie mit ihren Feinden kurzen Prozess. Wer sich mit

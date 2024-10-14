@@ -13,6 +13,8 @@ homes:
   - Tellius
 alignment: CG
 alive: true
+alt_imgs:
+  - Aya Schleimform
 
 ---
 
