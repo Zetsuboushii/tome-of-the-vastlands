@@ -28,6 +28,8 @@ seinen Reisen Erfahrungen und allerlei Kuriositäten sammelt.
 
 <!--more-->
 
+## Hintergrund
+
 Bevor Avarne als Abenteurer aufbrechen konnte, erwartete sein Vater von ihm, dass Avarne eines Tages nach dem Rücktritt
 seines Vaters seinen Posten als Bürgermeister von Dünsberg innehält. Als kleiner Junge, noch nicht viele Ziele vor sich
 habend, stimmte Avarne dem zu, da sein Vater die einzige Familie war, die er noch hatte, und diesen nicht enttäuschen
