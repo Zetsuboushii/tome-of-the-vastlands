@@ -21,7 +21,7 @@ homes:
 alignment: LN
 alive: true
 relationships:
-  - [ Kurfürst Jervar, ehem. Herr ]
+  - [ Jervar, ehem. Herr ]
   - [ Hadubrandt, Oberste Instanz der Kirche ]
   - [ Johann, Untergebener ]
   - [ Siegmund, "ehem. Feind, nun Herr" ]

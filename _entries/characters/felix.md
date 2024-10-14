@@ -21,8 +21,8 @@ homes:
 alignment: LG
 alive: true
 relationships:
-  - [ Vater Perrotus, Ziehvater ]
-  - [ Heimliche Liebe und Glaubensschwester ]
+  - [ Vater, Ziehvater ]
+  - [ Carmesine, Heimliche Liebe und Glaubensschwester ]
 ---
 
 Felix ist ein Kleriker für Farone im Kloster Schicksalsweg. Als er noch ein kleines Kind war, fand Vater Perrotus ihn

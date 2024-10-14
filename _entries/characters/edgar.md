@@ -19,8 +19,8 @@ alive: true
 relationships:
   - [ Karl, Freund und Kollege ]
   - [ Eris, Kleine Schwester ]
-  - [ Dorian von Windthal, Ehem. Herr ]
-  - [ Grete. Freundin und Kollegin ]
+  - [ Dorian, Ehem. Herr ]
+  - [ Grete, Freundin und Kollegin ]
   - [ Siegmund, Herr ]
   - [ U-Ranos, Herr ]
   - [ Nayru, Herrin ]

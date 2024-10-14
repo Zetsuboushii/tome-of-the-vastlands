@@ -20,7 +20,7 @@ alignment: LG
 alive: true
 relationships:
   - [ Suskinox, Ehemaliger Professor ]
-  - [ Thirthrazak, Lehrmeister ]
+  - [ Thithrazk, Lehrmeister ]
 ---
 
 Deh ist eine ehemalige Schülerin von Suskinox, Professor für Transmutationsmagie, als dieser noch an der Magieakademie
