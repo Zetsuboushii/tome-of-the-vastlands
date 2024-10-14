@@ -24,7 +24,7 @@ alignment: NE
 alive: false
 relationships:
   - [ Konrad, ehem. Untergebener ]
-  - [ Krisitan, Bruder ]
+  - [ Kristian, Bruder ]
   - [ Invidianoir, "Herrin, Freundin" ]
   - [ Jervar, Cousin ]
   - [ Cordelia, Cousine ]
