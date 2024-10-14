@@ -38,5 +38,5 @@ Wissen Faergria zu archivieren. Auf ihre Bibliothek gibt sie gut acht und lernt 
 ## Persönlichkeit
 
 Seloue ist eine sehr zugängliche und liebevolle Person, die einen mütterlichen Charakter hat. Dies lebt sie allemvoran
-an ihren Büchern aus. Sollte allerdings jemand ihre Bücher mit Unachtsamkeit oder Disrespekt behandeln, kann Seloue auch
+an ihren Büchern aus. Sollte allerdings jemand ihre Bücher mit Unachtsamkeit oder Respektlosigkeit behandeln, kann Seloue auch
 schnell grantig werden.
