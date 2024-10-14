@@ -19,7 +19,7 @@ homes:
 alignment: NG
 alive: true
 relationships:
-  - [ Elkazel, Bruder ]
+  - [ Elkhazel, Bruder ]
 ---
 
 Eine einfache Krämerin in Teryvnat. Ihr breites und wechselndes Angebot lockt Reisende an ihren Stand.
@@ -28,4 +28,4 @@ Eine einfache Krämerin in Teryvnat. Ihr breites und wechselndes Angebot lockt R
 
 ## Familie
 
-Ihr Bruder Elkazel bedeutet ihr sehr viel, da die Eltern der beiden vor vielen Jahren bei der Jagd starben.
+Ihr Bruder Elkhazel bedeutet ihr sehr viel, da die Eltern der beiden vor vielen Jahren bei der Jagd starben.
