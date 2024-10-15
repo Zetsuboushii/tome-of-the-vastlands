@@ -11,6 +11,7 @@ hasinit:
   - Hydracion
   - Inidal
   - Kluirm
+  - Tinorland
 placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
