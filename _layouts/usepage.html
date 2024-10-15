@@ -5,7 +5,7 @@ layout: default
 <div>
     {% assign page_parts = page.content | split: '<!--more-->' %}
     <div class="use-container">
-        <div class="use-content">
+        <div class="use-content desktop">
             <h1>{{ page.title }}</h1>
             <hr>
 
@@ -30,7 +30,6 @@ layout: default
         </div>
 
         <div class="use-box use-data">
-
             {% if page.categories contains "character" %}
 
                 <h1>
@@ -356,7 +355,7 @@ layout: default
                                     {% for item in filtered_entries %}
                                         {% if page.hasinit contains item.title %}
                                             <li>
-                                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+                                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                                             </li>
                                         {% endif %}
                                     {% endfor %}
@@ -544,49 +543,51 @@ layout: default
     </div>
 
     {% if page.category == "bestiary" %}
-        <div class="use-container enemy-action-table">
-            {% assign filtered_entries = site.entries | sort: 'title' %}
-            <table>
-                <tr>
-                    <th>Action</th>
-                    <th>CD</th>
-                    <th>Range</th>
-                    <th>AoE</th>
-                    <th>Hit Bonus</th>
-                    <th>Saving Throw Req.</th>
-                    <th>Damage</th>
-                    <th>Effects</th>
-                </tr>
-                {% for action in filtered_entries %}
-                    {% if page.actions contains action.title %}
-                        <tr>
-                            <td>{{ action.title }}</td>
-                            <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
-                            <td>{{ action.range }}ft</td>
-                            <td>{{ action.aoe }}</td>
-                            <td>
-                                {% if action.hitbonus %}+{% endif %}
-                                {{ action.hitbonus }}
-                            </td>
-                            <td>{{ action.savereq[0] }} {{ action.savereq[1] }}</td>
-                            <td>
-                                <ul>
-                                    {% for d in action.damage %}
-                                        <li>{{ d[0] }} {{ d[1] }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    {% for e in action.effects %}
-                                        <li>{{ e[0] }}: {{ e[1] }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-                {% endfor %}
-            </table>
+        <div class="use-container">
+            <div class="use-content enemy-action-table">
+                {% assign filtered_entries = site.entries | sort: 'title' %}
+                <table>
+                    <tr>
+                        <th>Action</th>
+                        <th>CD</th>
+                        <th>Range</th>
+                        <th>AoE</th>
+                        <th>Hit Bonus</th>
+                        <th>Saving Throw Req.</th>
+                        <th>Damage</th>
+                        <th>Effects</th>
+                    </tr>
+                    {% for action in filtered_entries %}
+                        {% if page.actions contains action.title %}
+                            <tr>
+                                <td>{{ action.title }}</td>
+                                <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
+                                <td>{{ action.range }}ft</td>
+                                <td>{{ action.aoe }}</td>
+                                <td>
+                                    {% if action.hitbonus %}+{% endif %}
+                                    {{ action.hitbonus }}
+                                </td>
+                                <td>{{ action.savereq[0] }} {{ action.savereq[1] }}</td>
+                                <td>
+                                    <ul>
+                                        {% for d in action.damage %}
+                                            <li>{{ d[0] }} {{ d[1] }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        {% for e in action.effects %}
+                                            <li>{{ e[0] }}: {{ e[1] }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                </table>
+            </div>
         </div>
     {% endif %}
 

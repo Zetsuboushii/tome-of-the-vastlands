@@ -295,3 +295,13 @@ table {
   max-width: 300px;
   height: auto;
 }
+
+/**
+ * Desktop / Mobile
+ */
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
