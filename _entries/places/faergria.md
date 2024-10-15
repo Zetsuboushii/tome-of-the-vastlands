@@ -8,6 +8,7 @@ hasinit:
   - Hal
   - Escrigria
   - Farodris
+  - Hydracion
 placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
