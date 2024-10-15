@@ -4,6 +4,8 @@ title: Terralithia
 category: places
 hasinit:
   - Faergria
+  - Kradian
+  - Kouyoukuni
 placetype: Elementarebene
 ---
 

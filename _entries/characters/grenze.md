@@ -13,6 +13,7 @@ affiliations:
   - Abgrundkirche der Glimmenden Sünde
 functions:
   - Leibgarde des Herzogs von Markath
+  - Gouvernante von Llurthargothr
 class: Kämpfer
 subclasses:
   - Magieritter
