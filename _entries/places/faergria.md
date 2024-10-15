@@ -10,6 +10,7 @@ hasinit:
   - Farodris
   - Hydracion
   - Inidal
+  - Kluirm
 placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
