@@ -4,7 +4,7 @@ title: Krofenheim
 natlang:
 category: places
 placetype: Stadt
-demography: 27ß4
+demography: 2704
 supplement:
 leader: 
 ---
