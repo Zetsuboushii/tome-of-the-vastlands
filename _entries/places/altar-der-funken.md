@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Altar-der-Funken
+title: Altar der Funken
 natlang:
 category: places
 hasinit:
-placetype: Region
+placetype: Tempel
 ---

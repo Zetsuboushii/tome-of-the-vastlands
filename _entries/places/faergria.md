@@ -12,6 +12,7 @@ hasinit:
   - Inidal
   - Kluirm
   - Tinorland
+  - Adrestia
 placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
