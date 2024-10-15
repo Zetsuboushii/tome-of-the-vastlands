@@ -7,6 +7,7 @@ hasinit:
   - Thaugrien
   - Hal
   - Escrigria
+  - Farodris
 placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
