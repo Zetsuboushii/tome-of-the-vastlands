@@ -29,7 +29,6 @@ relationships:
   - [ Farone, gute Freundin ]
   - [ Seloue, beste Freundin ]
 
-
 ---
 
 Justicia, die Göttin der Gerechtigkeit und des Lichts, ist das älteste und strahlendste Wesen unter den Göttern. Sie
@@ -79,7 +78,7 @@ führte zu einer unermesslichen Veränderung im göttlichen Gefüge. Als Inoros 
 Justicia aus jeder dieser Splitter ein neues göttliches Wesen hervor: ihre fünf Kinder. Jeder von ihnen trägt ein
 Fragment der Seele ihres erstgeborenen Sohnes in sich, und durch sie lebt Inoro in gewisser Weise weiter. Diese fünf
 Götterkinder – U-Ranos, Ar-Merer, En-Troad, Il-Vernia und O-Gall – sind das Erbe von Inoro und die Nachkommen, die
-Justicia mit tiefer Liebe und Trauer umsorgt. Sie sind nicht nur Götter, sondern auch eine Erinnerung an den Verlust
+Justicia mit tiefer Liebe und Trauer umsorgt. Sie sind nicht nur Recken, sondern auch eine Erinnerung an den Verlust
 ihres ersten Kindes.
 
 ## Beziehungen zu anderen Göttern
