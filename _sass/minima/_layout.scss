@@ -11,6 +11,12 @@
   display: flex;
   align-items: center;
   padding: 0 0 0 0;
+
+  @media (max-width: 768px) {
+    img {
+      display: none;
+    }
+  }
 }
 
 .burger-menu {
@@ -41,6 +47,10 @@
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
   }
 }
 
@@ -221,6 +231,10 @@
   ::-webkit-scrollbar {
     display: none;
   }
+
+  @media (max-width: 768px) {
+    width: 95%;
+  }
 }
 
 /**
@@ -312,6 +326,13 @@
   table {
     text-align: left;
     margin-bottom: 10px;
+    min-width: 100px;
+    display: block;
+    overflow-x: scroll;
+  }
+
+  @media (max-width: 768px) {
+    width: 95%;
   }
 }
 
