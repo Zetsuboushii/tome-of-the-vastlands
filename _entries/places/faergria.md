@@ -6,6 +6,7 @@ subtitle: Vereinigtes Königreich
 hasinit:
   - Thaugrien
   - Hal
+  - Escrigria
 placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
