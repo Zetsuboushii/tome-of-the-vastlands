@@ -300,8 +300,18 @@ table {
  * Desktop / Mobile
  */
 
+.mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) {
+  .mobile {
     display: none;
   }
 }
