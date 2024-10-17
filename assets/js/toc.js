@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const longTextDivs = document.querySelectorAll('.long-text');
+    // Wählt alle long-text Divs aus, die NICHT innerhalb von .use-container.mobile liegen
+    const longTextDivs = document.querySelectorAll('.long-text:not(.use-container.mobile .long-text)');
     const toc = document.getElementById('toc-content');
 
     if (toc) {
