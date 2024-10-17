@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
     {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+        <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
     <div class="calendar">
@@ -29,19 +29,18 @@ layout: default
         daysOfWeek: ["Lunesdag", "Flamdag", "Quellsdag", "Waldsdag", "Goldag", "Terrasdag", "Sunnesdag"],
         months: ["Eismond", "Frostmond", "Saatmond", "Blütenmond", "Wonnemond", "Heumond", "Sonnenmond", "Erntemond", "Fruchtmond", "Weinmond", "Nebelmond", "Julmond"],
         holidays: {
-    {% for post in site.entries %}
-    {% if post.when %}
-    "{{ post.when }}": "{{ post.title }}"{% unless forloop.last %},{% endunless %}
-    {% endif %}
-    {% endfor %}
-    },
-    {% assign currentDate = site.currentDate | split: '-' %}
-    {% assign currentMonth = currentDate[1] | plus: 0 %}
-    {% assign currentYear = currentDate[2] | plus: 0 %}
-    currentMonth: {{ currentMonth }},
+            {% for post in site.entries %}
+            {% if post.when %}
+            "{{ post.when }}": "{{ post.title }}"{% unless forloop.last %},{% endunless %}
+            {% endif %}
+            {% endfor %}
+        },
+        {% assign currentDate = site.currentDate | split: '-' %}
+        {% assign currentMonth = currentDate[1] | minus: 1 %}
+        {% assign currentYear = currentDate[2] | plus: 0 %}
+        currentMonth: {{ currentMonth }},
         currentYear: {{ currentYear }}
     };
-
     const prevMonthBtn = document.getElementById("prev-month");
     const nextMonthBtn = document.getElementById("next-month");
     const monthName = document.getElementById("month-name");
@@ -51,9 +50,18 @@ layout: default
 
     function renderWeekdays() {
         weekdaysDiv.innerHTML = '';
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
         calendar.daysOfWeek.forEach(day => {
             const dayDiv = document.createElement("div");
-            dayDiv.textContent = day;
+            dayDiv.classList.add("weekday");
+
+            if (isMobile) {
+                dayDiv.textContent = day.slice(0, 2);
+            } else {
+                dayDiv.textContent = day;
+            }
+
             weekdaysDiv.appendChild(dayDiv);
         });
     }
@@ -131,5 +139,6 @@ layout: default
     });
 
     renderWeekdays();
+    window.addEventListener('resize', renderWeekdays);
     updateCalendar();
 </script>
