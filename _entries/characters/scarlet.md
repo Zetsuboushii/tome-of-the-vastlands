@@ -32,6 +32,10 @@ relationships:
   - [ Avila, Gute Freundin ]
   - [ Kaen, Freundin ]
   - [ Rai, Freund ]
+alt_imgs:
+  - Scarlet Emmi Ver
+  - Scarlet Pixelart
+
 ---
 
 Scarlet ist eine der Reckinnen von Thanatos. Ihre Berufung ist es, Sünder auf der Welt zu fangen und übergibt diese an
