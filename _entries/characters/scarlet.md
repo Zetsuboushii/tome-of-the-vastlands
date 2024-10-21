@@ -52,7 +52,7 @@ Kindesbeinen an dazu gedrängt, ein Vorbild zu sein – insbesondere für ihre j
 um ihre kleine Schwester Cinnabar gekümmert und dabei eine tiefe Bindung zu ihr entwickelt. Cinnabar ist nicht nur
 ihre Schwester, sondern ihre engste Vertraute, diejenige, der Scarlet in Momenten des Zweifels und der Einsamkeit ihre
 wahren Gedanken offenbaren kann. Diese Beziehung gibt Scarlet einen emotionalen Anker in ihrem oft chaotischen Leben.
-Anders als bei ihrer Beziehung zu Cinnabar, die sie zwar ebenso liebt, aber aufgrund ihrer eigenen ungestümen Art oft
+Anders als bei ihrer Beziehung zu Eliza, die sie zwar ebenso liebt, aber aufgrund ihrer eigenen ungestümen Art oft
 nicht erreichen kann, hat sie in Cinnabar jemanden, auf den sie immer zählen kann.
 
 Neben dieser fürsorglichen Rolle innerhalb der Familie hat Scarlet auch eine besondere Dynamik mit ihrem Vater,
