@@ -1,4 +1,5 @@
 let draggedItem = null;
+let scrollSpeed = 20;  // Geschwindigkeit des Scrollens
 
 document.querySelectorAll('.tierlist-image-list img').forEach(img => {
     img.addEventListener('dragstart', (event) => {
@@ -22,6 +23,25 @@ function drop(event) {
         event.target.closest('.tierlist-tier').querySelector('.tierlist-tier-content').appendChild(draggedItem);
     }
 }
+
+// Funktion für das automatische Scrollen am Rand
+function autoScroll(event) {
+    const mouseY = event.clientY;
+    const windowHeight = window.innerHeight;
+
+    // Am oberen Rand scrollen
+    if (mouseY < 50) {
+        window.scrollBy(0, -scrollSpeed);
+    }
+
+    // Am unteren Rand scrollen
+    if (mouseY > windowHeight - 50) {
+        window.scrollBy(0, scrollSpeed);
+    }
+}
+
+// Überwachung der Mausbewegung während des Draggens
+document.addEventListener('dragover', autoScroll);
 
 function downloadJSON() {
     const tierList = {
