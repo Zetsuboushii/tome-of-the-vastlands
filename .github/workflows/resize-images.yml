@@ -1,0 +1,38 @@
+name: Resize Images
+
+on:
+  push:
+    paths:
+      - 'dnd/characters/**.png'
+      - 'dnd/characters/**.jpg'
+      - 'dnd/characters/**.jpeg'
+
+jobs:
+  resize_images:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Install ImageMagick
+      run: sudo apt-get install imagemagick
+
+    - name: Resize Images
+      run: |
+        mkdir -p resized/dnd/characters
+        for file in dnd/characters/*.{png,jpg,jpeg}; do
+          if [ -f "$file" ]; then
+            convert "$file" -resize 50% "resized/$file"
+          fi
+        done
+    
+    - name: Commit and Push Resized Images
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add resized/dnd/characters/
+        git commit -m "Resized images by GitHub Action"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
