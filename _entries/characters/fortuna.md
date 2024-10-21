@@ -28,7 +28,7 @@ relationships:
   - [ Thanatos, Guter Freund ]
   - [ Farone, Freundin ]
   - [ Seloue, Freundin ]
-  - [ Scarlet, Beste Freundin ]
+  - [ Scarlet, Gute Freundin ]
 ---
 
 Die hart arbeitende Göttin des Schicksals. Fortuna schuf einst die Menschen, die Faergria bevölkern sollten, und
