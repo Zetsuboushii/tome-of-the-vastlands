@@ -10,6 +10,10 @@ layout: default
         {{ content }}
 
         <div class="tierlist-container">
+            <div class="tierlist-tier" id="tierlist-tier-ss" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h2>SS</h2>
+                <div class="tierlist-tier-content" id="tierlist-tier-content-ss"></div>
+            </div>
             <div class="tierlist-tier" id="tierlist-tier-s" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <h2>S</h2>
                 <div class="tierlist-tier-content" id="tierlist-tier-content-s"></div>
@@ -35,7 +39,7 @@ layout: default
         <div class="tierlist-image-list">
             {% for character in site.entries %}
                 {% if character.categories contains "character" %}
-                    <img src="{{ site.imgurl }}/characters/{{ character.path | split: '/' | last | split: '.' | first }}.png"
+                    <img src="{{ site.simgurl }}/characters/{{ character.path | split: '/' | last | split: '.' | first }}.png"
                          draggable="true" alt="{{ character.title | downcase }}">
                 {% endif %}
             {% endfor %}

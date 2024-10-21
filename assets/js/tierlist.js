@@ -45,6 +45,7 @@ document.addEventListener('dragover', autoScroll);
 
 function downloadJSON() {
     const tierList = {
+        SS: Array.from(document.querySelectorAll('#tierlist-tier-content-ss img')).map(img => img.alt),
         S: Array.from(document.querySelectorAll('#tierlist-tier-content-s img')).map(img => img.alt),
         A: Array.from(document.querySelectorAll('#tierlist-tier-content-a img')).map(img => img.alt),
         B: Array.from(document.querySelectorAll('#tierlist-tier-content-b img')).map(img => img.alt),
