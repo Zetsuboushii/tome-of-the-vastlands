@@ -53,7 +53,7 @@ layout: default
                     </div>
                     {% for img in page.alt_imgs %}
                         <div id="{{ img | downcase }}" class="char-img" style="display:none">
-                            <img src="{{ site.imgurl }}/characters/{{ img | downcase }}.png"
+                            <img src="{{ site.imgurl }}/characters/{{ page.title | downcase }} {{ img | downcase }}.png"
                                  alt="">
                         </div>
                     {% endfor %}

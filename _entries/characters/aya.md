@@ -14,7 +14,7 @@ homes:
 alignment: CG
 alive: true
 alt_imgs:
-  - Aya Schleimform
+  - Schleimform
 
 ---
 

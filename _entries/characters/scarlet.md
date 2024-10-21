@@ -33,8 +33,8 @@ relationships:
   - [ Kaen, Freundin ]
   - [ Rai, Freund ]
 alt_imgs:
-  - Scarlet Emmi Ver
-  - Scarlet Pixelart
+  - Emmi Ver
+  - Pixelart
 
 ---
 

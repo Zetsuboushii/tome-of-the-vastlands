@@ -25,7 +25,7 @@ relationships:
   - [ Rai, Freund ]
   - [ Kaze, Freund ]
 alt_imgs:
-  - Fubuki Emmi Ver
+  - Emmi Ver
 ---
 
 Fubuki, die Hohefürstin des Eises, ist ein kleines, scheinbar unschuldiges Wesen, das die schneebedeckten

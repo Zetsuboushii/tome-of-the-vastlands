@@ -30,7 +30,7 @@ relationships:
   - [ U-Ranos, Anerkannter Rivale ]
   - [ Nayru, Anerkannte Rivalin ]
 alt_imgs:
-  - Grenze Emmi Ver
+  - Emmi Ver
 
 ---
 
