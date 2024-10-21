@@ -49,11 +49,11 @@ Menschheit.
 
 Als älteste Tochter von Thanatos trägt Scarlet eine besondere Verantwortung. Ihre Position in der Familie hat sie von
 Kindesbeinen an dazu gedrängt, ein Vorbild zu sein – insbesondere für ihre jüngeren Schwester. Scarlet hat sich stets
-um ihre kleine Schwester Carmesine gekümmert und dabei eine tiefe Bindung zu ihr entwickelt. Carmesine ist nicht nur
+um ihre kleine Schwester Cinnabar gekümmert und dabei eine tiefe Bindung zu ihr entwickelt. Cinnabar ist nicht nur
 ihre Schwester, sondern ihre engste Vertraute, diejenige, der Scarlet in Momenten des Zweifels und der Einsamkeit ihre
 wahren Gedanken offenbaren kann. Diese Beziehung gibt Scarlet einen emotionalen Anker in ihrem oft chaotischen Leben.
 Anders als bei ihrer Beziehung zu Cinnabar, die sie zwar ebenso liebt, aber aufgrund ihrer eigenen ungestümen Art oft
-nicht erreichen kann, hat sie in Carmesine jemanden, auf den sie immer zählen kann.
+nicht erreichen kann, hat sie in Cinnabar jemanden, auf den sie immer zählen kann.
 
 Neben dieser fürsorglichen Rolle innerhalb der Familie hat Scarlet auch eine besondere Dynamik mit ihrem Vater,
 Thanatos. Trotz seiner Rolle als Gott des Todes lässt sich Thanatos oft zu lange treiben und zeigt dabei eine gewisse
