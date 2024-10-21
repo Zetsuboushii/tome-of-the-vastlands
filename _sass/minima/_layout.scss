@@ -704,3 +704,78 @@ Equipment
     list-style: none;
   }
 }
+
+/**
+ Tierlist
+ */
+
+.tierlist-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    width: 95%;
+  }
+}
+
+.tierlist-tier {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #333;
+  min-height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+
+  h2 {
+    margin: 0 10px 0 0;
+    width: 50px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100px;
+    object-fit: cover;
+    cursor: grab;
+  }
+}
+
+.tierlist-tier-content {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tierlist-image-list {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    width: 95%;
+  }
+
+  img {
+    max-width: 100px;
+    object-fit: cover;
+    cursor: grab;
+  }
+}
+
+img.dragging {
+  opacity: 0.5;
+}
+
+.tierlist-buttons {
+  button, input[type="file"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+
+  input[type="file"] {
+    padding: 5px;
+  }
+}
