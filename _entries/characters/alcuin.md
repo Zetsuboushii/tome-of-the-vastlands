@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Götter
 sex: m
-height: "2,37"
+height: 2.37
 functions:
   - Gott der Seelen
 class: Gott

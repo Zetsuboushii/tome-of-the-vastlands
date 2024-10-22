@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Elfen
 sex: m
-height: "1,85"
+height: 1.85
 functions:
   - Recke der Farone
 class: Recke

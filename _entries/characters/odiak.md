@@ -7,7 +7,7 @@ categories:
 character_title: Letzter Drache des Landes
 race: Drachen
 sex: m
-height: "5"
+height: 5
 affiliations:
   - Drachen Faergrias
 homes:

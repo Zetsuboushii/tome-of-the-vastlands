@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Menschen
 sex: w
-height: "1,70"
+height: 1.70
 functions:
   - Detektivin
 class: Bürger

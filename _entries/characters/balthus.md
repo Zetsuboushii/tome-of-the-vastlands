@@ -8,7 +8,7 @@ character_title: Großmeister der Drachenritter
 race: Menschen
 sex: m
 birthday: 6.6.322
-height: "?"
+height: 0
 affiliations:
   - Drachenritter von Orrin
 functions:

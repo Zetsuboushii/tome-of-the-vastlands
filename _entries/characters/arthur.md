@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Menschen
 sex: m
-height: "1,89"
+height: 1.89
 functions:
   - Schriftsteller
 class: Bürger

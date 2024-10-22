@@ -7,7 +7,7 @@ categories:
 character_title: Amnestischer Professor
 race: Drakonier
 sex: m
-height: "?"
+height: 0
 alias:
   - [ Professor, "U-Ranos, Nayru, Siegmund" ]
 functions:

@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Dämonen
 sex: m
-height: "1,95"
+height: 1.95
 functions:
   - Hohefürst des Krieges
 class: Hohefürst

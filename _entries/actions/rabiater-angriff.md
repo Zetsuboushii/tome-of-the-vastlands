@@ -10,5 +10,5 @@ damage:
   - [ 2d6+1, bludgeoning ]
 effects:
   - [ disadvantage (attack), 1r ]
-  - [ double_damage (if hit), 1r ]
+  - [ double damage (if hit), 1r ]
 ---

@@ -8,7 +8,7 @@ categories:
 character_title: 
 race: Elfen
 sex: w
-height: "1,73"
+height: 1.73
 functions:
   - Königin von Faergria
 class: Waldläufer

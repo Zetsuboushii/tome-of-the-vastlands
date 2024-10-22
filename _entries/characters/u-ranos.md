@@ -8,7 +8,7 @@ character_title: Unbeugsame Gerechtigkeit
 race: Engel
 sex: m
 birthday: 13.3.45
-height: "1,82"
+height: 1.82
 alias:
   - [ Opa, Häufig in Rüstungsgestalt ]
   - [ Dummkopf, "Meilira, Amlin, Farone" ]

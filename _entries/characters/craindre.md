@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Halbelfen
 sex: w
-height: "1,83"
+height: 1.83
 functions:
   - Hohefürstin der Angst
 class: Hohefürst

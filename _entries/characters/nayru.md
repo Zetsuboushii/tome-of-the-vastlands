@@ -8,7 +8,7 @@ character_title: Hüterin von Orrins Erbe
 race: Menschen
 sex: w
 birthday: 25.11.372
-height: "1,66"
+height: 1.66
 alias:
   - [ Junges Fräulein, Häufig unter Adligen ]
 affiliations:

@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Menschen
 sex: m
-height: "1,79"
+height: 1.79
 functions:
   - Büchersammler
 class: Zauberer

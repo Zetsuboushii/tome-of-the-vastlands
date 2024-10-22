@@ -9,7 +9,7 @@ character_title: Schläfrigster Krieger der Götter
 race: Menschen
 sex: m
 birthday: 30.08.351
-height: "1,65"
+height: 1.65
 functions:
   - Vasall der Iddra
   - Ehem. Mitglied der Diebesgilde
