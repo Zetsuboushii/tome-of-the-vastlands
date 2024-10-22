@@ -12,14 +12,14 @@ layout: none
         "race": "{{ character.race }}",
         "sex": "{{ character.sex }}",
         "birthday": "{{ character.birthday }}",
-        "height": {{ character.height }},
-        "weight": {{ character.weight }},
+        "height": {% if character.height %}{{ character.height }}{% else %}0{% endif %},
+        "weight": {% if character.weight %}{{ character.weight }}{% else %}0{% endif %},
         "bust": {% if character.bust %}{{ character.bust }}{% else %}0{% endif %},
         "underbust": {% if character.underbust %}{{ character.underbust }}{% else %}0{% endif %},
-        "waist": {{ character.waist }},
-        "hip": {{ character.hip }},
-        "shoulder_width": {{ character.shoulder_width }},
-        "muscle_mass": {{ character.muscle_mass }},
+        "waist": {% if character.waist %}{{ character.waist }}{% else %}0{% endif %},
+        "hip": {% if character.hip %}{{ character.hip }}{% else %}0{% endif %},
+        "shoulder_width": {% if character.shoulder_width %}{{ character.shoulder_width }}{% else %}0{% endif %},
+        "muscle_mass": {% if character.muscle_mass %}{{ character.muscle_mass }}{% else %}0{% endif %},
         "functions": [
         {% for function in character.functions %}
             "{{ function }}"{% unless forloop.last %},{% endunless %}
