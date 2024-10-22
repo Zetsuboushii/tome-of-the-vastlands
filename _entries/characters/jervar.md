@@ -40,7 +40,6 @@ relationships:
   - [ Felldir, enger Vertrauter ]
   - [ Kristian, Cousin ]
   - [ Kristina, Cousine ]
-  - [ Narcian, Cousin]
 redirect_from:
   - /characters/jervar-von-grenbrock/
 ---
