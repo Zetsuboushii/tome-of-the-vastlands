@@ -11,7 +11,7 @@ sex: w
 birthday: 15.10.351
 height: 1.85
 weight: 75
-bust: 105
+bust: 97
 underbust: 80
 waist: 70
 hip: 100

@@ -9,7 +9,7 @@ race: Dämonen
 sex: w
 height: 1.67
 weight: 64
-bust: 98
+bust: 106
 underbust: 72
 waist: 66
 hip: 94

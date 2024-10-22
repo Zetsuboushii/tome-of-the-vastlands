@@ -11,7 +11,7 @@ sex: w
 birthday: 19.9.370
 height: 1.71
 weight: 70
-bust: 110
+bust: 105
 underbust: 85
 waist: 70
 hip: 100

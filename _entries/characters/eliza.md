@@ -11,6 +11,8 @@ sex: w
 birthday: 3.8.369
 height: 1.78
 weight: 68
+bust: 92
+underbust: 76
 shoulder_width: 42
 waist: 68
 hip: 90

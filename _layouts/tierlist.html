@@ -37,11 +37,10 @@ layout: default
         </div>
 
         <div class="tierlist-image-list">
-            {% for character in site.entries %}
-                {% if character.categories contains "character" %}
-                    <img src="{{ site.simgurl }}/characters/{{ character.path | split: '/' | last | split: '.' | first }}.png"
-                         draggable="true" alt="{{ character.title | downcase }}">
-                {% endif %}
+            {% assign sorted_characters = site.entries | where: "categories", "character" | sort: "title" %}
+            {% for character in sorted_characters %}
+                <img src="{{ site.simgurl }}/characters/{{ character.path | split: '/' | last | split: '.' | first }}.png"
+                     draggable="true" alt="{{ character.title | downcase }}">
             {% endfor %}
         </div>
 

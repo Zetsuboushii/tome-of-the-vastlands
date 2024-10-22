@@ -10,6 +10,8 @@ sex: w
 birthday: 25.7.370
 height: 1.71
 weight: 65
+bust: 85
+underbust: 70
 shoulder_width: 42
 waist: 70
 hip: 90

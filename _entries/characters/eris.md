@@ -10,6 +10,8 @@ sex: w
 birthday: 1.2.374
 height: 1.63
 weight: 54
+bust: 94
+underbust: 72
 shoulder_width: 36
 waist: 64
 hip: 88

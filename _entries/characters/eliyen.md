@@ -10,6 +10,8 @@ sex: w
 birthday: 29.5.157
 height: 1.57
 weight: 50
+bust: 82
+underbust: 60
 shoulder_width: 36
 waist: 60
 hip: 85

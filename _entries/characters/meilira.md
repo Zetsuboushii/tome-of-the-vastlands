@@ -9,6 +9,8 @@ race: Menschen
 sex: w
 height: 1.82
 weight: 75
+bust: 92
+underbust: 76
 shoulder_width: 44
 waist: 74
 hip: 96
