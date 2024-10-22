@@ -62,7 +62,7 @@ relationships:
   - [ Avarne, Freund ]
 lover: Eliza
 alt_imgs:
-  - True-Ranos
+  - Rüstungsform
 ---
 
 U-Ranos ist einer der fünf Recken der Justicia und zudem in seiner Erdengestalt der Ziehsohn von Seloue.

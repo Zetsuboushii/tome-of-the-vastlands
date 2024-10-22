@@ -43,6 +43,3 @@ relationships:
 redirect_from:
   - /characters/jervar-von-grenbrock/
 ---
-
-
-Clown der den Flammen in Narcians Augen folgt. (U-Ranos persönliche Meinung)
