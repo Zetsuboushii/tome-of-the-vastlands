@@ -87,8 +87,8 @@ stark ist, und setzt alles daran, dass auch seine beiden Scharfrichterkollegen s
 
 Flüstern ist zudem der herzoglichen Leibgarde Grenze unterstellt, einer Frau, die er lange Zeit nicht leiden konnte.
 Erst nachdem Grenze in einer gemeinsamen Mission ihre wahre Macht unter Beweis stellte, begann Flüstern, Respekt für sie
-zu empfinden. Er forderte sie zu einem Duell heraus, das er zwar knapp verlor, aber die Anerkennung Grenzen und eine
-tiefergehende Zusammenarbeit zur Folge hatte. Diese Erfahrung veränderte seine Sichtweise auf Zusammenarbeit und
+zu empfinden. Er forderte sie zu einem Duell heraus, das er zwar knapp verlor, dafür aber dennoch die Anerkennung von
+Grenze erhielt. Diese Erfahrung veränderte seine Sichtweise auf Zusammenarbeit und
 Respekt. Wo er zuvor dachte, dass nur Macht die einzige Metrik für Anerkennung sei, lernte er, dass Loyalität und ein
 gemeinsames Ziel ebenso wichtig sind. Heute betrachtet er Grenze als eine der wenigen Personen, die seine Stärke
 herausfordern und ihm helfen können, besser zu werden.
