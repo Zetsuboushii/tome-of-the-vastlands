@@ -147,3 +147,10 @@ Alle JSON-Files können unter dem Base-Path https://zetsuboushii.github.io/tome-
 | range_far     | number | Wurf-/Lange Reichweite in Fuß                 |
 | damage        | array  | [ string, string ]; Schadenswürfe für Waffe   |
 | abilities     | array  | [ string ]; Namen der Fähigkeiten der Waffe   |
+
+### effects.json
+
+| Feld   | Typ    | Erklärung                                           |
+|--------|--------|-----------------------------------------------------|
+| name   | string | Name des Effekts                                    |
+| rating | number | Bewertung der Effektivität/Stärke auf Skala 1 bis 5 |
