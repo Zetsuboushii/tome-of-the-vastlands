@@ -118,7 +118,7 @@ Freundschaft, die durch ihre häufigen Treffen gefestigt wird. Es gibt kaum jema
 Fortuna, und sie ist oft diejenige, die ihn zum Lachen bringt, auch wenn er sich selbst oft als düster und distanziert
 gibt.
 
-Auch zu den sterblichen Freunden wie Farone und Seloue pflegt Fortuna innige Beziehungen. Sie trifft sich oft mit
+Auch zu ihren Freunden wie Farone und Seloue pflegt Fortuna innige Beziehungen. Sie trifft sich oft mit
 Seloue, um gemeinsam Tee zu trinken, den diese aus Faergria mitbringt. Diese Teestunden sind für Fortuna heilige Rituale
 der Entspannung und Freundschaft. Die Freundschaft mit Farone führte sogar zur Pflanzung des großen Kirschblütenbaums
 bei ihrem Arbeitsplatz, der zu einem Symbol für die Verbindung von Leben und Schicksal wurde. Dieser Baum erinnert
