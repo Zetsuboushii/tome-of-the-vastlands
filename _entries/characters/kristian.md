@@ -9,7 +9,12 @@ character_title: Sympathischer Herrscher
 race: Menschen
 sex: m
 birthday: 11.5.372
-height: "1,81"
+height: 1.81
+weight: 75
+shoulder_width: 44
+waist: 77
+hip: 90
+muscle_mass: 32
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

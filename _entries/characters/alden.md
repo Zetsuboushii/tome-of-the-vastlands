@@ -8,7 +8,12 @@ character_title: Weltoffener Kutschfahrer
 race: Menschen
 sex: m
 birthday: 28.2.350
-height: "1,76"
+height: 1.76
+weight: 105
+shoulder_width: 50
+waist: 100
+hip: 110
+muscle_mass: 40
 functions:
   - Kutschfahrer
 class: Bürger

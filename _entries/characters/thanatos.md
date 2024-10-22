@@ -7,7 +7,12 @@ categories:
 character_title: Ungenierter Bluthund
 race: Götter
 sex: m
-height: "1,87"
+height: 1.87
+weight: 90
+shoulder_width: 50
+waist: 80
+hip: 92
+muscle_mass: 40
 functions:
   - Gott der Sünde und der Finsternis
 class: Gott
@@ -28,7 +33,7 @@ relationships:
   - [ Avila, Gute Freundin ]
   - [ Mudo, Guter Freund ]
   - [ Amlin, Gute Freundin ]
-  - [ Ar-Merer, Feind]
+  - [ Ar-Merer, Feind ]
 lover: Nayru
 ---
 

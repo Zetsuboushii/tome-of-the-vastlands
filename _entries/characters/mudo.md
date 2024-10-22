@@ -7,7 +7,12 @@ categories:
 character_title: Klinge des Todes
 race: Dämonen
 sex: m
-height: "1,88"
+height: 1.88
+weight: 85
+shoulder_width: 46
+waist: 80
+hip: 90
+muscle_mass: 40
 alias:
   - [ Dodo, "Hama" ]
 affiliations:

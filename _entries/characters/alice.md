@@ -8,7 +8,14 @@ character_title: Verliebte Nekromantin
 race: Halbelfen
 sex: w
 birthday: 19.11.375
-height: "1,68"
+height: 1.68
+weight: 57
+bust: 90
+underbust: 70
+waist: 62
+hip: 92
+shoulder_width: 40
+muscle_mass: 27
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
 functions:

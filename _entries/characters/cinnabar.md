@@ -7,7 +7,14 @@ categories:
 character_title: Sündenstehlende Meisterdiebin
 race: Dämonen
 sex: w
-height: "1,67"
+height: 1.67
+weight: 64
+bust: 98
+underbust: 72
+waist: 66
+hip: 94
+shoulder_width: 42
+muscle_mass: 32
 functions:
   - Reckin des Thanatos
 class: Recke

@@ -8,7 +8,14 @@ character_title: Verletzliches Pflänzchen
 race: Halbelfen
 sex: w
 birthday: 11.11.376
-height: "1,65"
+height: 1.65
+weight: 55
+bust: 85
+underbust: 70
+shoulder_width: 38
+waist: 64
+hip: 86
+muscle_mass: 22
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

@@ -8,7 +8,14 @@ character_title: Gebrochene Nonne mit großem Herz
 race: Menschen
 sex: w
 birthday: 25.5.371
-height: "1,73"
+height: 1.73
+weight: 76
+bust: 106
+underbust: 82
+waist: 70
+hip: 102
+shoulder_width: 42
+muscle_mass: 28
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

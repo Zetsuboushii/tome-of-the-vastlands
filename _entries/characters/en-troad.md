@@ -7,7 +7,13 @@ categories:
 character_title: Heiliger Krieger
 race: Engel
 sex: m
-height: "1,87"
+birthday: 1.1.370
+height: 1.87
+weight: 85
+shoulder_width: 45
+waist: 80
+hip: 90
+muscle_mass: 40
 alias:
   - [ Toadi, U-Ranos]
 functions:

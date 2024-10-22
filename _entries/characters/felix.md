@@ -8,7 +8,12 @@ character_title: Bischof in Spe
 race: Menschen
 sex: m
 birthday: 18.10.371
-height: "1,75"
+height: 1.75
+weight: 68
+shoulder_width: 42
+waist: 74
+hip: 86
+muscle_mass: 28
 affiliations:
   - Schicksalsjünger Fortunas
 functions:
@@ -21,7 +26,7 @@ homes:
 alignment: LG
 alive: true
 relationships:
-  - [ Vater, Ziehvater ]
+  - [ Perrotus, Ziehvater ]
   - [ Carmesine, Heimliche Liebe und Glaubensschwester ]
 ---
 

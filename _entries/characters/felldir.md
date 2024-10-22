@@ -8,7 +8,12 @@ character_title: Unbesiegter Kommandant
 race: Menschen
 sex: m
 birthday: 18.8.335
-height: "1,86"
+height: 1.86
+weight: 95
+shoulder_width: 50
+waist: 88
+hip: 98
+muscle_mass: 45
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

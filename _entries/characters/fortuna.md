@@ -7,7 +7,14 @@ categories:
 character_title: Stichelndes Schicksal
 race: Götter
 sex: w
-height: "1,89"
+height: 1.89
+weight: 82
+bust: 108
+underbust: 80
+waist: 70
+hip: 102
+shoulder_width: 44
+muscle_mass: 36
 alias:
   - [ Tantchen, "U-Ranos" ]
 functions:

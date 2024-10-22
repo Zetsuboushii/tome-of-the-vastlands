@@ -8,7 +8,12 @@ character_title: Gute Seele des Dorfes
 race: Menschen
 sex: m
 birthday: 30.6.376
-height: "1,79"
+height: 1.79
+weight: 75
+shoulder_width: 42
+waist: 80
+hip: 90
+muscle_mass: 22
 functions:
   - Buchhändler 
 class: Bürger

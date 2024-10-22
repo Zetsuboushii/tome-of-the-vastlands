@@ -7,7 +7,14 @@ categories:
 character_title: Immerfrohe Verkupplerin
 race: Halbelfen
 sex: w
-height: "1,68"
+height: 1.68
+weight: 58
+bust: 94
+underbust: 72
+waist: 64
+hip: 96
+shoulder_width: 42
+muscle_mass: 28
 affiliations:
   - 3. Generation der Hohefürsten
 functions:
@@ -22,10 +29,10 @@ relationships:
   - [ Farone, Gute Freundin ]
   - [ Fortuna, Gute Freundin ]
   - [ U-Ranos, Freund ]
-  - [ Mudo, Freund]
-  - [ Scarlet, gute Freundin]
-  - [ Il-Vernia, gute Freundin]
-  - [ Thanatos, guter Freund]
+  - [ Mudo, Freund ]
+  - [ Scarlet, gute Freundin ]
+  - [ Il-Vernia, gute Freundin ]
+  - [ Thanatos, guter Freund ]
 ---
 
 Diese liebreizende Hohefürstin nimmt ihre Aufgabe als Verkupplerin etwas zu ernst. Eigentlich sollte sie auf Anliegen

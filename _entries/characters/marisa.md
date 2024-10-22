@@ -1,6 +1,6 @@
 ---
 layout: usepage
-title: Marisa 
+title: Marisa
 surname: von Aegir
 categories:
   - character
@@ -9,7 +9,14 @@ character_title: Unschuldige Blume
 race: Halbelfen
 sex: w
 birthday: 17.3.375
-height: "1,64"
+height: 1.64
+weight: 55
+bust: 90
+underbust: 70
+waist: 62
+hip: 88
+shoulder_width: 36
+muscle_mass: 22
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

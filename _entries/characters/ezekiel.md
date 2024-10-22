@@ -9,7 +9,12 @@ character_title: Anti-sozialer Ex-Kultist widerwillen
 race: Menschen
 sex: m
 birthday: 30.6.377
-height: "1,72"
+height: 1.72
+weight: 70
+shoulder_width: 42
+waist: 80
+hip: 92
+muscle_mass: 24
 functions:
   - Ehem. gezwungener Kultist
 class: Hexer

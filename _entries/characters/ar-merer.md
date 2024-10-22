@@ -7,7 +7,12 @@ categories:
 character_title: Erbamungsloser Inquisitor
 race: Engel
 sex: m
-height: "2,01"
+height: 1.96
+weight: 105
+shoulder_width: 54
+waist: 85
+hip: 98
+muscle_mass: 48
 functions:
   - Recke der Justicia
 class: Recke

@@ -8,7 +8,12 @@ character_title: Ruchloser Intrigant
 race: Menschen
 sex: m
 birthday: 8.11.355
-height: "1,91"
+height: 1.91
+weight: 85
+shoulder_width: 50
+waist: 80
+hip: 90
+muscle_mass: 35
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

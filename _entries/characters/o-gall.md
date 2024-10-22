@@ -7,7 +7,12 @@ categories:
 character_title: Himmlische Bestrafung
 race: Engel
 sex: m
-height: "1,89"
+height: 1.89
+weight: 90
+shoulder_width: 48
+waist: 80
+hip: 92
+muscle_mass: 40
 alias:
   - [ Galli, "U-Ranos" ]
 functions:

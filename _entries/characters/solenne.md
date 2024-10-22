@@ -9,7 +9,14 @@ character_title: Garten der Schönheit
 race: Menschen
 sex: w
 birthday: 15.10.351
-height: "1,85"
+height: 1.85
+weight: 75
+bust: 105
+underbust: 80
+waist: 70
+hip: 100
+shoulder_width: 44
+muscle_mass: 30
 affiliations:
   - Schicksalsjünger Fortunas
 functions:
@@ -22,7 +29,7 @@ alive: true
 relationships:
   - [ Sonya, Tochter ]
   - [ Marine, Wache ]
-  - [ U-Ranos, "guter Freund, fast Liebschaft " ]
+  - [ U-Ranos, "guter Freund, fast Liebschaft" ]
   - [ Seloue, Freundin ]
 ---
 

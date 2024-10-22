@@ -7,7 +7,14 @@ categories:
 character_title: Hitzköpfige Zeitgenossin
 race: Schutzgeister
 sex: w
-height: "1,58"
+height: 1.58
+weight: 54
+bust: 85
+underbust: 67
+waist: 62
+hip: 88
+shoulder_width: 38
+muscle_mass: 28
 affiliations:
   - 1. Generation der Hohefürsten
 functions:
@@ -18,7 +25,7 @@ homes:
 alignment: CN
 alive: true
 relationships:
-  - [ Invidianoir,Schwester ]
+  - [ Invidianoir, Schwester ]
   - [ Fubuki, Freundin ]
   - [ Zora, Freundin ]
   - [ Rai, Freund ]

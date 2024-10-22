@@ -9,7 +9,12 @@ character_title: Dubioser Minister
 race: Halbelfen
 sex: m
 birthday: 28.10.359
-height: "1,89"
+height: 1.89
+weight: 78
+shoulder_width: 45
+waist: 80
+hip: 90
+muscle_mass: 34
 functions:
   - Minister des Königs
 class: Adliger

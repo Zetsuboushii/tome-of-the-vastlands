@@ -8,7 +8,12 @@ character_title: Ruchloser Banditenanführer
 race: Menschen
 sex: m
 birthday: 15.7.350
-height: "1,83"
+height: 1.83
+weight: 95
+shoulder_width: 52
+waist: 90
+hip: 100
+muscle_mass: 45
 alias:
 affiliations:
   - Schicksalsjünger Fortunas

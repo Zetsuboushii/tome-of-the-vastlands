@@ -8,7 +8,12 @@ character_title: Ritterlicher Unglücksmagnet
 race: Menschen
 sex: m
 birthday: 17.10.365
-height: "1,85"
+height: 1.85
+weight: 80
+shoulder_width: 47
+waist: 78
+hip: 92
+muscle_mass: 36
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

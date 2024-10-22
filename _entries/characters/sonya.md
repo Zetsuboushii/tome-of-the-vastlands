@@ -9,7 +9,14 @@ character_title: Präzise Mörder-Prinzessin
 race: Menschen
 sex: w
 birthday: 19.9.370
-height: "1,71"
+height: 1.71
+weight: 70
+bust: 110
+underbust: 85
+waist: 70
+hip: 100
+shoulder_width: 42
+muscle_mass: 30
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

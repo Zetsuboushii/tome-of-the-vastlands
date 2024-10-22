@@ -8,7 +8,12 @@ character_title: Leibgarde seit Kindertagen
 race: Menschen
 sex: w
 birthday: 25.7.370
-height: "1,71"
+height: 1.71
+weight: 65
+shoulder_width: 42
+waist: 70
+hip: 90
+muscle_mass: 30
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

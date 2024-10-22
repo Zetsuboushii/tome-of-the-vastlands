@@ -8,12 +8,19 @@ character_title: Begeisterte Barfrau mit Alkoholproblem
 race: Menschen
 sex: w
 birthday: 27.6.367
-height: "1,66"
+height: 1.66
+weight: 58
+bust: 88
+underbust: 70
+waist: 66
+hip: 90
+shoulder_width: 41
+muscle_mass: 30
 affiliations:
   - Schicksalsjünger Fortunas
 functions:
   - Besitzerin der Bar 'Fólkvangr'
-class: TODO
+class: Bürger
 homes:
   - Frelia
 alignment: CG

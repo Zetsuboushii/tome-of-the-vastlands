@@ -7,7 +7,14 @@ categories:
 character_title: Forsches Heilungswunder
 race: Pikori
 sex: w
-height: "1,78"
+height: 1.78
+weight: 75
+bust: 107
+underbust: 80
+waist: 72
+hip: 102
+shoulder_width: 42
+muscle_mass: 33
 affiliations:
   - 3. Generation der Hohefürsten
 functions:

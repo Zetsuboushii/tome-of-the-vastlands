@@ -8,7 +8,12 @@ character_title: Authentischer Macher
 race: Menschen
 sex: m
 birthday: 23.7.362
-height: "1,86"
+height: 1.86
+weight: 85
+shoulder_width: 48
+waist: 86
+hip: 94
+muscle_mass: 38
 alias:
   - [ Linus Tavernen Tips, "U-Ranos, DM" ]
 affiliations:
@@ -25,7 +30,6 @@ relationships:
   - [ Modaharius, Stammkunde ]
   - [ Hindrik, Stammkunde ]
   - [ Rosemarie, Schwester ]
-
 ---
 
 Linus hat vor einigen Jahren ein altes Hofgut außerhalb von Brodia erworben und wieder auf Vordermann gebracht. Sein

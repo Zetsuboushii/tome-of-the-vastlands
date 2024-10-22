@@ -7,7 +7,14 @@ categories:
 character_title: Sündhaft obszöne Erzmagierin
 race: Dämonen
 sex: w
-height: "1,85"
+height: 1.85
+weight: 80
+bust: 107
+underbust: 80
+waist: 72
+hip: 98
+shoulder_width: 44
+muscle_mass: 34
 functions:
   - Reckin des Thanatos
 class: Recke
@@ -35,7 +42,6 @@ relationships:
 alt_imgs:
   - Emmi Ver
   - Pixelart
-
 ---
 
 Scarlet ist eine der mächtigen Reckinnen von Thanatos, dem Gott des Todes. Ihre Berufung besteht darin, Sünder

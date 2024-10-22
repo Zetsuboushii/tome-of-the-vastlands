@@ -9,7 +9,12 @@ character_title: Unbeugsame Sünde
 race: Menschen
 sex: w
 birthday: 3.8.369
-height: "1,78"
+height: 1.78
+weight: 68
+shoulder_width: 42
+waist: 68
+hip: 90
+muscle_mass: 30
 functions:
   - Reckin des Thanatos
 class: Recke

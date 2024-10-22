@@ -9,7 +9,12 @@ character_title: Gütiger Schlossher
 race: Menschen
 sex: m
 birthday: 16.3.320
-height: "1,77"
+height: 1.77
+weight: 82
+shoulder_width: 45
+waist: 84
+hip: 92
+muscle_mass: 35
 functions:
   - Ehem. Herr des Jadgschlosses Dünsberg
 class: Adliger

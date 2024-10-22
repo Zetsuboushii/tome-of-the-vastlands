@@ -8,7 +8,12 @@ character_title: Silberner Pfeil
 race: Menschen
 sex: m
 birthday: 16.10.370
-height: "1,86"
+height: 1.86
+weight: 85
+shoulder_width: 48
+waist: 78
+hip: 90
+muscle_mass: 35
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

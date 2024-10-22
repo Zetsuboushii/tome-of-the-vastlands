@@ -8,7 +8,12 @@ character_title: Gutmütige Grenzpostlerin
 race: Elfen
 sex: w
 birthday: 29.5.157
-height: "1,57"
+height: 1.57
+weight: 50
+shoulder_width: 36
+waist: 60
+hip: 85
+muscle_mass: 25
 affiliations:
   - Kinder des Waldes
 functions:
@@ -22,7 +27,7 @@ alignment: NG
 alive: "?"
 relationships:
   - [ Malon, Freund und Kollege ]
-  - [ Nayru, Freundin]
+  - [ Nayru, Freundin ]
 ---
 
 Eliyen ist derzeit stationiert am Inidal-Grenzposten, wo sie zusammen mit Malon die Wälder von Fürstentum Farodris vor

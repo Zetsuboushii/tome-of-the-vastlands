@@ -7,7 +7,12 @@ categories:
 character_title: Ewige Jugend
 race: Pikori
 sex: m
-height: "1,63"
+height: 1.63
+weight: 55
+shoulder_width: 40
+waist: 68
+hip: 84
+muscle_mass: 25
 affiliations:
   - 3. Generation der Hohefürsten
 functions:

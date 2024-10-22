@@ -8,7 +8,12 @@ character_title: Erster Richter des Herzogs
 race: Tieflinge
 sex: m
 birthday: 5.3.258
-height: "1,85"
+height: 1.85
+weight: 80
+shoulder_width: 46
+waist: 78
+hip: 90
+muscle_mass: 38
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
 functions:

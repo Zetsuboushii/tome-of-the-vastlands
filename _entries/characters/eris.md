@@ -8,7 +8,12 @@ character_title: Temperamentvolles Hausmädchen
 race: Menschen
 sex: w
 birthday: 1.2.374
-height: "1,63"
+height: 1.63
+weight: 54
+shoulder_width: 36
+waist: 64
+hip: 88
+muscle_mass: 22
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

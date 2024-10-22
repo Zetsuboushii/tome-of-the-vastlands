@@ -8,7 +8,14 @@ character_title: Glücklichste Waise
 race: Elfen
 sex: w
 birthday: 9.1.282
-height: "1,45"
+height: 1.32
+weight: 25
+bust: 60
+underbust: 55
+waist: 54
+hip: 68
+shoulder_width: 28
+muscle_mass: 12
 affiliations:
   - Kinder des Waldes
 class: Bürger

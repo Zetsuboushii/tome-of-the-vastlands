@@ -12,7 +12,14 @@ layout: none
         "race": "{{ character.race }}",
         "sex": "{{ character.sex }}",
         "birthday": "{{ character.birthday }}",
-        "height": "{{ character.height }}",
+        "height": {{ character.height }},
+        "weight": {{ character.weight }},
+        "bust": {{ character.bust }},
+        "underbust": {{ character.underbust }},
+        "waist": {{ character.waist }},
+        "hip": {{ character.hip }},
+        "shoulder_width": {{ character.shoulder_width }},
+        "muscle_mass": {{ character.muscle_mass }},
         "functions": [
         {% for function in character.functions %}
             "{{ function }}"{% unless forloop.last %},{% endunless %}

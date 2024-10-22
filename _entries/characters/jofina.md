@@ -9,7 +9,14 @@ character_title: Frischer Wind von Dünsberg
 race: Halbelfen
 sex: w
 birthday: 11.11.371
-height: "1,72"
+height: 1.72
+weight: 58
+bust: 96
+underbust: 72
+waist: 66
+hip: 92
+shoulder_width: 40
+muscle_mass: 28
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

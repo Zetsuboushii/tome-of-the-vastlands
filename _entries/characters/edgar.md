@@ -8,7 +8,12 @@ character_title: Hasenfüßiger Koch
 race: Menschen
 sex: m
 birthday: 6.10.366
-height: "1,89"
+height: 1.89
+weight: 90
+shoulder_width: 46
+waist: 90
+hip: 96
+muscle_mass: 40
 functions:
   - Koch im Jagdschloss Dünsberg
 class: Bürger

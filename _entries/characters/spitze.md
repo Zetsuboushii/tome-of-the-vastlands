@@ -8,7 +8,14 @@ character_title: Schlemmende Richterin des Herzogs
 race: Tieflinge
 sex: w
 birthday: 23.7.278
-height: "1,69"
+height: 1.69
+weight: 70
+bust: 105
+underbust: 80
+waist: 70
+hip: 100
+shoulder_width: 42
+muscle_mass: 30
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
 functions:

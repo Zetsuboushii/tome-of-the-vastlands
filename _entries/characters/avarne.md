@@ -8,7 +8,12 @@ character_title: Werdender Abenteurer
 race: Menschen
 sex: m
 birthday: 27.5.375
-height: "1,77"
+height: 1.77
+weight: 78
+shoulder_width: 46
+waist: 78
+hip: 92
+muscle_mass: 38
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 class: Kämpfer

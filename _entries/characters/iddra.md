@@ -7,7 +7,14 @@ categories:
 character_title: Rätselhafte Verbündete
 race: Dämonen
 sex: w
-height: "1,70"
+height: 1.70
+weight: 64
+bust: 94
+underbust: 75
+waist: 68
+hip: 96
+shoulder_width: 41
+muscle_mass: 28
 affiliations:
   - 4. Generation der Hohefürsten
 functions:

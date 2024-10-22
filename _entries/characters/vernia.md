@@ -6,9 +6,16 @@ categories:
   - NPC
 character_title: Durchsetzungsfähige Schankwirtin
 race: Menschen
-sex: m
+sex: w
 birthday: 6.2.365
-height: "1,68"
+height: 1.68
+weight: 60
+bust: 90
+underbust: 75
+shoulder_width: 40
+waist: 68
+hip: 90
+muscle_mass: 25
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

@@ -7,7 +7,14 @@ categories:
 character_title: Schnippisches Zeitorakel
 race: Menschen
 sex: w
-height: "1,51"
+height: 1.51
+weight: 46
+bust: 82
+underbust: 68
+waist: 60
+hip: 84
+shoulder_width: 36
+muscle_mass: 22
 alias:
   - [ Amilein, "U-Ranos" ]
 affiliations:

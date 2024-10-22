@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Doppelt
+title: Doppelter Angriff
 category: abilities
 ---
 

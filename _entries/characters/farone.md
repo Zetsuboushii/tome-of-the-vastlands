@@ -7,7 +7,14 @@ categories:
 character_title: Leicht-Reizbares Nachtschattengewächs
 race: Götter
 sex: w
-height: "1,44"
+height: 1.44
+weight: 38
+bust: 75
+underbust: 60
+waist: 58
+hip: 80
+shoulder_width: 36
+muscle_mass: 18
 functions:
   - Göttin der Magie und der Natur
 class: Gott

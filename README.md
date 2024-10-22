@@ -10,9 +10,10 @@
 
 <h2>Table of Contents</h3>
 <!-- TOC -->
-  * [1. Einleitung](#1-einleitung)
-  * [2. Mitwirkende](#2-mitwirkende)
-  * [3. API-Referenz](#3-api-referenz)
+
+* [1. Einleitung](#1-einleitung)
+* [2. Mitwirkende](#2-mitwirkende)
+* [3. API-Referenz](#3-api-referenz)
     * [actions.json](#actionsjson)
     * [characters.json](#charactersjson)
     * [data.json](#datajson)
@@ -20,6 +21,7 @@
     * [places.json](#placesjson)
     * [races.json](#racesjson)
     * [weapons.json](#weaponsjson)
+
 <!-- TOC -->
 
 ## 1. Einleitung
@@ -56,24 +58,31 @@ Alle JSON-Files können unter dem Base-Path https://zetsuboushii.github.io/tome-
 
 ### characters.json
 
-| Feld          | Typ    | Erklärung                                                                         |
-|---------------|--------|-----------------------------------------------------------------------------------|
-| name          | string | Name des Charakters                                                               |
-| surname       | string | Nachname des Charakters                                                           |
-| title         | string | Charaktertitel                                                                    |
-| race          | string | Name der Rasse des Charakters                                                     |
-| sex           | string | Geschlecht des Charakters                                                         |
-| birthday      | string | Geburtstag des Charakters; Tag.Monat.Jahr;<br/>Negative Jahre = vor Zeitreichnung |
-| height        | string | Größe des Charakters in Meter; "1,82"                                             |
-| functions     | array  | [ string ]; (Berufliche) Funktionen des Charakters                                |
-| class         | string | Name der Klasse des Charakters                                                    |
-| subclasses    | array  | [ string ]; Namen der Subklassen des Charakters                                   |
-| masterclass   | string | Name der Meisterklasse des Charakters                                             |
-| homes         | array  | [ string ]; Namen der Heimatorte des Charakters                                   |
-| alignment     | string | Gesinnung des Charakters                                                          |
-| status        | string | Lebensstatus des Charakters; true/false = lebendig/tot                            |
-| relationships | array  | [ [ string, string ] ]; Namen von Charakteren und deren Beziehung zum Charakter   |
-| lover         | string | Name der Liebe des Charakters                                                     |
+| Feld           | Typ    | Erklärung                                                                         |
+|----------------|--------|-----------------------------------------------------------------------------------|
+| name           | string | Name des Charakters                                                               |
+| surname        | string | Nachname des Charakters                                                           |
+| title          | string | Charaktertitel                                                                    |
+| race           | string | Name der Rasse des Charakters                                                     |
+| sex            | string | Geschlecht des Charakters                                                         |
+| birthday       | string | Geburtstag des Charakters; Tag.Monat.Jahr;<br/>Negative Jahre = vor Zeitreichnung |
+| height         | number | Größe des Charakters in Meter                                                     |
+| weight         | number | Gewicht des Charakters in kg                                                      |
+| bust           | number | Brustumfang des Charakters in cm                                                  |
+| underbust      | number | Unterbrustumfang des Charakters in cm                                             |
+| waist          | number | Taillenumfang des Charakters in cm                                                |
+| hip            | number | Hüftumfang des Charakters in cm                                                   |
+| shoulder_width | number | Schulterbreite des Charakters in cm                                               |
+| muscle_mass    | number | Muskelmasse des Charakters in kg                                                  |
+| functions      | array  | [ string ]; (Berufliche) Funktionen des Charakters                                |
+| class          | string | Name der Klasse des Charakters                                                    |
+| subclasses     | array  | [ string ]; Namen der Subklassen des Charakters                                   |
+| masterclass    | string | Name der Meisterklasse des Charakters                                             |
+| homes          | array  | [ string ]; Namen der Heimatorte des Charakters                                   |
+| alignment      | string | Gesinnung des Charakters                                                          |
+| status         | string | Lebensstatus des Charakters; true/false = lebendig/tot                            |
+| relationships  | array  | [ [ string, string ] ]; Namen von Charakteren und deren Beziehung zum Charakter   |
+| lover          | string | Name der Liebe des Charakters                                                     |
 
 ### data.json
 

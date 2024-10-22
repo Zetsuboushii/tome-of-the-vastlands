@@ -8,7 +8,12 @@ character_title: Mörderischer Gaukler
 race: Elfen
 sex: m
 birthday: 8.12.71
-height: "1,85"
+height: 1.85
+weight: 73
+shoulder_width: 44
+waist: 78
+hip: 90
+muscle_mass: 32
 affiliations:
   - Klauen des Hasses
 functions:

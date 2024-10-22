@@ -9,7 +9,12 @@ character_title: Totgeglaubter Liebling des Volkes
 race: Menschen
 sex: m
 birthday: 9.9.367
-height: "1,86"
+height: 1.86
+weight: 80
+shoulder_width: 48
+waist: 76
+hip: 92
+muscle_mass: 34
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

@@ -9,7 +9,12 @@ character_title: Kindsköpfiger Frühherrscher
 race: Menschen
 sex: m
 birthday: 24.10.374
-height: "1,77"
+height: 1.77
+weight: 70
+shoulder_width: 42
+waist: 76
+hip: 88
+muscle_mass: 28
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

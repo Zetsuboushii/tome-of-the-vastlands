@@ -7,7 +7,14 @@ categories:
 character_title: Gefährliche Liebschaft
 race: Menschen
 sex: w
-height: "1,78"
+height: 1.78
+weight: 78
+bust: 120
+underbust: 85
+waist: 72
+hip: 102
+shoulder_width: 44
+muscle_mass: 34
 affiliations:
   - 4. Generation der Hohefürsten
 functions:
@@ -22,8 +29,6 @@ relationships:
   - [ Craindre, Freundin ]
   - [ Serff, Freund ]
   - [ Volo, Freund ]
-
-
 ---
 
 Als Hohefürstin der Eifersucht sät Invidianoir jene dunkle Emotion in die Herzen der Bewohner Faergrias.

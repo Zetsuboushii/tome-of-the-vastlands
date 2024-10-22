@@ -8,7 +8,12 @@ character_title: Liebenswerter Tavernenbesitzer
 race: Menschen
 sex: m
 birthday: 14.10.348
-height: "1,80"
+height: 1.80
+weight: 115
+shoulder_width: 50
+waist: 120
+hip: 115
+muscle_mass: 35
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

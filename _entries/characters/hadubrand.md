@@ -8,7 +8,12 @@ character_title: Diakon des Abgrunds
 race: Menschen
 sex: m
 birthday: 1.8.342
-height: "1,75"
+height: 1.75
+weight: 70
+shoulder_width: 43
+waist: 75
+hip: 88
+muscle_mass: 30
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

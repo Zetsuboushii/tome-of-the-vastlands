@@ -8,7 +8,14 @@ character_title: Schnitter der Verlorenen
 race: Dämonen
 sex: w
 birthday: 7.7.253
-height: "1,78"
+height: 1.78
+weight: 72
+bust: 98
+underbust: 75
+waist: 68
+hip: 96
+shoulder_width: 45
+muscle_mass: 38
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
 functions:
@@ -31,7 +38,6 @@ relationships:
   - [ Nayru, Anerkannte Rivalin ]
 alt_imgs:
   - Emmi Ver
-
 ---
 
 Die hoch angesehene Leibgarde des Herzogs von Markath. Im Kampf macht sie mit ihren Feinden kurzen Prozess. Wer sich mit

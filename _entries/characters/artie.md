@@ -8,7 +8,12 @@ character_title: Bestechlicher Ortsvorsteher
 race: Menschen
 sex: m
 birthday: 6.12.359
-height: "1,72"
+height: 1.72
+weight: 65
+shoulder_width: 42
+waist: 74
+hip: 86
+muscle_mass: 27
 functions:
   - Ehem. Ortsvorsteher von Schachendorf
 class: Bürger

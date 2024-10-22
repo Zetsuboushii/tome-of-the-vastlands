@@ -9,7 +9,12 @@ character_title: Verträumter 'Zauberer'
 race: Menschen
 sex: m
 birthday: 24.11.366
-height: "1,72"
+height: 1.72
+weight: 60
+shoulder_width: 40
+waist: 68
+hip: 80
+muscle_mass: 25
 affiliations:
   - Klauen des Hasses
 functions:

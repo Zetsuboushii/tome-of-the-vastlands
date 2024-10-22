@@ -9,11 +9,20 @@ character_title: Prinzessin mit Schussbefehl
 race: Menschen
 sex: w
 birthday: 21.9.365
-height: "1,83"
+height: 1.83
+weight: 75
+bust: 100
+underbust: 78
+waist: 72
+hip: 96
+shoulder_width: 44
+muscle_mass: 36
 functions:
   - Prinzessin von Thaugrien
   - Generalin d. thaugriner Armee
-class: TODO
+class: Kämpfer
+subclasses:
+  - Champion
 homes:
   - Grenbrock
 alignment: TN

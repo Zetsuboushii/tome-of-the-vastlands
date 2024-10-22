@@ -8,7 +8,12 @@ character_title: Tiefstes aller Wasser
 race: Tieflinge
 sex: m
 birthday: 10.3.266
-height: "1,76"
+height: 1.76
+weight: 67
+shoulder_width: 42
+waist: 72
+hip: 85
+muscle_mass: 29
 affiliations:
   - Abgrundkirche der Glimmenden Sünde
 functions:
@@ -22,7 +27,7 @@ homes:
 alignment: NG
 alive: true
 relationships:
-  - [ Horizont , Herr ]
+  - [ Horizont, Herr ]
   - [ Spitze, Kollegin ]
   - [ Flüstern, Kollege ]
   - [ Grenze, Vorgesetzte ]

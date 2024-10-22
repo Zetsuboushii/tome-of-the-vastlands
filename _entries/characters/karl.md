@@ -8,7 +8,12 @@ character_title: Gottgleicher Haushälter
 race: Menschen
 sex: m
 birthday: 16.10.372
-height: "1,79"
+height: 1.79
+weight: 68
+shoulder_width: 42
+waist: 74
+hip: 86
+muscle_mass: 28
 affiliations:
   - Schicksalsjünger Fortunas
 functions:

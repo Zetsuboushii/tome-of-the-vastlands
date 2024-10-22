@@ -4,11 +4,16 @@ title: Igmusur
 categories:
   - character
   - NPC
-character_title: Gesicht der Renterbrigade
+character_title: Gesicht der Rentnerbrigade
 race: Menschen
 sex: m
 birthday: 30.3.321
-height: "1,76"
+height: 1.76
+weight: 72
+shoulder_width: 42
+waist: 80
+hip: 86
+muscle_mass: 24
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
   - Rentnerbrigade

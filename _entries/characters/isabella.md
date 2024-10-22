@@ -9,7 +9,14 @@ character_title: Pittoreskes Multitalent der Künste
 race: Menschen
 sex: w
 birthday: 16.9.373
-height: "1,57"
+height: 1.57
+weight: 49
+bust: 84
+underbust: 68
+waist: 62
+hip: 88
+shoulder_width: 38
+muscle_mass: 22
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

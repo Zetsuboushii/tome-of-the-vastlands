@@ -8,7 +8,12 @@ character_title: Bahner mit Leidenschaft
 race: Menschen
 sex: m
 birthday: 8.12.347
-height: "1,79"
+height: 1.79
+weight: 80
+shoulder_width: 46
+waist: 82
+hip: 90
+muscle_mass: 35
 affiliations:
   - Kirche der Himmlischen Gerechtigkeit
 functions:

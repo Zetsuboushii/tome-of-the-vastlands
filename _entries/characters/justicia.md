@@ -7,7 +7,14 @@ categories:
 character_title: Gerechte Mutter
 race: Götter
 sex: w
-height: "1,96"
+height: 1.91
+weight: 85
+bust: 110
+underbust: 80
+waist: 72
+hip: 105
+shoulder_width: 46
+muscle_mass: 35
 functions:
   - Göttin der Gerechtigkeit und des Lichts
 class: Gott
@@ -28,7 +35,6 @@ relationships:
   - [ Thanatos, guter Freund ]
   - [ Farone, gute Freundin ]
   - [ Seloue, beste Freundin ]
-
 ---
 
 Justicia, die Göttin der Gerechtigkeit und des Lichts, ist das älteste und strahlendste Wesen unter den Göttern. Sie

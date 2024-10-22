@@ -7,7 +7,12 @@ categories:
 character_title: Schicksalsklinge der Fortuna
 race: Menschen
 sex: w
-height: "1,82"
+height: 1.82
+weight: 75
+shoulder_width: 44
+waist: 74
+hip: 96
+muscle_mass: 34
 functions:
   - Reckin der Fortuna
 class: Recke
