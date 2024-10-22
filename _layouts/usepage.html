@@ -129,13 +129,6 @@ layout: default
                         </tr>
                     {% endif %}
 
-                    <tr>
-                        <td><b>Größe</b></td>
-                        <td>
-                            {{ page.height | replace: '.', ',' }}m
-                        </td>
-                    </tr>
-
                     {% if page.alias %}
                         <tr>
                             <td><b>Aliase</b></td>
@@ -145,6 +138,74 @@ layout: default
                                         <li>{{ a[0] }}<small> ({{ a[1] }})</small></li>
                                     {% endfor %}
                                 </ul>
+                            </td>
+                        </tr>
+                    {% endif %}
+                </table>
+
+                <h4><b>Daten</b></h4>
+                <table>
+                    {% if page.height %}
+                        <tr>
+                            <td><b>Größe</b></td>
+                            <td>
+                                {{ page.height | replace: '.', ',' }}m
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.weight %}
+                        <tr>
+                            <td><b>Gewicht</b></td>
+                            <td>
+                                {{ page.weight }}kg
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.bust %}
+                        <tr>
+                            <td><b>Brustumfang</b></td>
+                            <td>
+                                {{ page.bust }}cm
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.underbust %}
+                        <tr>
+                            <td><b>Unterbrustumfang</b></td>
+                            <td>
+                                {{ page.underbust }}cm
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.waist %}
+                        <tr>
+                            <td><b>Taille</b></td>
+                            <td>
+                                {{ page.waist }}cm
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.hip %}
+                        <tr>
+                            <td><b>Hüfte</b></td>
+                            <td>
+                                {{ page.hip }}cm
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.shoulder_width %}
+                        <tr>
+                            <td><b>Schulterbreite</b></td>
+                            <td>
+                                {{ page.shoulder_width }}cm
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if page.muscle_mass %}
+                        <tr>
+                            <td><b>Muskelanteil</b></td>
+                            <td>
+                                {{ page.muscle_mass }}kg
                             </td>
                         </tr>
                     {% endif %}
