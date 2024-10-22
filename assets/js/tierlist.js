@@ -1,5 +1,5 @@
 let draggedItem = null;
-let scrollSpeed = 20;  // Geschwindigkeit des Scrollens
+let scrollSpeed = 20;
 
 document.querySelectorAll('.tierlist-image-list img').forEach(img => {
     img.addEventListener('dragstart', (event) => {
@@ -24,26 +24,26 @@ function drop(event) {
     }
 }
 
-// Funktion für das automatische Scrollen am Rand
 function autoScroll(event) {
     const mouseY = event.clientY;
-    const windowHeight = window.innerHeight;
+    const contentBox = document.querySelector('.content-box');
+    const boxRect = contentBox.getBoundingClientRect();
 
-    // Am oberen Rand scrollen
-    if (mouseY < 50) {
-        window.scrollBy(0, -scrollSpeed);
+    if (mouseY < boxRect.top + 50) {
+        contentBox.scrollBy(0, -scrollSpeed);
     }
 
-    // Am unteren Rand scrollen
-    if (mouseY > windowHeight - 50) {
-        window.scrollBy(0, scrollSpeed);
+    if (mouseY > boxRect.bottom - 50) {
+        contentBox.scrollBy(0, scrollSpeed);
     }
 }
 
-// Überwachung der Mausbewegung während des Draggens
 document.addEventListener('dragover', autoScroll);
 
 function downloadJSON() {
+    const username = document.getElementById('username').value.trim() || 'user';
+    const sessionNo = document.getElementById('sessionno').value.trim() || '1';
+
     const tierList = {
         SS: Array.from(document.querySelectorAll('#tierlist-tier-content-ss img')).map(img => img.alt),
         S: Array.from(document.querySelectorAll('#tierlist-tier-content-s img')).map(img => img.alt),
@@ -54,12 +54,14 @@ function downloadJSON() {
     };
 
     const jsonData = JSON.stringify(tierList, null, 2);
-    const blob = new Blob([jsonData], {type: 'application/json'});
+
+    // Erstelle das Blob-Objekt mit UTF-8-Codierung
+    const blob = new Blob([jsonData], { type: 'application/json;charset=UTF-8' });
     const url = URL.createObjectURL(blob);
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'tierlist.json';
+    a.download = `tierlist_${username}_${sessionNo}.json`;
     a.click();
     URL.revokeObjectURL(url);
 }
