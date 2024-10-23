@@ -637,31 +637,33 @@ layout: default
                     </tr>
                     {% for action in filtered_entries %}
                         {% if page.actions contains action.title %}
-                            <tr>
-                                <td>{{ action.title }}</td>
-                                <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
-                                <td>{{ action.range }}ft</td>
-                                <td>{{ action.aoe }}</td>
-                                <td>
-                                    {% if action.hitbonus %}+{% endif %}
-                                    {{ action.hitbonus }}
-                                </td>
-                                <td>{{ action.savereq[0] }} {{ action.savereq[1] }}</td>
-                                <td>
-                                    <ul>
-                                        {% for d in action.damage %}
-                                            <li>{{ d[0] }} {{ d[1] }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        {% for e in action.effects %}
-                                            <li>{{ e[0] }}: {{ e[1] }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                </td>
-                            </tr>
+                            {% if action.category == "action" %}
+                                <tr>
+                                    <td>{{ action.title }}</td>
+                                    <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
+                                    <td>{{ action.range }}ft</td>
+                                    <td>{{ action.aoe }}</td>
+                                    <td>
+                                        {% if action.hitbonus %}+{% endif %}
+                                        {{ action.hitbonus }}
+                                    </td>
+                                    <td>{{ action.savereq[0] }} {{ action.savereq[1] }}</td>
+                                    <td>
+                                        <ul>
+                                            {% for d in action.damage %}
+                                                <li>{{ d[0] }} {{ d[1] }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            {% for e in action.effects %}
+                                                <li>{{ e[0] }}: {{ e[1] }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </td>
+                                </tr>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                 </table>
