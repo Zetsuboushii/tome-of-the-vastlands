@@ -4,7 +4,7 @@ title: Feueratem
 category: action
 range: 30
 aoe: cone
-hitbonus: none
+hitbonus:
 damage:
   - [ 10d8, fire ]
 effects:

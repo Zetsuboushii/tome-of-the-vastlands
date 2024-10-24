@@ -4,7 +4,7 @@ title: Schleppen
 category: action
 range: none
 aoe: single
-hitbonus: none
+hitbonus:
 damage:
 effects:
   - [ move grappled target, up to 10 ft ]

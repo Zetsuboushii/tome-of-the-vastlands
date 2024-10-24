@@ -15,7 +15,7 @@ waist: 86
 hip: 94
 muscle_mass: 38
 alias:
-  - [ Linus Tavernen Tips, "U-Ranos, DM" ]
+  - [ Linus Tavernen Tips, "U-Ranos, Dungeon Master" ]
 affiliations:
   - Kinder des Waldes
 functions:

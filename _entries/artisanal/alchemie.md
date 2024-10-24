@@ -38,7 +38,7 @@ können, muss der Alchemist einen Naturkunde-Wurf bestehen:
 | ≥ 15 | Alle gewöhnlichen und ungewöhnlichen Zutaten in der Gegend können identifiziert werden           |
 | ≥ 20 | Alle gewöhnlichen, ungewöhnlichen und seltenen Zutaten in der Gegend können identifiziert werden |
 
-Welche Zutat gefunden werden können, bestimmt der DM. Eine Gegend zu durchforsten benötigt 15 Minuten. Zum Wurf kann
+Welche Zutat gefunden werden können, bestimmt der Dungeon Master. Eine Gegend zu durchforsten benötigt 15 Minuten. Zum Wurf kann
 eine +3 addiert werden, wenn weitere 15 Minuten gesucht werden. Dies ist zweimal möglich.
 
 Sobald eine Zutat entdeckt wurde, muss der Alchemist einen d20 + dessen Arkane Kunde Bonus werfen, um zu bestimmen, ob

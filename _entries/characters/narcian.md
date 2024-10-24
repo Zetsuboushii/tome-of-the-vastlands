@@ -17,7 +17,7 @@ hip: 90
 muscle_mass: 36
 alias:
   - [ Narancha, "U-Ranos" ]
-  - [ Narancia, "DM" ]
+  - [ Narancia, "Dungeon Master" ]
   - [ Naranscha, "Siegmund" ]
   - [ Narzissmus, "Nayru" ]
 affiliations:

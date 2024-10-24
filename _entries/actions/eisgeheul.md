@@ -4,7 +4,7 @@ title: Eisgeheul
 category: action
 range: 20
 aoe: radius
-hitbonus: none
+hitbonus:
 savereq: [ wis, 13 ]
 damage:
   - [ 2d8, cold ]
