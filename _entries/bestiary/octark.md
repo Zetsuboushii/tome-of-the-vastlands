@@ -7,7 +7,7 @@ hp: 80
 ac: 17
 move:
   - 5
-  - im Wasser 50
+  - schwimmend 50
 str: 4
 dex: 2
 con: 3
@@ -24,10 +24,9 @@ imm:
   - Betäubt
 actions:
   - Tentakelpeitsche
-  - Biss
-  - Tentakelgreifen
+  - Würgegriff
   - Tintenwolke
-  - Wasserstoß
+  - Wasserstrahl
 
 ---
 

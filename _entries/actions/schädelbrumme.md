@@ -1,13 +1,14 @@
 ---
 layout: home
-title: Beilhieb
+title: Schädelbrumme
 category: action
 range: 5
 cooldown: 
 aoe: single
-hitbonus: 5
+hitbonus: 8
 savereq: 
 damage:
-  - [ 2d8, slashing ]
+  - [ 5d6, bludgeoning ]
 effects:
+  - [ Betäubt, 2r ]
 ---

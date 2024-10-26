@@ -1,13 +1,15 @@
 ---
 layout: home
-title: Beilhieb
+title: Spektraler Biss
 category: action
 range: 5
 cooldown: 
 aoe: single
 hitbonus: 5
-savereq: 
+savereq:
 damage:
-  - [ 2d8, slashing ]
+  - [ 1d10, cold ]
+  - [ 2d8, necrotic ]
 effects:
+  - [ frightened, 3r ]
 ---

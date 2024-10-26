@@ -30,13 +30,14 @@ imm:
   - Festgesetzt
 actions:
   - Reißzahnbiss
-  - Panzerstoß
-  - Giftiger Nebelhauch
+  - Schädelbrumme
+  - Abyssaler Nebelhauch
   - Flutwelle
   - Blitz aus der Tiefe
   - Tiefer Sturm
   - Wassersog
-  - Regenerationsstoß
+  - Regeneration
+  - Fischklauen
 
 ---
 
@@ -44,9 +45,8 @@ actions:
 
 ## Fähigkeiten
 
-| Ability             | Description                                                                                                                                                       |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Herr der Meere      | Kann das Wasser in seiner Umgebung manipulieren, um Strömungen, Wellen oder Strudel zu erzeugen. Gegner erhalten Nachteil auf Bewegungswürfe innerhalb von 30 ft. |
-| Giftiger Nebel      | Erzeugt alle 3 Runden einen dichten, grünen Nebel um sich, der die Sicht bis zu 30 ft. blockiert und bei jedem im Umkreis Gift verursacht.                        |
-| Massiver Kopfpanzer | Erhält bei Kopf-Angriffen (z. B. Stoßangriffen) +4 auf den Angriffswurf und kann damit auch durch Hindernisse brechen.                                            |
-| Magischer Leviathan | Kann Wassermagie verwenden, um Feinde zu lähmen, Wellen zu erzeugen und Blitze aus dem Wasser zu beschwören.                                                      |
+| Ability               | Description                                                                                                                                                       |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Herr der Meere        | Kann das Wasser in seiner Umgebung manipulieren, um Strömungen, Wellen oder Strudel zu erzeugen. Gegner erhalten Nachteil auf Bewegungswürfe innerhalb von 30 ft. |
+| Massiver Kopfpanzer   | Erhält bei Kopf-Angriffen (z. B. Stoßangriffen) +4 auf den Angriffswurf und kann damit auch durch Hindernisse brechen.                                            |
+| Dämonischer Leviathan | Kann Wassermagie verwenden, um Feinde zu lähmen, Wellen zu erzeugen und Blitze aus dem Wasser zu beschwören.                                                      |

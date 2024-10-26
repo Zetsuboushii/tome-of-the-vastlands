@@ -1,39 +1,38 @@
 ---
 layout: usepage
 title: Bandagenwandler
+supplement:
+boss: false
+bosstitle: 
 category: bestiary
-type: Untot
-hp: 100
-ac: 16
+type: Untoter
+hp: 70
+ac: 18
 move:
-  - 20
-  - ohne Bandagen 40
-str: 4
-dex: -1
-con: 5
-int: -2
-wis: 3
-cha: 1
+  - laufend 10
+str: 6
+dex: -3
+con: 6
+int: -1
+wis: 2
+cha: -3
 weak:
+  - Heilig
   - Feuer
+res:
+  - Schnitt
 imm:
   - Gift
-  - Betäubt
-  - Nekrotik
-  - Erschöpfung
+  - Acid
 actions:
-  - Verfluchter Griff
-  - Schriller Schrei
-  - Feuerempfindlichkeit
-
+  - Würgegriff
+  - Beilhieb
 ---
 
 <!--more-->
 
 ## Fähigkeiten
 
-| Ability              | Description                                                         |
-|----------------------|---------------------------------------------------------------------|
-| Schriller Schrei     | Kann mit ihrem Schrei Gegner in einem Radius von 20 Fuß betäuben.   |
-| Blindes Gespür       | Nutzt außergewöhnliche Sinne, um ihre Umgebung wahrzunehmen.        |
-| Bandagenregeneration | Regeneriert langsam Bandagen, um Bewegungseinschränkung zu mindern. |
+| Ability      | Description                                                                    |
+|--------------|--------------------------------------------------------------------------------|
+| Bandagenlast | Beim Verlust der Bandagen durch Feuer, etc. steigt die Bewegungsrate auf 50ft. |

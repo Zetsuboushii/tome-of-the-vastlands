@@ -6,8 +6,8 @@ type: Monstrosität
 hp: 120
 ac: 17
 move:
-  - 40
-  - im Wasser 50
+  - laufend 40
+  - schwimmend 50
 str: 4
 dex: 1
 con: 4

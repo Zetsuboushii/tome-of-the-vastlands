@@ -2,14 +2,13 @@
 layout: home
 title: Blitz aus der Tiefe
 category: action
-cooldown: [ 1, d ]
-range: 40
-aoe: radius
-hitbonus:
-savereq: [ dex, 19 ]
+range: 100
+cooldown: [ 3, r ]
+aoe: single
+hitbonus: 
+savereq: [ dex, 18 ]
 damage:
-  - [ 8d8, lightning ]
+  - [ 2d10, lightning ]
 effects:
   - [ paralysed, 2r ]
-
 ---

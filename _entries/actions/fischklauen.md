@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Reißzahnbiss
+title: Fischklauen
 category: action
 range: 10
-cooldown: 
+cooldown:
 aoe: cone
 hitbonus: 6
 savereq: 
 damage:
-  - [ 3d8, piercing ]
+  - [ 2d10, slashing ]
 effects:
-  - [ bleeding, lv2 ]
+  - [ bleeding, lv1 ]
 ---

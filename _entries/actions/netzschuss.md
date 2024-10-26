@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Würgegriff
+title: Netzschuss
 category: action
-range: 5
-cooldown: 
+range: 30
+cooldown: [ 2, r ]
 aoe: single
-hitbonus:
-savereq: [ str, 17 ]
+hitbonus: 7
+savereq: 
 damage:
-  - [ 2d8, bludgeoning ]
+  - [ 2d6, poison ]
 effects:
   - [ grappled, until freed ]
 ---

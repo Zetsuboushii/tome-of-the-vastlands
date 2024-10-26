@@ -2,14 +2,13 @@
 layout: home
 title: Tiefer Sturm
 category: action
-cooldown: [ 1, d ]
-range: 600
+range: 40
+cooldown: [ 2, r ]
 aoe: radius
-hitbonus:
-savereq: 
+hitbonus: 6
+savereq:
 damage:
+  - [ 4d8, bludgeoning ]
 effects:
-  - [ disadv (hit), 3r ]
-  - [ disadv (save), 3r ]
-
+  - [ knockback, 20ft ]
 ---
