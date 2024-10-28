@@ -10,5 +10,5 @@ savereq:
 damage:
   - [ 2d8+3, piercing ]
 effects:
-  - [ increased movement, 1r ]
+  - [ increased_movement, 1r ]
 ---

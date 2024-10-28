@@ -9,6 +9,6 @@ savereq:
 damage:
   - [ 2d6+1, bludgeoning ]
 effects:
-  - [ disadvantage (hit), 1r ]
-  - [ double damage, 1r ]
+  - [ disadvantage_(hit), 1r ]
+  - [ double_damage, 1r ]
 ---

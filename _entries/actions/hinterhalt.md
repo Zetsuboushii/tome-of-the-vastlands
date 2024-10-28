@@ -10,5 +10,5 @@ savereq:
 damage:
 effects:
   - [ invisible, 10r ]
-  - [ double damage, 2r ]
+  - [ double_damage, 2r ]
 ---

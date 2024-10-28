@@ -650,7 +650,7 @@ layout: default
                                     <td>
                                         <ul>
                                             {% for e in action.effects %}
-                                                <li>{{ e[0] }}: {{ e[1] }}</li>
+                                                <li>{{ e[0] | replace: "_"," " }}: {{ e[1] }}</li>
                                             {% endfor %}
                                         </ul>
                                     </td>

@@ -9,5 +9,5 @@ savereq: [ wis, 16 ]
 damage:
   - [ 4d8, psychic ]
 effects:
-  - [ disadvantage (hit), 1r ]
+  - [ disadvantage_(hit), 1r ]
 ---
