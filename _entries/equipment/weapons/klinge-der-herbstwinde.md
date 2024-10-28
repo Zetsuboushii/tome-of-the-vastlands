@@ -3,7 +3,7 @@ layout: home
 title: Klinge der Herbstwinde
 equipment_subtype: Kurzschwerter
 prerequisites:
-  - [ 18, Dex ]
+  - [ 13, Dex ]
 range: 5
 range_far: 
 damage:
@@ -11,5 +11,4 @@ damage:
   - [ 5d6, slashing ]
 abilities:
   - Herbstwinde
-
 ---
