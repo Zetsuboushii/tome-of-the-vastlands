@@ -10,5 +10,4 @@ savereq:
 damage:
   - [ 3d6, piercing ]
 effects:
-  - [ Effekt, Laufzeit/Bedingungen ]
 ---

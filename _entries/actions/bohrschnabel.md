@@ -8,7 +8,6 @@ aoe: single
 hitbonus: 5
 savereq:
 damage:
-  - [ 1d6-2, piercing ]
+  - [ 1d6+2, piercing ]
 effects:
-  - [ Effekt, Laufzeit/Bedingungen ]
 ---

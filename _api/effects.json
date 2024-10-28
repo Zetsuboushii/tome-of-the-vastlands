@@ -1,58 +1,19 @@
-[
-  {
-    "name": "paralysed",
-    "rating": 5
-  },
-  {
-    "name": "vulnerability",
-    "rating": 4
-  },
-  {
-    "name": "speed",
-    "rating": 3
-  },
-  {
-    "name": "knockback",
-    "rating": 4
-  },
-  {
-    "name": "stunned",
-    "rating": 5
-  },
-  {
-    "name": "poisoned",
-    "rating": 3
-  },
-  {
-    "name": "blinded",
-    "rating": 4
-  },
-  {
-    "name": "disadvantage",
-    "rating": 3
-  },
-  {
-    "name": "double damage",
-    "rating": 5
-  },
-  {
-    "name": "heal",
-    "rating": 4
-  },
-  {
-    "name": "teleport",
-    "rating": 4
-  },
-  {
-    "name": "avoid opportunity attacks",
-    "rating": 3
-  },
-  {
-    "name": "pull",
-    "rating": 3
-  },
-  {
-    "name": "restrained",
-    "rating": 4
-  }
-]
+{
+  "exhaustion": 5,
+  "paralysed": 5,
+  "petrified": 5,
+  "bleeding": 5,
+  "knockback": 3,
+  "disadvantage (hit)": 4,
+  "stunned": 4,
+  "poisoned": 3,
+  "grappled": 3,
+  "prone": 3,
+  "double damage": 4,
+  "heal": 2,
+  "leap": 2,
+  "betäubt": 4,
+  "frightened": 3,
+  "blinded": 3,
+  "pull": 2
+}

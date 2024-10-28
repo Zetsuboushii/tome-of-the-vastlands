@@ -4,31 +4,31 @@ layout: default
 
 <div class="home">
     {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+        <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
     <div class="character-gallery">
         {%- if page.title -%}
-        {%- for subpage in site.entries -%}
-        {%- if subpage.category == page.compendium -%}
-        <div class="responsive">
-            <div class="gallery">
-                <a class="page-link" href="{{ subpage.url | relative_url }}">
-                    {% if subpage.character == true %}
-                    <img src="{{ site.imgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
-                         alt="">
-                    {% else %}
-                    <img src="{{ site.imgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
-                         alt="">
-                    {% endif %}
-                </a>
-                <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }}</a>
-                <hr>
-                <h4>{{ subpage.type }}</h4>
-            </div>
-        </div>
-        {%- endif -%}
-        {%- endfor -%}
+            {%- for subpage in site.entries -%}
+                {%- if subpage.category == page.compendium -%}
+                    <div class="responsive">
+                        <div class="gallery">
+                            <a class="page-link" href="{{ subpage.url | relative_url }}">
+                                {% if subpage.character == true %}
+                                    <img src="{{ site.imgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
+                                         alt="">
+                                {% else %}
+                                    <img src="{{ site.imgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
+                                         alt="">
+                                {% endif %}
+                            </a>
+                            <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }}</a>
+                            <hr>
+                            <h4>{{ subpage.type }}</h4>
+                        </div>
+                    </div>
+                {%- endif -%}
+            {%- endfor -%}
         {%- endif -%}
     </div>
 </div>

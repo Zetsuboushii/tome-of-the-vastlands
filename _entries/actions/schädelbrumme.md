@@ -10,5 +10,5 @@ savereq:
 damage:
   - [ 5d6, bludgeoning ]
 effects:
-  - [ Betäubt, 2r ]
+  - [ betäubt, 2r ]
 ---
