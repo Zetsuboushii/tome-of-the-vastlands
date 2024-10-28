@@ -12,8 +12,10 @@
   "double damage": 4,
   "heal": 2,
   "leap": 2,
-  "betäubt": 4,
   "frightened": 3,
   "blinded": 3,
-  "pull": 2
+  "pull": 2,
+  "increased movement": 3,
+  "escape": 3,
+  "invisible": 4
 }

@@ -5,7 +5,8 @@ category: bestiary
 type: Humanoid
 hp: 20
 ac: 13
-move: 30
+move:
+  - laufend 30
 str: +1
 dex: +2
 con: +1
