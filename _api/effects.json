@@ -1,60 +1,58 @@
-{
-  "effects": [
-    {
-      "name": "paralysed",
-      "rating": 5
-    },
-    {
-      "name": "vulnerability",
-      "rating": 4
-    },
-    {
-      "name": "speed",
-      "rating": 3
-    },
-    {
-      "name": "knockback",
-      "rating": 4
-    },
-    {
-      "name": "stunned",
-      "rating": 5
-    },
-    {
-      "name": "poisoned",
-      "rating": 3
-    },
-    {
-      "name": "blinded",
-      "rating": 4
-    },
-    {
-      "name": "disadvantage",
-      "rating": 3
-    },
-    {
-      "name": "double damage",
-      "rating": 5
-    },
-    {
-      "name": "heal",
-      "rating": 4
-    },
-    {
-      "name": "teleport",
-      "rating": 4
-    },
-    {
-      "name": "avoid opportunity attacks",
-      "rating": 3
-    },
-    {
-      "name": "pull",
-      "rating": 3
-    },
-    {
-      "name": "restrained",
-      "rating": 4
-    }
-  ]
-}
+[
+  {
+    "name": "paralysed",
+    "rating": 5
+  },
+  {
+    "name": "vulnerability",
+    "rating": 4
+  },
+  {
+    "name": "speed",
+    "rating": 3
+  },
+  {
+    "name": "knockback",
+    "rating": 4
+  },
+  {
+    "name": "stunned",
+    "rating": 5
+  },
+  {
+    "name": "poisoned",
+    "rating": 3
+  },
+  {
+    "name": "blinded",
+    "rating": 4
+  },
+  {
+    "name": "disadvantage",
+    "rating": 3
+  },
+  {
+    "name": "double damage",
+    "rating": 5
+  },
+  {
+    "name": "heal",
+    "rating": 4
+  },
+  {
+    "name": "teleport",
+    "rating": 4
+  },
+  {
+    "name": "avoid opportunity attacks",
+    "rating": 3
+  },
+  {
+    "name": "pull",
+    "rating": 3
+  },
+  {
+    "name": "restrained",
+    "rating": 4
+  }
+]
