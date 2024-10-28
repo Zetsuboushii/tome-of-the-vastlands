@@ -1,10 +1,11 @@
 {
-  "exhaustion": 5,
+  "exhausted": 5,
   "paralysed": 5,
   "petrified": 5,
   "bleeding": 5,
   "knockback": 3,
   "disadvantage_(hit)": 4,
+  "disadvantage_(dmg)": 4,
   "stunned": 4,
   "poisoned": 3,
   "grappled": 3,
@@ -18,5 +19,7 @@
   "increased_movement": 3,
   "escape": 3,
   "invisible": 4,
-  "restrained": 4
+  "restrained": 4,
+  "resistance_(all)": 4,
+  "difficult_terrain": 2
 }

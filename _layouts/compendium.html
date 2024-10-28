@@ -14,11 +14,8 @@ layout: default
                     <div class="responsive">
                         <div class="gallery">
                             <a class="page-link" href="{{ subpage.url | relative_url }}">
-                                {% if subpage.character == true %}
-                                    <img src="{{ site.imgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
-                                         alt="">
-                                {% else %}
-                                    <img src="{{ site.imgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
+                                {% if subpage.category == "bestiary" %}
+                                    <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
                                          alt="">
                                 {% endif %}
                             </a>

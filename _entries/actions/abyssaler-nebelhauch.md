@@ -10,5 +10,5 @@ savereq: [ con, 19 ]
 damage:
   - [ 12d6, acid ]
 effects:
-  - [ exhaustion, lv4 ]
+  - [ exhausted, lv4 ]
 ---

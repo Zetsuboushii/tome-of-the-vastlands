@@ -5,7 +5,7 @@ supplement:
 boss: false
 bosstitle: 
 category: bestiary
-type: Untoter
+type: Untot
 hp: 70
 ac: 18
 move:
