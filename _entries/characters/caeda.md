@@ -11,6 +11,7 @@ birthday: 9.1.143
 height: 1.62
 weight: 52
 bust: 84
+underbust: 67
 waist: 62
 hip: 86
 shoulder_width: 38

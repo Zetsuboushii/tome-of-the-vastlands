@@ -9,7 +9,6 @@ race: Schutzgeist
 sex: w
 height: 1.44
 weight: 35
-bust: 60
 shoulder_width: 32
 waist: 55
 hip: 60

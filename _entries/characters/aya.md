@@ -11,6 +11,7 @@ birthday: 3.2.393
 height: 1.67
 weight: 62
 bust: 92
+underbust: 70
 waist: 68
 hip: 94
 shoulder_width: 42

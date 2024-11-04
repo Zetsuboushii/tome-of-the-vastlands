@@ -6,7 +6,7 @@ type: Monstrosität
 hp: 80
 ac: 17
 move:
-  - 5
+  - krabbelnd 5
   - schwimmend 50
 str: 4
 dex: 2
