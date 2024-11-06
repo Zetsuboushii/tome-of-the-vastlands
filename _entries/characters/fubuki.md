@@ -29,6 +29,7 @@ relationships:
   - [ Zora, Freundin ]
   - [ Rai, Freund ]
   - [ Kaze, Freund ]
+  - [ Mysteriöser Held, Alter Freund ]
 alt_imgs:
   - Emmi Ver
 ---

@@ -32,6 +32,7 @@ relationships:
   - [ Kaze, Freund ]
   - [ Scarlet, Freundin ]
   - [ U-Ranos, Freund ]
+  - [ Mysteriöser Held, Alter Freund ]
 ---
 
 Kaen, die Hohefürstin des Feuers, ist eine lebendige Verkörperung der Macht und Wildheit der Flammen. Sie wacht über den
