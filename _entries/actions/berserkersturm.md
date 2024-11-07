@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Actionsname
+title: Berserkersturm
 category: action
 range: 40
 cooldown: [ 1, d ]
