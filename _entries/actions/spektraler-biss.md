@@ -9,7 +9,8 @@ hitbonus: 5
 savereq:
 damage:
   - [ 1d10, cold ]
-  - [ 2d8, necrotic ]
+  - [ 1d8, cold ]
+  - [ 1d8, necrotic ]
 effects:
   - [ frightened, 3r ]
 ---
