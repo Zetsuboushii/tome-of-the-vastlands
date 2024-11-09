@@ -2,7 +2,7 @@
 layout: home
 title: Eisige Ketten
 category: action
-range: 3ß
+range: 30
 cooldown: [ 1, d ]
 aoe: radius
 hitbonus:
