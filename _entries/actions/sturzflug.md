@@ -11,5 +11,4 @@ damage:
   - [ 3d8+2, piercing ]
   - [ 1d6, bludgeoning ]
 effects:
-  - [ Effekt, Laufzeit/Bedingungen ]
 ---

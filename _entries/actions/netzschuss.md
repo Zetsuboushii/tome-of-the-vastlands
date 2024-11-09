@@ -10,5 +10,5 @@ savereq:
 damage:
   - [ 2d6, poison ]
 effects:
-  - [ grappled, until freed ]
+  - [ grappled, 1r ]
 ---

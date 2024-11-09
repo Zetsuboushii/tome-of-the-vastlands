@@ -10,5 +10,5 @@ savereq: [ str, 17 ]
 damage:
   - [ 2d8, bludgeoning ]
 effects:
-  - [ grappled, until freed ]
+  - [ grappled, 1r ]
 ---

@@ -10,5 +10,5 @@ savereq: [ cha, 17 ]
 damage:
   - [ 2d12, psychic ]
 effects:
-  - [ exhausted, until freed ]
+  - [ exhausted, 1r ]
 ---
