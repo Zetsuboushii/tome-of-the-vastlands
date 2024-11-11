@@ -7,7 +7,7 @@ categories:
 character_title: 
 race: Dämonen
 sex: w 
-height: 1,70
+height: 1.70
 weight: 65
 bust: 90
 underbust: 75
