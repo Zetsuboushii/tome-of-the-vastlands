@@ -31,6 +31,7 @@ relationships:
   - [ Mudo, Freund ]
   - [ Invidianoir, Freundin ]
   - [ Memoriae, Freundin ]
+  - [ Volo, Freund ]
   - [ Craindre, Rivalin ]
 ---
 
