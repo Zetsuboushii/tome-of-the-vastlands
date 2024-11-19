@@ -6,7 +6,7 @@ categories:
   - NPC
 character_title: Lichtbringende Botin
 race: Engel
-sex: m
+sex: w
 height: 1.70
 weight: 60
 bust: 88
