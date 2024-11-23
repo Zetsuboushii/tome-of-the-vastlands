@@ -10,5 +10,6 @@ damage:
   - [ 1d4, piercing ]
 abilities:
   - Widerhaken
+  - Zweihändig
 
 ---
