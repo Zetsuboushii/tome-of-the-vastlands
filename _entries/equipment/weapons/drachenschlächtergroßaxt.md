@@ -8,7 +8,7 @@ range: 5
 range_far:
 damage:
   - [ 2d12, slashing ]
-  - [4d4, lightning]
+  - [ 4d4, lightning ]
 abilities:
   - Zweihändig
   - Drachenblitz

@@ -11,6 +11,7 @@ equipment_subtypes:
   - Großäxte
   - Hämmer
   - Großhämmer
+  - Kampfstäbe
   - Lanzen
   - Hellebarden
   - Kurzbögen
