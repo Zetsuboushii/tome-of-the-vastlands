@@ -27,7 +27,6 @@ relationships:
   - [ Burdig, "'Chef'" ]
   - [ Tannivh, "Freund, Trainspartner" ]
   - [ Aelua, Ziehmutter ]
-published: false
 ---
 
 <!--more-->
