@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Kleriker der Seloue
+title: Kleriker des Niruin
 categories:
   - advclass
+
 ---
