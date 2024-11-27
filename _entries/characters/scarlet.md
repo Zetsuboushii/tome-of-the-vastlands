@@ -20,6 +20,7 @@ functions:
 class: Recke
 subclasses:
   - Schattenmagier
+masterclass: Erzmagier des Dunkelsten Abgrunds  
 homes:
   - Gebirge der Sünde
 alignment: CG

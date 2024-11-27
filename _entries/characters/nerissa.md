@@ -18,8 +18,10 @@ shoulder_width: 36
 muscle_mass: 20
 functions:
   - Orakel von Tellius
-class: Kleriker der Zora
-subclass: Schattenmagier
+class: Kleriker
+subclasses:
+  - Kleriker der Zora
+masterclass: Orakel des Wassers
 homes:
   - Tellius
 alignment: CN
