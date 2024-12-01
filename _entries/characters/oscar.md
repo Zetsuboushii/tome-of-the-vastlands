@@ -4,7 +4,7 @@ title: Oscar
 categories:
   - character
   - NPC
-character_title: Gutmeinender Nekromantieprofessor
+character_title: Gutmeinender Nekromanieprofessor
 race: Tieflinge
 sex: m
 birthday: 13.12.249
