@@ -103,7 +103,7 @@ layout: default
 
         if (holiday) {
             const link = document.createElement('a');
-            link.href = `/tome-of-the-vastlands/calendar/${holiday.toLowerCase().replace(/\s/g, '-')}/`;
+            link.href = `/calendar/${holiday.toLowerCase().replace(/\s/g, '-')}/`;
             link.textContent = holiday;
             holidayInfo.appendChild(link);
             holidayInfo.style.display = 'block';
