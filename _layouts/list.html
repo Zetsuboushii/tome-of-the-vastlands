@@ -55,7 +55,7 @@ layout: default
                             <hr>
                             {% if post.central_figure %}
                                 Glaubenszentrum:
-                                <a href="{{ site.baseurl }}/characters/{{ post.central_figure | downcase }}">{{ post.central_figure }}</a>
+                                <a href="/characters/{{ post.central_figure | downcase }}">{{ post.central_figure }}</a>
                                 <br>
                             {% endif %}
                             {% if post.type %}
@@ -80,7 +80,7 @@ layout: default
                                 Hauptsächlich aufzufinden in:
                                 {% for domain in post.domain %}
                                     <a
-                                    href="{{ site.baseurl }}/places/{{ domain | downcase }}">{{ domain }}</a>{% unless forloop.last %}, {% endunless %}
+                                    href="/places/{{ domain | downcase }}">{{ domain }}</a>{% unless forloop.last %}, {% endunless %}
                                 {% endfor %}
                                 <br>
                             {% endif %}
