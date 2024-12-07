@@ -42,7 +42,9 @@ relationships:
 ---
 
 Seloue ist eine beeindruckende Figur in Faergria, bekannt als die Hohefürstin des Wissens. Ihre Hingabe, alles Wissen der Welt zu sammeln und zu bewahren, hat sie zu einer unverzichtbaren Instanz gemacht. Sie ist die treibende Kraft hinter der Großen Bibliothek von Hal – einer der bedeutendsten Institutionen in Faergria.
+
 <!--more-->
+
 ## Ziele und Ambitionen
 
 Seloue verfolgt das ehrgeizige Ziel, die gesamte Weisheit Faergrias zu archivieren. Ihr Leben ist dem Streben nach Wissen gewidmet, und sie sieht Bildung und Information als den Schlüssel zu einer besseren Zukunft. Mit akribischer Sorgfalt sorgt sie dafür, dass die Bücher und Manuskripte ihrer Bibliothek in perfektem Zustand bleiben. Dieses Ziel treibt sie auch an, ihren Schüler, Lavande, zu einem würdigen Nachfolger auszubilden.
