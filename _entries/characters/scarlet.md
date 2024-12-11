@@ -77,7 +77,7 @@ Trotz ihrer Verkörperung der Wollust sehnt sich Scarlet im Inneren nach etwas, 
 
 Scarlet liebt schlecht erzählte Witze, besonders die von U-Ranos, die sie jedes Mal zum Lachen bringen – nicht wegen des Inhalts, sondern wegen der unbeholfenen Art, wie er sie vorträgt. Dieses kindliche Vergnügen bietet ihr eine seltene Gelegenheit, einfach loszulassen und Spaß zu haben.
 
-Ihre Rivalität mit Ar-Merer, einer weiteren mächtigen Dämonin, ist geprägt von gegenseitiger Verachtung und Respekt. Beide wetteifern um Anerkennung und Macht, wobei ihre Kämpfe oft nicht nur auf physischer, sondern auch auf psychologischer Ebene ausgetragen werden. Während Scarlet die Fähigkeit hat, Ar-Merer zu entwaffnen, indem sie ihre eigene Unberechenbarkeit ausspielt, bringt Ar-Merer Scarlet regelmäßig an die Grenzen ihrer Geduld.
+Ihre Rivalität mit Ar-Merer, einem mächstigen Recken der Göttin Justicia, ist geprägt von gegenseitiger Verachtung. Beide wetteifern darum ihre jeweils eignen Ansichten behaupten zukönnen, wobei ihre Kämpfe oft nicht nur auf physischer, sondern auch auf psychologischer Ebene ausgetragen werden. Erschwerend kommt zu ihren Kämpfen hinzu, dass die beiden primären Elemente, Finsternis und Licht, jeweils ihre elementaren Schwächen sind und bereits die ein oder andere fatalen Situationen entstanden sind, in der es ohne Einschreiten eines Dritten einen Toten gegeben hätte.
 
 ## Stärken und Schwächen
 
