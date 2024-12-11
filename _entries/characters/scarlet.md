@@ -39,7 +39,7 @@ relationships:
   - [ Fortuna, Gute Freundin ]
   - [ Avila, Gute Freundin ]
   - [ Kaen, Gute Freundin ]
-  - [ Fubuki, Sehr gute Freundin ],
+  - [ Fubuki, Sehr gute Freundin ]
   - [ Ar-Merer, Rivale ]
 alt_imgs:
   - Emmi Ver
