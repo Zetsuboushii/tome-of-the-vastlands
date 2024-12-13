@@ -30,6 +30,7 @@ relationships:
   - [ Rai, Freund ]
   - [ Kaze, Freund ]
   - [ Mysteriöser Held, Alter Freund ]
+  - [ Scarlet, Gute Freundin ]
 alt_imgs:
   - Emmi Ver
 ---
