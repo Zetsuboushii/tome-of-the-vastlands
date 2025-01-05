@@ -475,12 +475,27 @@ layout: default
                 <h4>{{ page.bosstitle }}</h4>
                 <hr>
 
-                {% if page.character == true %}
-                    <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
-                         alt="">
-                {% else %}
+                {% if page.alt_imgs %}
+                <div class="multiple-img-buttons">
+                    <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
+                    {% for img in page.alt_imgs %}
+                    <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+                    {% endfor %}
+                </div>
+                <div id="{{ page.title | downcase }}" class="char-img">
                     <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
                          alt="">
+                </div>
+                {% for img in page.alt_imgs %}
+                <div id="{{ img | downcase }}" class="char-img" style="display:none">
+                    <img src="{{ site.imgurl }}/enemies/{{ page.title | downcase }} {{ img | downcase }}.png"
+                         alt="">
+                </div>
+                {% endfor %}
+
+                {% else %}
+                <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
+                     alt="">
                 {% endif %}
                 <hr>
 
