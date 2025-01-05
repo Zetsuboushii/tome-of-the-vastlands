@@ -15,8 +15,13 @@ layout: default
                         <div class="gallery">
                             <a class="page-link" href="{{ subpage.url | relative_url }}">
                                 {% if subpage.category == "bestiary" %}
+                                    {% if subpage.alt_imgs %}
+                                    <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }} {{ alt_imgs | first }}.png"
+                                         alt="">
+                                    {% else %}
                                     <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
                                          alt="">
+                                    {% endif %}
                                 {% endif %}
                             </a>
                             <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }}</a>
