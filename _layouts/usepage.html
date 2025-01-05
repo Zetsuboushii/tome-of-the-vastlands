@@ -482,12 +482,8 @@ layout: default
                     <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
                     {% endfor %}
                 </div>
-                <div id="{{ page.title | downcase }}" class="char-img">
-                    <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
-                         alt="">
-                </div>
                 {% for img in page.alt_imgs %}
-                <div id="{{ img | downcase }}" class="char-img" style="display:none">
+                <div id="{{ img | downcase }}" class="char-img" {% unless forloop.first %}style="display:none"{% endunless %}>
                     <img src="{{ site.imgurl }}/enemies/{{ page.title | downcase }} {{ img | downcase }}.png"
                          alt="">
                 </div>
