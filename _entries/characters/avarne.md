@@ -26,6 +26,8 @@ relationships:
   - [ Burdig, Guter Freund der Familie ]
   - [ Igmusur, Großväterchen ]
 lover: Jofina
+alt_imgs:
+  - Artwork
 ---
 
 Avarne ist ein junger Abenteurer, der seit dem Einverständnis seines Vaters Hosgrid durch Faergria streift und auf

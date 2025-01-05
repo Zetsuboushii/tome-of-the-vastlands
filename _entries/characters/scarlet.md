@@ -42,7 +42,7 @@ relationships:
   - [ Fubuki, Sehr gute Freundin ]
   - [ Ar-Merer, Rivale ]
 alt_imgs:
-  - Emmi Ver
+  - Artwork
   - Pixelart
 ---
 

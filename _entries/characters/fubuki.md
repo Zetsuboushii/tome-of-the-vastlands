@@ -32,7 +32,7 @@ relationships:
   - [ Mysteriöser Held, Alter Freund ]
   - [ Scarlet, Gute Freundin ]
 alt_imgs:
-  - Emmi Ver
+  - Artwork
 ---
 
 Fubuki, die Hohefürstin des Eises, ist ein kleines, scheinbar unschuldiges Wesen, das die schneebedeckten

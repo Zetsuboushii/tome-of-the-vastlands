@@ -32,6 +32,8 @@ relationships:
   - [ Isabella, Freundin ]
   - [ Ezekiel, Freund ]
 lover: Avarne
+alt_imgs:
+  - Artwork
 redirect_from:
   - /characters/jofina-von-salten/
 ---

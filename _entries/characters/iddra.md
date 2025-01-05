@@ -33,6 +33,8 @@ relationships:
   - [ Memoriae, Freundin ]
   - [ Volo, Freund ]
   - [ Craindre, Rivalin ]
+alt_imgs:
+  - Artwork
 ---
 
 Als Hohefürstin der Gier hat Iddra in Niddarvellir, Stadt der Verbannten ihren Platz gefunden. Dort hat sie sich in

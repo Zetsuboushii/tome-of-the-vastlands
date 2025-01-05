@@ -37,7 +37,7 @@ relationships:
   - [ U-Ranos, Anerkannter Rivale ]
   - [ Nayru, Anerkannte Rivalin ]
 alt_imgs:
-  - Emmi Ver
+  - Artwork
 ---
 
 Die hoch angesehene Leibgarde des Herzogs von Markath. Im Kampf macht sie mit ihren Feinden kurzen Prozess. Wer sich mit
