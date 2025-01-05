@@ -477,7 +477,6 @@ layout: default
 
                 {% if page.alt_imgs %}
                 <div class="multiple-img-buttons">
-                    <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
                     {% for img in page.alt_imgs %}
                     <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
                     {% endfor %}
