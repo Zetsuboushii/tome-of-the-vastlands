@@ -21,7 +21,7 @@ res:
 imm:
   - Gift
 actions:
-  - Beilhieb
+  - Klingenhieb
   - Schwanzschlag
   - Wasserstrahl
   - Strömungsstoß

@@ -23,7 +23,7 @@ res:
 imm:
   - Verängstigt
 actions:
-  - Beilhieb
+  - Klingenhieb
   - Brutale Hiebe
   - Zerquetschen
   - Berserkersturm

@@ -26,7 +26,7 @@ imm:
   - Acid
 actions:
   - Würgegriff
-  - Beilhieb
+  - Klingenhieb
 ---
 
 <!--more-->
