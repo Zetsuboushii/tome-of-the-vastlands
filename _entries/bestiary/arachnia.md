@@ -23,7 +23,7 @@ res:
   - Stich
 imm:
   - Gift
-  - Acid
+  - Säure
 actions:
   - Würgegriff
   - Netzschuss

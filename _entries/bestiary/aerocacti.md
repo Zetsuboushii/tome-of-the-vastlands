@@ -24,7 +24,7 @@ res:
   - Stich
 imm:
   - Gift
-  - Acid
+  - Säure
 actions:
   - Stachelschuss
   - Stachelwalze

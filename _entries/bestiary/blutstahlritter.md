@@ -17,7 +17,7 @@ int: 1
 wis: 2
 cha: 3
 weak:
-  - Heilig
+  - Heilige Magie
 res:
   - Nicht-magischer Schaden
 imm:
