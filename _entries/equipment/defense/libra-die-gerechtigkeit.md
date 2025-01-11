@@ -4,7 +4,7 @@ title: Libra, die Gerechtigkeit
 equipment_subtype: Rüstungen
 prerequisites:
   - [ 16, Str ]
-armor: 6
+armor: 5 + Wis
 abilities:
 
 ---
