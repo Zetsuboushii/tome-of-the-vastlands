@@ -5,7 +5,7 @@
 <p align="center">Ein umfassendes Wiki für meine D&D-Kampagnen</p>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/maintenance/yes/2024"  alt=""/>
+  <img src="https://img.shields.io/maintenance/yes/2025"  alt=""/>
 </p>
 
 <h2>Table of Contents</h3>
