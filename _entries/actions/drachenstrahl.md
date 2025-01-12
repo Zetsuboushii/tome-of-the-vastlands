@@ -10,5 +10,5 @@ savereq:
 damage:
   - [ 3d8, force ]
 effects:
-  - [ petrified, 3r ]
+  - [ petrified, 1r ]
 ---

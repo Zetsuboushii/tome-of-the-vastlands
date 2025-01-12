@@ -10,5 +10,5 @@ savereq: [ int, 17 ]
 damage:
   - [ 2d12, necrotic ]
 effects:
-  - [ petrified, 3r ]
+  - [ petrified, 1r ]
 ---
