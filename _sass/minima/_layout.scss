@@ -221,10 +221,8 @@
 
 .content-box {
   height: calc(100vh - 60px);
-  overflow-y: scroll;
   background: $background-color;
   margin: 0 auto 0 auto;
-  scrollbar-width: none;
   width: 1000px;
   padding: 0 10px 0 10px;
 
