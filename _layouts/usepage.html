@@ -6,8 +6,9 @@ layout: default
     {% assign page_parts = page.content | split: '<!--more-->' %}
     <div class="use-container">
         <div class="use-content desktop">
-            <h1>{{ page.title }}</h1>
-            <hr>
+            <div class="page-heading">
+                <h2>{{ page.title }}</h2>
+            </div>
 
             {{ page_parts[0] }}
 
@@ -32,9 +33,9 @@ layout: default
         <div class="use-box use-data">
             {% if page.categories contains "character" %}
 
-                <h1>
-                    {{ page.title }}{% if page.surname %} {{ page.surname }}{% endif %}
-                </h1>
+                <div class="use-data-title">
+                    <h1>{{ page.title }}{% if page.surname %} {{ page.surname }}{% endif %}</h1>
+                </div>
                 {%- if page.character_title -%}
                     <h4>{{ page.character_title }}</h4>
                 {%- endif -%}
@@ -69,7 +70,8 @@ layout: default
                 <table>
                     <tr>
                         <td><b>Rasse</b></td>
-                        <td><a href="{{ '/races/' | append: page.race | downcase | relative_url }}">{{ page.race }}</a>
+                        <td>
+                            <a href="{{ '/races/' | append: page.race | downcase | relative_url }}">{{ page.race }}</a>
                         </td>
                     </tr>
 
@@ -235,7 +237,8 @@ layout: default
                             <td>
                                 <ul>
                                     {% for subclass in page.subclasses %}
-                                        <li><a href="{{ '/classes/' | append: subclass | downcase | relative_url }}">{{
+                                        <li>
+                                            <a href="{{ '/classes/' | append: subclass | downcase | relative_url }}">{{
                                                 subclass }}</a></li>
                                     {% endfor %}
                                 </ul>
@@ -476,21 +479,22 @@ layout: default
                 <hr>
 
                 {% if page.alt_imgs %}
-                <div class="multiple-img-buttons">
+                    <div class="multiple-img-buttons">
+                        {% for img in page.alt_imgs %}
+                            <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+                        {% endfor %}
+                    </div>
                     {% for img in page.alt_imgs %}
-                    <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+                        <div id="{{ img | downcase }}" class="char-img"
+                             {% unless forloop.first %}style="display:none"{% endunless %}>
+                            <img src="{{ site.imgurl }}/enemies/{{ page.title | downcase }} {{ img | downcase }}.png"
+                                 alt="">
+                        </div>
                     {% endfor %}
-                </div>
-                {% for img in page.alt_imgs %}
-                <div id="{{ img | downcase }}" class="char-img" {% unless forloop.first %}style="display:none"{% endunless %}>
-                    <img src="{{ site.imgurl }}/enemies/{{ page.title | downcase }} {{ img | downcase }}.png"
-                         alt="">
-                </div>
-                {% endfor %}
 
                 {% else %}
-                <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
-                     alt="">
+                    <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
+                         alt="">
                 {% endif %}
                 <hr>
 
@@ -603,26 +607,25 @@ layout: default
                 </table>
             {% endif %}
         </div>
-    </div>
 
-    <div class="use-container mobile">
-        <div class="use-content">
-            <h1>{{ page.title }}</h1>
-            <hr>
+        <div class="use-container mobile">
+            <div class="use-content">
+                <h1>{{ page.title }}</h1>
+                <hr>
 
-            {{ page_parts[0] }}
+                {{ page_parts[0] }}
 
-            {% if page_parts[1] %}
-                <div class="use-container">
-                    <div class="use-content long-text">
-                        {{ page_parts[1] }}
+                {% if page_parts[1] %}
+                    <div class="use-container">
+                        <div class="use-content long-text">
+                            {{ page_parts[1] }}
+                        </div>
                     </div>
-                </div>
-            {% endif %}
+                {% endif %}
+            </div>
         </div>
-    </div>
 
-    {% if page.category == "bestiary" %}
+        {% if page.category == "bestiary" %}
         <div class="use-container">
             <div class="use-content enemy-action-table">
                 {% assign filtered_entries = site.entries | sort: 'title' %}
@@ -660,7 +663,7 @@ layout: default
                                     <td>
                                         <ul>
                                             {% for e in action.effects %}
-                                                <li>{{ e[0] | replace: "_"," " }}: {{ e[1] }}</li>
+                                                <li>{{ e[0] | replace: "_", " " }}: {{ e[1] }}</li>
                                             {% endfor %}
                                         </ul>
                                     </td>
@@ -671,6 +674,7 @@ layout: default
                 </table>
             </div>
         </div>
+    </div>
     {% endif %}
 </div>
 

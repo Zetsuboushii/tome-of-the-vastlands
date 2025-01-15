@@ -1,6 +1,5 @@
 <nav class="site-nav" role="navigation" id="siteNav">
     <div class="nav-wrapper">
-        <ul id="myList">
             {%- assign default_paths = site.pages | map: "path" -%}
             {%- assign page_paths = site.header_pages | default: default_paths -%}
             {%- for path in page_paths -%}
@@ -9,35 +8,14 @@
             {%- assign cat = my_page.category -%}
             <li id="{{ cat }}" data-cat="{{ cat }}">
                 <a class="page-link" href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
-
-                {%- if cat -%}
-                <ul class="sublist">
-                    {% assign posts = site.entries | sort: 'title' %}
-                    {%- for subpage in posts -%}
-                    {%- if subpage.categories contains cat -%}
-                    <li><a class="page-link" href="{{ subpage.url | relative_url }}"> {{ subpage.title | escape }}</a>
-                    </li>
-                    {%- endif -%}
-                    {%- endfor -%}
-                </ul>
-                {%- endif -%}
             </li>
             {%- endif -%}
             {%- endfor -%}
-        </ul>
     </div>
 </nav>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const burgerMenu = document.getElementById("burgerMenu");
-        const siteNav = document.getElementById("siteNav");
-
-        // Burger Menu Click Event
-        burgerMenu.addEventListener("click", function() {
-            siteNav.classList.toggle("open"); // Toggle 'open' class on navigation
-        });
-
         function urlContainsCategory(cat) {
             const currentURL = window.location.href;
             return currentURL.includes(cat);

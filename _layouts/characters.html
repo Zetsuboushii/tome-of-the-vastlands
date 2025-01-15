@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="home">
-    {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
+    <div class="page-heading">
+        <h2>{{ page.title }}</h2>
+    </div>
 
     <div id="pagination" class="pagination-buttons" style="text-align: center; margin-bottom: 20px;"></div>
 
@@ -21,13 +21,16 @@ layout: default
         {%- if subpage.categories contains "character" -%}
         <div class="responsive character-item">
             <div class="gallery">
-                <a class="page-link" href="{{ subpage.url | relative_url }}">
-                    <img src="{{ site.simgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png" alt="">
-                </a>
-                <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }} {{ subpage.surname }}</a>
-                <h4>{{ subpage.character_title }}</h4>
-                <hr>
-                <div class="desc"><small>{{ subpage.excerpt }}</small></div>
+                <div class="gallery-inner">
+                    <a class="page-link charname" href="{{ subpage.url | relative_url }}">
+                        <img src="{{ site.simgurl }}/characters/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
+                             alt="">
+                    </a>
+                    <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }} {{
+                        subpage.surname }}</a>
+                    <hr>
+                    <h4>{{ subpage.character_title }}</h4>
+                </div>
             </div>
         </div>
         {%- endif -%}

@@ -1,11 +1,5 @@
 <header class="site-header" role="banner">
-    <div class="burger-menu" id="burgerMenu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
-
-    <img src="{{ site.imgurl }}/logo.png" style="height: 30px; margin-right: 20px; filter: brightness(0) saturate(100%) invert(20%) sepia(40%) saturate(400%) hue-rotate(-15deg);">
+    <img src="{{ site.imgurl }}/logo.png" style="height: 30px; margin: 5px 20px 0 12px; filter: brightness(100) saturate(100%);">
 
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
