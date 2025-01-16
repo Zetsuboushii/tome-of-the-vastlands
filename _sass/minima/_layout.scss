@@ -105,6 +105,7 @@
       position: relative;
       color: white;
       min-height: 50px;
+      width: 100%;
     }
 
     .sublist {
@@ -537,14 +538,14 @@
   .gallery {
     font-family: "Grenze Gotisch";
     border: 25px solid;
-    border-image: url("/assets/imgs/ui/box.png") 100 stretch;
+    border-image: url("/assets/imgs/ui/border-purple.png") 60 stretch;
     margin-bottom: 15px;
     text-align: center;
     height: 550px;
     width: 300px;
 
     .gallery-inner {
-      background-color: white;
+      background-color: #f6f2ee;
       height: 100%;
     }
 
@@ -589,20 +590,40 @@
 
 .pagination-buttons {
   button {
-    height: 60px;
-    width: 60px;
     margin: 5px auto 5px auto;
-    background-image: url("/assets/imgs/ui/button-square.png");
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
     font-family: "Grenze Gotisch";
-    color: white;
   }
 
   button.active {
     font-weight: bold;
   }
+
+  .button-home {
+    height: 54px;
+    width: 190px;
+    background-image: url("/assets/imgs/ui/name-banner.png");
+  }
+
+  .button-letter {
+    height: 54px;
+    width: 54px;
+    color: white;
+    background-image: url("/assets/imgs/ui/button-square.png");
+  }
+}
+
+.select-group-button {
+  cursor: pointer;
+  width: 246px;
+  height: 65px;
+  font-family: "Grenze Gotisch";
+  color: white;
+  background-image: url("/assets/imgs/ui/option-card.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /**

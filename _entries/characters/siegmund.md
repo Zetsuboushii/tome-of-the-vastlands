@@ -34,8 +34,6 @@ relationships:
   - [ Reichart, großes Vorbild ]
   - [ Fortuna, ehem. Objekt der Begierde ]
   - [ Marisa, ehem. Objekt der Begierde ]
-  - [ Modaharius, Knochenkumpel ]
-  - [ Linet, Lieblingsopfer ]
 ---
 
 Siegmund ist ein selbsternannter "gütiger" Dieb, der lange Jahre in der Diebesgilde in Grenbrock aktiv und

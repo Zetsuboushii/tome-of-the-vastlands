@@ -5,7 +5,7 @@ category: places
 hasinit:
   - Banditenlager
   - Elpis
-  - Klosterschicksalsweg
+  - Kloster Schicksalsweg
 placetype: Region
 ---
 
