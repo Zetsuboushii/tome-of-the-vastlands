@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
     groupToggle.style.marginBottom = '10px';
 
     const letterButton = document.createElement('button');
-    letterButton.textContent = 'By Letter';
+    letterButton.textContent = 'Nach Buchstabe';
     letterButton.classList.add("select-group-button");
     letterButton.addEventListener('click', () => {
         createPaginationButtons('letter');
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const homeButton = document.createElement('button');
-    homeButton.textContent = 'By Home';
+    homeButton.textContent = 'Nach Heimat';
     homeButton.classList.add("select-group-button");
     homeButton.addEventListener('click', () => {
         createPaginationButtons('home');
