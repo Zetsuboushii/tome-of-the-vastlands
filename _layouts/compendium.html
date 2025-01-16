@@ -19,7 +19,7 @@ layout: default
                                 <a class="page-link" href="{{ subpage.url | relative_url }}">
                                     {% if subpage.category == "bestiary" %}
                                         {% if subpage.alt_imgs %}
-                                            <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }} {{ alt_imgs | first }}.png"
+                                            <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }} {{ subpage.alt_imgs | first | downcase }}.png"
                                                  alt="">
                                         {% else %}
                                             <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
