@@ -390,8 +390,9 @@
 }
 
 .procedures {
-  width: 900px;
-  border: 1px solid;
+  border: 25px solid;
+  border-image: url("/assets/imgs/ui/box.png") 100 stretch;
+  background-color: white;
   padding: 10px;
   margin-bottom: 20px;
 
