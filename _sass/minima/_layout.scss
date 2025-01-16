@@ -24,18 +24,20 @@
 }
 
 .burger-menu {
-  display: block;
-  cursor: pointer;
-  margin: 0 20px 0 30px;
-}
+  @media (max-width: 768px) {
+    display: block;
+    cursor: pointer;
+    margin: 0 20px 0 30px;
 
-.burger-menu .bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px 0;
-  background-color: $text-color;
-  transition: all 0.3s ease;
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px 0;
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+  }
 }
 
 .site-title {
@@ -67,7 +69,6 @@
   font-weight: $heading-font-weight;
   position: fixed;
   transition: left 0.3s ease;
-  height: calc(100vh - 80px);
   overflow-y: scroll;
   scrollbar-width: none;
 
@@ -88,6 +89,10 @@
       position: relative;
       left: -200px;
       transition: 0.3s;
+
+      @media (max-width: 768px) {
+        left: 0;
+      }
     }
 
     li:hover {
@@ -235,8 +240,8 @@
 
 .content-box {
   height: calc(100vh - 60px);
-  padding: 0 100px 0 300px;
-  width: calc(100% - 400px);
+  padding: 0 250px 0 250px;
+  width: calc(100% - 500px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
@@ -244,7 +249,8 @@
   }
 
   @media (max-width: 768px) {
-    width: 95%;
+    width: calc(100% - 20px);
+    padding: 0 10px;
   }
 }
 

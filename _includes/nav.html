@@ -16,6 +16,13 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        const burgerMenu = document.getElementById("burgerMenu");
+        const siteNav = document.getElementById("siteNav");
+
+        burgerMenu.addEventListener("click", function() {
+            siteNav.classList.toggle("open");
+        });
+
         function urlContainsCategory(cat) {
             const currentURL = window.location.href;
             return currentURL.includes(cat);

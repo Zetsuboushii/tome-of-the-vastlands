@@ -2,14 +2,6 @@
  * Reset some basic elements
  */
 
-body {
-  scrollbar-width: none;
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
-}
-
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -45,6 +37,11 @@ h5 {
  * Basic styling
  */
 body {
+  scrollbar-width: none;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-image: url("/assets/imgs/ui/paper.png");
@@ -59,6 +56,10 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    overflow-x: hidden;
+  }
 }
 
 p {
