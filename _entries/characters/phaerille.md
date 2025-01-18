@@ -26,8 +26,8 @@ homes:
 alignment: CN
 alive: true
 relationships:
-  - [ Farone, "Mutter/'Kleine Schwester'" ]
+  - [ Farone, "'Mutter'/'Kleine Schwester'" ]
   - [ Finnea, Große Schwester ]
   - [ Adamar, Großer Bruder ]
-  - [ U-Ranos, "'Große Schwester'" ]
+  - [ U-Ranos, "'Kleiner Bruder'" ]
 ---
