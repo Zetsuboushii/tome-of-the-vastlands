@@ -2,146 +2,197 @@
 layout: default
 ---
 
-<div>
-    {% assign page_parts = page.content | split: '<!--more-->' %}
-    <div class="use-container">
-        <div class="use-content desktop">
-            <h1>{{ page.title }}</h1>
-            <hr>
-
-            {{ page_parts[0] }}
-
-            {% if page_parts[1] %}
-                <div id="toc" class="table-of-contents">
-                    <button id="toc-toggle">
-                        Inhaltsverzeichnis
-                    </button>
-                    <nav id="toc-content"></nav>
-                </div>
-            {% endif %}
-
-            {% if page_parts[1] %}
-                <div class="use-container">
-                    <div class="use-content long-text">
-                        {{ page_parts[1] }}
-                    </div>
-                </div>
-            {% endif %}
+{% assign page_parts = page.content | split: '<!--more-->' %}
+<div class="use-container">
+    <div class="use-content desktop">
+        <div class="page-heading">
+            <h2>{{ page.title }}</h2>
         </div>
 
-        <div class="use-box use-data">
-            {% if page.categories contains "character" %}
+        {{ page_parts[0] }}
 
-                <h1>
-                    {{ page.title }}{% if page.surname %} {{ page.surname }}{% endif %}
-                </h1>
-                {%- if page.character_title -%}
-                    <h4>{{ page.character_title }}</h4>
-                {%- endif -%}
-                <hr>
+        {% if page_parts[1] %}
+            <div id="toc" class="table-of-contents">
+                <button id="toc-toggle">
+                    Inhaltsverzeichnis
+                </button>
+                <nav id="toc-content"></nav>
+            </div>
+        {% endif %}
 
-                {% if page.alt_imgs %}
-                    <div class="multiple-img-buttons">
-                        <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
-                        {% for img in page.alt_imgs %}
-                            <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+        {% if page_parts[1] %}
+            <div class="use-container">
+                <div class="use-content long-text">
+                    {{ page_parts[1] }}
+                </div>
+            </div>
+        {% endif %}
+        {% if page.category == "bestiary" %}
+            <div class="use-container">
+                <div class="use-content enemy-action-table">
+                    {% assign filtered_entries = site.entries | sort: 'title' %}
+                    <table>
+                        <tr>
+                            <th>Action</th>
+                            <th>CD</th>
+                            <th>Range</th>
+                            <th>AoE</th>
+                            <th>Hit Bonus</th>
+                            <th>Saving Throw Req.</th>
+                            <th>Damage</th>
+                            <th>Effects</th>
+                        </tr>
+                        {% for action in filtered_entries %}
+                            {% if page.actions contains action.title %}
+                                {% if action.category == "action" %}
+                                    <tr>
+                                        <td>{{ action.title }}</td>
+                                        <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
+                                        <td>{{ action.range }}ft</td>
+                                        <td>{{ action.aoe }}</td>
+                                        <td>
+                                            {% if action.hitbonus %}+{% endif %}
+                                            {{ action.hitbonus }}
+                                        </td>
+                                        <td>{{ action.savereq[0] }} {{ action.savereq[1] }}</td>
+                                        <td>
+                                            <ul>
+                                                {% for d in action.damage %}
+                                                    <li>{{ d[0] }} {{ d[1] }}</li>
+                                                {% endfor %}
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                {% for e in action.effects %}
+                                                    <li>{{ e[0] | replace: "_", " " }}: {{ e[1] }}</li>
+                                                {% endfor %}
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                            {% endif %}
                         {% endfor %}
-                    </div>
-                    <div id="{{ page.title | downcase }}" class="char-img">
-                        <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
-                             alt="">
-                    </div>
-                    {% for img in page.alt_imgs %}
-                        <div id="{{ img | downcase }}" class="char-img" style="display:none">
-                            <img src="{{ site.imgurl }}/characters/{{ page.title | downcase }} {{ img | downcase }}.png"
-                                 alt="">
-                        </div>
-                    {% endfor %}
+                    </table>
+                </div>
+            </div>
+        {% endif %}
+    </div>
 
-                {% else %}
+    <div class="use-box use-data">
+        {% if page.categories contains "character" %}
+
+            <div class="use-data-title">
+                <h1>{{ page.title }}{% if page.surname %} {{ page.surname }}{% endif %}</h1>
+            </div>
+            {%- if page.character_title -%}
+                <h4>{{ page.character_title }}</h4>
+            {%- endif -%}
+            <hr>
+
+            {% if page.alt_imgs %}
+                <div class="multiple-img-buttons">
+                    <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
+                    {% for img in page.alt_imgs %}
+                        <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+                    {% endfor %}
+                </div>
+                <div id="{{ page.title | downcase }}" class="char-img">
                     <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
                          alt="">
+                </div>
+                {% for img in page.alt_imgs %}
+                    <div id="{{ img | downcase }}" class="char-img" style="display:none">
+                        <img src="{{ site.imgurl }}/characters/{{ page.title | downcase }} {{ img | downcase }}.png"
+                             alt="">
+                    </div>
+                {% endfor %}
+
+            {% else %}
+                <img src="{{ site.imgurl }}/characters/{{ page.path | split: '/' | last | split: '.' | first }}.png"
+                     alt="">
+            {% endif %}
+
+            <hr>
+
+            <h4><b>Informationen zur Person</b></h4>
+            <table>
+                <tr>
+                    <td><b>Rasse</b></td>
+                    <td>
+                        <a href="{{ '/races/' | append: page.race | downcase | relative_url }}">{{ page.race }}</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Geschlecht</b></td>
+                    <td>
+                        {% if page.sex == "m" %} männlich
+                        {% elsif page.sex == "w" %} weiblich
+                        {% endif %}
+                    </td>
+                </tr>
+
+                {% if page.birthday %}
+                    {% assign months =
+                            "Eismond,Frostmond,Saatmond,Blütenmond,Wonnemond,Heumond,Sonnenmond,Erntemond,Fruchtmond,Weinmond,Nebelmond,Julmond"
+                            | split: "," %}
+                    {% assign birthday = page.birthday | split: '.' %}
+                    {% assign currentDate = site.currentDate | split: '-' %}
+
+                    {% assign birthDay = birthday[0] | plus: 0 %}
+                    {% assign birthMonth = birthday[1] | plus: 0 %}
+                    {% assign birthYear = birthday[2] | plus: 0 %}
+
+                    {% assign currentMonth = currentDate[1] | plus: 0 %}
+                    {% assign currentYear = currentDate[2] | plus: 0 %}
+
+                    {% assign age = currentYear | minus: birthYear %}
+
+                    {% if currentMonth < birthMonth %}
+                        {% assign age = age | minus: 1 %}
+                    {% elsif currentMonth == birthMonth %}
+                        {% if birthDay > 1 %}
+                            {% assign age = age | minus: 1 %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% capture birthYearStr %}
+                        {{ birthYear }}
+                    {% endcapture %}
+                    {% if birthYearStr contains "-" %}
+                        {% assign birthYearDisplay = birthYearStr | append: " v.V." | replace: '-', '' %}
+                    {% else %}
+                        {% assign birthYearDisplay = birthYearStr | append: " n.V." %}
+                    {% endif %}
+                    <tr>
+                        <td><b>Alter</b></td>
+                        <td>
+                            {{ age }}
+                            {% if page.birthday contains "Unbekannt" %}
+                            {% else %} Jahre
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Geburtstag</b></td>
+                        <td>{{ birthDay }}.{{ birthMonth }}, {{ birthYearDisplay }}</td>
+                    </tr>
                 {% endif %}
 
-                <hr>
-
-                <h4><b>Informationen zur Person</b></h4>
-                <table>
+                {% if page.alias %}
                     <tr>
-                        <td><b>Rasse</b></td>
-                        <td><a href="{{ '/races/' | append: page.race | downcase | relative_url }}">{{ page.race }}</a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><b>Geschlecht</b></td>
+                        <td><b>Aliase</b></td>
                         <td>
-                            {% if page.sex == "m" %} männlich
-                            {% elsif page.sex == "w" %} weiblich
-                            {% endif %}
+                            <ul>
+                                {% for a in page.alias %}
+                                    <li>{{ a[0] }}<small> ({{ a[1] }})</small></li>
+                                {% endfor %}
+                            </ul>
                         </td>
                     </tr>
-
-                    {% if page.birthday %}
-                        {% assign months =
-                                "Eismond,Frostmond,Saatmond,Blütenmond,Wonnemond,Heumond,Sonnenmond,Erntemond,Fruchtmond,Weinmond,Nebelmond,Julmond"
-                                | split: "," %}
-                        {% assign birthday = page.birthday | split: '.' %}
-                        {% assign currentDate = site.currentDate | split: '-' %}
-
-                        {% assign birthDay = birthday[0] | plus: 0 %}
-                        {% assign birthMonth = birthday[1] | plus: 0 %}
-                        {% assign birthYear = birthday[2] | plus: 0 %}
-
-                        {% assign currentMonth = currentDate[1] | plus: 0 %}
-                        {% assign currentYear = currentDate[2] | plus: 0 %}
-
-                        {% assign age = currentYear | minus: birthYear %}
-
-                        {% if currentMonth < birthMonth %}
-                            {% assign age = age | minus: 1 %}
-                        {% elsif currentMonth == birthMonth %}
-                            {% if birthDay > 1 %}
-                                {% assign age = age | minus: 1 %}
-                            {% endif %}
-                        {% endif %}
-
-                        {% capture birthYearStr %}
-                            {{ birthYear }}
-                        {% endcapture %}
-                        {% if birthYearStr contains "-" %}
-                            {% assign birthYearDisplay = birthYearStr | append: " v.V." | replace: '-', '' %}
-                        {% else %}
-                            {% assign birthYearDisplay = birthYearStr | append: " n.V." %}
-                        {% endif %}
-                        <tr>
-                            <td><b>Alter</b></td>
-                            <td>
-                                {{ age }}
-                                {% if page.birthday contains "Unbekannt" %}
-                                {% else %} Jahre
-                                {% endif %}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><b>Geburtstag</b></td>
-                            <td>{{ birthDay }}.{{ birthMonth }}, {{ birthYearDisplay }}</td>
-                        </tr>
-                    {% endif %}
-
-                    {% if page.alias %}
-                        <tr>
-                            <td><b>Aliase</b></td>
-                            <td>
-                                <ul>
-                                    {% for a in page.alias %}
-                                        <li>{{ a[0] }}<small> ({{ a[1] }})</small></li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-                </table>
+                {% endif %}
+            </table>
 
                 <h4><b>Daten</b></h4>
                 <table>
@@ -161,6 +212,7 @@ layout: default
                             </td>
                         </tr>
                     {% endif %}
+                    <!--
                     {% if page.bust %}
                         <tr>
                             <td><b>Brustumfang</b></td>
@@ -201,408 +253,410 @@ layout: default
                             </td>
                         </tr>
                     {% endif %}
+                    -->
                 </table>
 
-                <h4><b>Profession</b></h4>
-                <table>
-                    {% if page.functions %}
-                        <tr>
-                            <td><b>Funktion</b></td>
-                            <td>
-                                <ul>
-                                    {% for function in page.functions %}
-                                        <li>
-                                            {{ function }}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-
-                    {% if page.class %}
-                        <tr>
-                            <td><b>Basisklasse</b></td>
-                            <td>
-                                <a href="{{ '/classes/' | append: page.class | downcase | relative_url }}">{{ page.class }}</a>
-                            </td>
-                        </tr>
-                    {% endif %}
-
-                    {% if page.subclasses %}
-                        <tr>
-                            <td><b>Subklassen</b></td>
-                            <td>
-                                <ul>
-                                    {% for subclass in page.subclasses %}
-                                        <li><a href="{{ '/classes/' | append: subclass | downcase | relative_url }}">{{
-                                                subclass }}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-
-                    {% if page.masterclass %}
-                        <tr>
-                            <td><b>Meisterklasse</b></td>
-                            <td>
-                                <a href="{{ '/classes/' | append: page.masterclass | downcase | relative_url }}">{{
-                                    page.masterclass }}</a>
-                            </td>
-                        </tr>
-                    {% endif %}
-
-                    {% if page.job %}
-                        <tr>
-                            <td><b>Beruf</b></td>
-                            <td>
-                                {{ page.job }}
-                            </td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-                <h4><b>Weitere Informationen</b></h4>
-                <table>
+            <h4><b>Profession</b></h4>
+            <table>
+                {% if page.functions %}
                     <tr>
-                        <td><b>Wohnort</b></td>
+                        <td><b>Funktion</b></td>
                         <td>
                             <ul>
-                                {% for home in page.homes %}
+                                {% for function in page.functions %}
                                     <li>
-                                        <a href="{{ '/places/' | append: home | replace: ' ', '-' | downcase | relative_url }}">
-                                            {{ home }}</a></li>
+                                        {{ function }}
+                                    </li>
                                 {% endfor %}
                             </ul>
                         </td>
                     </tr>
+                {% endif %}
 
+                {% if page.class %}
                     <tr>
-                        <td><b>Gesinnung</b></td>
-                        <td>{{ page.alignment }}</td>
-                    </tr>
-
-                    {% if page.affiliations %}
-                        <tr>
-                            <td><b>Zugehörigkeit</b></td>
-                            <td>
-                                <ul>
-                                    {% for affiliation in page.affiliations %}
-                                        <li>
-                                            <a href="{{ '/organisations/' | append: affiliation | replace: ' ', '-' | downcase | relative_url }}">{{
-                                                affiliation }}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-                <h4><b>Persönlicher Status</b></h4>
-                <table>
-                    <tr>
-                        <td><b>Verbleib</b></td>
+                        <td><b>Basisklasse</b></td>
                         <td>
-                            {% if page.alive == true %} am Leben
-                            {% elsif page.alive == false %} verstorben
-                            {% else %} {{ page.alive }}
-                            {% endif %}
+                            <a href="{{ '/classes/' | append: page.class | downcase | relative_url }}">{{ page.class }}</a>
                         </td>
                     </tr>
-
-                    {% if page.relationships %}
-                        <tr>
-                            <td><b>Beziehungen</b></td>
-                            <td>
-                                <ul>
-                                    {% for relationship in page.relationships %}
-                                        <li>
-                                            <a href="{{ '/characters/' | append: relationship[0] | downcase | relative_url }}">{{
-                                                relationship[0] }}</a><small> ({{ relationship[1] }})</small></li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-
-                    {% if page.lover %}
-                        <tr>
-                            <td><b>Liebe</b></td>
-                            <td>
-                                <a href="{{ '/characters/' | append: page.lover | downcase | relative_url }}">{{ page.lover
-                                    }}</a>
-                            </td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-            {% endif %}
-            {% if page.category == "places" %}
-
-                <h1>{{ page.subtitle }} {{ page.title }}</h1>
-                {%- if page.supplement -%}
-                    <h4>{{ page.supplement }}</h4>
-                {%- endif -%}
-                <hr>
-
-                {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
-                {% if placetypes contains page.placetype %}
-                    <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
-                         alt="">
-                    <hr>
                 {% endif %}
 
-                <h4><b>Allgemeine Informationen</b></h4>
-                <table>
-                    {% if page.natlang %}
-                        <tr>
-                            <td><b>In Landessprache</b></td>
-                            <td>{{ page.natlang[0] }}, <i>{{ page.natlang[1] }}</i></td>
-                        </tr>
-                    {% endif %}
+                {% if page.subclasses %}
                     <tr>
-                        <td><b>Art des Ortes</b></td>
-                        <td>{{ page.placetype }}</td>
+                        <td><b>Subklassen</b></td>
+                        <td>
+                            <ul>
+                                {% for subclass in page.subclasses %}
+                                    <li>
+                                        <a href="{{ '/classes/' | append: subclass | downcase | relative_url }}">{{
+                                            subclass }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </td>
                     </tr>
-                    {% if page.capital %}
-                        <tr>
-                            <td><b>Hauptstadt</b></td>
-                            <td><a href="/places/{{ page.capital | downcase }}">{{ page.capital }}</a>
-                            </td>
-                        </tr>
-                    {% endif %}
-                    {% if page.demography %}
-                        <tr>
-                            <td><b>Demografie</b></td>
-                            <td>{{ page.demography }} Einwohner</td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-                <h4><b>Standort</b></h4>
-                <table>
-                    {% if page.placetype != "Elementarebene" %}
-                        <tr>
-                            <td><b>Liegt in</b></td>
-                            <td>
-                                <ul>
-                                    {% assign filtered_entries = site.entries | sort: 'title' %}
-                                    {% for item in filtered_entries %}
-                                        {% if item.hasinit contains page.title %}
-                                            <li>
-                                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-                    {% if page.hasinit %}
-                        <tr>
-                            <td><b>Enthält</b></td>
-                            <td>
-                                <ul>
-                                    {% assign filtered_entries = site.entries | sort: 'title' %}
-                                    {% for item in filtered_entries %}
-                                        {% if page.hasinit contains item.title %}
-                                            <li>
-                                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-                {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
-                {% if placetypes contains page.placetype %}
-                    <h4><b>Politik</b></h4>
-                    <table>
-                        {% if page.system %}
-                            <tr>
-                                <td><b>Staatsform</b></td>
-                                <td>{{ page.system }}</td>
-                            </tr>
-                        {% endif %}
-                        {% if page.leader %}
-                            <tr>
-                                <td><b>
-                                        {% if page.placetype != "Königreich" and page.placetype != "Territorialstaat" %}
-                                            Lokalverwaltung
-                                        {% else %}
-                                            Staatsoberhaupt
-                                        {% endif %}
-                                    </b></td>
-                                <td>
-                                    <a href="{{ '/characters/' | append: page.leader[0] | downcase | relative_url }}">{{
-                                        page.leader[0] }}</a><small> ({{ page.leader[1] }})</small>
-                                </td>
-                            </tr>
-                        {% endif %}
-                    </table>
                 {% endif %}
 
-                {% assign placetypes = "Hauptstadt,Stadt,Dorf" %}
-                {% if placetypes contains page.placetype %}
-                    <h4><b>Ortsspezifische Daten</b></h4>
-                    <table>
-                        <tr>
-                            <td><b>Charaktere an diesem Ort</b></td>
-                            <td>
-                                <ul>
-                                    {% assign filtered_entries = site.entries | sort: 'title' %}
-                                    {% for character in filtered_entries %}
-                                        {% if character.homes contains page.title %}
-                                            <li>
-                                                <a href="{{ '/characters/' | append: character.title | downcase | replace: ' ', '-' | relative_url }}">
-                                                    {{ character.title }}</a></li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    </table>
+                {% if page.masterclass %}
+                    <tr>
+                        <td><b>Meisterklasse</b></td>
+                        <td>
+                            <a href="{{ '/classes/' | append: page.masterclass | downcase | relative_url }}">{{
+                                page.masterclass }}</a>
+                        </td>
+                    </tr>
                 {% endif %}
+
+                {% if page.job %}
+                    <tr>
+                        <td><b>Beruf</b></td>
+                        <td>
+                            {{ page.job }}
+                        </td>
+                    </tr>
+                {% endif %}
+            </table>
+
+            <h4><b>Weitere Informationen</b></h4>
+            <table>
+                <tr>
+                    <td><b>Wohnort</b></td>
+                    <td>
+                        <ul>
+                            {% for home in page.homes %}
+                                <li>
+                                    <a href="{{ '/places/' | append: home | replace: ' ', '-' | downcase | relative_url }}">
+                                        {{ home }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Gesinnung</b></td>
+                    <td>{{ page.alignment }}</td>
+                </tr>
+
+                {% if page.affiliations %}
+                    <tr>
+                        <td><b>Zugehörigkeit</b></td>
+                        <td>
+                            <ul>
+                                {% for affiliation in page.affiliations %}
+                                    <li>
+                                        <a href="{{ '/organisations/' | append: affiliation | replace: ' ', '-' | downcase | relative_url }}">{{
+                                            affiliation }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endif %}
+            </table>
+
+            <h4><b>Persönlicher Status</b></h4>
+            <table>
+                <tr>
+                    <td><b>Verbleib</b></td>
+                    <td>
+                        {% if page.alive == true %} am Leben
+                        {% elsif page.alive == false %} verstorben
+                        {% else %} {{ page.alive }}
+                        {% endif %}
+                    </td>
+                </tr>
+
+                {% if page.relationships %}
+                    <tr>
+                        <td><b>Beziehungen</b></td>
+                        <td>
+                            <ul>
+                                {% for relationship in page.relationships %}
+                                    <li>
+                                        <a href="{{ '/characters/' | append: relationship[0] | downcase | relative_url }}">{{
+                                            relationship[0] }}</a><small> ({{ relationship[1] }})</small></li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endif %}
+
+                {% if page.lover %}
+                    <tr>
+                        <td><b>Liebe</b></td>
+                        <td>
+                            <a href="{{ '/characters/' | append: page.lover | downcase | relative_url }}">{{ page.lover
+                                }}</a>
+                        </td>
+                    </tr>
+                {% endif %}
+            </table>
+
+        {% endif %}
+        {% if page.category == "places" %}
+
+            <h1>{{ page.subtitle }} {{ page.title }}</h1>
+            {%- if page.supplement -%}
+                <h4>{{ page.supplement }}</h4>
+            {%- endif -%}
+            <hr>
+
+            {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
+            {% if placetypes contains page.placetype %}
+                <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
+                     alt="">
+                <hr>
             {% endif %}
 
-            {% if page.category == "bestiary" %}
+            <h4><b>Allgemeine Informationen</b></h4>
+            <table>
+                {% if page.natlang %}
+                    <tr>
+                        <td><b>In Landessprache</b></td>
+                        <td>{{ page.natlang[0] }}, <i>{{ page.natlang[1] }}</i></td>
+                    </tr>
+                {% endif %}
+                <tr>
+                    <td><b>Art des Ortes</b></td>
+                    <td>{{ page.placetype }}</td>
+                </tr>
+                {% if page.capital %}
+                    <tr>
+                        <td><b>Hauptstadt</b></td>
+                        <td><a href="/places/{{ page.capital | downcase }}">{{ page.capital }}</a>
+                        </td>
+                    </tr>
+                {% endif %}
+                {% if page.demography %}
+                    <tr>
+                        <td><b>Demografie</b></td>
+                        <td>{{ page.demography }} Einwohner</td>
+                    </tr>
+                {% endif %}
+            </table>
 
-                <h1>{{ page.supplement }} {{ page.title }}</h1>
-                <h4>{{ page.bosstitle }}</h4>
-                <hr>
+            <h4><b>Standort</b></h4>
+            <table>
+                {% if page.placetype != "Elementarebene" %}
+                    <tr>
+                        <td><b>Liegt in</b></td>
+                        <td>
+                            <ul>
+                                {% assign filtered_entries = site.entries | sort: 'title' %}
+                                {% for item in filtered_entries %}
+                                    {% if item.hasinit contains page.title %}
+                                        <li>
+                                            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endif %}
+                {% if page.hasinit %}
+                    <tr>
+                        <td><b>Enthält</b></td>
+                        <td>
+                            <ul>
+                                {% assign filtered_entries = site.entries | sort: 'title' %}
+                                {% for item in filtered_entries %}
+                                    {% if page.hasinit contains item.title %}
+                                        <li>
+                                            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endif %}
+            </table>
 
-                {% if page.alt_imgs %}
+            {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
+            {% if placetypes contains page.placetype %}
+                <h4><b>Politik</b></h4>
+                <table>
+                    {% if page.system %}
+                        <tr>
+                            <td><b>Staatsform</b></td>
+                            <td>{{ page.system }}</td>
+                        </tr>
+                    {% endif %}
+                    {% if page.leader %}
+                        <tr>
+                            <td><b>
+                                    {% if page.placetype != "Königreich" and page.placetype != "Territorialstaat" %}
+                                        Lokalverwaltung
+                                    {% else %}
+                                        Staatsoberhaupt
+                                    {% endif %}
+                                </b></td>
+                            <td>
+                                <a href="{{ '/characters/' | append: page.leader[0] | downcase | relative_url }}">{{
+                                    page.leader[0] }}</a><small> ({{ page.leader[1] }})</small>
+                            </td>
+                        </tr>
+                    {% endif %}
+                </table>
+            {% endif %}
+
+            {% assign placetypes = "Hauptstadt,Stadt,Dorf" %}
+            {% if placetypes contains page.placetype %}
+                <h4><b>Ortsspezifische Daten</b></h4>
+                <table>
+                    <tr>
+                        <td><b>Charaktere an diesem Ort</b></td>
+                        <td>
+                            <ul>
+                                {% assign filtered_entries = site.entries | sort: 'title' %}
+                                {% for character in filtered_entries %}
+                                    {% if character.homes contains page.title %}
+                                        <li>
+                                            <a href="{{ '/characters/' | append: character.title | downcase | replace: ' ', '-' | relative_url }}">
+                                                {{ character.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            {% endif %}
+        {% endif %}
+
+        {% if page.category == "bestiary" %}
+
+            <h1>{{ page.supplement }} {{ page.title }}</h1>
+            <h4>{{ page.bosstitle }}</h4>
+            <hr>
+
+            {% if page.alt_imgs %}
                 <div class="multiple-img-buttons">
                     {% for img in page.alt_imgs %}
-                    <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+                        <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
                     {% endfor %}
                 </div>
                 {% for img in page.alt_imgs %}
-                <div id="{{ img | downcase }}" class="char-img" {% unless forloop.first %}style="display:none"{% endunless %}>
-                    <img src="{{ site.imgurl }}/enemies/{{ page.title | downcase }} {{ img | downcase }}.png"
-                         alt="">
-                </div>
+                    <div id="{{ img | downcase }}" class="char-img"
+                         {% unless forloop.first %}style="display:none"{% endunless %}>
+                        <img src="{{ site.imgurl }}/enemies/{{ page.title | downcase }} {{ img | downcase }}.png"
+                             alt="">
+                    </div>
                 {% endfor %}
 
-                {% else %}
+            {% else %}
                 <img src="{{ site.imgurl }}/enemies/{{ page.path | split: '/' | last | split: '.' | first }}.png"
                      alt="">
-                {% endif %}
-                <hr>
-
-                <h4><b>Allgemeine Informationen</b></h4>
-                <table>
-                    {% if page.type %}
-                        <tr>
-                            <td><b>Typ</b></td>
-                            <td>{{ page.type }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.hp %}
-                        <tr>
-                            <td><b>HP</b></td>
-                            <td>{{ page.hp }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.ac %}
-                        <tr>
-                            <td><b>AC</b></td>
-                            <td>{{ page.ac }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.move %}
-                        <tr>
-                            <td><b>Bewegungsreichw.</b></td>
-                            <td>
-                                <ul>
-                                    {% for m in page.move %}
-                                        <li>{{ m }} ft.</li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-                <h4><b>Ability Modifier</b></h4>
-                <table>
-                    {% if page.str %}
-                        <tr>
-                            <td><b>Stärke</b></td>
-                            <td>{{ page.str }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.dex %}
-                        <tr>
-                            <td><b>Geschicklichkeit</b></td>
-                            <td>{{ page.dex }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.con %}
-                        <tr>
-                            <td><b>Konstitution</b></td>
-                            <td>{{ page.con }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.int %}
-                        <tr>
-                            <td><b>Intelligenz</b></td>
-                            <td>{{ page.int }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.wis %}
-                        <tr>
-                            <td><b>Weisheit</b></td>
-                            <td>{{ page.wis }}</td>
-                        </tr>
-                    {% endif %}
-                    {% if page.cha %}
-                        <tr>
-                            <td><b>Charisma</b></td>
-                            <td>{{ page.cha }}</td>
-                        </tr>
-                    {% endif %}
-                </table>
-
-                <h4><b>Status</b></h4>
-                <table>
-                    <tr>
-                        <td><b>Schwächen</b></td>
-                        <td>
-                            <ul>
-                                {% for w in page.weak %}
-                                    <li>{{ w }}</li>
-                                {% endfor %}
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><b>Resistenzen</b></td>
-                        <td>
-                            <ul>
-                                {% for r in page.res %}
-                                    <li>{{ r }}</li>
-                                {% endfor %}
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><b>Immunitäten</b></td>
-                        <td>
-                            <ul>
-                                {% for i in page.imm %}
-                                    <li>{{ i }}</li>
-                                {% endfor %}
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
             {% endif %}
-        </div>
+            <hr>
+
+            <h4><b>Allgemeine Informationen</b></h4>
+            <table>
+                {% if page.type %}
+                    <tr>
+                        <td><b>Typ</b></td>
+                        <td>{{ page.type }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.hp %}
+                    <tr>
+                        <td><b>HP</b></td>
+                        <td>{{ page.hp }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.ac %}
+                    <tr>
+                        <td><b>AC</b></td>
+                        <td>{{ page.ac }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.move %}
+                    <tr>
+                        <td><b>Bewegungsreichw.</b></td>
+                        <td>
+                            <ul>
+                                {% for m in page.move %}
+                                    <li>{{ m }} ft.</li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                {% endif %}
+            </table>
+
+            <h4><b>Ability Modifier</b></h4>
+            <table>
+                {% if page.str %}
+                    <tr>
+                        <td><b>Stärke</b></td>
+                        <td>{{ page.str }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.dex %}
+                    <tr>
+                        <td><b>Geschicklichkeit</b></td>
+                        <td>{{ page.dex }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.con %}
+                    <tr>
+                        <td><b>Konstitution</b></td>
+                        <td>{{ page.con }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.int %}
+                    <tr>
+                        <td><b>Intelligenz</b></td>
+                        <td>{{ page.int }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.wis %}
+                    <tr>
+                        <td><b>Weisheit</b></td>
+                        <td>{{ page.wis }}</td>
+                    </tr>
+                {% endif %}
+                {% if page.cha %}
+                    <tr>
+                        <td><b>Charisma</b></td>
+                        <td>{{ page.cha }}</td>
+                    </tr>
+                {% endif %}
+            </table>
+
+            <h4><b>Status</b></h4>
+            <table>
+                <tr>
+                    <td><b>Schwächen</b></td>
+                    <td>
+                        <ul>
+                            {% for w in page.weak %}
+                                <li>{{ w }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Resistenzen</b></td>
+                    <td>
+                        <ul>
+                            {% for r in page.res %}
+                                <li>{{ r }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Immunitäten</b></td>
+                    <td>
+                        <ul>
+                            {% for i in page.imm %}
+                                <li>{{ i }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        {% endif %}
     </div>
 
     <div class="use-container mobile">
@@ -621,57 +675,6 @@ layout: default
             {% endif %}
         </div>
     </div>
-
-    {% if page.category == "bestiary" %}
-        <div class="use-container">
-            <div class="use-content enemy-action-table">
-                {% assign filtered_entries = site.entries | sort: 'title' %}
-                <table>
-                    <tr>
-                        <th>Action</th>
-                        <th>CD</th>
-                        <th>Range</th>
-                        <th>AoE</th>
-                        <th>Hit Bonus</th>
-                        <th>Saving Throw Req.</th>
-                        <th>Damage</th>
-                        <th>Effects</th>
-                    </tr>
-                    {% for action in filtered_entries %}
-                        {% if page.actions contains action.title %}
-                            {% if action.category == "action" %}
-                                <tr>
-                                    <td>{{ action.title }}</td>
-                                    <td>{{ action.cooldown[0] }}{{ action.cooldown[1] }}</td>
-                                    <td>{{ action.range }}ft</td>
-                                    <td>{{ action.aoe }}</td>
-                                    <td>
-                                        {% if action.hitbonus %}+{% endif %}
-                                        {{ action.hitbonus }}
-                                    </td>
-                                    <td>{{ action.savereq[0] }} {{ action.savereq[1] }}</td>
-                                    <td>
-                                        <ul>
-                                            {% for d in action.damage %}
-                                                <li>{{ d[0] }} {{ d[1] }}</li>
-                                            {% endfor %}
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            {% for e in action.effects %}
-                                                <li>{{ e[0] | replace: "_"," " }}: {{ e[1] }}</li>
-                                            {% endfor %}
-                                        </ul>
-                                    </td>
-                                </tr>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </table>
-            </div>
-        </div>
-    {% endif %}
 </div>
 
 <script>

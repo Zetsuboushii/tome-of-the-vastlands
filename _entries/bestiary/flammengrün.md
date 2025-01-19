@@ -9,7 +9,6 @@ type: Pflanze
 hp: 70
 ac: 14
 move:
-  - 0
 str: 4
 dex: -2
 con: 5

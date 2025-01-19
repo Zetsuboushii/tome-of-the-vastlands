@@ -4,7 +4,7 @@ title: Zora
 categories:
   - character
   - NPC
-character_title: Stille Flammenfürstin
+character_title: Nachfahrin des Meeres
 race: Nixen
 sex: w
 height: 1.72

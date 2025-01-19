@@ -26,7 +26,7 @@ class: Hexer
 subclasses:
   - Gefäß des Abgrunds
 homes:
-  - Frelia
+  - Tinorke
 alignment: NE
 alive: false
 relationships:

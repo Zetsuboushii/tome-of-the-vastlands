@@ -4,6 +4,7 @@ title: Gletscher des Ewigen Eises
 natlang:
 category: places
 hasinit:
+  - Darnax
 placetype: Region
 ---
 

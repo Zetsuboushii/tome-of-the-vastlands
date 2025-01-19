@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
     {% if page.title %}
-        <h1 class="page-heading">{{ page.title }}</h1>
+        <div class="page-heading">
+            <h2>{{ page.title }}</h2>
+        </div>
     {% endif %}
 
     {{ content }}
@@ -98,7 +100,6 @@ layout: default
             <ul>
                 {% for post in site.entries %}
                     {% if post.category == "compendia" %}
-
                         <li>
                             <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
                             <hr>
@@ -222,33 +223,33 @@ layout: default
         </div>
     {% endif %}
     {% if page.category == "abilities" %}
-    <div class="item-list">
-        <ul>
-            {% for post in site.entries %}
-            {% if post.category == "abilities" %}
-            <li>
-                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-                <hr>
-                <p>{{ post.excerpt }}</p>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries %}
+                    {% if post.category == "abilities" %}
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <hr>
+                            <p>{{ post.excerpt }}</p>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
     {% endif %}
     {% if page.category == "magic" %}
-    <div class="item-list">
-        <ul>
-            {% for post in site.entries %}
-            {% if post.category == "magic" %}
-            <li>
-                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-                <hr>
-                <p>{{ post.excerpt }}</p>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
+        <div class="item-list">
+            <ul>
+                {% for post in site.entries %}
+                    {% if post.category == "magic" %}
+                        <li>
+                            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                            <hr>
+                            <p>{{ post.excerpt }}</p>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
     {% endif %}
 </div>
