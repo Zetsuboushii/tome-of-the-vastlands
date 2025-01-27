@@ -21,9 +21,11 @@ functions:
   - Hohefürstin des Blitzes und des Donners
 class: Hohefürst
 homes:
-  - Bernsteintempel
+  - Garadzar
 alignment: CN
 alive: true
 relationships:
-  - [ Rai, Großer Bruder ]
+  - [ Rai, Bruder ]
+
+
 ---
