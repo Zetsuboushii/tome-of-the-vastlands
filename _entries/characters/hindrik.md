@@ -20,6 +20,8 @@ functions:
 class: Waldläufer
 subclasses:
   - Jäger
+affiliations:
+  - Kinder des Waldes
 homes:
   - Brodia
 alignment: NG
