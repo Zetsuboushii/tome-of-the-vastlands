@@ -1,0 +1,16 @@
+---
+layout: none
+---
+[
+{% for ability in site.entries %}
+{% if ability.path contains "abilities" %}
+{% if counter > 0 %},{% endif %}
+{% assign cleaned_excerpt = ability.excerpt | inspect | replace: '\r\n', ' ' | replace: '\r', ' ' | replace: '\n', ' ' | replace: '&quot;&lt;p&gt;', '' | replace: '&lt;/p&gt; &quot;', '' | replace: '&quot; &quot;', '' | strip_html | strip %}
+{
+    "name": "{{ ability.title }}",
+    "desc": "{{ cleaned_excerpt }}"
+}
+{% assign counter = counter | plus: 1 %}
+{% endif %}
+{% endfor %}
+]
