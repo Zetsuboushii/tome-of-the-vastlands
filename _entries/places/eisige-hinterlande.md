@@ -4,6 +4,7 @@ title: Eisige Hinterlande
 natlang:
 category: places
 hasinit:
+  - Stephans Hütte
 placetype: Region
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Grotte des Lebens
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Grotte
 ---

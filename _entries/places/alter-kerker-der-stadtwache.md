@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Alter Kerker der Stadtwache
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Verlies
 ---

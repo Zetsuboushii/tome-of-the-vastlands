@@ -1,6 +1,6 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Versunkene Burg
 natlang:
 category: places
 hasinit:

@@ -4,7 +4,7 @@ title: Mondscheintal
 natlang:
 category: places
 hasinit:
-  - Kloster des Himmels
+  - Kloster der Himmlischen Recken
 placetype: Region
 ---
 

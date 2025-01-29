@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Tunnel zum Meeresreich
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Tunnel
 ---

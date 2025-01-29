@@ -4,9 +4,11 @@ title: Tal der Drei Winde
 natlang:
 category: places
 hasinit:
-  - Kirchenruine im Wald
+  - Windige Kirchenruine
+  - Diebeslager Escrigria
   - Schachendorf
   - Tempel am Schicksalspass
+  - Schicksalspass
 placetype: Region
 ---
 

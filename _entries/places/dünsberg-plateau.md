@@ -6,6 +6,10 @@ category: places
 hasinit:
   - Dünsberg
   - Alt-Dünsberg
+  - Graekurith
+  - Igmusurs Hütte
+  - Knorrwurzelschrien
+  - Jagdschloss Dünsberg
 placetype: Region
 ---
 

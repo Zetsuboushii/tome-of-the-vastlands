@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Jagdschloss Dünsberg
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Schloss
 ---

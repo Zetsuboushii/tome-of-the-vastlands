@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Alte Zollburg
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Festung
 ---

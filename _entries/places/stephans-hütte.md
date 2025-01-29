@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Stephans Hütte
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Hütte
 ---

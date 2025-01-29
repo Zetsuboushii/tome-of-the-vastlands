@@ -1,6 +1,6 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Graekurith
 natlang:
 category: places
 hasinit:

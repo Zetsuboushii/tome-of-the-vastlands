@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Große Zwergenbrücke
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Brücke
 ---

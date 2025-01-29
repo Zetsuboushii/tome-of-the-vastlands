@@ -6,6 +6,12 @@ hasinit:
   - Tellius
   - Meerestempel
   - Wassertempel
+  - Versunkene Burg
+  - Tunnel zum Meeresreich
+  - Anwesen von Lysander
+  - Große Zwergenbrücke
+  - Tunnel des Aufstiegs
+  - Alte Zollburg
 placetype: Region
 ---
 

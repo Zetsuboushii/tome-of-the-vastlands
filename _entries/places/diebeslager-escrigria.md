@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Diebeslager Escrigria
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Lager
 ---

@@ -21,5 +21,8 @@
   "invisible": 4,
   "restrained": 4,
   "resistance_(all)": 4,
-  "difficult_terrain": 2
+  "difficult_terrain": 2,
+  "double_attack": 3,
+  "range_bonus": 2,
+  "area_effect": 3
 }

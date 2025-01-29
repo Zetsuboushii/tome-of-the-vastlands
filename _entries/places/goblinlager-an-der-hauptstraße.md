@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Goblinlager an der Hauptstraße
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Lager
 ---

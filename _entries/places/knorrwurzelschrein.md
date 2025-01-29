@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Knorrwurzelschrein
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Schrein
 ---

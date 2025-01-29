@@ -5,6 +5,8 @@ natlang: [ Nurths-Grenbrok, nördliches grünes Moor ]
 category: places
 hasinit:
   - Grenbrock
+  - Goblinlager an der Hauptstraße
+  - Alter Kerker der Stadtwache
 placetype: Region
 ---
 

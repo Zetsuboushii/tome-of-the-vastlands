@@ -2,7 +2,7 @@
 layout: usepage
 title: Kloster Schicksalsweg
 category: places
-placetype: Wegpunkt
+placetype: Kloster 
 ---
 
 Nahe der Küste, abseits jeglicher Zivilisation erbaute einst ein frommer Gläubiger der gütigen Göttin des Schicksals,

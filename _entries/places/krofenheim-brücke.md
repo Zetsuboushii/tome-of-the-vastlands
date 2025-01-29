@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Krofenheim-Brücke
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Brücke
 ---

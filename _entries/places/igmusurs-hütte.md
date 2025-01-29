@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Igmusurs Hütte
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Hütte
 ---

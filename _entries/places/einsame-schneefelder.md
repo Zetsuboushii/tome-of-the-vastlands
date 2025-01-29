@@ -1,10 +1,12 @@
 ---
 layout: usepage
-title: Eisige Hinterlande
+title: Einsame Schneefelder
 natlang:
 category: places
 hasinit:
   - Nordholm
+  - Westlicher Wachposten von Nordholm
+  - Östlicher Wachposten von Nordholm
 placetype: Region
 ---
 

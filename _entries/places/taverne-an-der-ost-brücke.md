@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Taverne an der Ost-Brücke
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Taverne
 ---

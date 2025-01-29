@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Tempel der Liebe
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Tempel
 ---

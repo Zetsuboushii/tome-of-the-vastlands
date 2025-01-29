@@ -4,7 +4,9 @@ title: Kronen-Schneeberge
 natlang:
 category: places
 hasinit:
-  - Gipfelplateau
+  - Gerards Hütte
+  - Schneespitze
+  - Kronenpass
 placetype: Region
 ---
 

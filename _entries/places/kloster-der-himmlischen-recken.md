@@ -1,8 +1,7 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
-natlang:
+title: Kloster der Himmlischen Recken
 category: places
-hasinit:
 placetype: Ruine
 ---
+

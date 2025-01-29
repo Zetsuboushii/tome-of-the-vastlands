@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Windige Kirchenruine
+title: Schicksalspass
 natlang:
 category: places
 hasinit:
-placetype: Ruine
+placetype: Bergpass
 ---
