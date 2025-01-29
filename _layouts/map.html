@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home" style="overflow-y: scroll; scrollbar-width: none;">
+    {%- if page.title -%}
+        <div class="page-heading">
+            <h2>{{ page.title }}</h2>
+        </div>
+    {%- endif -%}
+
+    Eine Vollbildversion der Vastlands Map ist <a href="https://map.zetsuboushii.site">hier</a> erreichbar.
+    <iframe src="https://map.zetsuboushii.site/?marker={{ page.title }}" style="width: 99%; height: 75vh"></iframe>
+</div>
