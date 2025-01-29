@@ -194,25 +194,25 @@ layout: default
                 {% endif %}
             </table>
 
-                <h4><b>Daten</b></h4>
-                <table>
-                    {% if page.height %}
-                        <tr>
-                            <td><b>Größe</b></td>
-                            <td>
-                                {{ page.height | replace: '.', ',' }}m
-                            </td>
-                        </tr>
-                    {% endif %}
-                    {% if page.weight %}
-                        <tr>
-                            <td><b>Gewicht</b></td>
-                            <td>
-                                {{ page.weight }}kg
-                            </td>
-                        </tr>
-                    {% endif %}
-                    <!--
+            <h4><b>Daten</b></h4>
+            <table>
+                {% if page.height %}
+                    <tr>
+                        <td><b>Größe</b></td>
+                        <td>
+                            {{ page.height | replace: '.', ',' }}m
+                        </td>
+                    </tr>
+                {% endif %}
+                {% if page.weight %}
+                    <tr>
+                        <td><b>Gewicht</b></td>
+                        <td>
+                            {{ page.weight }}kg
+                        </td>
+                    </tr>
+                {% endif %}
+                <!--
                     {% if page.bust %}
                         <tr>
                             <td><b>Brustumfang</b></td>
@@ -254,7 +254,7 @@ layout: default
                         </tr>
                     {% endif %}
                     -->
-                </table>
+            </table>
 
             <h4><b>Profession</b></h4>
             <table>
@@ -401,11 +401,15 @@ layout: default
             <hr>
 
             {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
-            {% if placetypes contains page.placetype %}
+
+            <iframe src="https://zetsuboushii.github.io/vastlands-map/index.html?maker={{ page.title | downcase }}"
+                    title="Vastlands Map" style="width: 400px; height: 400px"></iframe>
+
+            <!--{% if placetypes contains page.placetype %}
                 <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
                      alt="">
                 <hr>
-            {% endif %}
+            {% endif %}-->
 
             <h4><b>Allgemeine Informationen</b></h4>
             <table>
