@@ -23,8 +23,8 @@ email: zetsuboushii@gmail.com
 description: >-
 baseurl: ""
 url: ""
-imgurl: "https://zetsuboushii.github.io/image-host/dnd"
-simgurl: "https://zetsuboushii.github.io/image-host/resized/dnd"
+imgurl: "https://images.zetsuboushii.site/dnd"
+simgurl: "https://images.zetsuboushii.site/image-host/resized/dnd"
 buildno: v2.ඞ
 currentDate: 23-12-394
 
