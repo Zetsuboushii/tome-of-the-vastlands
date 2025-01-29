@@ -402,8 +402,8 @@ layout: default
 
             {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
 
-            <iframe src="https://map.zetsuboushii.site/?marker={{ page.title }}"
-                    title="Vastlands Map" style="width: 400px; height: 400px"></iframe>
+            <iframe class="map-view-small" src="https://map.zetsuboushii.site/?marker={{ page.title }}"
+                    title="Vastlands Map"></iframe>
 
             <!--{% if placetypes contains page.placetype %}
                 <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"

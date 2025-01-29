@@ -290,6 +290,15 @@
   }
 }
 
+.map-view-small {
+  width: 400px;
+  height: 400px;
+
+  @media (max-width: 768px) {
+   max-width: 100%;
+  }
+}
+
 .use-box {
   border: 25px solid;
   border-image: url("/assets/imgs/ui/border-golden.png") 40 stretch;
