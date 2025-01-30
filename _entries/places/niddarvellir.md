@@ -6,6 +6,8 @@ placetype: Stadt
 demography: 296
 supplement: Stadt der Verbannten
 leader: [ Iddra, Oberhaupt ]
+hasinit:
+  - Schattenschwarzmarkt
 ---
 
 Niddarvellir gilt als kriminellste Stadt Faergrias. Nicht weiter verwunderlich, da diese alte verlassene Stadt von den

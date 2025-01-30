@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Altar der Funken
+title: Zugewachsene Grotte
 natlang:
 category: places
 hasinit:
-placetype: Schrein
+placetype: Grotte
 ---

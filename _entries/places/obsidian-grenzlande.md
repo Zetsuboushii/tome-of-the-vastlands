@@ -3,9 +3,10 @@ layout: usepage
 title: Obsidian-Grenzlande
 category: places
 hasinit:
-  - Banditenlager
+  - Banditen-Straßensperre
   - Elpis
   - Kloster Schicksalsweg
+  - Grabmal der Alten Fürsten
 placetype: Region
 ---
 

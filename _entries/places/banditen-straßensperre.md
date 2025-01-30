@@ -1,8 +1,8 @@
 ---
 layout: usepage
-title: Banditenlager
+title: Banditen-Straßensperre
 category: places
-placetype: Wegpunkt
+placetype: Lager
 ---
 
 in Haufen abtrünniger Bewohner Hals haben sich zusammengerauft und eine Straßensperre errichtet. Jeder der hier

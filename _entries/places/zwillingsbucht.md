@@ -4,6 +4,7 @@ title: Zwillingsbucht
 natlang:
 category: places
 hasinit:
+  - Östliche Turmruine
 placetype: Region
 ---
 

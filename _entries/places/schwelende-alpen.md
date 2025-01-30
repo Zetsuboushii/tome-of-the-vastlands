@@ -4,7 +4,10 @@ title: Schwelende Alpen
 natlang:
 category: places
 hasinit:
-  - Glutberg
+  - Glühender Bergpass
+  - Feuersanktuarium
+  - Zugewachsene Grotte
+  - Altar der Funken
   - Nifl
 placetype: Region
 ---

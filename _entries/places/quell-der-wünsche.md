@@ -1,8 +1,9 @@
 ---
 layout: usepage
-title: Altar der Funken
+title: Quell der Wünsche
 natlang:
 category: places
 hasinit:
-placetype: Schrein
+placetype: Tempel
 ---
+

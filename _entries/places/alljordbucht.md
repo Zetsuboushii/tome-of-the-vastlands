@@ -6,6 +6,6 @@ category: places
 hasinit:
   - Brodia
   - Hufeisen-Taverne
-  - Sägewerk am See
+  - Hindriks Sägemühle
 placetype: Region
 ---

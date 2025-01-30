@@ -1,6 +1,6 @@
 ---
 layout: usepage
-title: Sägewerk am See
+title: Hindriks Sägemühle
 category: places
 placetype: Wegpunkt
 ---

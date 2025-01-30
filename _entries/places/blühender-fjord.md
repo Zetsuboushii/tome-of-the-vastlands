@@ -4,6 +4,8 @@ title: Blühender Fjord
 category: places
 hasinit:
   - Frelia
+  - Blütenschloss Frelia
+  - Taverne an der Südstraße
 placetype: Region
 ---
 
