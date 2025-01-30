@@ -2,13 +2,14 @@
 layout: usepage
 title: Kradian
 category: places
-subtitle: Kaiserreich
+subtitle: Königreich
 hasinit:
   - Mesmudor
   - Zarashan
-placetype: Kaiserreich
+  - Riesstedt
+placetype: Königreich
 system: Absolute Monarchie
-leader: 
+leader: "König ???"
 capital: Mesmudor
 ---
 
