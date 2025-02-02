@@ -7,12 +7,11 @@ categories:
 character_title: Großmeister der Drachenritter
 race: Menschen
 sex: m
-birthday: 6.6.322
+birthday: 6.6.351
 height:
 affiliations:
-  - Drachenritter von Orrin
 functions:
-  - Meister der damal. Drachenritter von Orrin
+  - Damaliger Drachenritter von Orrin
 class: Kämpfer
 subclasses:
   - Kavallerist
