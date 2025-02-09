@@ -23,6 +23,8 @@ homes:
 alignment: CG
 alive: true
 relationships:
+alt_imgs:
+  - Pre-Death
 ---
 
 <!--more-->
