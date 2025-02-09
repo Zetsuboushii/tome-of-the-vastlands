@@ -1,7 +1,6 @@
 ---
 layout: usepage
-title: Cassius
-surname: von Schattenberg
+title: Malusdur
 categories:
   - character
   - NPC
@@ -21,6 +20,8 @@ class: Adliger
 homes:
   - Aegir
 alignment: NE
+aliases:
+  - [ Cassius von Schattenberg, Deckname als Minister ]
 alive: true
 relationships:
   - [ Gralnach, König ]
