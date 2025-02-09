@@ -8,7 +8,7 @@ character_title: Götterverspeisende Ratte
 race: Ratte
 sex: m
 birthday: 
-height: 30
+height: 0.03
 weight: 0.425
 bust: 
 underbust:
