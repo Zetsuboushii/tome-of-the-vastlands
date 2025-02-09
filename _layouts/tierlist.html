@@ -46,14 +46,16 @@ layout: default
             {% endfor %}
         </div>
 
-        <button class="tierlist-buttons" onclick="downloadJSON()">Download Tierlist</button>
-        <input class="tierlist-buttons" type="file" id="uploadJSON" accept=".json" onchange="loadJSON(event)">
-        <div class="user-inputs">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
+        <div class="tierlist-buttons">
+            <div class="user-inputs">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
 
-            <label for="sessionno">Session Number:</label>
-            <input type="text" id="sessionno" name="sessionno" placeholder="Enter session number">
+                <label for="sessionno">Session Number:</label>
+                <input type="text" id="sessionno" name="sessionno" placeholder="Enter session number">
+            </div>
+            <button onclick="downloadJSON()">Download Tierlist</button>
+            <input type="file" id="uploadJSON" accept=".json" onchange="loadJSON(event)">
         </div>
     </div>
 </div>
