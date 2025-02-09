@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Verschlingen
+title: Säurespucke
 category: action
-range: 5
+range: 30
 cooldown:
 aoe: single
 hitbonus:
 savereq: [ dex, 17 ]
 damage:
-  - [ 3d10, acid ]
+  - [ 8d6+3, acid ]
 effects:
-  - [ restrained, 2r ]
+  - [ ac-1, 2r ]
 ---

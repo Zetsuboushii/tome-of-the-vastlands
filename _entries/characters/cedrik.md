@@ -20,8 +20,10 @@ subclasses:
 homes:
   - Niddarvellir
 alignment: NE
-alive: false
+alive: unbekannt
+alt_imgs:
+  - Artwork
 ---
 
-Ein durch die Lande streifender Betrüger, der seine Opfer ermordet und sich mit Hilfe von Illusionsmagie in jenes Opfer
+Ein durch die Lande streifender Betrüger, der seine Opfer ermordet und sich mithilfe von Illusionsmagie in jenes Opfer
 verwandelt, um unbemerkt im Haushalt des Opfers unterzukommen.

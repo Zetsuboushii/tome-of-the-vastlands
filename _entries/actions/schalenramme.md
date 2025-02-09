@@ -4,7 +4,7 @@ title: Schalenramme
 category: action
 range: 10
 cooldown:
-aoe: single
+aoe: line
 hitbonus: 6
 savereq:
 damage:

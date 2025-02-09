@@ -24,7 +24,7 @@ masterclass: Erzmagier des Dunkelsten Abgrunds
 homes:
   - Gebirge der Sünde
 alignment: CG
-alive: verschollen
+alive: true
 relationships:
   - [ Thanatos, Vater ]
   - [ Cinnabar, Kleine Schwester ]
