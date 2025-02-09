@@ -94,9 +94,9 @@ layout: default
                 <div class="multiple-img-buttons">
                     {% if page.alt_imgs contains "Artwork" %}
                         {% for img in page.alt_imgs %}
-                            <button onclick="openImg('{{ img | downcase }}')">{{ img }}</button>
+                            <button onclick="openImg('{{ img | downcase }}')">{% if forloop.first %}{{ page.title }}{% else %}{{ img }}{% endif %}</button>
                         {% endfor %}
-                        <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
+                        <button onclick="openImg('{{ page.title | downcase }}')">AI-Portrait</button>
                     {% else %}
                         <button onclick="openImg('{{ page.title | downcase }}')">{{ page.title }}</button>
                         {% for img in page.alt_imgs %}
