@@ -793,12 +793,6 @@ Equipment
   align-items: center;
   overflow: hidden;
 
-  @for $i from 1 through 10 {
-    &:nth-of-type(#{$i}) {
-      background-color: hsl(($i * 25) 70% 70% / 30%);
-    }
-  }
-
   h2 {
     margin: 0 10px 0 0;
     vertical-align: center;
