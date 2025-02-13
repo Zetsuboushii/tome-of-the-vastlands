@@ -38,6 +38,21 @@ layout: none
         {% endfor %}
         ],
         "alignment": "{{ character.alignment }}",
+        "affiliations": [
+        {% for affilitation in character.affiliations %}
+            ["{{ affiliation }}"]{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+        ],
+        "likes": [
+        {% for like in character.likes %}
+            ["{{ like }}"]{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+        ],
+        "dislikes": [
+        {% for dislike in character.dislikes %}
+            ["{{ dislike }}"]{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+        ],
         "status": "{{ character.alive }}",
         "relationships": [
         {% for relation in character.relationships %}

@@ -26,6 +26,21 @@ homes:
   - Tempel der Zeit
 alignment: CG
 alive: true
+likes:
+  - Plüschtiere
+  - Alleinsein
+  - Ordnung
+  - Kontrolle
+  - Geschichte
+  - Nebel
+  - Tee
+  - Nacht
+dislikes:
+  - Faule Personen
+  - Emotionale Personen
+  - Festivitäten
+  - Insekten
+
 ---
 
 Die leicht eingeschnappte Hohefürstin der Zeit treibt sich meist alleine in ihrem Tempel jenseits der Zeit herum. Amlin

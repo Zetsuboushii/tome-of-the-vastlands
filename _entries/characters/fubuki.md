@@ -33,6 +33,22 @@ relationships:
   - [ Scarlet, Gute Freundin ]
 alt_imgs:
   - Artwork
+likes:
+  - Süßigkeiten
+  - Süßspeisen
+  - Große Klingenwaffen
+  - Winter
+  - Tiere
+  - Glühwein
+  - Kuscheln
+dislikes:
+  - Hitze
+  - Bitteres Essen
+  - Wie ein Kind behandelt werden
+  - Gespenster
+  - Viele Personen
+  - Böse Personen
+
 ---
 
 Fubuki, die Hohefürstin des Eises, ist ein kleines, scheinbar unschuldiges Wesen, das die schneebedeckten

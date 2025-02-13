@@ -30,6 +30,17 @@ alive: true
 relationships:
   - [ Felix, Heimliche Liebe und Glaubensbruder ]
   - [ Perrotus, Ziehvater ]
+likes:
+  - Glaube
+  - Kräutertee
+  - Katzen
+  - Ruhe
+dislikes:
+  - Unordnung
+  - Unruhe
+  - Insekten
+  - Spät aufstehen
+
 ---
 
 Carmesine ist eine gutherzige, reine Nonne im Kloster Schicksalsweg in Fürstentum Hal und lernt aktuell bei Vater

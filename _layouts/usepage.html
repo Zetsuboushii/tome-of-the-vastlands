@@ -371,6 +371,30 @@ layout: default
                         </td>
                     </tr>
                 {% endif %}
+
+                {% if page.likes %}
+                    <tr>
+                        <td><b>Mag</b></td>
+                        <td>
+                            {% assign likes = page.likes | sort %}
+                            {% for l in likes %}
+                                {{ l }}{% unless forloop.last %},{% else %}.{%endunless%}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endif %}
+
+                {% if page.dislikes %}
+                    <tr>
+                        <td><b>Mag nicht</b></td>
+                        <td>
+                            {% assign dislikes = page.dislikes | sort %}
+                            {% for d in dislikes %}
+                                {{ d }}{% unless forloop.last %},{% else %}.{%endunless%}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endif %}
             </table>
 
             <h4><b>Persönlicher Status</b></h4>
