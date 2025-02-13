@@ -106,7 +106,8 @@ layout: default
                 </div>
                 {% if page.alt_imgs contains "Artwork" %}
                     {% for img in page.alt_imgs %}
-                        <div id="{{ img | downcase }}" class="char-img" {% unless forloop.first %}style="display:none"{%endunless%}>
+                        <div id="{{ img | downcase }}" class="char-img"
+                             {% unless forloop.first %}style="display:none"{% endunless %}>
                             <img src="{{ site.imgurl }}/characters/{{ page.title | downcase }} {{ img | downcase }}.png"
                                  alt="">
                         </div>
@@ -421,7 +422,34 @@ layout: default
 
             {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
 
-            <iframe class="map-view-small" src="https://map.zetsuboushii.site/?marker={{ page.title }}"></iframe>
+            {% assign current_page_obj = page %}
+            {% assign territorialstaat = "" %}
+            {% assign max_iterations = 5 %}
+
+            {% for i in (1..max_iterations) %}
+                {% if current_page_obj.placetype == "Territorialstaat" %}
+                    {% assign territorialstaat = current_page_obj %}
+                    {% break %}
+                {% endif %}
+
+                {% assign parent_page = "" %}
+                {% for p in site.entries %}
+                    {% if p.hasinit contains current_page_obj.title %}
+                        {% assign parent_page = p %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+
+                {%- if parent_page %}
+                    {% assign current_page_obj = parent_page %}
+                {%- else %}
+                    {%- break -%}
+                {%- endif %}
+            {% endfor %}
+
+            {{ territorialstaat.title }} {{ page.title }}
+            <iframe class="map-view-small"
+                    src="https://map.zetsuboushii.site/?map={{ territorialstaat.title }}&marker={{ page.title }}"></iframe>
 
             <!--{% if placetypes contains page.placetype %}
                 <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
