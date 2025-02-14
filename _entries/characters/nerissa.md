@@ -27,6 +27,24 @@ homes:
 alignment: CN
 alive: true
 relationships:
+  - [ Till, Kindheitsfreund ]
+lover: Till
+likes:
+  - Gebackene Äpfel
+  - Katzen
+  - Sommer
+  - Sprudelwasser
+  - Berge
+  - Fische
+  - Aufrichtigkeit
+  - Harmonie
+  - Haushaltsarbeit
+dislikes:
+  - Aufdringliche Personen
+  - Protokolle
+  - Monster
+  - Alkohol
+
 ---
 
 <!--more-->

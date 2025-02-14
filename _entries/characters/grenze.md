@@ -38,6 +38,18 @@ relationships:
   - [ Nayru, Anerkannte Rivalin ]
 alt_imgs:
   - Artwork
+likes:
+  - Stärke
+  - Mut
+  - Duelle
+  - Kontrolle
+  - Anerkennung
+dislikes:
+  - Menschen
+  - Schwächlinge
+  - Übermut
+  - Erinnerungen an früher
+
 ---
 
 Die hoch angesehene Leibgarde des Herzogs von Markath. Im Kampf macht sie mit ihren Feinden kurzen Prozess. Wer sich mit

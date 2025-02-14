@@ -22,5 +22,18 @@ alignment: NG
 alive: true
 relationships:
   - [ Nerissa, Kindheitsfreundin ]
+lover: Nerissa
+likes:
+  - Fische
+  - Angeln
+  - Zurückhaltende Personen
+  - Zuneigung
+  - Harmonie
+dislikes:
+  - Bedrohliche Personen
+  - Enge Räume
+  - Unordnung
+  - Spontanität
+
 ---
 

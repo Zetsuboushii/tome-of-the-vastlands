@@ -34,6 +34,22 @@ relationships:
   - [ Kaze, Freund ]
   - [ Hama, Gute Freundin ]
   - [ Seloue, Bekannte ]
+likes:
+  - Mut
+  - Direkte Kommunikation
+  - Avilas Essen
+  - Freunde
+  - Festivitäten
+  - Aufrichtigkeit
+  - Regen
+  - Schmieden
+  - Rüstungen
+dislikes:
+  - Alkohol
+  - Bücher
+  - Ignoriert werden
+  - Hunde
+  - Haushaltsarbeit
 
 ---
 

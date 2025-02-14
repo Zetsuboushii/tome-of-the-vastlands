@@ -26,6 +26,19 @@ alive: true
 relationships:
   - [ Hosgrid, Langjähriger Freund ]
   - [ Karl, Bruder ]
+likes:
+  - Apfelwein
+  - Karl
+  - Gute Gespräche mit Kunden
+  - Festivitäten
+  - Hackbraten
+  - Seine Taverne
+  - Freundschaften schließen
+dislikes:
+  - Voreingenommene Personen
+  - Schmarotzer
+  - Aufdringliche Personen
+
 ---
 
 Der liebenswürdige, wenn auch etwas tollpatschige Wirt aus Dünsberg. Als Kind schon half er seinen Eltern in der Taverne

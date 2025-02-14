@@ -35,6 +35,23 @@ relationships:
   - [ Craindre, Rivalin ]
 alt_imgs:
   - Artwork
+likes:
+  - Geld
+  - Katzen
+  - Orangen
+  - Macht
+  - Untergebene
+  - Rotwein
+  - Weiblichkeit
+  - Parfüm
+  - Strohblumen
+dislikes:
+  - Ungehorsamkeit
+  - Widerworte
+  - Arroganz
+  - Unsauberkeit
+  - Putzen
+
 ---
 
 Als Hohefürstin der Gier hat Iddra in Niddarvellir, Stadt der Verbannten ihren Platz gefunden. Dort hat sie sich in
