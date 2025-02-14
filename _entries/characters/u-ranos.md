@@ -61,6 +61,28 @@ relationships:
   - [ Felix, Schüler in Spe ]
   - [ Avarne, Freund ]
 lover: Eliza
+likes:
+  - Rüstungen
+  - Mut
+  - Saufgelager
+  - Feiern in Bekanntenkreisen
+  - Heldengeschichten
+  - Frühling
+  - Freiluftbäder
+  - Schlechte Witze
+  - Sticheln
+  - Herzliches Lachen
+  - Hoffnung in all ihren Formen
+  - Sterne
+dislikes:
+  - Durch Rang erzwungener Respekt
+  - Fliegen
+  - Arroganz
+  - Blinder Gehorsam
+  - Übertriebene Ernsthaftigkeit
+  - Gleichgültigkeit gegenüber Konsequenzen für Andere
+  - Juristische Gerichte
+  - Gefühlsmaskerade
 alt_imgs:
   - Rüstungsform
 ---
