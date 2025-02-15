@@ -1,0 +1,12 @@
+Faergria: Gotisch
+    Adrestia: Gotisch
+    Escrigria: Angelsächsisch
+    Farodris: Latein
+    Hal: Altfranzösisch
+    Hydracion: /
+    Inidal: /
+    Kluirm: Keltisch
+    Thaugrien: Althochdeutsch
+    Tinorland: Isländisch
+
+Kouyoukuni:

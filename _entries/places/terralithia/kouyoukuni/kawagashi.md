@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Kawagashi
-natlang: [ 川樫, Fluss-Eiche ]
+natlang: [ 川樫, Eichenfluss ]
 category: places
 placetype: Hauptstadt
 demography: 
