@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Jofina
 surname: von Salten
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: place
 title: Animus
 category: places
 hasinit:

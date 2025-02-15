@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Dorian
 surname: von Windthal
 categories:

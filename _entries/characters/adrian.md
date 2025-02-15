@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Adrian
 surname: von Waldegrav
 categories:

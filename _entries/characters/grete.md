@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Grete
 categories:
   - character

@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Eliza
 surname: von Nordholm
 categories:

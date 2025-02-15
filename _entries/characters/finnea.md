@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Finnea
 categories:
   - character

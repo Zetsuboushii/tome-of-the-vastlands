@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Almund
 categories:
   - character

@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Konrad
 surname: von Silberbach
 categories:

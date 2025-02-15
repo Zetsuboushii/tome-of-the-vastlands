@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Narcian
 surname: von Aegir
 categories:

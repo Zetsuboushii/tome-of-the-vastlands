@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Balthus
 categories:
   - character

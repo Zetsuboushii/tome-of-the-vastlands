@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Isabella
 surname: von Natrow
 categories:

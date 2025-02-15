@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Jervar
 surname: von Grenbrock
 categories:

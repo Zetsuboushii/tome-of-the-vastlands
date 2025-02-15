@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Amlin
 categories:
   - character

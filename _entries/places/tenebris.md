@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: place
 title: Tenebris
 category: places
 hasinit:

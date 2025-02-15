@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Cathlen
 surname: von Aegir
 categories:

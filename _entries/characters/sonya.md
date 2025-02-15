@@ -1,5 +1,5 @@
 ---
-layout: usepage
+layout: character
 title: Sonya
 surname: von Frelia
 categories:
