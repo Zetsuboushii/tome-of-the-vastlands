@@ -103,7 +103,7 @@ layout: default
         <table>
             {% assign current_page_url = page.url | url_decode %}
             {% assign current_page_title = "/" | append: page.title | replace: " ", "-" | downcase %}
-            {% assign url_stripped = current_page_url | remove: current_page_title | url_encode %}
+            {% assign url_stripped = current_page_url | remove: current_page_title %}
             {% assign filtered_entries = site.entries | where_exp: "p", "p.url == url_stripped" | sort: 'title' %}
             {% if filtered_entries.size > 0 %}
                 <tr>
