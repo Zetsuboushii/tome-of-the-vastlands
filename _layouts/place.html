@@ -122,7 +122,15 @@ layout: default
 
             {% assign current_page_url = page.url %}
             {% assign current_page_url_count = current_page_url | split: "/" | size | plus: 1 %}
-            {% assign filtered_entries = site.entries | where_exp: "p", "p.url != current_page_url and p.url contains current_page_url" | sort: 'title' %}
+            {% assign all_entries = site.entries | where_exp: "p", "p.url != current_page_url" %}
+            {% assign filtered_entries = "" | split: "," %}
+            {% for p in site.entries %}
+                {% if p.url != current_page_url and p.url contains current_page_url %}
+                    {% assign filtered_entries = filtered_entries | push: p %}
+                {% endif %}
+            {% endfor %}
+            {% assign filtered_entries = filtered_entries | sort: 'title' %}
+
             {% if filtered_entries.size > 0 %}
                 <tr>
                     <td><b>Enthält</b></td>
