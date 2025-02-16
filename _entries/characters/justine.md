@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Geist der Legendären Klinge 
-race: Schutzgeist
+race: Schutzgeiste
 sex: w
 birthday: 
 height: 1.42
