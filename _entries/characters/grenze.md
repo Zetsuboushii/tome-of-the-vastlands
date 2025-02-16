@@ -27,7 +27,7 @@ subclasses:
 homes:
   - Llurthargothr
 alignment: LN
-alive: true
+alive: unbekannt
 relationships:
   - [ Horizont, Herr und Retter ]
   - [ Morgen, Herrin ]
