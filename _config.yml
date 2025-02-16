@@ -20,7 +20,7 @@
 
 title: Tome of the Vastlands
 email: zetsuboushii@gmail.com
-description: >-
+description: "Eine Sammlung von D&D-Einträgen"
 baseurl: ""
 url: ""
 imgurl: "https://images.zetsuboushii.site/dnd"
@@ -39,7 +39,6 @@ collections:
 theme: minima
 plugins:
   - jekyll-feed
-  - jsonify
   - jekyll-redirect-from
 
 # Exclude from processing.
