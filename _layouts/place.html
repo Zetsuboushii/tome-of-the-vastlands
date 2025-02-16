@@ -101,35 +101,33 @@ layout: default
 
         <h4><b>Standort</b></h4>
         <table>
-            {% assign current_page_url = page.url | url_decode %}
-            {% assign current_page_title = "/" | append: page.title | replace: " ", "-" | downcase %}
-            {% assign url_stripped = current_page_url | remove: current_page_title %}
-            {% assign filtered_entries = site.entries | where_exp: "p", "p.url == url_stripped" | sort: 'title' %}
-            {% if filtered_entries.size > 0 %}
-                <tr>
-                    <td><b>Liegt in</b></td>
-                    <td>
-                        <ul>
-                            {% for item in filtered_entries %}
+            {% assign segments = page.url | split: "/" | reject: "" %}
+            {% assign num_segments = segments | size %}
+
+            {% if num_segments > 1 %}
+                {% assign num_segments_minus_1 = num_segments | minus: 1 %}
+                {% assign parent_segments = segments | slice: 0, num_segments_minus_1 %}
+                {% assign parent_url_core = parent_segments | join: "/" %}
+                {% assign parent_url = parent_url_core | append: "/" %}
+                {% assign parent_page = site.entries | where: "url", parent_url | first %}
+                {% if parent_page %}
+                    <tr>
+                        <td><b>Liegt in</b></td>
+                        <td>
+                            <ul>
                                 <li>
-                                    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                                    <a href="{{ parent_page.url | relative_url }}">{{ parent_page.title }}</a>
                                 </li>
-                            {% endfor %}
-                        </ul>
-                    </td>
-                </tr>
+                            </ul>
+                        </td>
+                    </tr>
+                {% endif %}
             {% endif %}
 
             {% assign current_page_url = page.url %}
             {% assign current_page_url_count = current_page_url | split: "/" | size | plus: 1 %}
-            {% assign all_entries = site.entries | where_exp: "p", "p.url != current_page_url" %}
-            {% assign filtered_entries = "" | split: "," %}
-            {% for p in site.entries %}
-                {% if p.url != current_page_url and p.url contains current_page_url %}
-                    {% assign filtered_entries = filtered_entries | push: p %}
-                {% endif %}
-            {% endfor %}
-            {% assign filtered_entries = filtered_entries | sort: 'title' %}
+            {% assign filtered_entries = site.entries | where_exp: "p", "p.url != current_page_url" %}
+            {% assign filtered_entries = filtered_entries | where_exp: "p", "p.url contains current_page_url" | sort: 'title' %}
 
             {% if filtered_entries.size > 0 %}
                 <tr>
