@@ -42,6 +42,8 @@ dislikes:
   - Blumen
   - Tiere
   - Widerworte
+alt_imgs:
+  - Artwork
 
 ---
 
