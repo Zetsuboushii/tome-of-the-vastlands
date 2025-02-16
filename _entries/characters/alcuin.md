@@ -4,7 +4,7 @@ title: Alcuin
 categories:
   - character
   - NPC
-character_title: 
+character_title: Rachsüchtiger Seelenschmied
 race: Götter
 sex: m
 height: 2.37
@@ -18,6 +18,6 @@ alive: unbekannt
 relationships:
   - [ Justicia, Schwester ]
   - [ Fortuna, Schwester ]
-published: false
+
 ---
 
