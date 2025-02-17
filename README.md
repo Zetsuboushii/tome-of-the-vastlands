@@ -29,7 +29,7 @@
 Dieses Wiki dient als ergänzendes Tool für Sessions, indem Lore und Gameplay-Mechaniken schnell und einfach nachgeschaut
 werden können.
 
-Die Seite ist unter https://zetsuboushii.github.io/tome-of-the-vastlands/ erreichbar
+Die Seite ist unter https://tome.zetsuboushii.site/ erreichbar.
 
 ## 2. Mitwirkende
 
@@ -40,7 +40,7 @@ Die Seite ist unter https://zetsuboushii.github.io/tome-of-the-vastlands/ erreic
 
 ## 3. API-Referenz
 
-Alle JSON-Files können unter dem Base-Path https://zetsuboushii.github.io/tome-of-the-vastlands/api/ verfügbar.
+Alle JSON-Files können unter dem Base-Path https://tome.zetsuboushii.site/api/ verfügbar.
 
 ### actions.json
 
