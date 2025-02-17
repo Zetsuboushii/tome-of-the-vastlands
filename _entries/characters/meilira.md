@@ -33,7 +33,7 @@ relationships:
   - [ O-Gall, Cousin ]
   - [ U-Ranos, Cousin ]
   - [ Justicia, Tante ]
-  - [ Unbenannter Gott, Onkel ]
+  - [ Alcuin, Onkel ]
   - [ Eliza, Freundin ]
   - [ Nayru, Freundin ]
 ---

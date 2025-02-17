@@ -34,7 +34,7 @@ relationships:
   - [ U-Ranos, Bruder ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
-  - [ Unbenannter Gott, Onkel ]
+  - [ Alcuin, Onkel ]
 ---
 
 O-Gall ist ein Engel und ein Recke der Justicia, bekannt als die "Himmlische Bestrafung". Seine Rolle am Hof der

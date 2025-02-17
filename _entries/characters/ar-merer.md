@@ -31,8 +31,19 @@ relationships:
   - [ U-Ranos, "Bruder, Rivale" ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
-  - [ Unbenannter Gott, Onkel ]
+  - [ Alcuin, Onkel ]
   - [ Thanatos, Todfeind ]
+likes:
+  - Gerichtsprozesse
+  - Gewinnen
+  - Aufmerksamkeit seiner Mutter
+  - Macht
+dislikes:
+  - Gruppenarbeiten
+  - Unrecht haben
+  - Familie
+  - Widerworte
+
 ---
 
 Ar-Merer ist ein Engel und einer der Recken der Justicia, bekannt als der "Erbarmungslose Inquisitor". Er dient als

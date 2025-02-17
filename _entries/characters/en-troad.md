@@ -35,7 +35,7 @@ relationships:
   - [ U-Ranos, Bruder ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
-  - [ Unbenannter Gott, Onkel ]
+  - [ Alcuin, Onkel ]
 ---
 
 En-Troad ist ein Engel und ein heiliger Krieger, der als Recke der Justicia in ihrem Auftrag handelt. Seine Mission ist

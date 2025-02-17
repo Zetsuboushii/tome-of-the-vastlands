@@ -33,6 +33,17 @@ relationships:
   - [ Scarlet, gute Freundin ]
   - [ Il-Vernia, gute Freundin ]
   - [ Thanatos, guter Freund ]
+likes:
+  - Pärchen beobachten
+  - Flauschige Tiere
+  - Kamillentee
+  - Rosen
+  - Harmonie
+  - Freunden eine Freude machen
+dislikes:
+  - Streit
+  - Pöbelnde Personen
+
 ---
 
 Diese liebreizende Hohefürstin nimmt ihre Aufgabe als Verkupplerin etwas zu ernst. Eigentlich sollte sie auf Anliegen

@@ -31,7 +31,7 @@ relationships:
   - [ U-Ranos, Sohn ]
   - [ Fortuna, Schwester ]
   - [ Meilira, Nichte ]
-  - [ Unbenannter Gott, Bruder ]
+  - [ Alcuin, Bruder ]
   - [ Thanatos, guter Freund ]
   - [ Farone, gute Freundin ]
   - [ Seloue, beste Freundin ]

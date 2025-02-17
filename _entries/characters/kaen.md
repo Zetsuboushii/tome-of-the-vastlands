@@ -32,7 +32,7 @@ relationships:
   - [ Kaze, Freund ]
   - [ Scarlet, Freundin ]
   - [ U-Ranos, Freund ]
-  - [ Mysteriöser Held, Alter Freund ]
+  - [ Inoro, Alter Freund ]
 likes:
   - Grillfleisch
   - Diskussionen

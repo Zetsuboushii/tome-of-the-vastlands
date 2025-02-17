@@ -35,7 +35,7 @@ relationships:
   - [ U-Ranos, Bruder ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
-  - [ Unbenannter Gott, Onkel ]
+  - [ Alcuin, Onkel ]
   - [ Avila, Gute Freundin ]
   - [ Zora, Gute Freundin ]
 ---

@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Knuffiges Eis des Nordens
-race: Schutzgeist
+race: Schutzgeister
 sex: w
 height: 1.44
 weight: 35
@@ -29,7 +29,7 @@ relationships:
   - [ Zora, Freundin ]
   - [ Rai, Freund ]
   - [ Kaze, Freund ]
-  - [ Mysteriöser Held, Alter Freund ]
+  - [ Inoro, Alter Freund ]
   - [ Scarlet, Gute Freundin ]
 alt_imgs:
   - Artwork

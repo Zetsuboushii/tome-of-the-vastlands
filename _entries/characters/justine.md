@@ -5,7 +5,7 @@ categories:
   - character
   - NPC
 character_title: Geist der Legendären Klinge 
-race: Schutzgeiste
+race: Schutzgeister
 sex: w
 birthday: 
 height: 1.42
@@ -16,7 +16,7 @@ waist:
 hip: 
 shoulder_width: 
 muscle_mass: 
-class: 
+class: Schutzgeist
 subclasses:
 masterclass:
 functions: Schutzgeist des Schwertes von Orrin
@@ -27,7 +27,7 @@ alive: true
 relationships:
   - [ Inoro, Früherer Held ]
   - [ Balthus, Pfleger ]
-  - [ Nayru, Erbin ]
+  - [ Nayru, Erbin des Schwerstes ]
 
 ---
 

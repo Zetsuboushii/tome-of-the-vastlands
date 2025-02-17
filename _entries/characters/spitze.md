@@ -33,6 +33,21 @@ relationships:
   - [ Grenze, Vorgesetzte ]
   - [ Grund, "Kollege, Freunde" ]
 lover: Flüstern
+likes:
+  - Imbissbudengerichte
+  - Katzen
+  - Große Waffen
+  - Süße Dinge
+  - Kleider
+  - Hortensien
+  - Nähen
+dislikes:
+  - Hunde
+  - Ungepflegte Leute
+  - Prüfungen
+  - Höfisches Benehmen
+  - Narben
+
 ---
 
 Spitze ist die einfühlsame Zweite Richterin, bekannt für ihre "nette" Strenge. Spitze hat sich ihre Position hart

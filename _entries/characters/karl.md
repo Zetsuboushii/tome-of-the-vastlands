@@ -34,6 +34,19 @@ relationships:
   - [ Philip, Angestellter ]
   - [ Johann, Angestellter ]
   - [ Burdig, Bruder ]
+likes:
+  - Ruhe
+  - Seine Kollegen
+  - Bärenfleisch
+  - Schwarztee
+  - Pläne machen
+  - Buchhaltung
+dislikes:
+  - Siegmunds spontane Forderungen
+  - Armut
+  - Trockenes Brot
+  - Staub
+
 ---
 
 Der eifrige Butler im Jagdschloss Dünsberg. Einst unterstützte er den vorherigen Schlossherren Dorian von Windthal, seit

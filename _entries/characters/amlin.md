@@ -35,6 +35,7 @@ likes:
   - Nebel
   - Tee
   - Nacht
+  - Katzen
 dislikes:
   - Faule Personen
   - Emotionale Personen

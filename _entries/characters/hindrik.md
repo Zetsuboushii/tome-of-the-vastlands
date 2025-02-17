@@ -28,6 +28,21 @@ alignment: NG
 alive: true
 relationships:
   - [ Linus, guter Freund ]
+likes:
+  - Holz
+  - Regen
+  - Wald
+  - Natur
+  - Selbstständigkeit
+  - Kochen
+  - Minimalismus
+dislikes:
+  - Menschenmengen
+  - Tiere schlachten
+  - Holzsplitter
+  - Adlige
+  - Fisch
+
 ---
 
 Hindrik ist ein einfacher Mann, der die Sägemühle am Rande des Dorfes Brodia betreibt. Seine Tage sind von harter Arbeit

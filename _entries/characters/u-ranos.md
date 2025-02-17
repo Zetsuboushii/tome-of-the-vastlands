@@ -39,7 +39,7 @@ relationships:
   - [ O-Gall, Bruder ]
   - [ Fortuna, Tante ]
   - [ Meilira, Cousine ]
-  - [ Unbenannter Gott, Onkel ]
+  - [ Alcuin, Onkel ]
   - [ Seloue, Ziehmutter ]
   - [ Fubuki, Adoptivtochter ]
   - [ Nayru, "Reisegefährtin, engste Vertraute" ]
