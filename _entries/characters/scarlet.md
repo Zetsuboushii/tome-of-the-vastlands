@@ -53,6 +53,7 @@ likes:
   - Regen
   - Festivitäten
   - Herbst
+  - Grüntee
 dislikes:    
   - Insekten
   - Schlechte Laune

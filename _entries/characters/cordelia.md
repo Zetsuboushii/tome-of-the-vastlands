@@ -38,6 +38,21 @@ relationships:
   - [ Kristina, Cousin ]
 redirect_from:
   - /characters/cordelia-von-grenbrock/
+likes:
+  - Ehre
+  - Stärke beweisen
+  - Ausritte zu Pferd
+  - Hagebuttentee
+  - Ritter
+  - Epische Schlachten
+  - Heldengeschichten
+  - Jervar beschützen
+  - Geschichtsbücher
+dislikes:
+  - Krieg
+  - Saufgelage
+  - Deserteure
+
 ---
 
 Cordelia ist die große Schwester von Kurfürst Jervar von Grenbrock, und somit nach alter Tradition die Prinzessin von

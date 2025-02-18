@@ -36,6 +36,20 @@ relationships:
   - [ Alcuin, Onkel ]
   - [ Eliza, Freundin ]
   - [ Nayru, Freundin ]
+likes:
+  - Gerstentee
+  - Neue Kulturen kennenlernen
+  - Schwerter
+  - Duelle
+  - Backwaren
+  - Ihre Mutter
+dislikes:
+  - Aufdringliche Personen
+  - Komplizierte Dinge
+  - Sich blamieren
+  - Respektlosigkeit ihrer Mutter gegenüber
+  - Saures Essen
+
 ---
 
 Meilira ist die einzige Tochter und Reckin der Göttin Fortuna.

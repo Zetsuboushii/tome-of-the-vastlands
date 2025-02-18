@@ -35,6 +35,19 @@ relationships:
   - [ Thanatos, guter Freund ]
   - [ Farone, gute Freundin ]
   - [ Seloue, beste Freundin ]
+likes:
+  - Gerechtigkeit
+  - Familie
+  - Natur
+  - Prunkvolle Gebäude
+  - Vertrauen
+  - Nachmittagsteerunden
+  - Schmieden
+dislikes:
+  - Gerichtsprozesse
+  - Intriganz
+  - Lästereien
+
 ---
 
 Justicia, die Göttin der Gerechtigkeit und des Lichts, ist das älteste und strahlendste Wesen unter den Göttern. Sie
