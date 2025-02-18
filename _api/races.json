@@ -3,7 +3,7 @@ layout: none
 ---
 [
 {% for race in site.entries %}
-{% if race.categories contains "race" %}
+{% if race.categories contains "gentary" %}
 {% if counter > 0 %},{% endif %}
 {
     "name": "{{ race.title }}",
