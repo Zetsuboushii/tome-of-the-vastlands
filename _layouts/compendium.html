@@ -11,34 +11,69 @@ layout: default
 
     <div class="character-gallery">
         {%- if page.title -%}
-            {%- for subpage in site.entries -%}
-                {%- if subpage.category == page.compendium -%}
-                    <div class="responsive">
-                        <div class="gallery">
-                            <div class="gallery-inner">
-                                <a class="page-link" href="{{ subpage.url | relative_url }}">
-                                    {% if subpage.category == "bestiary" %}
-                                        {% if subpage.alt_imgs %}
-                                            <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }} {{ subpage.alt_imgs | first | downcase }}.png"
-                                                 alt="">
-                                        {% else %}
-                                            <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
-                                                 alt="">
-                                        {% endif %}
-                                    {% endif %}
-                                    {% if subpage.category == "linguary" %}
-                                        <img src="{{ site.imgurl }}/crests/{{ subpage.crest | downcase }}-crest.png"
+            {% assign subpages = site.entries | where_exp: "item", "item.categories contains page.compendium" | sort: "title" %}
+            {%- for subpage in subpages -%}
+                <div class="responsive">
+                    <div class="gallery">
+                        <div class="gallery-inner">
+                            <a class="page-link" href="{{ subpage.url | relative_url }}">
+                                {% if subpage.category == "bestiary" %}
+                                    {% if subpage.alt_imgs %}
+                                        <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }} {{ subpage.alt_imgs | first | downcase }}.png"
+                                             alt="">
+                                    {% else %}
+                                        <img src="{{ site.simgurl }}/enemies/{{ subpage.path | split: '/' | last | split: '.' | first }}.png"
                                              alt="">
                                     {% endif %}
-                                </a>
+                                {% endif %}
+                                {% if subpage.category == "linguary" %}
+                                    <img src="{{ site.imgurl }}/crests/{{ subpage.crest | downcase }}-crest.png"
+                                         alt="">
+                                {% endif %}
+                                {% if subpage.category == "theologary" %}
+                                    <img src="{{ site.imgurl }}/crests/{{ subpage.title | downcase | replace: " ", "-" }}-crest.png"
+                                         alt="" style="max-height: 300px">
+                                {% endif %}
+                                {% if subpage.category == "gentary" %}
+                                    {% assign char = site.entries | where_exp: "item", "item.race == subpage.title" | sample %}
+                                    <img src="{{ site.simgurl }}/characters/{{ char.path | split: '/' | last | split: '.' | first }}{% if char.alt_imgs contains "Artwork" %} artwork{% endif %}.png"
+                                         alt="">
+                                {% endif %}
+                                {% if subpage.categories contains "classary" %}
+                                    {% assign char = site.entries | where_exp: "item", "item.class == subpage.title" | sample %}
+                                    <img src="{{ site.simgurl }}/characters/{{ char.path | split: '/' | last | split: '.' | first }}{% if char.alt_imgs contains "Artwork" %} artwork{% endif %}.png"
+                                         alt="">
+                                {% endif %}
+                            </a>
+                            <h2>
                                 <a class="page-link desc"
                                    href="{{ subpage.url | relative_url }}">{{ subpage.title }}</a>
-                                <hr>
-                                <h4>{{ subpage.type }}</h4>
-                            </div>
+                            </h2>
+                            <hr>
+                            <h4>
+                                {% if subpage.category == "gentary" and subpage.ageavg %}
+                                    Lebenserwartung: {{ subpage.ageavg }} Jahre
+                                {% else %}
+                                    {{ subpage.type }}
+                                {% endif %}
+                            </h4>
+                            {% if subpage.category == "gentary" %}
+                                <h4>Hauptsächlich anzutreffen in:</h4>
+                                {% for d in subpage.domain %}
+                                    {{ d }}{% unless forloop.last %},{% endunless %}
+                                {% endfor %}
+                            {% endif %}
+                            {% if subpage.category == "linguary" %}
+                                <h4>Hauptsächlich gesprochen in:</h4>
+                                {% assign places = site.entries | where_exp: "item", "item.langs contains subpage.title" %}
+                                {% for p in places %}
+                                    <a
+                                    href="{{ p.url | relative_url }}">{{ p.title }}</a>{% unless forloop.last %},{% endunless %}
+                                {% endfor %}
+                            {% endif %}
                         </div>
                     </div>
-                {%- endif -%}
+                </div>
             {%- endfor -%}
         {%- endif -%}
     </div>

@@ -42,7 +42,7 @@ layout: default
             {% assign sorted_characters = site.entries | where: "categories", "character" | sort: "title" %}
             {% for character in sorted_characters %}
                 <img src="{{ site.simgurl }}/characters/{{ character.path | split: '/' | last | split: '.' | first }}.png"
-                     draggable="true" alt="{{ character.title | downcase }}">
+                     draggable="true" alt="{{ character.title | downcase }}" title="{{ character.title }}">
             {% endfor %}
         </div>
 
