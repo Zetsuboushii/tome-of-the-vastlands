@@ -11,7 +11,8 @@ hasinit:
   - Gletscher des Ewigen Eises
 placetype: Territorialstaat
 capital: Darnax
-leader: 
+leader:
+system: Grafschaft
 ---
 
 Dieses unliebsame, eisige Land ist die Heimat der Drakonier. Die einzige Stadt ist Darnax.

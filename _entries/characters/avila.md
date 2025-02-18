@@ -21,7 +21,7 @@ functions:
   - Hohefürstin der Liebe
 class: Hohefürst
 homes:
-  - Schrein der Harmonie
+  - Tempel der Liebe
 alignment: CG
 alive: true
 relationships:

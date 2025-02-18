@@ -11,11 +11,6 @@ layout: none
     "supplement": "{{ place.supplement }}",
     "natlang": ["{{ place.natlang[0] }}", "{{ place.natlang[1] }}"],
     "demography": {% if place.demography %}{{ place.demography }}{% else %}0{% endif %},
-    "hasInit": [
-      {% for has in place.hasinit %}
-      "{{ has }}"{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
     "placetype": "{{ place.placetype }}",
     "system": "{{ place.system }}",
     "leader": ["{{ place.leader[0] }}", "{{ place.leader[1] }}"],

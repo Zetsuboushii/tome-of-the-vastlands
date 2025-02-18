@@ -26,8 +26,13 @@ layout: default
                                                  alt="">
                                         {% endif %}
                                     {% endif %}
+                                    {% if subpage.category == "linguary" %}
+                                        <img src="{{ site.imgurl }}/crests/{{ subpage.crest | downcase }}-crest.png"
+                                             alt="">
+                                    {% endif %}
                                 </a>
-                                <a class="page-link desc" href="{{ subpage.url | relative_url }}">{{ subpage.title }}</a>
+                                <a class="page-link desc"
+                                   href="{{ subpage.url | relative_url }}">{{ subpage.title }}</a>
                                 <hr>
                                 <h4>{{ subpage.type }}</h4>
                             </div>

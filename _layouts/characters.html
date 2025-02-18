@@ -20,43 +20,25 @@ layout: default
                     {%- for subpage in site.entries -%}
                         {%- if subpage.categories contains "character" -%}
                             {% assign charplace = subpage.homes | first %}
+                            {% assign charplace_urlised = charplace | downcase | replace: " ", "-" | url_encode %}
 
-                            {% assign place = site.entries | where_exp: "item", "item.hasinit contains charplace" | first %}
-                            {% assign previous_place = "" %}
-                            {% assign before_previous_place = "" %}
+                            {% assign places_url_prefix = "places" %}
+                            {% assign place = site.entries | where_exp: "item", "item.url contains charplace_urlised" | where_exp: "item", "item.url contains places_url_prefix" | first %}
+                            {% assign country_url = place.url | url_decode | split: "/" %}
+                            {% assign country_name = country_url[3] | capitalize %}
 
-                            {% for counter in (0..10) %}
-                                {% unless place or place.title %}
-                                    {% break %}
-                                {% endunless %}
-
-                                {% if previous_place %}
-                                    {% assign before_previous_place = previous_place %}
-                                {% endif %}
-
-                                {% assign previous_place = place %}
-
-                                {% assign next_place_candidates = site.entries | where_exp: "item", "item.hasinit contains place.title" %}
-                                {% assign next_place = next_place_candidates | first %}
-
-                                {% unless next_place %}
-                                    {% if before_previous_place == "" %}
-                                        {% assign before_previous_place = place %}
-                                    {% endif %}
-                                    {% break %}
-                                {% endunless %}
-
-                                {% assign place = next_place %}
-                            {% endfor %}
+                            {% if country_url[2] == "animus" %}
+                                {% assign country_name = country_url[2] | capitalize %}
+                            {% endif %}
 
                             <div class="responsive character-item"
-                                 data-home="{% if before_previous_place.title %}{{ before_previous_place.title }}{% else %}Unbekannt{% endif %}">
+                                 data-home="{% if country_name %}{{ country_name }}{% else %}Unbekannt{% endif %}">
                                 <div class="gallery">
                                     <div class="gallery-inner">
                                         <div style="height: 0">
-                                            <img src="{{ site.imgurl }}/crests/{{ before_previous_place.title | downcase }}-crest.png"
+                                            <img src="{{ site.imgurl }}/crests/{{ country_name | downcase }}-crest.png"
                                                  alt=""
-                                                 title="{{ before_previous_place.title }}"
+                                                 title="{{ country_name }}"
                                                  style="position: relative; top: -55px; left: -80px; width: 65px; height: auto; padding: 0">
                                             <img src="{{ site.imgurl }}/crests/{{ charplace | downcase }}-crest.png"
                                                  alt=""

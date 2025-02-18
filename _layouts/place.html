@@ -37,43 +37,44 @@ layout: default
         <hr>
 
         {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
+        {% if placetypes contains page.placetype %}
+            <div class="multiple-img-buttons">
+                <button onclick="switchImg('interactive-map')">Karte</button>
+                <button onclick="switchImg('crest')">Wappen</button>
+            </div>
 
-        {% assign current_page_obj = page %}
-        {% assign territorialstaat = "" %}
-        {% assign max_iterations = 5 %}
-
-        {% for i in (1..max_iterations) %}
-            {% if current_page_obj.placetype == "Territorialstaat" %}
-                {% assign territorialstaat = current_page_obj %}
-                {% break %}
-            {% endif %}
-
-            {% assign parent_page = "" %}
-            {% for p in site.entries %}
-                {% if p.hasinit contains current_page_obj.title %}
-                    {% assign parent_page = p %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-
-            {%- if parent_page %}
-                {% assign current_page_obj = parent_page %}
-            {%- else %}
-                {%- break -%}
-            {%- endif %}
-        {% endfor %}
-
-        <iframe class="map-view-small"
-                src="https://map.zetsuboushii.site/?map={{ territorialstaat.title }}&marker={{ page.title }}"></iframe>
-
-        <!--{% if placetypes contains page.placetype %}
+            <div id="interactive-map" class="place-img" style="display: block">
+                {% assign map = page.url | split: "/" %}
+                <iframe class="map-view-small"
+                        src="https://map.zetsuboushii.site/?map={{ map[3] }}&marker={{ page.title }}"></iframe>
+            </div>
+            <div id="crest" class="place-img" style="display: none">
                 <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
                      alt="">
-                <hr>
-            {% endif %}-->
+            </div>
+        {% else %}
+            {% assign map = page.url | split: "/" %}
+            <iframe class="map-view-small"
+                    src="https://map.zetsuboushii.site/?map={{ map[3] }}&marker={{ page.title }}"></iframe>
+        {% endif %}
+
+        <hr>
 
         <h4><b>Allgemeine Informationen</b></h4>
         <table>
+            {% if page.langs %}
+                <tr>
+                    <td><b>Landessprache{% unless page.langs.size <= 1 %}n{% endunless %}</b></td>
+                    <td>
+                        <ul>
+                            {% for lang in page.langs %}
+                                {% assign lang_page = site.entries | where_exp: "item", "item.title == lang" | first %}
+                                <li><a href="{{ lang_page.url | relative_url }}">{{ lang }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+            {% endif %}
             {% if page.natlang %}
                 <tr>
                     <td><b>In Landessprache</b></td>
@@ -87,7 +88,9 @@ layout: default
             {% if page.capital %}
                 <tr>
                     <td><b>Hauptstadt</b></td>
-                    <td><a href="/places/{{ page.capital | downcase }}">{{ page.capital }}</a>
+                    <td>
+                        {% assign capital_page = site.entries | where_exp: "item", "item.title == page.capital" | first %}
+                        <a href="{{ capital_page.url | relative_url }}">{{ page.capital }}</a>
                     </td>
                 </tr>
             {% endif %}
@@ -217,6 +220,14 @@ layout: default
     </div>
 </div>
 
+<script>
+    function switchImg(imgName) {
+        const imgs = document.querySelectorAll(".place-img");
+        imgs.forEach(img => img.style.display = "none");
+        console.log(imgName);
+        console.log(document.getElementById(imgName))
+        document.getElementById(imgName).style.display = "block";
+    }
 </script>
 <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/textAdditions.js' | relative_url }}"></script>

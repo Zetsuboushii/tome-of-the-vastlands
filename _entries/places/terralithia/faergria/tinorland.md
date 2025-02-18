@@ -1,6 +1,9 @@
 ---
 layout: place
 title: Tinorland
+langs:
+  - Faergrianisch
+  - Tinorisch
 natlang: [ Tínorland, Land von Tínnor ]
 category: places
 subtitle: Großherzogtum
@@ -16,4 +19,5 @@ hasinit:
 placetype: Territorialstaat
 capital: Tinorke
 leader: [ Konrad, Stellv. Großherzog ]
+system: Großherzogtum
 ---

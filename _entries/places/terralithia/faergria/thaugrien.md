@@ -1,6 +1,9 @@
 ---
 layout: place
 title: Thaugrien
+langs:
+  - Faergrianisch
+  - Thaugrin
 natlang: [ Daugaringa, Land der Nebel ]
 category: places
 subtitle: Kurfürstentum
@@ -16,6 +19,7 @@ hasinit:
 placetype: Territorialstaat
 capital: Grenbrock
 leader: [ Jervar, Kurfürst ]
+system: Kurfürstentum
 ---
 
 Ein sehr auf seine Traditionen und den Glauben an die Göttin Justicia bedachtes Land. Burgen, Schlösser und Kirchen sind

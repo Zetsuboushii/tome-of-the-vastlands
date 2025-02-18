@@ -21,6 +21,8 @@ functions:
   - Hohefürstin der Eifersucht
 class: Hohefürst
 alignment: CE
+homes:
+  - "???"
 alive: true
 relationships:
   - [ Iddra, Freundin ]

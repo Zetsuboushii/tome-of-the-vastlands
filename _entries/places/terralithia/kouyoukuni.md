@@ -9,7 +9,7 @@ hasinit:
   - Akeyama
   - Yukimori
   - Tozawa
-placetype: Territorialstaat
+placetype: Kaiserreich
 system: Absolute Monarchie
 leader: "Kaiser ???" 
 capital: Kawagashi

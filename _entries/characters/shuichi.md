@@ -17,4 +17,7 @@ muscle_mass: 30
 class: Abenteurer
 alignment: CG
 alive: true
+homes:
+  - "Kamakura, 'Japan'"
+
 ---

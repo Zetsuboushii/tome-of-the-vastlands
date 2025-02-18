@@ -18,6 +18,7 @@ muscle_mass: 28
 class: Hohefürst
 functions: Hohefürstin der Erinnerungen
 homes:
+  - "???"
 alignment: CE 
 alive: true
 relationships:

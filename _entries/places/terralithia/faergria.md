@@ -1,6 +1,8 @@
 ---
 layout: place
 title: Faergria
+langs:
+  - Faergrianisch
 natlang: [ Fairgrius, Farbige Erde ]
 category: places
 subtitle: Vereinigtes Königreich von
@@ -14,7 +16,7 @@ hasinit:
   - Kluirm
   - Tinorland
   - Adrestia
-placetype: Territorialstaat
+placetype: Königreich
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
 capital: Aegir

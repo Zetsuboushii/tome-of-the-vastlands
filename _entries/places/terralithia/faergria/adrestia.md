@@ -1,6 +1,8 @@
 ---
 layout: place
 title: Adrestia
+langs:
+  - Faergrianisch
 natlang: [ Aprastis, Der Unausweichliche ]
 category: places
 subtitle: Königslande
@@ -19,6 +21,7 @@ hasinit:
 placetype: Territorialstaat
 capital: Aegir
 leader: [ Narcian, Prinz ]
+system: Königliche Provinz
 ---
 
 Adrestia ist das fortschrittliche Land des Königs von Faergria. Die Hauptstadt ist Aegir. Der Aegir fließt durch viele

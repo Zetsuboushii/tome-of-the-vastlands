@@ -293,7 +293,9 @@ layout: default
                     <ul>
                         {% for home in page.homes %}
                             <li>
-                                <a href="{{ '/places/' | append: home | replace: ' ', '-' | downcase | relative_url }}">
+                                {% assign home_page = site.entries | where_exp: "item", "item.title == home" | first %}
+                                {% assign home_url = home_page.url %}
+                                <a href="{{ home_url | relative_url }}">
                                     {{ home }}</a></li>
                         {% endfor %}
                     </ul>

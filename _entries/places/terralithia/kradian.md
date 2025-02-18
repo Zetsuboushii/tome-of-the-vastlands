@@ -7,7 +7,7 @@ hasinit:
   - Mesmudor
   - Zarashan
   - Riesstedt
-placetype: Territorialstaat
+placetype: Königreich
 system: Absolute Monarchie
 leader: "???"
 capital: Mesmudor

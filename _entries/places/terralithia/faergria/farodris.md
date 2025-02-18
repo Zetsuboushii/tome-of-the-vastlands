@@ -1,6 +1,10 @@
 ---
 layout: place
 title: Farodris
+langs:
+  - Faergrianisch
+  - Färon
+  - Gemeines Elfisch
 natlang: [ Pharus Auris, Leuchtturm des Ohrs ]
 category: places
 subtitle: Fürstentum
@@ -15,6 +19,7 @@ hasinit:
 placetype: Territorialstaat
 capital: Yerenas
 leader: [ Finnea, Fürstin ]
+system: Fürstentum
 ---
 
 In den diversen dichten Wäldern dieses Landes leben seit Anbeginn der Besiedelung Faergrias die Elfen. Das Zentrum aller

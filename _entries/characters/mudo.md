@@ -21,7 +21,7 @@ functions:
   - Hohefürst der Sterblichkeit
 class: Hohefürst
 homes:
-  - ?
+  - "???"
 alignment: LN
 alive: true
 relationships:

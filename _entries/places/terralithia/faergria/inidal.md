@@ -16,5 +16,6 @@ hasinit:
   - Zwielichtsteppe
 placetype: Territorialstaat
 capital: Alt-Aegir
-leader: 
+leader:
+system: Regentschaftslose Provinz
 ---
