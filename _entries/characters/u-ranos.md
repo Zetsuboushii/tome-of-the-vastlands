@@ -64,7 +64,7 @@ lover: Eliza
 likes:
   - Rüstungen
   - Mut
-  - Saufgelager
+  - Angeln
   - Feiern in Bekanntenkreisen
   - Heldengeschichten
   - Frühling
@@ -72,7 +72,7 @@ likes:
   - Schlechte Witze
   - Sticheln
   - Herzliches Lachen
-  - Hoffnung in all ihren Formen
+  - Wortwitze
   - Sterne
 dislikes:
   - Durch Rang erzwungener Respekt
@@ -80,8 +80,8 @@ dislikes:
   - Arroganz
   - Blinder Gehorsam
   - Übertriebene Ernsthaftigkeit
-  - Gleichgültigkeit gegenüber Konsequenzen für Andere
-  - Juristische Gerichte
+  - Gleichgültigkeit
+  - Gerichtsprozesse
   - Gefühlsmaskerade
 alt_imgs:
   - Rüstungsform
