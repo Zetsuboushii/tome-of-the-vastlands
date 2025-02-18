@@ -14,7 +14,7 @@ hasinit:
   - Kluirm
   - Tinorland
   - Adrestia
-placetype: Königreich
+placetype: Territorialstaat
 system: Konstitutionelle Monarchie
 leader: [ Narcian, Prinz ]
 capital: Aegir

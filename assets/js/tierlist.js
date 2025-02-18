@@ -85,6 +85,12 @@ function loadJSON(event) {
                 }
             });
         });
+
+        let user = file.name.split('_')[1]
+        let sessionNo = String(Number(file.name.split('_')[2].split('.')[0]) + 1)
+
+        document.getElementById("username").value = user
+        document.getElementById("sessionno").value = sessionNo
     };
 
     reader.readAsText(file);
