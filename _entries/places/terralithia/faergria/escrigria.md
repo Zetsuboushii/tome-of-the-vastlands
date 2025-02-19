@@ -4,7 +4,7 @@ title: Escrigria
 langs:
   - Faergrianisch
   - Escrigrisch
-natlang: [ Aescregrīeg, Escheninsel ]
+natlang: [ Æscregrīeg, Escheninsel ]
 category: places
 subtitle: Großherzogtum
 supplement: Verschneiter Norden

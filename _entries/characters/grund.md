@@ -22,8 +22,8 @@ class: Druide
 subclasses:
   - Mondwandler
 homes:
-  - Llurthargothr
   - Undraridor
+  - Llurthargothr
 alignment: NG
 alive: true
 relationships:

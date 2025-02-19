@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Nördliche Irrwälder
-natlang: [ Nordwaírwandjan-Wiggōs, Nördliche Wälder des Umherirrens ]
+natlang: [ Norðwaírwandjan-Wiggōs, Nördliche Wälder des Umherirrens ]
 category: places
 hasinit:
 placetype: Region

@@ -1,6 +1,7 @@
 ---
 layout: place
 title: Llurthargothr
+natlang: [ Lyrthargóthros, Glänzender Gesang der Morgendämmerung ]  
 category: places
 placetype: Hauptstadt
 demography: 22584

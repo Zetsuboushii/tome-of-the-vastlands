@@ -1,6 +1,9 @@
 ---
 layout: place
 title: Markath
+langs:
+  - Markathion
+natlang: [ Markáthos, Edler Markt ]
 category: places
 subtitle: Herzogtum
 hasinit:

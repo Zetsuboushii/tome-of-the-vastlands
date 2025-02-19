@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Tal der Drei Winde
-natlang: [ Dael pāra prīe Winda, Tal der Drei Winde ]
+natlang: [ Dæl þāra þrīe Winda, Tal der Drei Winde ]
 category: places
 hasinit:
   - Windige Kirchenruine

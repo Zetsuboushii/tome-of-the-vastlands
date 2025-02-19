@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Königsklippen
-natlang: [ Piudans-Klippus, Klippen des Königs ]
+natlang: [ þiudans-Klippus, Klippen des Königs ]
 category: places
 hasinit:
   - Aegir

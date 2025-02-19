@@ -3,7 +3,7 @@ layout: place
 title: Adrestia
 langs:
   - Faergrianisch
-natlang: [ Aprastis, Der Unausweichliche ]
+natlang: [ Aþrastis, Der Unausweichliche ]
 category: places
 subtitle: Königslande
 supplement:

@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Plateau der Legenden
-natlang: [ Baurgsluihaplapau, Hochebene des Ruhms ]
+natlang: [ Baurgsluihaplaþau, Hochebene des Ruhms ]
 category: places
 hasinit:
   - Orrin

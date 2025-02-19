@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Adrestia-Ebene
-natlang: [ Aprastis-Waddjus, Ebene der Unausweichlichen ]
+natlang: [ Aþrastis-Waddjus, Ebene der Unausweichlichen ]
 category: places
 hasinit:
 placetype: Region

@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Schachendorf
-natlang: [ Sceacandorp, Dorf des Kampfes ]
+natlang: [ Sceacandorþ, Dorf des Kampfes ]
 category: places
 placetype: Stadt
 demography: 986

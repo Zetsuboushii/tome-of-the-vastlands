@@ -1,7 +1,7 @@
 ---
 layout: place
 title: Nordholm
-natlang: [ Nordham, Nördliche Siedlung ]
+natlang: [ Norðham, Nördliche Siedlung ]
 category: places
 placetype: Hauptstadt
 demography: 21052

@@ -37,28 +37,29 @@ layout: default
         <hr>
 
         {% assign placetypes = "Königreich,Territorialstaat,Hauptstadt,Stadt,Dorf" %}
-        {% if placetypes contains page.placetype %}
-            <div class="multiple-img-buttons">
-                <button onclick="switchImg('interactive-map')">Karte</button>
-                <button onclick="switchImg('crest')">Wappen</button>
-            </div>
+        {% assign map = page.url | split: "/" %}
+        {% if map.size > 3 %}
+            {% if placetypes contains page.placetype %}
+                <div class="multiple-img-buttons">
+                    <button onclick="switchImg('interactive-map')">Karte</button>
+                    <button onclick="switchImg('crest')">Wappen</button>
+                </div>
 
-            <div id="interactive-map" class="place-img" style="display: block">
-                {% assign map = page.url | split: "/" %}
+                <div id="interactive-map" class="place-img" style="display: block">
+                    <iframe class="map-view-small"
+                            src="https://map.zetsuboushii.site/?map={{ map[3] | capitalize }}&marker={{ page.title }}"></iframe>
+                </div>
+                <div id="crest" class="place-img" style="display: none">
+                    <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
+                         alt="">
+                </div>
+            {% else %}
                 <iframe class="map-view-small"
-                        src="https://map.zetsuboushii.site/?map={{ map[3] }}&marker={{ page.title }}"></iframe>
-            </div>
-            <div id="crest" class="place-img" style="display: none">
-                <img src="{{ site.imgurl }}/crests/{{ page.path | split: '/' | last | split: '.' | first }}-crest.png"
-                     alt="">
-            </div>
-        {% else %}
-            {% assign map = page.url | split: "/" %}
-            <iframe class="map-view-small"
-                    src="https://map.zetsuboushii.site/?map={{ map[3] }}&marker={{ page.title }}"></iframe>
+                        src="https://map.zetsuboushii.site/?map={{ map[3] | capitalize }}&marker={{ page.title }}"></iframe>
+            {% endif %}
+            <hr>
         {% endif %}
 
-        <hr>
 
         <h4><b>Allgemeine Informationen</b></h4>
         <table>
