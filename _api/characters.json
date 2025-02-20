@@ -2,65 +2,91 @@
 layout: none
 ---
 [
+{% assign counter = 0 %}
 {% for character in site.entries %}
-    {% if character.categories contains "character" %}
-        {% if counter > 0 %},{% endif %}
-        {
-        "name": "{{ character.title }}",
-        "surname": "{{ character.surname }}",
-        "title": "{{ character.character_title }}",
-        "race": "{{ character.race }}",
-        "sex": "{{ character.sex }}",
-        "birthday": "{{ character.birthday }}",
-        "height": {% if character.height %}{{ character.height }}{% else %}0{% endif %},
-        "weight": {% if character.weight %}{{ character.weight }}{% else %}0{% endif %},
-        "bust": {% if character.bust %}{{ character.bust }}{% else %}0{% endif %},
-        "underbust": {% if character.underbust %}{{ character.underbust }}{% else %}0{% endif %},
-        "waist": {% if character.waist %}{{ character.waist }}{% else %}0{% endif %},
-        "hip": {% if character.hip %}{{ character.hip }}{% else %}0{% endif %},
-        "shoulder_width": {% if character.shoulder_width %}{{ character.shoulder_width }}{% else %}0{% endif %},
-        "muscle_mass": {% if character.muscle_mass %}{{ character.muscle_mass }}{% else %}0{% endif %},
-        "functions": [
-        {% for function in character.functions %}
-            "{{ function }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "class": "{{ character.class }}",
-        "subclasses": [
-        {% for subclass in character.subclasses %}
-            "{{ subclass }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "masterclass": "{{ character.masterclass }}",
-        "homes": [
-        {% for home in character.homes %}
-            "{{ home }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "alignment": "{{ character.alignment }}",
-        "affiliations": [
-        {% for affilitation in character.affiliations %}
-            ["{{ affiliation }}"]{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "likes": [
-        {% for like in character.likes %}
-            ["{{ like }}"]{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "dislikes": [
-        {% for dislike in character.dislikes %}
-            ["{{ dislike }}"]{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "status": "{{ character.alive }}",
-        "relationships": [
-        {% for relation in character.relationships %}
-            ["{{ relation[0] }}", "{{ relation[1] }}"]{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-        ],
-        "lover": "{{ character.lover }}"
-        }{% assign counter = counter | plus: 1 %}
-    {% endif %}
+{% if character.categories contains "character" %}
+{% if counter > 0 %},{% endif %}
+{
+"name": "{{ character.title }}",
+"surname": "{{ character.surname }}",
+"title": "{{ character.character_title }}",
+"race": "{{ character.race }}",
+"sex": "{{ character.sex }}",
+"birthday": "{{ character.birthday }}",
+"aliases": [
+{% for alias in character.alias %}
+["{{ alias[0] }}", "{{ alias[1] }}"]{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"height": {% if character.height %}{{ character.height }}{% else %}0{% endif %},
+"weight": {% if character.weight %}{{ character.weight }}{% else %}0{% endif %},
+"bust": {% if character.bust %}{{ character.bust }}{% else %}0{% endif %},
+"underbust": {% if character.underbust %}{{ character.underbust }}{% else %}0{% endif %},
+"waist": {% if character.waist %}{{ character.waist }}{% else %}0{% endif %},
+"hip": {% if character.hip %}{{ character.hip }}{% else %}0{% endif %},
+"shoulder_width": {% if character.shoulder_width %}{{ character.shoulder_width }}{% else %}0{% endif %},
+"muscle_mass": {% if character.muscle_mass %}{{ character.muscle_mass }}{% else %}0{% endif %},
+"functions": [
+{% for function in character.functions %}
+"{{ function }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"class": "{{ character.class }}",
+"subclasses": [
+{% for subclass in character.subclasses %}
+"{{ subclass }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"masterclass": "{{ character.masterclass }}",
+"homes": [
+{% for home in character.homes %}
+"{{ home }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"alignment": "{{ character.alignment }}",
+"affiliations": [
+{% for affiliation in character.affiliations %}
+"{{ affiliation }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"likes": [
+{% for like in character.likes %}
+"{{ like }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"dislikes": [
+{% for dislike in character.dislikes %}
+"{{ dislike }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"status": "{{ character.alive }}",
+"relationships": [
+{% for relation in character.relationships %}
+["{{ relation[0] }}", "{{ relation[1] }}"]{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+"lover": "{{ character.lover }}",
+"alt-images": [
+{% for img in character.alt_imgs %}
+"{{ img | downcase }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+],
+{% assign content_parts = character.content | split: '<h2' %}
+{% assign excerpt = character.excerpt | replace: "\r\n", " " | replace: "\r", " " | replace: "\n", " " %}
+"content": {
+"excerpt": "{{ excerpt | strip_html | strip }}",
+"sections": [
+{% for part in content_parts offset: 1 %}
+{% assign section_title = part | split: '</h2' | first | split: '>' | last | strip_html | strip %}
+{% assign section_content = part | split: '</h2>' | last | split: '</h2>' | first | strip_html | strip | replace: "\r\n", " " | replace: "\n\r", " " | replace: "\r", " " | replace: "\n", " " %}
+{
+"title": "{{ section_title }}",
+"text": "{{ section_content }}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+}
+}{% assign counter = counter | plus: 1 %}
+{% endif %}
 {% endfor %}
 ]
