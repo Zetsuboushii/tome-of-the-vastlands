@@ -25,4 +25,6 @@ homes:
 alignment: LG
 alive: true
 relationships:
+alt_imgs:
+  - Artwork
 ---
